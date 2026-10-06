@@ -150,6 +150,8 @@ button {
   border-radius: var(--raio);
   padding: 20px;
   box-shadow: var(--sombra);
+  /* Altura reservada para o cartão não "pular" quando o sorteio termina (CLS). */
+  min-height: 300px;
 }
 
 .destaque__cabecalho,

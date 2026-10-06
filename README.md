@@ -82,6 +82,16 @@ npm test             # motor de sugestão (datas forçadas: nov/2026, out/2026�
 npm run smoke        # navegador real: UI + Service Worker + offline (requer preview :4173)
 ```
 
+### Qualidade (Lighthouse)
+
+| Métrica | Nota |
+|---------|------|
+| PWA (instalável, splash, maskable) | **100** |
+| Acessibilidade | **100** |
+| Boas práticas | **100** |
+| SEO | **100** |
+| Desempenho | **98** (FCP 1,6 s · TBT 100 ms · CLS 0,01) |
+
 ---
 
 ## 📦 Stack
@@ -116,4 +126,4 @@ O workflow roda `npm ci` + `npm run build` e publica a pasta `/dist`.
 | 2. Motor lógico e estado | ✅ |
 | 3. Interface (Home, Leitura, Busca, Biblioteca) | ✅ |
 | 4. Configuração PWA (manifest + cache offline) | ✅ |
-| 5. Testes e deploy | 🔄 testes automatizados prontos · deploy via Actions pendente de ativação |
+| 5. Testes e deploy | 🔄 Lighthouse validado (PWA 100) · deploy via Actions pendente de ativação |

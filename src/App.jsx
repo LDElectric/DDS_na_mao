@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { Suspense, lazy, useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import Cabecalho from "./components/Cabecalho.jsx";
 import Rodape from "./components/Rodape.jsx";
@@ -7,7 +7,10 @@ import { HistoricoProvider } from "./hooks/useHistorico.jsx";
 import Biblioteca from "./pages/Biblioteca.jsx";
 import Busca from "./pages/Busca.jsx";
 import Home from "./pages/Home.jsx";
-import Leitura from "./pages/Leitura.jsx";
+
+// A tela de Leitura puxa o react-markdown: carregada sob demanda para
+// deixar o bundle inicial (e o primeiro paint) mais leve.
+const Leitura = lazy(() => import("./pages/Leitura.jsx"));
 
 const CHAVE_TEMA = "dds-na-mao:tema";
 
@@ -25,13 +28,15 @@ export default function App() {
         <div className="app">
           <Cabecalho tema={tema} onAlternarTema={() => setTema(tema === "escuro" ? "claro" : "escuro")} />
           <main className="conteudo">
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/ler/:id" element={<Leitura />} />
-              <Route path="/busca" element={<Busca />} />
-              <Route path="/biblioteca" element={<Biblioteca />} />
-              <Route path="*" element={<Home />} />
-            </Routes>
+            <Suspense fallback={<p className="aviso">Carregando…</p>}>
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/ler/:id" element={<Leitura />} />
+                <Route path="/busca" element={<Busca />} />
+                <Route path="/biblioteca" element={<Biblioteca />} />
+                <Route path="*" element={<Home />} />
+              </Routes>
+            </Suspense>
           </main>
           <Rodape />
         </div>

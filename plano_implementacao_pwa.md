@@ -66,7 +66,9 @@ O motor de sugestão do aplicativo operará seguindo uma ordem estrita de priori
 
 > **Status (06/10/2026):** Fases 1 a 4 concluídas e verificadas — 228 DDS convertidos,
 > testes automatizados do algoritmo (`npm test`) e smoke test em navegador real com
-> modo offline (`npm run smoke`). Pendente: Fase 5 (ativação do GitHub Pages).
+> modo offline (`npm run smoke`). Lighthouse: **PWA 100 · Acessibilidade 100 ·
+> Boas Práticas 100 · SEO 100 · Desempenho 98**.
+> Pendente: ativação do GitHub Pages (workflow pronto).
 
 ### Fase 1: Setup do Projeto e Estrutura Básica
 - [x] Inicializar o projeto com Vite (`npm create vite@latest dds-na-mao -- --template react`).
@@ -94,7 +96,7 @@ O motor de sugestão do aplicativo operará seguindo uma ordem estrita de priori
 - [x] Configurar a estratégia de Cache do Service Worker para cachear o `catalogo.json`, a casca do app e os arquivos Markdown (Permitindo acesso 100% offline).
 
 ### Fase 5: Testes e Deploy
-- [x] Validar no navegador (Lighthouse) se atende aos critérios PWA. *(smoke test automatizado com Chrome headless: manifest, Service Worker e modo offline)*
+- [x] Validar no navegador (Lighthouse) se atende aos critérios PWA. *(PWA 100 · Acessibilidade 100 · Boas Práticas 100 · SEO 100 · Desempenho 98)*
 - [x] Realizar testes forçando datas diferentes no sistema para validar a lógica do Calendário SESMT e dos 6 meses. *(`npm test` — datas simuladas de out/nov 2026)*
 - [ ] Realizar o deploy inicial via Vercel ou GitHub Pages. *(workflow pronto em `.github/workflows/deploy.yml`)*
 
