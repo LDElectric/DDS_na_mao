@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown";
 import { useNavigate, useParams } from "react-router-dom";
 import { useCatalogo } from "../hooks/useCatalogo.jsx";
-import { useHistorico } from "../hooks/useHistorico.jsx";
+import { nomeLeitor, useHistorico } from "../hooks/useHistorico.jsx";
 import { urlConteudo } from "../lib/catalogo.js";
 
 const LINHAS_INICIAIS = 20;
@@ -68,6 +68,7 @@ export default function Imprimir() {
   }
 
   const leituraISO = historico.leituras[item.id];
+  const leitor = nomeLeitor(historico, item.id);
   const dataDocumento = leituraISO
     ? new Date(leituraISO).toLocaleDateString("pt-BR")
     : new Date().toLocaleDateString("pt-BR");
@@ -124,7 +125,7 @@ export default function Imprimir() {
           </div>
           <div className="folha__campo folha__campo--pequeno">
             <strong>Leitor:</strong>
-            <span>&nbsp;</span>
+            <span>{leitor || "\u00A0"}</span>
           </div>
         </div>
 
@@ -177,10 +178,6 @@ export default function Imprimir() {
             <div className="folha__assinatura">
               <strong>Assinatura do Leitor</strong>
               <span>Responsável pela leitura do DDS</span>
-            </div>
-            <div className="folha__assinatura">
-              <strong>Assinatura do Responsável</strong>
-              <span>Supervisor / Engenheiro / Téc. Segurança</span>
             </div>
           </div>
         </section>

@@ -27,6 +27,7 @@ const historicoVazio = () => ({
   versao: 2,
   leituras: {},
   escolhas: {},
+  leitores: {},
   sugestoes: {},
   campanhaDoMes: {},
   ultimoTema: null,
@@ -173,21 +174,27 @@ console.log("7) Ciclo do dia: abrir não é lido; escolher fixa o DDS");
   const outro = catalogo[1];
 
   let historico = historicoVazio();
-  historico = registrarEscolha(historico, primeiro.id, turnoda);
+  historico = registrarEscolha(historico, primeiro.id, turnoda, "João Silva");
   verificar("1ª escolha fixa o DDS do dia", escolhaDoDia(historico, turnoda)?.id === primeiro.id);
   verificar("a escolha grava a leitura", Boolean(historico.leituras[primeiro.id]));
+  verificar("nome do leitor fica gravado (opcional)", historico.leitores[primeiro.id] === "João Silva", `→ ${historico.leitores[primeiro.id]}`);
   verificar("escolhidoHoje confirma no mesmo dia", escolhidoHoje(historico, primeiro.id, tarde));
 
-  historico = registrarEscolha(historico, outro.id, tarde);
+  historico = registrarEscolha(historico, outro.id, tarde, "  Ana Souza  ");
   verificar(
     "2ª escolha do dia NÃO troca o DDS fixado",
     escolhaDoDia(historico, tarde)?.id === primeiro.id,
   );
   verificar("2ª escolha vira registro extra na mesma data", Boolean(historico.leituras[outro.id]));
+  verificar("nome é aparado (trim)", historico.leitores[outro.id] === "Ana Souza", `→ ${historico.leitores[outro.id]}`);
   verificar("turno da noite segue no mesmo ciclo", escolhaDoDia(historico, noite)?.id === primeiro.id);
 
   historico = registrarEscolha(historico, catalogo[2].id, noite);
   verificar("3 registros no mesmo dia", registradoHoje(historico, noite) === 3, `→ ${registradoHoje(historico, noite)}`);
+  verificar("escolher sem nome não cria leitor em branco", historico.leitores[catalogo[2].id] === undefined);
+
+  historico = registrarEscolha(historico, outro.id, new Date("2026-10-06T23:30:00"));
+  verificar("escolher sem nome apaga o leitor anterior", historico.leitores[outro.id] === undefined, `→ ${historico.leitores[outro.id]}`);
 
   verificar("novo dia começa ciclo novo (sem DDS fixado)", escolhaDoDia(historico, amanha) === null);
   verificar("escolha antiga não vale como 'hoje'", escolhidoHoje(historico, primeiro.id, amanha) === false);

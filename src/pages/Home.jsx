@@ -4,6 +4,7 @@ import { useCatalogo } from "../hooks/useCatalogo.jsx";
 import {
   contarLidos,
   escolhaDoDia,
+  nomeLeitor,
   registradoHoje,
   useHistorico,
 } from "../hooks/useHistorico.jsx";
@@ -81,6 +82,7 @@ export default function Home() {
               <span className="etiqueta etiqueta--escolha">✓ DDS do dia</span>
               <span className="etiqueta etiqueta--origem">
                 Escolhido às {horaDo(escolha.iso)}
+                {nomeLeitor(historico, escolha.id) ? ` · ${nomeLeitor(historico, escolha.id)}` : ""}
               </span>
             </>
           ) : (

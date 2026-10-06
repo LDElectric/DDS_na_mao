@@ -109,13 +109,45 @@ try {
     `→ ${rotuloVoltar}`,
   );
 
+  // Diálogo de confirmação: nome do leitor (opcional)
   await pagina.click(".botao-escolher");
+  await pagina.waitForSelector(".modal-overlay--aberto #nome-leitor", { timeout: 5000 });
+  const rotuloOpcional = await pagina.$eval(
+    ".modal-overlay--aberto .campo-form span",
+    (el) => el.textContent,
+  );
+  verificar(
+    "diálogo pede o nome do leitor como opcional",
+    /opcional/i.test(rotuloOpcional),
+    `→ ${rotuloOpcional}`,
+  );
+
+  await pagina.click(".modal-overlay--aberto .modal__acoes .botao:not(.botao--primario)");
+  await pagina.waitForFunction(() => !document.querySelector(".modal-overlay--aberto"), {
+    timeout: 5000,
+  });
+  historico = await lerHistorico();
+  verificar(
+    "cancelar o diálogo não registra nada",
+    Object.keys(historico?.leituras ?? {}).length === 0,
+    `→ ${Object.keys(historico?.leituras ?? {}).length}`,
+  );
+
+  await pagina.click(".botao-escolher");
+  await pagina.waitForSelector(".modal-overlay--aberto #nome-leitor", { timeout: 5000 });
+  await pagina.type(".modal-overlay--aberto #nome-leitor", "Maria Silva");
+  await pagina.click(".botao--confirmar-escolha");
   await pagina.waitForSelector(".confirmacao--ok", { timeout: 5000 });
   const confirmacao = await pagina.$eval(".confirmacao--ok", (el) => el.textContent);
   verificar(
     "confirmação encerra o ciclo (sem próximo sugerido)",
     /DDS do dia escolhido/i.test(confirmacao) && !/Sortear/i.test(confirmacao),
     `→ ${confirmacao.slice(0, 70)}…`,
+  );
+  verificar(
+    "confirmação mostra quem leu",
+    /Maria Silva/.test(confirmacao),
+    `→ ${confirmacao.slice(0, 90)}…`,
   );
 
   historico = await lerHistorico();
@@ -129,6 +161,11 @@ try {
     "DDS do dia fixado na data de hoje",
     Boolean(historico?.escolhas?.[hoje]),
     `→ ${JSON.stringify(historico?.escolhas?.[hoje])}`,
+  );
+  verificar(
+    "nome do leitor gravado no histórico",
+    historico?.leitores?.[historico?.escolhas?.[hoje]?.id] === "Maria Silva",
+    `→ ${historico?.leitores?.[historico?.escolhas?.[hoje]?.id]}`,
   );
 
   const linkImprimirConfirmacao = await pagina.$('.confirmacao a[href*="imprimir"]');
@@ -239,8 +276,24 @@ try {
   });
   verificar("ata começa em página nova (frente e verso)", quebraDePagina);
 
-  const assinaturas = await pagina.$$eval(".folha__assinatura", (els) => els.length);
-  verificar("dois espaços de assinatura", assinaturas === 2, `→ ${assinaturas}`);
+  const assinaturas = await pagina.$$eval(".folha__assinatura", (els) => els.map((e) => e.textContent));
+  verificar(
+    "ata tem apenas a assinatura do leitor",
+    assinaturas.length === 1 && /Leitor/.test(assinaturas[0] ?? ""),
+    `→ ${assinaturas.join(" | ")}`,
+  );
+  verificar(
+    "sem assinatura do responsável",
+    !assinaturas.some((texto) => /Assinatura do Responsável/.test(texto)),
+    `→ ${assinaturas.join(" | ")}`,
+  );
+
+  const camposDocumento = await pagina.$$eval(".folha__campo", (els) => els.map((e) => e.textContent));
+  verificar(
+    "campo 'Leitor' preenchido com o nome informado",
+    camposDocumento.some((texto) => /Leitor:/.test(texto) && /Maria Silva/.test(texto)),
+    `→ ${camposDocumento.join(" | ")}`,
+  );
 
   const botoesImpressao = await pagina.$$eval(".impressao-acoes button", (els) =>
     els.map((e) => e.textContent.trim()),

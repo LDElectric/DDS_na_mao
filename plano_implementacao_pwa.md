@@ -79,7 +79,9 @@ Regra de uso real (turnos rotativos, mesmo dispositivo):
    aleatórias seguindo as Prioridades 1–3 acima.
 6. **Impressão com ata:** `/imprimir/:id` gera o documento (texto + lista de presença em
    **página seguinte**, ideal frente e verso) para imprimir ou salvar em PDF, assinar e
-   arquivar — acessível pelos cartões da tela "DDS lidos".
+   arquivar — acessível pelos cartões da tela "DDS lidos". Ao escolher, um **diálogo pede o
+   nome do leitor (opcional)**, usado para preencher o campo *Leitor* da ata; a lista tem
+   **só a assinatura do leitor** (sem assinatura do responsável).
 7. **Mensagens amigáveis:** todos os estados vazios e de erro orientam o próximo passo
    (ex.: busca sem resultado sugere temas e leva à biblioteca completa).
 

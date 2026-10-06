@@ -1,7 +1,7 @@
 import { useMemo } from "react";
 import { Link, useNavigate, useSearchParams } from "react-router-dom";
 import { useCatalogo } from "../hooks/useCatalogo.jsx";
-import { formatarDataLeitura, listarLeituras, useHistorico } from "../hooks/useHistorico.jsx";
+import { formatarDataLeitura, listarLeituras, nomeLeitor, useHistorico } from "../hooks/useHistorico.jsx";
 import { DIAS_JANELA_LEITURA } from "../lib/algoritmo.js";
 
 export default function Lidos() {
@@ -86,7 +86,7 @@ export default function Lidos() {
                   <div className="item-dds__corpo">
                     {doDia && <span className="etiqueta etiqueta--escolha">✓ DDS do dia</span>}
                     <h3 className="item-dds__titulo">{titulo}</h3>
-                    <small className="item-dds__meta">Lido em {formatarDataLeitura(iso)}</small>
+                    <small className="item-dds__meta">Lido em {formatarDataLeitura(iso)}{nomeLeitor(historico, id) ? ` · ${nomeLeitor(historico, id)}` : ""}</small>
                   </div>
                   <span className="item-dds__situacao item-dds__situacao--lido" aria-hidden="true">
                     ›
@@ -96,7 +96,7 @@ export default function Lidos() {
                 <div className="item-dds">
                   <div className="item-dds__corpo">
                     <h3 className="item-dds__titulo">{titulo}</h3>
-                    <small className="item-dds__meta">Lido em {formatarDataLeitura(iso)}</small>
+                    <small className="item-dds__meta">Lido em {formatarDataLeitura(iso)}{nomeLeitor(historico, id) ? ` · ${nomeLeitor(historico, id)}` : ""}</small>
                   </div>
                 </div>
               )}

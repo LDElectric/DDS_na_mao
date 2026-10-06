@@ -1,8 +1,15 @@
 import { useEffect, useState } from "react";
 import ReactMarkdown from "react-markdown";
 import { Link, useNavigate, useParams } from "react-router-dom";
+import ModalEscolha from "../components/ModalEscolha.jsx";
 import { useCatalogo } from "../hooks/useCatalogo.jsx";
-import { escolhaDoDia, escolhidoHoje, formatarDataLeitura, useHistorico } from "../hooks/useHistorico.jsx";
+import {
+  escolhaDoDia,
+  escolhidoHoje,
+  formatarDataLeitura,
+  nomeLeitor,
+  useHistorico,
+} from "../hooks/useHistorico.jsx";
 import { rotuloParte, rotuloTema, urlConteudo } from "../lib/catalogo.js";
 
 export default function Leitura() {
@@ -13,6 +20,7 @@ export default function Leitura() {
   const [fonte, setFonte] = useState(null);
   const [erro, setErro] = useState(null);
   const [tentativa, setTentativa] = useState(0);
+  const [escolhendo, setEscolhendo] = useState(false);
 
   const item = itens.find((dds) => dds.id === id);
 
@@ -67,6 +75,7 @@ export default function Leitura() {
   const escolhidoHojeEste = escolhidoHoje(historico, item.id);
   const ehDoDia = escolha?.id === item.id;
   const fixado = escolha ? itens.find((dds) => dds.id === escolha.id) ?? null : null;
+  const leitor = nomeLeitor(historico, item.id);
 
   return (
     <article className="leitura">
@@ -132,7 +141,8 @@ export default function Leitura() {
             <p>
               <strong>
                 ✓ {ehDoDia ? "DDS do dia escolhido" : "Registrado como leitura de hoje"} às{" "}
-                {formatarDataLeitura(historico.leituras[item.id]).split(" às ")[1]}.
+                {formatarDataLeitura(historico.leituras[item.id]).split(" às ")[1]}
+                {leitor ? ` por ${leitor}` : ""}.
               </strong>{" "}
               {ehDoDia
                 ? "Fica fixado até 23:59: todos os turnos de hoje acessam este mesmo DDS."
@@ -157,12 +167,13 @@ export default function Leitura() {
             <button
               type="button"
               className="botao botao--primario botao-escolher"
-              onClick={() => escolherDDS(item.id)}
+              onClick={() => setEscolhendo(true)}
             >
               ✓ Escolher este DDS
             </button>
             <p className="escolha__ajuda">
-              Li e confirmei: só este botão registra a leitura e fixa o DDS para os turnos de hoje.
+              Só este botão registra a leitura e fixa o DDS para os turnos de hoje — no próximo
+              passo você pode informar seu nome (opcional) para a ata de presença.
             </p>
             <div className="confirmacao__acoes">
               <button
@@ -179,6 +190,15 @@ export default function Leitura() {
           </div>
         )}
       </footer>
+
+      <ModalEscolha
+        aberto={escolhendo}
+        onConfirmar={(nome) => {
+          escolherDDS(item.id, nome);
+          setEscolhendo(false);
+        }}
+        onFechar={() => setEscolhendo(false)}
+      />
     </article>
   );
 }

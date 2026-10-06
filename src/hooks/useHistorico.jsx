@@ -17,6 +17,7 @@ const vazio = () => ({
   versao: 2,
   leituras: {}, // id -> ISO da última escolha confirmada
   escolhas: {}, // "AAAA-MM-DD" -> { id, iso } = DDS fixado do dia (1ª escolha)
+  leitores: {}, // id -> nome de quem confirmou a última escolha (opcional)
   sugestoes: {}, // "AAAA-MM-DD" -> id sugerido
   campanhaDoMes: {}, // "AAAA-MM" -> id da campanha já sorteada no mês
   ultimoTema: null,
@@ -52,7 +53,7 @@ export function HistoricoProvider({ children }) {
   }, []);
 
   const escolherDDS = useCallback(
-    (id) => atualizar((atual) => registrarEscolha(atual, id)),
+    (id, leitor = "") => atualizar((atual) => registrarEscolha(atual, id, new Date(), leitor)),
     [atualizar],
   );
 
@@ -95,5 +96,6 @@ export {
   escolhidoHoje,
   formatarDataLeitura,
   listarLeituras,
+  nomeLeitor,
   registradoHoje,
 } from "../lib/historico.js";

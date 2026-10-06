@@ -801,6 +801,60 @@ button {
   cursor: pointer;
 }
 
+/* ------------------------ Modal: escolher o DDS ------------------------- */
+
+.modal__texto {
+  margin: -4px 0 16px;
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--texto-suave);
+}
+
+.campo-form {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.campo-form span {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.campo-form em {
+  font-style: normal;
+  font-weight: 400;
+  color: var(--texto-suave);
+}
+
+.campo-form input {
+  width: 100%;
+  padding: 12px 14px;
+  font-size: 16px; /* evita o zoom automático do iOS ao focar */
+  color: var(--texto);
+  background: var(--bg);
+  border: 1px solid var(--borda);
+  border-radius: 12px;
+  outline: none;
+}
+
+.campo-form input:focus {
+  border-color: var(--acento);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--acento) 25%, transparent);
+}
+
+.modal__acoes {
+  display: flex;
+  gap: 10px;
+}
+
+.modal__acoes .botao {
+  flex: 1;
+  padding: 14px 12px;
+  font-size: 15px;
+}
+
 /* -------------------------------- Rodapé -------------------------------- */
 
 .rodape {
@@ -1197,7 +1251,9 @@ button {
 }
 
 .folha__assinatura {
-  flex: 1 1 180px;
+  flex: 1 1 200px;
+  max-width: 340px;
+  margin: 0 auto;
   padding-top: 3px;
   border-top: 1px solid #333;
   text-align: center;

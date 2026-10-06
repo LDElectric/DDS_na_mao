@@ -34,19 +34,30 @@ export const registradoHoje = (historico, agora = new Date()) =>
  * Registra a escolha de um DDS: grava a leitura e, se for a primeira do dia,
  * fixa o "DDS do dia" (mantido até 23:59 para os demais turnos).
  * Abrir o texto sem confirmar NÃO altera o histórico.
+ * `leitor` é opcional: nome de quem confirmou (usado na ata de presença).
  */
-export const registrarEscolha = (historico, id, agora = new Date()) => {
+export const registrarEscolha = (historico, id, agora = new Date(), leitor = "") => {
   const iso = agora.toISOString();
   const chave = chaveDia(agora);
   const escolhas = { ...(historico.escolhas ?? {}) };
   if (!escolhas[chave]) escolhas[chave] = { id, iso };
+
+  const nome = String(leitor ?? "").trim();
+  const leitores = { ...(historico.leitores ?? {}) };
+  if (nome) leitores[id] = nome;
+  else delete leitores[id];
+
   return {
     ...historico,
     versao: 2,
     leituras: { ...historico.leituras, [id]: iso },
     escolhas,
+    leitores,
   };
 };
+
+/** Nome de quem escolheu/registrou um DDS (opcional). */
+export const nomeLeitor = (historico, id) => historico.leitores?.[id] ?? "";
 
 /** Lista de leituras (mais recente primeiro), opcionalmente só da janela em dias. */
 export const listarLeituras = (historico, itens, dias = null, agora = Date.now()) => {
