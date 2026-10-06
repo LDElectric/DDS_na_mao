@@ -1,25 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="DDS na mão">
-  <defs>
-    <radialGradient id="hg" cx="35%" cy="30%" r="65%">
-      <stop offset="0%" stop-color="#FFD54F"/>
-      <stop offset="65%" stop-color="#FFA000"/>
-      <stop offset="100%" stop-color="#E65100"/>
-    </radialGradient>
-  </defs>
-  <!-- Fundo azul naval -->
-  <rect width="64" height="64" rx="14" fill="#1a237e"/>
-  <!-- Capacete: cupula -->
-  <ellipse cx="26" cy="27" rx="19" ry="14" fill="url(#hg)"/>
-  <!-- Capacete: aba -->
-  <ellipse cx="26" cy="28.5" rx="21" ry="4" fill="#F57F17"/>
-  <!-- Faixa reflexiva -->
-  <ellipse cx="26" cy="30.5" rx="18" ry="2.5" fill="rgba(255,255,255,0.5)"/>
-  <!-- Brilho -->
-  <ellipse cx="19" cy="20" rx="6" ry="4" fill="rgba(255,255,255,0.3)" transform="rotate(-20 19 20)"/>
-  <!-- Balao de dialogo -->
-  <rect x="27" y="34" width="31" height="20" rx="4" fill="white"/>
-  <!-- Cauda do balao -->
-  <polygon points="31,54 27,62 38,54" fill="white"/>
+  <!-- Fundo grafite — igual ao header do app -->
+  <rect width="64" height="64" rx="14" fill="#2c2c2c"/>
+
+  <!-- Aba do capacete -->
+  <rect x="9" y="32" width="36" height="5" rx="2.5" fill="#FFD600"/>
+  <!-- Cúpula do capacete -->
+  <ellipse cx="27" cy="32" rx="19" ry="17" fill="#FFD600"/>
+  <!-- Crista do capacete -->
+  <rect x="24" y="12" width="6" height="3" rx="1.5" fill="#E6C000"/>
+
+  <!-- Balão de diálogo -->
+  <rect x="29" y="38" width="28" height="18" rx="4" fill="white"/>
+  <!-- Cauda do balão -->
+  <polygon points="33,56 29,63 39,56" fill="white"/>
+
   <!-- Texto DDS -->
-  <text x="42.5" y="49" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="11" fill="#1a237e" text-anchor="middle">DDS</text>
+  <text x="43" y="50" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="10" fill="#2c2c2c" text-anchor="middle" dominant-baseline="middle">DDS</text>
 </svg>

@@ -46,15 +46,15 @@ export default function ModalInstalar({ aberto, onFechar }) {
         </div>
         <p className="modal__creditos">
           Desenvolvido e mantido por <b>Leonam Dias</b>.<br />
-          Sugestões ou dúvidas? Entre em contato pelo{" "}
+          Sugestões ou dúvidas? Entre em contato pelo LinkedIn{" "}
           <a
             href="https://www.linkedin.com/in/leonamdias1/"
             target="_blank"
             rel="noopener noreferrer"
+            className="modal__creditos-link"
           >
-            LinkedIn 🔗
+            🔗 linkedin.com/in/leonamdias1/
           </a>
-          .
         </p>
         <button type="button" className="modal__fechar" onClick={onFechar}>
           Entendi

@@ -764,6 +764,30 @@ button {
   line-height: 1.5;
 }
 
+.modal__creditos {
+  margin: 20px 0 14px;
+  padding-top: 14px;
+  border-top: 1px dashed var(--borda);
+  font-size: 13px;
+  line-height: 1.6;
+  color: var(--texto-suave);
+  text-align: center;
+}
+
+.modal__creditos a {
+  color: var(--acento);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.modal__creditos-link {
+  display: inline-block;
+  word-break: break-all;
+  font-size: 12px;
+  margin-top: 2px;
+}
+
 .modal__fechar {
   width: 100%;
   margin-top: 6px;

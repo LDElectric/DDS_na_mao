@@ -20,7 +20,7 @@ export default defineConfig({
         scope: "./",
         display: "standalone",
         orientation: "portrait",
-        background_color: "#eef0f3",
+        background_color: "#2c2c2c",
         theme_color: "#2c2c2c",
         categories: ["education", "productivity"],
         icons: [
