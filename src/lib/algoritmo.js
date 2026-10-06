@@ -28,81 +28,95 @@ export const chaveDiaCurto = (agora = new Date()) =>
   `${doisDigitos(agora.getMonth() + 1)}-${doisDigitos(agora.getDate())}`;
 
 /**
- * Nome, cor e DDS central das campanhas do calendário SESMT, por mês.
+ * Nome, cor, assunto e DDS central das campanhas do calendário SESMT, por mês.
  * `cor` colore dinamicamente os cards (ex.: "Outubro Rosa" → tom rosado);
- * `ids` são os DDS que mais conversam com o tema central da campanha e
- * têm prioridade na sugestão do mês (respeitando a janela de 6 meses).
+ * `assunto` diz de que trata a campanha (ex.: "Conscientização sobre o Câncer
+ * de Mama") e é exibido no card: "Outubro Rosa — Conscientização sobre o
+ * Câncer de Mama."; `ids` são os DDS que mais conversam com o tema central da
+ * campanha e têm prioridade na sugestão do mês (janela de 6 meses).
  */
 export const CAMPANHAS_MES = {
   janeiro: {
     nome: "Janeiro Branco",
     cor: "#7fa3c3",
+    assunto: "Conscientização sobre a Saúde Mental",
     texto: "Mês da saúde mental: o estresse, o sono e a rotina também são riscos de segurança.",
     ids: ["janeiro-a-carga-invisivel-do-esgotamento"],
   },
   fevereiro: {
     nome: "Fevereiro Roxo",
     cor: "#8a5db5",
+    assunto: "Doenças Invisíveis: Lúpus, Fibromialgia e Alzheimer",
     texto: "Doenças invisíveis e os cuidados que evitam o desgaste: exames, pausas ativas e ergonomia.",
     ids: ["fevereiro-microtraumas-e-a-acumulacao-invisivel"],
   },
   marco: {
     nome: "Março Lilás",
     cor: "#b06ab3",
+    assunto: "Saúde e Segurança da Mulher",
     texto: "Mês da mulher: prevenção, inclusão e segurança da trabalhadora.",
     ids: ["marco-prevencao-na-saude-da-mulher"],
   },
   abril: {
     nome: "Abril Verde",
     cor: "#3e9b4f",
+    assunto: "Segurança e Saúde no Trabalho",
     texto: "Mês da segurança e saúde no trabalho — 28 de abril, regras de ouro e direito de recusa.",
     ids: ["abril-28-de-abril"],
   },
   maio: {
     nome: "Maio Amarelo",
     cor: "#c99a00",
+    assunto: "Segurança no Trânsito",
     texto: "Mês do trânsito seguro: atenção no trajeto, direção defensiva e o risco do celular ao volante.",
     ids: ["maio-direcao-defensiva-no-trajeto"],
   },
   junho: {
     nome: "Junho Verde",
     cor: "#2e8b57",
+    assunto: "Meio Ambiente e Doação de Sangue",
     texto: "Mês do meio ambiente: resíduos, descarte correto e sustentabilidade com segurança.",
     ids: ["junho-a-sustentabilidade-e-o-sesmt"],
   },
   julho: {
     nome: "Julho Amarelo",
     cor: "#c99a00",
+    assunto: "Prevenção e Combate às Hepatites Virais",
     texto: "Mês das hepatites virais: prevenção, higiene e proteção no trabalho.",
     ids: ["julho-higiene-ocupacional-hepatites-virais"],
   },
   agosto: {
     nome: "Agosto Dourado",
     cor: "#bf8f00",
+    assunto: "Aleitamento Materno e Combate ao Assédio",
     texto: "Mês do cuidado: aleitamento, saúde e respeito no ambiente de trabalho.",
     ids: ["agosto-aleitamento-e-saude-da-familia", "agosto-prevencao-ao-assedio"],
   },
   setembro: {
     nome: "Setembro Amarelo",
     cor: "#d19e00",
+    assunto: "Prevenção ao Suicídio e Valorização da Vida",
     texto: "Mês da valorização da vida: escuta ativa e saúde mental no turno.",
     ids: ["setembro-a-valorizacao-da-vida"],
   },
   outubro: {
     nome: "Outubro Rosa",
     cor: "#d95f8b",
+    assunto: "Conscientização sobre o Câncer de Mama",
     texto: "Mês da prevenção ao câncer de mama: autocuidado, exames e informação salvam vidas.",
     ids: ["outubro-autocuidado-e-exames"],
   },
   novembro: {
     nome: "Novembro Azul",
     cor: "#4a6fc4",
+    assunto: "Saúde do Homem e Prevenção ao Câncer de Próstata",
     texto: "Mês da saúde do homem: exames, coração e a quebra de tabus.",
     ids: ["novembro-o-homem-que-nao-procura", "novembro-saude-do-homem-e-tabus"],
   },
   dezembro: {
     nome: "Dezembro Laranja",
     cor: "#e07b2f",
+    assunto: "Prevenção ao Câncer de Pele e Combate ao HIV",
     texto: "Mês da prevenção ao câncer de pele e das celebrações com responsabilidade.",
     ids: ["dezembro-radiacao-solar"],
   },
@@ -183,6 +197,7 @@ export const campanhaDoDia = (agora = new Date()) => {
         chave: celebrado.campanha,
         nome: campanha.nome,
         cor: campanha.cor,
+        assunto: campanha.assunto,
         texto: campanha.texto,
         dia: celebrado.dia,
       };
@@ -190,7 +205,14 @@ export const campanhaDoDia = (agora = new Date()) => {
   }
   const campanhaMes = CAMPANHAS_MES[mesAtual(agora)];
   return campanhaMes
-    ? { chave: mesAtual(agora), nome: campanhaMes.nome, cor: campanhaMes.cor, texto: campanhaMes.texto, dia: null }
+    ? {
+        chave: mesAtual(agora),
+        nome: campanhaMes.nome,
+        cor: campanhaMes.cor,
+        assunto: campanhaMes.assunto,
+        texto: campanhaMes.texto,
+        dia: null,
+      }
     : null;
 };
 

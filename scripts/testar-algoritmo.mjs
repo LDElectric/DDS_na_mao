@@ -197,6 +197,12 @@ console.log("5) Campanhas do mês e dias celebrados");
     `→ ${outubro6Camp?.cor}`,
   );
 
+  verificar(
+    "campanha traz o assunto (do que se trata)",
+    outubro6Camp?.assunto === "Conscientização sobre o Câncer de Mama",
+    `→ ${outubro6Camp?.assunto}`,
+  );
+
   const sugestaoOut = sugerirDoDia(catalogo, historicoVazio(), outubro6);
   verificar(
     "sugestão do mês prefere o DDS central da campanha (prevenção do câncer de mama)",

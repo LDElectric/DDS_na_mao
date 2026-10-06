@@ -395,6 +395,12 @@ button {
   color: var(--campanha-cor);
 }
 
+.campanha-mes__assunto {
+  font-size: 0.86rem;
+  font-weight: 600;
+  color: color-mix(in srgb, var(--campanha-cor) 82%, var(--texto));
+}
+
 .campanha-mes__dia {
   font-size: 0.78rem;
   font-weight: 600;

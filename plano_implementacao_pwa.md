@@ -102,11 +102,13 @@ Regra de uso real (turnos rotativos, mesmo dispositivo):
     **não oferece mais "Apagar histórico"** — o histórico fica guardado. O texto explicativo
     **"Ciclo do dia"** abaixo dos cards de resumo foi **removido** (app mais objetivo).
 11. **Campanhas legíveis, coloridas e alinhadas:** o par de chips "Campanha SESMT" +
-    "Campanha: mês" virou **um card de campanha com o nome oficial** (ex.: **"Outubro
-    Rosa"**) e o **texto da campanha**, exibido quando há campanha ativa para o **mês** ou
-    para o **dia celebrado** (se não houver, o card não aparece). Cada mês tem **uma cor
+    "Campanha: mês" virou **um card de campanha com o nome oficial + o assunto** — ex.:
+    **"Outubro Rosa — Conscientização sobre o Câncer de Mama."** — mais o **texto da
+    campanha**, exibido quando há campanha ativa para o **mês** ou para o **dia celebrado**
+    (se não houver, o card não aparece). Cada mês tem **uma cor
     dinâmica** (`cor` em `CAMPANHAS_MES`) que tinge o card e o chip — outubro fica
-    **rosado**. Os **dias celebrados** (ex.: 28/04, 10/09, 19/10, 27/11…) ganham
+    **rosado**. O `assunto` é um rótulo curto por campanha (dado estático leve, sem custo
+    extra de runtime). Os **dias celebrados** (ex.: 28/04, 10/09, 19/10, 27/11…) ganham
     prioridade na sugestão: nessa data o motor prefere um DDS cujo texto **alude ao dia da
     campanha**. Além disso, a sugestão do mês **prefere o DDS central da campanha** (`ids`
     em `CAMPANHAS_MES`, ex.: outubro → prevenção do câncer de mama), respeitando a janela

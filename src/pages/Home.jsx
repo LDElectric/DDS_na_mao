@@ -164,6 +164,9 @@ export default function Home() {
       {campanhaAtual && (
         <aside className="campanha-mes" style={{ "--campanha-cor": campanhaAtual.cor }}>
           <strong>📢 {campanhaAtual.nome}</strong>
+          {campanhaAtual.assunto && (
+            <span className="campanha-mes__assunto">{campanhaAtual.assunto}.</span>
+          )}
           {campanhaAtual.dia && <span className="campanha-mes__dia">{campanhaAtual.dia}</span>}
           <p>{campanhaAtual.texto}</p>
         </aside>

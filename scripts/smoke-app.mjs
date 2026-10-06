@@ -128,6 +128,14 @@ try {
       corBanner === campanhaEsperada.cor,
       `→ "${corBanner}" (esperado "${campanhaEsperada.cor}")`,
     );
+    const assuntoBanner = await pagina
+      .$eval(".campanha-mes__assunto", (el) => el.textContent.trim())
+      .catch(() => "");
+    verificar(
+      "card exibe de que trata a campanha (ex.: Conscientização sobre o Câncer de Mama)",
+      assuntoBanner === `${campanhaEsperada.assunto}.`,
+      `→ "${assuntoBanner}"`,
+    );
   } else {
     const semBanner = await pagina.$(".campanha-mes");
     verificar("sem campanha para o mês/dia, o card não é exibido", !semBanner);
