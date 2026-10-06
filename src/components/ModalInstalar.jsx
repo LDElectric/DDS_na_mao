@@ -44,6 +44,18 @@ export default function ModalInstalar({ aberto, onFechar }) {
             Pronto! O app abre em <b>tela cheia</b>, com ícone próprio, e funciona até <b>offline</b>.
           </p>
         </div>
+        <p className="modal__creditos">
+          Desenvolvido e mantido por <b>Leonam Dias</b>.<br />
+          Sugestões ou dúvidas? Entre em contato pelo{" "}
+          <a
+            href="https://www.linkedin.com/in/leonamdias1/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn 🔗
+          </a>
+          .
+        </p>
         <button type="button" className="modal__fechar" onClick={onFechar}>
           Entendi
         </button>
