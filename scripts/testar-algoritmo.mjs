@@ -7,6 +7,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import {
   DIAS_JANELA_LEITURA,
+  campanhaDoDia,
   chaveDia,
   chaveMes,
   filtrarLidosRecentes,
@@ -109,7 +110,8 @@ console.log("3) Regra de diversidade (Prioridade 3)");
 
 console.log("4) Integração: sugerirDoDia usa a ordem estrita de prioridades");
 {
-  const agora = new Date("2026-10-10T08:00:00");
+  // 06/10 não é dia celebrado: o fluxo normal (campanha → antirrepeticão → diversidade).
+  const agora = new Date("2026-10-06T08:00:00");
   const historico = historicoVazio();
   catalogo.slice(0, 60).forEach((item, indice) => {
     historico.leituras[item.id] = diasAtras(10 + indice);
@@ -131,7 +133,64 @@ console.log("4) Integração: sugerirDoDia usa a ordem estrita de prioridades");
   verificar("evita repetir o tema do último sugerido", terceira.dds.tema !== segunda.dds.tema);
 }
 
-console.log("5) Busca e catálogo");
+console.log("5) Campanhas do mês e dias celebrados");
+{
+  const outubro = campanhaDoDia(new Date("2026-10-06T09:00:00"));
+  verificar(
+    "campanha do mês traz o nome oficial (Outubro Rosa)",
+    outubro?.chave === "outubro" && outubro.nome === "Outubro Rosa" && outubro.dia === null,
+    `→ ${JSON.stringify(outubro)}`,
+  );
+
+  const diaMama = campanhaDoDia(new Date("2027-10-19T09:00:00"));
+  verificar(
+    "dia celebrado tem prioridade sobre o mês",
+    diaMama?.nome === "Outubro Rosa" && diaMama.dia === "Dia Internacional de Combate ao Câncer de Mama",
+    `→ ${JSON.stringify(diaMama)}`,
+  );
+
+  const abril28 = new Date("2027-04-28T09:00:00");
+  const sugestao28 = sugerirDoDia(catalogo, historicoVazio(), abril28);
+  verificar(
+    "28/04 sugere o DDS que alude à data",
+    sugestao28?.dds.id === "abril-28-de-abril" && sugestao28.origem === "campanha",
+    `→ ${sugestao28?.dds.id}`,
+  );
+
+  const diaMulher = new Date("2027-03-08T09:00:00");
+  const sugestaoMulher = sugerirDoDia(catalogo, historicoVazio(), diaMulher);
+  verificar(
+    "08/03 sugere um DDS da campanha da mulher",
+    sugestaoMulher?.dds.campanha_sesmt === "marco" && sugestaoMulher.origem === "campanha",
+    `→ ${sugestaoMulher?.dds.id}`,
+  );
+
+  const jaLido = {
+    ...historicoVazio(),
+    leituras: {
+      "abril-28-de-abril": new Date(abril28.getTime() - 10 * 86400000).toISOString(),
+    },
+  };
+  const sugestaoJaLido = sugerirDoDia(catalogo, jaLido, abril28);
+  verificar(
+    "dia celebrado respeita a janela de 6 meses (cai para a campanha do mês)",
+    sugestaoJaLido?.dds.campanha_sesmt === "abril" && sugestaoJaLido.dds.id !== "abril-28-de-abril",
+    `→ ${sugestaoJaLido?.dds.id}`,
+  );
+
+  const campanhaJaSugerida = {
+    ...historicoVazio(),
+    campanhaDoMes: { "2027-04": "abril-o-direito-de-recusa" },
+  };
+  const sugestaoDoDia = sugerirDoDia(catalogo, campanhaJaSugerida, abril28);
+  verificar(
+    "dia celebrado tem prioridade sobre a campanha já sugerida no mês",
+    sugestaoDoDia?.dds.id === "abril-28-de-abril",
+    `→ ${sugestaoDoDia?.dds.id}`,
+  );
+}
+
+console.log("6) Busca e catálogo");
 {
   verificar("catálogo com 228 itens", catalogo.length === 228, `→ ${catalogo.length}`);
   verificar("ids únicos", new Set(catalogo.map((i) => i.id)).size === catalogo.length);
@@ -143,7 +202,7 @@ console.log("5) Busca e catálogo");
   );
 }
 
-console.log("6) Lista de DDS lidos");
+console.log("7) Lista de DDS lidos");
 {
   const agora = new Date("2026-10-06T12:00:00").getTime();
   const historico = {
@@ -165,7 +224,7 @@ console.log("6) Lista de DDS lidos");
   verificar("identifica qual é o DDS do dia", todos[0].doDia === true && todos[1].doDia === false);
 }
 
-console.log("7) Ciclo do dia: abrir não é lido; escolher fixa o DDS");
+console.log("8) Ciclo do dia: abrir não é lido; escolher fixa o DDS");
 {
   const turnoda = new Date("2026-10-06T07:00:00");
   const tarde = new Date("2026-10-06T15:30:00");
@@ -201,7 +260,7 @@ console.log("7) Ciclo do dia: abrir não é lido; escolher fixa o DDS");
   verificar("escolha antiga não vale como 'hoje'", escolhidoHoje(historico, primeiro.id, amanha) === false);
 }
 
-console.log("8) Título único: H1 inicial removido da exibição");
+console.log("9) Título único: H1 inicial removido da exibição");
 {
   const comTitulo = "# DDS: O impacto da privação do sono\n\nTexto do DDS começa aqui.";
   const semTitulo = semTituloInicial(comTitulo);

@@ -9,6 +9,7 @@ import {
 } from "../hooks/useHistorico.jsx";
 import {
   ROTULOS_ORIGEM,
+  campanhaDoDia,
   chaveDia,
   sortearOutro,
   sugerirDoDia,
@@ -69,6 +70,7 @@ export default function Home() {
 
   const dds = ddsDoDia ?? sugestao?.dds;
   const hoje = registradoHoje(historico);
+  const campanhaAtual = campanhaDoDia();
 
   return (
     <div className="pagina">
@@ -95,9 +97,11 @@ export default function Home() {
         {dds ? (
           <>
             <div className="destaque__tags">
-              <span className="etiqueta etiqueta--tema">{rotuloTema(dds.tema)}</span>
-              {dds.campanha_sesmt && (
-                <span className="etiqueta etiqueta--campanha">Campanha: {dds.campanha_sesmt}</span>
+              {dds.tema !== "campanha-sesmt" && (
+                <span className="etiqueta etiqueta--tema">{rotuloTema(dds.tema)}</span>
+              )}
+              {dds.campanha_sesmt === campanhaAtual?.chave && (
+                <span className="etiqueta etiqueta--campanha">📢 {campanhaAtual.nome}</span>
               )}
             </div>
 
@@ -155,6 +159,14 @@ export default function Home() {
         )}
       </section>
 
+      {campanhaAtual && (
+        <aside className="campanha-mes">
+          <strong>📢 {campanhaAtual.nome}</strong>
+          {campanhaAtual.dia && <span className="campanha-mes__dia">{campanhaAtual.dia}</span>}
+          <p>{campanhaAtual.texto}</p>
+        </aside>
+      )}
+
       <section className="painel-estatisticas" aria-label="Resumo">
         <Link className="painel-estatisticas__item" to="/lidos">
           <strong>{Object.keys(historico.leituras).length}</strong>
@@ -165,12 +177,6 @@ export default function Home() {
           <span>DDS no catálogo</span>
         </Link>
       </section>
-
-      <p className="rodape-info">
-        Ciclo do dia: ler → <strong>escolher</strong> → imprimir com ata. A 1ª escolha fica fixada
-        até 23:59 (turnos do mesmo dia usam o mesmo DDS). Sugestões seguem campanha SESMT do mês →
-        6 meses sem repetição → diversidade de tema.
-      </p>
     </div>
   );
 }

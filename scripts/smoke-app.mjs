@@ -8,6 +8,7 @@
  * Uso: node scripts/smoke-app.mjs [url]
  */
 import puppeteer from "puppeteer-core";
+import { campanhaDoDia } from "../src/lib/algoritmo.js";
 
 const URL = process.argv[2] ?? "http://localhost:4173/";
 const CHROME =
@@ -101,6 +102,46 @@ try {
     `→ ${rotulosPainel.join(" | ")}`,
   );
 
+  const campanhaEsperada = campanhaDoDia();
+  if (campanhaEsperada) {
+    const bannerNome = await pagina
+      .$eval(".campanha-mes strong", (el) => el.textContent.trim())
+      .catch(() => "");
+    verificar(
+      "card da campanha mostra o nome oficial (ex.: Outubro Rosa)",
+      bannerNome === `📢 ${campanhaEsperada.nome}`,
+      `→ "${bannerNome}" (esperado "📢 ${campanhaEsperada.nome}")`,
+    );
+    const bannerTexto = await pagina
+      .$eval(".campanha-mes p", (el) => el.textContent.trim())
+      .catch(() => "");
+    verificar(
+      "texto da campanha é exibido no card",
+      bannerTexto.length > 20,
+      `→ ${bannerTexto.slice(0, 60)}…`,
+    );
+  } else {
+    const semBanner = await pagina.$(".campanha-mes");
+    verificar("sem campanha para o mês/dia, o card não é exibido", !semBanner);
+  }
+
+  const rodapeInfo = await pagina.$$eval(".rodape-info", (els) => els.length);
+  verificar(
+    "texto 'Ciclo do dia' removido da Home (cards → ficou objetivo)",
+    rodapeInfo === 0,
+    `→ ${rodapeInfo}`,
+  );
+
+  const chipCampanhaAntiga = await pagina.$$eval(
+    ".etiqueta",
+    (els) => els.filter((el) => /^Campanha: /.test(el.textContent.trim())).length,
+  );
+  verificar(
+    "sem chip no formato 'Campanha: mês' (agora é o nome oficial)",
+    chipCampanhaAntiga === 0,
+    `→ ${chipCampanhaAntiga}`,
+  );
+
   console.log("2) Leitura: abrir não conta, ESCOLHER registra");
   await pagina.click(".destaque__acoes a.botao--primario");
   await pagina.waitForSelector(".markdown p", { timeout: 15000 });
@@ -112,6 +153,16 @@ try {
     "título não se repete dentro do texto (H1 removido)",
     h1NoTexto === 0,
     `→ ${h1NoTexto} H1`,
+  );
+
+  const chipCampanhaLeitura = await pagina
+    .$eval(".leitura .etiqueta--campanha", (el) => el.textContent.trim())
+    .catch(() => "");
+  const esperadoChip = campanhaEsperada ? `📢 ${campanhaEsperada.nome}` : "";
+  verificar(
+    "leitura mostra a campanha com o nome oficial",
+    chipCampanhaLeitura === esperadoChip,
+    `→ "${chipCampanhaLeitura}" (esperado "${esperadoChip}")`,
   );
 
   let historico = await lerHistorico();

@@ -377,11 +377,32 @@ button {
   color: var(--texto-suave);
 }
 
-.rodape-info {
-  margin: 4px 0 0;
-  font-size: 0.8rem;
+/* Card da campanha em vigor (mês ou dia celebrado). */
+.campanha-mes {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 14px 16px;
+  background: color-mix(in srgb, var(--sucesso) 9%, var(--bg-superficie));
+  border: 1px solid color-mix(in srgb, var(--sucesso) 35%, var(--borda));
+  border-radius: var(--raio);
+}
+
+.campanha-mes strong {
+  font-size: 1rem;
+  color: var(--sucesso);
+}
+
+.campanha-mes__dia {
+  font-size: 0.78rem;
+  font-weight: 600;
   color: var(--texto-suave);
-  text-align: center;
+}
+
+.campanha-mes p {
+  margin: 4px 0 0;
+  font-size: 0.88rem;
+  color: var(--texto);
 }
 
 /* --------------------------------- Listas -------------------------------- */

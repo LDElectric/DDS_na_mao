@@ -23,6 +23,145 @@ export const chaveMes = (agora = new Date()) =>
 
 export const mesAtual = (agora = new Date()) => MESES[agora.getMonth()];
 
+/** Chave curta "MM-DD" usada pelos dias celebrados (comemorativos). */
+export const chaveDiaCurto = (agora = new Date()) =>
+  `${doisDigitos(agora.getMonth() + 1)}-${doisDigitos(agora.getDate())}`;
+
+/**
+ * Nome e texto das campanhas do calendário SESMT, por mês.
+ * Usados nos cards da Home e da leitura (ex.: "Outubro Rosa").
+ */
+export const CAMPANHAS_MES = {
+  janeiro: {
+    nome: "Janeiro Branco",
+    texto: "Mês da saúde mental: o estresse, o sono e a rotina também são riscos de segurança.",
+  },
+  fevereiro: {
+    nome: "Fevereiro Roxo",
+    texto: "Doenças invisíveis e os cuidados que evitam o desgaste: exames, pausas ativas e ergonomia.",
+  },
+  marco: {
+    nome: "Março Lilás",
+    texto: "Mês da mulher: prevenção, inclusão e segurança da trabalhadora.",
+  },
+  abril: {
+    nome: "Abril Verde",
+    texto: "Mês da segurança e saúde no trabalho — 28 de abril, regras de ouro e direito de recusa.",
+  },
+  maio: {
+    nome: "Maio Amarelo",
+    texto: "Mês do trânsito seguro: atenção no trajeto, direção defensiva e o risco do celular ao volante.",
+  },
+  junho: {
+    nome: "Junho Verde",
+    texto: "Mês do meio ambiente: resíduos, descarte correto e sustentabilidade com segurança.",
+  },
+  julho: {
+    nome: "Julho Amarelo",
+    texto: "Mês das hepatites virais: prevenção, higiene e proteção no trabalho.",
+  },
+  agosto: {
+    nome: "Agosto Dourado",
+    texto: "Mês do cuidado: aleitamento, saúde e respeito no ambiente de trabalho.",
+  },
+  setembro: {
+    nome: "Setembro Amarelo",
+    texto: "Mês da valorização da vida: escuta ativa e saúde mental no turno.",
+  },
+  outubro: {
+    nome: "Outubro Rosa",
+    texto: "Mês da prevenção ao câncer de mama: autocuidado, exames e informação salvam vidas.",
+  },
+  novembro: {
+    nome: "Novembro Azul",
+    texto: "Mês da saúde do homem: exames, coração e a quebra de tabus.",
+  },
+  dezembro: {
+    nome: "Dezembro Laranja",
+    texto: "Mês da prevenção ao câncer de pele e das celebrações com responsabilidade.",
+  },
+};
+
+/**
+ * Dias celebrados que dão prioridade a um DDS alusivo à data (ids do
+ * catálogo). A campanha em vigor passa a ser a do dia celebrado.
+ */
+export const DIAS_CELEBRADOS = {
+  "03-08": {
+    campanha: "marco",
+    dia: "Dia Internacional da Mulher",
+    ids: ["marco-prevencao-na-saude-da-mulher", "marco-inclusao-e-seguranca-da-mulher"],
+  },
+  "04-28": {
+    campanha: "abril",
+    dia: "Dia Mundial da Segurança e Saúde no Trabalho",
+    ids: ["abril-28-de-abril"],
+  },
+  "06-05": {
+    campanha: "junho",
+    dia: "Dia Mundial do Meio Ambiente",
+    ids: ["junho-vazamentos-de-oleo-e-quimicos", "junho-a-sustentabilidade-e-o-sesmt"],
+  },
+  "06-14": {
+    campanha: "junho",
+    dia: "Dia Mundial do Doador de Sangue",
+    ids: ["junho-a-solidariedade-e-a-doacao-de-sangue"],
+  },
+  "07-28": {
+    campanha: "julho",
+    dia: "Dia Mundial de Combate às Hepatites",
+    ids: ["julho-higiene-ocupacional-hepatites-virais"],
+  },
+  "09-10": {
+    campanha: "setembro",
+    dia: "Dia Mundial de Prevenção ao Suicídio",
+    ids: ["setembro-a-valorizacao-da-vida"],
+  },
+  "10-10": {
+    campanha: "outubro",
+    dia: "Dia Nacional de Segurança e Saúde nas Escolas",
+    ids: ["outubro-seguranca-nas-escolas"],
+  },
+  "10-19": {
+    campanha: "outubro",
+    dia: "Dia Internacional de Combate ao Câncer de Mama",
+    ids: ["outubro-autocuidado-e-exames"],
+  },
+  "11-27": {
+    campanha: "novembro",
+    dia: "Dia do Técnico de Segurança do Trabalho",
+    ids: ["novembro-o-dia-do-tst-e-engenheiro"],
+  },
+  "12-01": {
+    campanha: "dezembro",
+    dia: "Dia Mundial de Combate à AIDS",
+    ids: ["dezembro-prevencao-ao-hiv"],
+  },
+  "12-11": {
+    campanha: "dezembro",
+    dia: "Dia do Engenheiro",
+    ids: ["dezembro-o-dia-do-engenheiro"],
+  },
+};
+
+/**
+ * Campanha em vigor hoje: o dia celebrado tem prioridade sobre o mês.
+ * Sem campanha para o mês ou dia, devolve null (e o card não é exibido).
+ */
+export const campanhaDoDia = (agora = new Date()) => {
+  const celebrado = DIAS_CELEBRADOS[chaveDiaCurto(agora)];
+  if (celebrado) {
+    const campanha = CAMPANHAS_MES[celebrado.campanha];
+    if (campanha) {
+      return { chave: celebrado.campanha, nome: campanha.nome, texto: campanha.texto, dia: celebrado.dia };
+    }
+  }
+  const campanhaMes = CAMPANHAS_MES[mesAtual(agora)];
+  return campanhaMes
+    ? { chave: mesAtual(agora), nome: campanhaMes.nome, texto: campanhaMes.texto, dia: null }
+    : null;
+};
+
 const sortear = (lista) =>
   lista.length ? lista[Math.floor(Math.random() * lista.length)] : null;
 
@@ -75,6 +214,21 @@ export const sugerirDoDia = (catalogo, historico, agora = new Date()) => {
   if (salva) {
     const dds = catalogo.find((item) => item.id === salva);
     if (dds) return { dds, origem: "do-dia", doDia: true };
+  }
+
+  // Dia celebrado tem prioridade sobre a campanha do mês: o DDS sugerido
+  // alude à data (ex.: 28/04 → "Abril — 28 de Abril").
+  const celebrado = DIAS_CELEBRADOS[chaveDiaCurto(agora)];
+  if (celebrado) {
+    const disponiveis = celebrado.ids.filter(
+      (id) => id && !leituraRecente(historico.leituras[id], DIAS_JANELA_LEITURA, agora),
+    );
+    const candidatos = disponiveis
+      .map((id) => catalogo.find((item) => item.id === id))
+      .filter(Boolean);
+    if (candidatos.length) {
+      return { dds: sortear(candidatos), origem: "campanha", doDia: false };
+    }
   }
 
   const campanha = verificarCampanhaMes(catalogo, historico, agora);

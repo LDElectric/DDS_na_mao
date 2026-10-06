@@ -12,6 +12,7 @@ import {
 } from "../hooks/useHistorico.jsx";
 import { rotuloParte, rotuloTema, urlConteudo } from "../lib/catalogo.js";
 import { semTituloInicial } from "../lib/markdown.js";
+import { campanhaDoDia } from "../lib/algoritmo.js";
 
 /** Tamanhos de letra do texto (rem) — ferramenta de acessibilidade da barra superior. */
 const ESCALAS = [0.85, 1, 1.15, 1.3, 1.5];
@@ -99,6 +100,7 @@ export default function Leitura() {
   const leitor = nomeLeitor(historico, item.id);
   const noMinimo = escala === 0;
   const noMaximo = escala === ESCALAS.length - 1;
+  const campanhaAtual = campanhaDoDia();
 
   return (
     <article className="leitura">
@@ -149,9 +151,11 @@ export default function Leitura() {
 
       <header className="leitura__cabecalho">
         <div className="destaque__tags">
-          <span className="etiqueta etiqueta--tema">{rotuloTema(item.tema)}</span>
-          {item.campanha_sesmt && (
-            <span className="etiqueta etiqueta--campanha">Campanha: {item.campanha_sesmt}</span>
+          {item.tema !== "campanha-sesmt" && (
+            <span className="etiqueta etiqueta--tema">{rotuloTema(item.tema)}</span>
+          )}
+          {item.campanha_sesmt === campanhaAtual?.chave && (
+            <span className="etiqueta etiqueta--campanha">📢 {campanhaAtual.nome}</span>
           )}
           {ehDoDia && <span className="etiqueta etiqueta--escolha">✓ DDS do dia</span>}
         </div>
