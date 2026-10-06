@@ -13,6 +13,21 @@ import {
 import { rotuloParte, rotuloTema, urlConteudo } from "../lib/catalogo.js";
 import { semTituloInicial } from "../lib/markdown.js";
 
+/** Tamanhos de letra do texto (rem) — ferramenta de acessibilidade da barra superior. */
+const ESCALAS = [0.85, 1, 1.15, 1.3, 1.5];
+const CHAVE_ESCALA = "dds-na-mao:escala-texto";
+
+const escalaInicial = () => {
+  const bruto = localStorage.getItem(CHAVE_ESCALA);
+  const indice = bruto == null ? 1 : Number(bruto);
+  return Number.isInteger(indice) && indice >= 0 && indice < ESCALAS.length ? indice : 1;
+};
+
+/**
+ * Tela de leitura: dedicada ao texto. A barra superior concentra tudo —
+ * "‹ Voltar", a ferramenta de tamanho da letra (A−/A+) e "✓ Escolher este DDS".
+ * Abrir o texto não registra nada; só a confirmação grava a leitura.
+ */
 export default function Leitura() {
   const { id } = useParams();
   const navegar = useNavigate();
@@ -22,6 +37,11 @@ export default function Leitura() {
   const [erro, setErro] = useState(null);
   const [tentativa, setTentativa] = useState(0);
   const [escolhendo, setEscolhendo] = useState(false);
+  const [escala, setEscala] = useState(escalaInicial);
+
+  useEffect(() => {
+    localStorage.setItem(CHAVE_ESCALA, String(escala));
+  }, [escala]);
 
   const item = itens.find((dds) => dds.id === id);
 
@@ -77,22 +97,54 @@ export default function Leitura() {
   const ehDoDia = escolha?.id === item.id;
   const fixado = escolha ? itens.find((dds) => dds.id === escolha.id) ?? null : null;
   const leitor = nomeLeitor(historico, item.id);
+  const noMinimo = escala === 0;
+  const noMaximo = escala === ESCALAS.length - 1;
 
   return (
     <article className="leitura">
-      <nav className="leitura__topo">
-        <button type="button" className="botao botao--fantasma" onClick={() => navegar(-1)}>
+      <nav className="leitura__topo" aria-label="Ações da leitura">
+        <button
+          type="button"
+          className="botao botao--fantasma"
+          onClick={() => (window.history.state?.idx > 0 ? navegar(-1) : navegar("/"))}
+        >
           ‹ Voltar
         </button>
-        {!escolhidoHojeEste && (
-          <button
-            type="button"
-            className="botao botao--fantasma"
-            onClick={() => navegar("/", { state: { sortear: true } })}
-          >
-            Sortear outro
-          </button>
-        )}
+
+        <div className="leitura__ferramentas">
+          <div className="leitura__tam" role="group" aria-label="Tamanho do texto">
+            <button
+              type="button"
+              aria-label="Diminuir o tamanho do texto"
+              disabled={noMinimo}
+              onClick={() => setEscala((atual) => Math.max(0, atual - 1))}
+            >
+              A−
+            </button>
+            <button
+              type="button"
+              aria-label="Aumentar o tamanho do texto"
+              disabled={noMaximo}
+              onClick={() => setEscala((atual) => Math.min(ESCALAS.length - 1, atual + 1))}
+            >
+              A+
+            </button>
+          </div>
+
+          {escolhidoHojeEste ? (
+            <span className="leitura__status">
+              ✓ {ehDoDia ? "DDS do dia" : "Escolhido"}
+            </span>
+          ) : (
+            <button
+              type="button"
+              className="botao botao--primario botao-escolher"
+              onClick={() => setEscolhendo(true)}
+            >
+              ✓ Escolher este DDS
+            </button>
+          )}
+        </div>
       </nav>
 
       <header className="leitura__cabecalho">
@@ -108,18 +160,12 @@ export default function Leitura() {
         <p className="destaque__meta">
           {rotuloParte(item.parte)} · {item.capitulo_nome}
         </p>
-        {!escolhidoHojeEste && (
-          <p className="leitura__dica">
-            Fique à vontade para ler e conferir antes: abrir o texto ainda não registra nada. A
-            leitura só entra no histórico quando você tocar em <strong>Escolher este DDS</strong>.
-          </p>
-        )}
       </header>
 
       {erro && (
         <div className="aviso aviso--erro">
           <p>
-            Não conseguimos carregar o texto agora. Se estiver offline, tente de novo quando a
+            Não conseguimos carregar o texto agora. Se estiver sem conexão, tente de novo quando a
             conexão voltar — os textos visitados ficam guardados no aparelho.
           </p>
           <button type="button" className="botao" onClick={() => setTentativa((t) => t + 1)}>
@@ -131,13 +177,13 @@ export default function Leitura() {
       {!fonte && !erro && <p className="aviso">Carregando texto…</p>}
 
       {fonte && (
-        <div className="markdown">
+        <div className="markdown" style={{ fontSize: `${ESCALAS[escala]}rem` }}>
           <ReactMarkdown>{semTituloInicial(fonte)}</ReactMarkdown>
         </div>
       )}
 
-      <footer className="leitura__rodape">
-        {escolhidoHojeEste ? (
+      {escolhidoHojeEste && (
+        <footer className="leitura__rodape">
           <div className="confirmacao confirmacao--ok">
             <p>
               <strong>
@@ -163,51 +209,8 @@ export default function Leitura() {
               </Link>
             </div>
           </div>
-        ) : (
-          <div className="escolha">
-            <p className="escolha__ajuda">
-              Só o botão <strong>✓ Escolher este DDS</strong> (barra abaixo, sempre visível)
-              registra a leitura e fixa o DDS para os turnos de hoje — no momento da escolha você
-              pode informar seu nome (opcional) para a ata de presença.
-            </p>
-            <div className="confirmacao__acoes">
-              <button
-                type="button"
-                className="botao escolha__voltar"
-                onClick={() => (window.history.state?.idx > 0 ? navegar(-1) : navegar("/"))}
-              >
-                ‹ Voltar para escolher outro
-              </button>
-              <Link className="botao" to={`/imprimir/${item.id}`}>
-                🖨 Imprimir com ata
-              </Link>
-            </div>
-          </div>
-        )}
-      </footer>
-
-      {/* Ação sempre à vista enquanto o texto é exibido (fica acima da barra de navegação) */}
-      <div className="leitura__barra">
-        {!escolhidoHojeEste ? (
-          <button
-            type="button"
-            className="botao botao--primario botao-escolher"
-            onClick={() => setEscolhendo(true)}
-          >
-            ✓ Escolher este DDS
-          </button>
-        ) : (
-          <>
-            <span className="leitura__barra-ok">
-              ✓ {ehDoDia ? "DDS do dia escolhido" : "Registrado hoje"}
-              {leitor ? ` por ${leitor}` : ""}
-            </span>
-            <Link className="botao botao--primario" to={`/imprimir/${item.id}`}>
-              🖨 Imprimir
-            </Link>
-          </>
-        )}
-      </div>
+        </footer>
+      )}
 
       <ModalEscolha
         aberto={escolhendo}

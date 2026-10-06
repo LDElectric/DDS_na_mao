@@ -13,7 +13,7 @@ const FILTROS = [
 
 export default function Biblioteca() {
   const { itens, carregando, erro, recarregar } = useCatalogo();
-  const { historico, limparHistorico } = useHistorico();
+  const { historico } = useHistorico();
   const [filtro, setFiltro] = useState("todos");
   // Sumário estilo livro: partes colapsadas; o usuário expande as de interesse.
   const [abertas, setAbertas] = useState(() => new Set());
@@ -184,18 +184,6 @@ export default function Biblioteca() {
           </div>
         </div>
       )}
-
-      <div className="zona-perigo">
-        <button
-          type="button"
-          className="link-suave"
-          onClick={() => {
-            if (confirm("Apagar todo o histórico de leituras deste dispositivo?")) limparHistorico();
-          }}
-        >
-          Apagar histórico de leituras
-        </button>
-      </div>
     </div>
   );
 }

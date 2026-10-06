@@ -78,6 +78,29 @@ try {
     `→ ${instrucaoHome.slice(0, 70)}…`,
   );
 
+  const quantosSugestao = await pagina.$$eval(
+    ".destaque .etiqueta",
+    (els) => els.filter((el) => el.textContent.trim() === "Sugestão do dia").length,
+  );
+  verificar("'Sugestão do dia' aparece uma única vez na Home", quantosSugestao === 1, `→ ${quantosSugestao}`);
+
+  const atalhosDuplicados = await pagina.$$eval(".atalho", (els) => els.length);
+  verificar(
+    "Home sem cards duplicados de Busca/Biblioteca",
+    atalhosDuplicados === 0,
+    `→ ${atalhosDuplicados}`,
+  );
+
+  const rotulosPainel = await pagina.$$eval(
+    ".painel-estatisticas span",
+    (els) => els.map((el) => el.textContent),
+  );
+  verificar(
+    "painel de lidos sem menção à janela de 180 dias",
+    rotulosPainel.every((texto) => !/180/.test(texto)),
+    `→ ${rotulosPainel.join(" | ")}`,
+  );
+
   console.log("2) Leitura: abrir não conta, ESCOLHER registra");
   await pagina.click(".destaque__acoes a.botao--primario");
   await pagina.waitForSelector(".markdown p", { timeout: 15000 });
@@ -109,7 +132,7 @@ try {
     `→ "${rotuloEscolher}"`,
   );
   const naBarraVisivel = await pagina
-    .$eval(".leitura__barra .botao-escolher", (el) => {
+    .$eval(".leitura__topo .botao-escolher", (el) => {
       const caixa = el.getBoundingClientRect();
       return (
         caixa.width > 0 &&
@@ -119,14 +142,39 @@ try {
       );
     })
     .catch(() => false);
-  verificar("escolher fica na barra fixa, sempre à vista durante a leitura", naBarraVisivel);
-  const botaoVoltar = await pagina.$(".escolha__voltar");
-  const rotuloVoltar = botaoVoltar ? await pagina.$eval(".escolha__voltar", (el) => el.textContent) : "";
-  verificar(
-    "botão 'Voltar para escolher outro' dentro do DDS",
-    Boolean(botaoVoltar) && /escolher outro/.test(rotuloVoltar),
-    `→ ${rotuloVoltar}`,
+  verificar("escolher fica na barra superior, sempre à vista durante a leitura", naBarraVisivel);
+
+  const botoesVoltar = await pagina.$$eval(
+    "button, a",
+    (els) => els.filter((el) => /Voltar/.test(el.textContent) && el.offsetParent !== null).length,
   );
+  verificar(
+    "voltar existe apenas uma vez na leitura (barra superior)",
+    botoesVoltar === 1,
+    `→ ${botoesVoltar}`,
+  );
+  const voltarNoTopo = await pagina
+    .$eval(".leitura__topo", (el) => /Voltar/.test(el.textContent))
+    .catch(() => false);
+  verificar("o botão Voltar fica na barra superior", voltarNoTopo);
+
+  const sortearNaLeitura = await pagina.$$eval(
+    "button, a",
+    (els) => els.filter((el) => /Sortear/.test(el.textContent)).length,
+  );
+  verificar(
+    "sem 'Sortear outro' na leitura (função fica na Home)",
+    sortearNaLeitura === 0,
+    `→ ${sortearNaLeitura}`,
+  );
+
+  const tamAntes = await pagina.$eval(".markdown", (el) => parseFloat(getComputedStyle(el).fontSize));
+  await pagina.click('[aria-label="Aumentar o tamanho do texto"]');
+  const tamDepois = await pagina.$eval(".markdown", (el) => parseFloat(getComputedStyle(el).fontSize));
+  verificar("ferramenta aumenta o tamanho do texto", tamDepois > tamAntes, `→ ${tamAntes}px → ${tamDepois}px`);
+  const escalaSalva = await pagina.evaluate(() => localStorage.getItem("dds-na-mao:escala-texto"));
+  verificar("tamanho do texto fica salvo no aparelho", escalaSalva != null && escalaSalva !== "1", `→ ${escalaSalva}`);
+  await pagina.click('[aria-label="Diminuir o tamanho do texto"]');
 
   // Diálogo de confirmação: nome do leitor (opcional)
   await pagina.click(".botao-escolher");
@@ -270,6 +318,9 @@ try {
     timeout: 15000,
   });
   verificar("recolher tudo volta ao sumário", true);
+
+  const zonaPerigo = await pagina.$$eval(".zona-perigo", (els) => els.length);
+  verificar("biblioteca sem botão de apagar histórico", zonaPerigo === 0, `→ ${zonaPerigo}`);
 
   console.log("6) Tela de DDS lidos (título + data + imprimir)");
   await pagina.goto(`${URL}#/lidos`, { waitUntil: "networkidle0" });

@@ -65,11 +65,11 @@ Regra de uso real (turnos rotativos, mesmo dispositivo):
 
 1. **Abrir o texto não conta como leitura.** O DDS pode ser aberto à vontade para conferir
    antes de decidir — nada é gravado no histórico.
-2. **"Escolher este DDS"** é a confirmação e fica **dentro da tela de leitura**, numa **barra
-   fixa logo acima da navegação inferior — sempre visível enquanto o texto é exibido**. Na Home
-   o cartão traz só o botão **"Ver texto"** e, logo abaixo, a instrução de que nada é registrado
-   antes da confirmação. Na leitura há ainda **"Voltar para escolher outro"**. Ao confirmar,
-   grava a leitura e, sendo a **primeira escolha da data**, fixa o **DDS do dia**
+2. **"Escolher este DDS"** é a confirmação e fica **dentro da tela de leitura**, na
+   **barra superior** — ao lado de **"‹ Voltar"** e da **ferramenta de tamanho do texto
+   (A−/A+)**, sempre à vista (sticky sob o cabeçalho). Na Home o cartão traz só o botão
+   **"Ver texto"** e, logo abaixo, a instrução de que nada é registrado antes da confirmação.
+   Ao confirmar, grava a leitura e, sendo a **primeira escolha da data**, fixa o **DDS do dia**
    (`escolhas["AAAA-MM-DD"] = { id, iso }`).
 3. **O DDS fixado permanece até 23:59** — os demais turnos do mesmo dia acessam o mesmo DDS
    pela Home (selo "✓ DDS do dia").
@@ -92,6 +92,14 @@ Regra de uso real (turnos rotativos, mesmo dispositivo):
    mostra o total de DDS e quantos já foram lidos, e há ações **"Expandir todas as partes"** /
    **"Recolher tudo"**. Os filtros "Lidos/Não lidos" já abrem as partes; "Todos" volta ao
    sumário.
+10. **Tela de leitura enxuta:** a página do texto é **dedicada ao texto** — a barra superior
+    concentra **"‹ Voltar"**, a ferramenta de **tamanho da letra (A−/A+)** e **"✓ Escolher
+    este DDS"** (sem "Sortear outro", que é função da Home, e sem botões repetidos no
+    rodapé). Após a confirmação a barra mostra **"✓ Escolhido"** e o rodapé exibe a
+    confirmação com impressão/ata. A Home **não repete "Sugestão do dia"**, não traz cards
+    duplicados de Busca/Biblioteca e o painel de lidos deixa o usuário fora do detalhe da
+    janela de 180 dias (só mostra "DDS lidos" clicável para ver os últimos). A biblioteca
+    **não oferece mais "Apagar histórico"** — o histórico fica guardado.
 
 ---
 

@@ -16,7 +16,7 @@
   --perigo: #e5484d;
   --sombra: 0 1px 3px rgba(0, 0, 0, 0.04);
   --raio: 16px;
-  --rodape-altura: 64px; /* medida real da barra de navegação (atualizada pelo JS) */
+  --cabecalho-altura: 64px; /* altura real do cabeçalho (atualizada pelo JS) */
 }
 
 :root[data-tema="escuro"] {
@@ -348,7 +348,7 @@ button {
 
 .painel-estatisticas {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 10px;
 }
 
@@ -374,34 +374,6 @@ button {
 
 .painel-estatisticas span {
   font-size: 0.74rem;
-  color: var(--texto-suave);
-}
-
-.atalhos {
-  display: grid;
-  gap: 10px;
-}
-
-.atalho {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  column-gap: 12px;
-  align-items: center;
-  background: var(--bg-superficie);
-  border: 1px solid var(--borda);
-  border-radius: var(--raio);
-  padding: 14px 16px;
-  font-weight: 600;
-}
-
-.atalho span {
-  grid-row: span 2;
-  font-size: 1.4rem;
-  color: var(--acento);
-}
-
-.atalho small {
-  font-weight: 400;
   color: var(--texto-suave);
 }
 
@@ -634,13 +606,74 @@ button {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  padding-bottom: 52px; /* espaço para a barra de ação fixa */
 }
 
+/* Barra superior da leitura: única, fixa (sticky) sob o cabeçalho do app,
+   concentra Voltar + tamanho do texto + Escolher este DDS. */
 .leitura__topo {
+  position: sticky;
+  top: var(--cabecalho-altura, 64px);
+  z-index: 18;
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
   justify-content: space-between;
   gap: 8px;
+  margin: -20px -16px 0;
+  padding: 10px 16px;
+  background: var(--bg);
+  border-bottom: 1px solid var(--borda);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.07);
+}
+
+.leitura__ferramentas {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.leitura__tam {
+  display: inline-flex;
+  border: 1px solid var(--borda);
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--bg-superficie);
+}
+
+.leitura__tam button {
+  border: 0;
+  background: transparent;
+  color: var(--texto);
+  font-weight: 700;
+  font-size: 0.85rem;
+  line-height: 1;
+  padding: 10px 11px;
+  cursor: pointer;
+}
+
+.leitura__tam button + button {
+  border-left: 1px solid var(--borda);
+}
+
+.leitura__tam button:hover:not(:disabled) {
+  background: color-mix(in srgb, var(--acento) 10%, transparent);
+}
+
+.leitura__tam button:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.leitura__status {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--sucesso);
+  background: color-mix(in srgb, var(--sucesso) 12%, transparent);
+  white-space: nowrap;
 }
 
 .leitura__cabecalho {
@@ -669,41 +702,6 @@ button {
   border-top: 1px solid var(--borda);
 }
 
-/* Barra fixa com a ação principal: fica sempre à vista enquanto o texto
-   é exibido, encaixada exatamente acima da barra de navegação. */
-.leitura__barra {
-  position: fixed;
-  left: 0;
-  right: 0;
-  bottom: var(--rodape-altura, 64px);
-  z-index: 15;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 14px;
-  padding: 12px 16px;
-  background: var(--bg-superficie);
-  border-top: 1px solid var(--borda);
-  box-shadow: 0 -6px 24px rgba(0, 0, 0, 0.16);
-}
-
-.leitura__barra .botao {
-  flex: 1;
-  max-width: 520px;
-  padding-top: 14px;
-  padding-bottom: 14px;
-}
-
-.leitura__barra-ok {
-  font-size: 0.9rem;
-  font-weight: 700;
-  color: var(--sucesso);
-  min-width: 0;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-
 .markdown {
   background: var(--bg-superficie);
   border: 1px solid var(--borda);
@@ -714,7 +712,7 @@ button {
 }
 
 .markdown h1 {
-  font-size: 1.3rem;
+  font-size: 1.3em;
   line-height: 1.3;
   margin: 0 0 14px;
   color: var(--acento);
@@ -722,7 +720,7 @@ button {
 
 .markdown h2,
 .markdown h3 {
-  font-size: 1.05rem;
+  font-size: 1.05em;
   margin: 20px 0 8px;
 }
 
@@ -784,16 +782,6 @@ button {
   flex-direction: column;
   align-items: center;
   gap: 12px;
-}
-
-.zona-perigo {
-  margin-top: 12px;
-  padding-top: 14px;
-  border-top: 1px dashed var(--borda);
-}
-
-.zona-perigo .link-suave {
-  color: var(--perigo);
 }
 
 /* -------------------------- Modal instalar PWA -------------------------- */
@@ -1383,7 +1371,7 @@ button {
 
   .cabecalho,
   .rodape,
-  .leitura__barra,
+  .leitura__topo,
   .impressao-acoes,
   .impressao-dica {
     display: none !important;
@@ -1435,10 +1423,6 @@ button {
 /* ------------------------------ Desktop fino ---------------------------- */
 
 @media (min-width: 640px) {
-  .atalhos {
-    grid-template-columns: 1fr 1fr;
-  }
-
   .destaque__titulo {
     font-size: 1.9rem;
   }

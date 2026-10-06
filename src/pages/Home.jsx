@@ -2,14 +2,12 @@ import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { useCatalogo } from "../hooks/useCatalogo.jsx";
 import {
-  contarLidos,
   escolhaDoDia,
   nomeLeitor,
   registradoHoje,
   useHistorico,
 } from "../hooks/useHistorico.jsx";
 import {
-  DIAS_JANELA_LEITURA,
   ROTULOS_ORIGEM,
   chaveDia,
   sortearOutro,
@@ -69,7 +67,6 @@ export default function Home() {
     );
   }
 
-  const lidos = contarLidos(historico);
   const dds = ddsDoDia ?? sugestao?.dds;
   const hoje = registradoHoje(historico);
 
@@ -88,7 +85,7 @@ export default function Home() {
           ) : (
             <>
               <span className="etiqueta">Sugestão do dia</span>
-              {sugestao && (
+              {sugestao && sugestao.origem !== "do-dia" && (
                 <span className="etiqueta etiqueta--origem">{ROTULOS_ORIGEM[sugestao.origem]}</span>
               )}
             </>
@@ -159,30 +156,13 @@ export default function Home() {
       </section>
 
       <section className="painel-estatisticas" aria-label="Resumo">
-        <Link className="painel-estatisticas__item" to={`/lidos?janela=${DIAS_JANELA_LEITURA}`}>
-          <strong>{lidos}</strong>
-          <span>lidos em {DIAS_JANELA_LEITURA} dias</span>
+        <Link className="painel-estatisticas__item" to="/lidos">
+          <strong>{Object.keys(historico.leituras).length}</strong>
+          <span>DDS lidos</span>
         </Link>
         <Link className="painel-estatisticas__item" to="/biblioteca">
           <strong>{itens.length}</strong>
           <span>DDS no catálogo</span>
-        </Link>
-        <Link className="painel-estatisticas__item" to="/lidos">
-          <strong>{Object.keys(historico.leituras).length}</strong>
-          <span>lidos no total</span>
-        </Link>
-      </section>
-
-      <section className="atalhos">
-        <Link className="atalho" to="/busca">
-          <span aria-hidden="true">⌕</span>
-          Pesquisar DDS
-          <small>Acesso livre, inclusive aos repetidos</small>
-        </Link>
-        <Link className="atalho" to="/biblioteca">
-          <span aria-hidden="true">☰</span>
-          Biblioteca completa
-          <small>Partes, capítulos e progresso</small>
         </Link>
       </section>
 
