@@ -63,6 +63,21 @@ try {
   const estatisticas = await pagina.$$eval(".painel-estatisticas strong", (els) => els.map((e) => e.textContent));
   verificar("painel com 228 DDS no catálogo", estatisticas.includes("228"), `→ ${estatisticas.join(",")}`);
 
+  const rotuloVerTexto = await pagina.$eval(".destaque__acoes a.botao--primario", (el) => el.textContent.trim());
+  verificar("ação principal da Home é 'Ver texto'", rotuloVerTexto === "Ver texto", `→ "${rotuloVerTexto}"`);
+
+  const escolherNaHome = await pagina.$(".destaque .botao-escolher");
+  verificar("Home não oferece escolher (o botão fica dentro do DDS)", !escolherNaHome);
+
+  const instrucaoHome = await pagina
+    .$eval(".destaque .escolha__ajuda", (el) => el.textContent)
+    .catch(() => "");
+  verificar(
+    "instrução abaixo de 'Ver texto' explicando o registro",
+    /só será registrado/.test(instrucaoHome) && /Escolher este DDS/.test(instrucaoHome),
+    `→ ${instrucaoHome.slice(0, 70)}…`,
+  );
+
   console.log("2) Leitura: abrir não conta, ESCOLHER registra");
   await pagina.click(".destaque__acoes a.botao--primario");
   await pagina.waitForSelector(".markdown p", { timeout: 15000 });
@@ -79,6 +94,21 @@ try {
   verificar("último tema registrado para a regra de diversidade", Boolean(historico?.ultimoTema));
 
   await pagina.waitForSelector(".botao-escolher", { timeout: 5000 });
+
+  const rotuloEscolher = await pagina.$eval(".botao-escolher", (el) => el.textContent.trim());
+  verificar(
+    "botão 'Escolher este DDS' dentro do DDS",
+    /Escolher este DDS/.test(rotuloEscolher),
+    `→ "${rotuloEscolher}"`,
+  );
+  const botaoVoltar = await pagina.$(".escolha__voltar");
+  const rotuloVoltar = botaoVoltar ? await pagina.$eval(".escolha__voltar", (el) => el.textContent) : "";
+  verificar(
+    "botão 'Voltar para escolher outro' dentro do DDS",
+    Boolean(botaoVoltar) && /escolher outro/.test(rotuloVoltar),
+    `→ ${rotuloVoltar}`,
+  );
+
   await pagina.click(".botao-escolher");
   await pagina.waitForSelector(".confirmacao--ok", { timeout: 5000 });
   const confirmacao = await pagina.$eval(".confirmacao--ok", (el) => el.textContent);

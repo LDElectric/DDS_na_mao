@@ -162,12 +162,20 @@ export default function Leitura() {
               ✓ Escolher este DDS
             </button>
             <p className="escolha__ajuda">
-              Confirma a leitura e registra o DDS de hoje — sem isso, o texto aberto não conta como
-              lido.
+              Li e confirmei: só este botão registra a leitura e fixa o DDS para os turnos de hoje.
             </p>
-            <Link className="botao" to={`/imprimir/${item.id}`}>
-              🖨 Imprimir com ata
-            </Link>
+            <div className="confirmacao__acoes">
+              <button
+                type="button"
+                className="botao escolha__voltar"
+                onClick={() => (window.history.state?.idx > 0 ? navegar(-1) : navegar("/"))}
+              >
+                ‹ Voltar para escolher outro
+              </button>
+              <Link className="botao" to={`/imprimir/${item.id}`}>
+                🖨 Imprimir com ata
+              </Link>
+            </div>
           </div>
         )}
       </footer>

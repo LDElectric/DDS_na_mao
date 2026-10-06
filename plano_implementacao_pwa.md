@@ -65,8 +65,11 @@ Regra de uso real (turnos rotativos, mesmo dispositivo):
 
 1. **Abrir o texto não conta como leitura.** O DDS pode ser aberto à vontade para conferir
    antes de decidir — nada é gravado no histórico.
-2. **"Escolher este DDS"** é a confirmação: grava a leitura e, sendo a **primeira escolha da
-   data**, fixa o **DDS do dia** (`escolhas["AAAA-MM-DD"] = { id, iso }`).
+2. **"Escolher este DDS"** é a confirmação e fica **dentro da tela de leitura** — na Home o
+   cartão traz só o botão **"Ver texto"** e, logo abaixo, a instrução de que nada é registrado
+   antes da confirmação. Na leitura há ainda **"Voltar para escolher outro"**. Ao confirmar,
+   grava a leitura e, sendo a **primeira escolha da data**, fixa o **DDS do dia**
+   (`escolhas["AAAA-MM-DD"] = { id, iso }`).
 3. **O DDS fixado permanece até 23:59** — os demais turnos do mesmo dia acessam o mesmo DDS
    pela Home (selo "✓ DDS do dia").
 4. **Outros turnos podem escolher outro tema**: cada escolha vira um novo registro na mesma

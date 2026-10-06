@@ -21,7 +21,7 @@ const horaDo = (iso) =>
 
 export default function Home() {
   const { itens, carregando, erro, recarregar } = useCatalogo();
-  const { historico, escolherDDS, registrarSugestao } = useHistorico();
+  const { historico, registrarSugestao } = useHistorico();
   const localizacao = useLocation();
   const [sugestao, setSugestao] = useState(null);
 
@@ -112,7 +112,7 @@ export default function Home() {
               <>
                 <div className="destaque__acoes">
                   <Link className="botao botao--primario" to={`/ler/${dds.id}`}>
-                    Ler agora
+                    Ver texto
                   </Link>
                   <Link className="botao" to="/busca">
                     Registrar outro DDS
@@ -133,7 +133,7 @@ export default function Home() {
               <>
                 <div className="destaque__acoes">
                   <Link className="botao botao--primario" to={`/ler/${dds.id}`}>
-                    Ler agora
+                    Ver texto
                   </Link>
                   <button type="button" className="botao" onClick={aoSortear}>
                     Sortear outro
@@ -141,16 +141,11 @@ export default function Home() {
                 </div>
 
                 <div className="escolha">
-                  <button
-                    type="button"
-                    className="botao botao--primario botao-escolher"
-                    onClick={() => escolherDDS(dds.id)}
-                  >
-                    ✓ Escolher este DDS
-                  </button>
                   <p className="escolha__ajuda">
-                    Abrir o texto ainda não registra nada: confirme aqui (ou dentro da leitura) e o
-                    DDS fica fixado para todos os turnos de hoje.
+                    📖 O texto é só para leitura: ele só será registrado como{" "}
+                    <strong>DDS escolhido</strong> quando você tocar em{" "}
+                    <strong>✓ Escolher este DDS</strong> lá dentro. Enquanto isso, dá para ver
+                    quantos quiser.
                   </p>
                 </div>
               </>
