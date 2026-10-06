@@ -1,0 +1,23 @@
+# DDS: Trabalho Energizado — Quando a Exceção é o Projeto
+
+Existe uma prática que nasce de boa intenção e termina em acidente: deixar o sistema ligado para "só conferir o que está acontecendo". A tensão está presente, o equipamento está funcionando, e alguém se inclina para observar. Nenhuma ferramenta encosta, nenhuma mão entra. A pessoa apenas olha. E é nesse instante que o cabo gasto encosta na carcaça, que o ponteiro do instrumento escorrega, ou que o braço de apoio alcança a barra viva.
+
+A NR-10 parte de um princípio que muitas vezes é mal interpretado: a desenergização é a medida principal de proteção. Ela não é medida preferencial nem recomendada. É a medida que resolve o problema antes que ele exista. Quando a desenergização é possível, ela é obrigatória. Quando não é possível — e aí a palavra importa: impossibilidade técnica real, não pressa nem conveniência —, existe a alternativa do trabalho energizado, com condições específicas.
+
+Essas condições são cumulativas, e essa é a parte que as empresas costumam pular. Avaliação de risco formal. Autorização escrita. Trabalho executado por pessoa habilitada. Proteção entre a pessoa e a parte viva, como tela isolante ou blindagem. Vestimenta compatível com o nível de arco elétrico. EPI de proteção ocular e auditiva. Supervisão quando exigido. A uma delas não basta. A autorização sozinha, sem as demais, é um papel.
+
+Existe um conceito técnico relevante aqui: trabalho com energia presente é sempre mais perigoso do que trabalho sem energia, porque ele remove a margem de erro. Todo procedimento seguro permite que alguém erre sem ser atingido. No trabalho energizado, o erro não tem margem — a distância até a parte viva é pequena, a tensão está presente o tempo todo e o tempo de reação é irrelevante.
+
+Vale falar de uma situação muito comum: medição em operação. Verificar a tensão de um motor com ele funcionando é necessário em alguns diagnósticos, e deve ser feito com instrumento adequado, com pontas protegidas, tela isolante, posição estável e mão firme. Não é o mesmo que "medir rapidinho com o instrumento de bancada". O gesto improvisado de medir com o eletricista inclinado sobre o motor é a versão mais frequente desse risco.
+
+A outra situação é o diagnóstico visual em painel aberto. Alguém quer ver o LED piscando, quer conferir o status do inversor, quer ler o mostrador. Quando isso é rotina, a solução correta não é abrir a porta toda vez; é instalar visor, mostrador externo ou porta com janela. Resolver na engenharia evita a decisão individual de sempre.
+
+Uma pergunta resume o assunto e deve ser feita em toda solicitação de trabalho energizado: se a desenergização não é possível por motivo técnico, qual é o motivo técnico? Se a resposta for tempo, produção ou indisponibilidade de equipe, o motivo é administrativo — e motivo administrativo não autoriza trabalho com energia presente.
+
+A exceção existe para ser usada raramente. Quando ela vira rotina, deixou de ser exceção e virou o projeto.
+
+Fontes e Referências:
+- NR-10: Segurança em Instalações e Serviços em Eletricidade — trabalhos em instalações energizadas.
+- NR-06: EPI — vestimenta anti-arco, luva isolante e protetor facial.
+- NFPA 70E: Standard for Electrical Safety in the Workplace.
+- IEEE 1584: Guide for Performing Arc-Flash Hazard Calculations.

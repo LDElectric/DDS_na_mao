@@ -1,0 +1,21 @@
+# DDS: Operação Fora da Concepção — A Máquina Fora do Manual
+
+Todo equipamento industrial nasce com um propósito desenhado. Ele foi projetado para um tipo de peça, uma faixa de dimensões, um material, uma velocidade, um fluxo de trabalho. E depois, com o tempo, algo acontece: a fábrica muda de produto, a máquina continua sendo a mesma, e alguém descobre que ela também consegue fazer aquela outra coisa. Ninguém avisa o projetista. Ninguém reavalia o risco. A máquina apenas começa a fazer algo que nunca foi prevista para fazer.
+
+Esse é o problema da operação fora da concepção. A NR-12 organiza a segurança de máquina em torno de um princípio: a proteção deve corresponder ao risco real do uso real, e esse risco é avaliado uma vez, para uma operação definida. Quando a operação muda, a avaliação deixa de descrever o equipamento que está ali. Um dispositivo de segurança posicionado para uma peça de dez centímetros pode não alcançar nada quando a peça passa a ter cinquenta. Um sensor que detectava a mão pode agora estar sempre bloqueado pela peça maior e ser ignorado de vez.
+
+Vale o caso da operação em modo manual e o da operação que exige duas mãos. São requisitos que parecem burocráticos até o momento em que alguém precisa de terceira mão. Quando o processo exige segurar a peça, apertar o botão e apoiar a ferramenta ao mesmo tempo, a solução correta é redesenhar a sequência ou criar um dispositivo de apoio — e não manter o botão pressionado com o joelho. Esse último recurso é raro em auditoria e corriqueiro na prática, e é justamente o tipo de desvio que só aparece quando a máquina sai do uso previsto.
+
+O mesmo acontece com ferramentas e acessórios. Ferramenta adequada, montagem correta e peça dentro da especificação não são detalhes de manual: são as condições em que a proteção foi verificada. Trocar a ferramenta por uma de dimensão diferente, usar acessório de terceiros ou montar a peça de forma distinta da prevista altera toda a equação — massa, inércia, ponto de apoio, direção de força. E nenhuma dessas alterações é avaliada, porque ninguém registra que ela aconteceu.
+
+Há ainda a operação por atalho, que é a forma mais comum de sair da concepção. Sequência de partida pulada, chave em modo manutenção deixada ligada, sensor de presença removido para ganhar ciclo. Cada atalho é pequeno. A soma deles produz uma máquina que funciona num modo que ninguém descreve, protegida por um sistema que protege outro modo. Nesse ponto, a diferença entre o manual e a realidade é grande o suficiente para justificar uma reavaliação formal.
+
+A resposta profissional não é proibir a nova operação, e sim submetê-la ao mesmo processo de sempre: identificar o novo perigo, decidir a medida de redução na ordem correta — eliminar, proteger, isolar, avisar, e só no fim o EPI —, e registrar. Quando a mudança é permanente, ela entra no projeto. Quando é pontual, ela entra em procedimento temporário, com prazo e revisão.
+
+Máquina não sabe que mudou de função. Ela apenas continua obedecendo aos mesmos comandos com as mesmas proteções de antes. A pergunta que fica é sempre a mesma: quem é o responsável por perceber que a operação saiu do manual antes que o acidente saia do previsto?
+
+Fontes e Referências:
+- NR-12: Segurança no Trabalho em Máquinas e Equipamentos — avaliação de risco e modificações.
+- NR-16: Atividades e Operações Perigosas.
+- ISO 12100: Safety of machinery — Risk assessment and risk reduction.
+- ISO 13849-1: Safety-related parts of control systems.

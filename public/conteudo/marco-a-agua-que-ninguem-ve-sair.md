@@ -1,0 +1,21 @@
+# DDS: Março — A Água que Ninguém Vê Sair
+
+Existe um recurso que entra em toda empresa sem pedido, não aparece no relatório de produção e é consumido o tempo todo. Ela lava, resfria, dilui, gera vapor e limpa. Falta dela, a operação para; sobra, ninguém percebe — porque o consumo raramente é medido por posto, e o que não é medido não é administrado.
+
+Março é o mês em que se fala de água, e a conversa costuma ficar no externo: rio, poço, seca. Dentro da planta, a discussão é outra e mais concreta — quanto se gasta, onde se gasta e o que se joga fora. Água de processo contaminada vira efluente; efluente mal tratado vira passivo; e passivo ambiental dura muito mais tempo do que qualquer economia de conta.
+
+Vale a medição por setor. Quando o consumo é medido no total, o desperdício de um posto se dilui no consumo de todos e ninguém enxerga nada. Quando é medido por setor, ele aparece — e o que aparece é corrigido. Torneira sem fechamento, mangueira aberta sem uso, válvula vazando, jato em vez de vassoura e fuga em trecho enterrado são invisíveis na leitura global.
+
+Há também o efluente. pH fora de faixa, óleo, carga orgânica, resíduo sólido e, às vezes, solvente ou metal. Todo esse conjunto precisa sair dentro dos limites legais — e a conformidade não se confere no dia da vistoria, se confere em medição contínua.
+
+Outro ponto é a água de emergência. Hidrante, sistema de combate e lava-olhos dependem de água disponível e em pressão. Quando o consumo de produção disputa a reserva com o sistema de emergência, alguém precisa ter decidido a prioridade — e essa decisão precisa existir antes, não durante o incêndio.
+
+Quanto de água gastou o seu setor no último mês? Se ninguém souber, o setor está consumindo sem gestão.
+
+Água não é infinita dentro da planta. Ela apenas chega faturada e vai embora invisível.
+
+Fontes e Referências:
+- Resolução CONAMA nº 430/2011 — efluentes líquidos e limites de lançamento.
+- Lei nº 9.984: Política Nacional de Recursos Hídricos.
+- ABNT NBR ISO 14001: Sistemas de gestão ambiental.
+- ABNT NBR ISO 50001: Sistemas de gestão da energia.

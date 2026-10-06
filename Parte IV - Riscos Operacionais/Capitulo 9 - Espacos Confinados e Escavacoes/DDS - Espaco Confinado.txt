@@ -1,0 +1,21 @@
+# DDS: Espaço Confinado — O Lugar que Não Foi Feito para Você
+
+Existe uma definição técnica que parece simples demais para descrever um risco tão grande. Espaço confinado é toda área com abertura limitada, ventilada de forma insuficiente, e não projetada para ocupação contínua por pessoas. A frase é curta, e é por isso que ela é mal compreendida: as pessoas imaginam um lugar apertado, e o maior número de acidentes acontece em espaços grandes, com abertura ampla e com alguém entrando apenas "por alguns minutos".
+
+O que define o perigo não é o tamanho. É a troca de ar. Quando a ventilação é insuficiente, tudo que entra ou que nasce ali permanece: o oxigênio baixa, os gases tóxicos sobem, os vapores se acumulam e o calor fica. Um tanque de vinte metros cúbicos pode ter a mesma atmosfera de um armário se a ventilação não trocar o ar — e a diferença é que, no armário, a pessoa percebe rápido.
+
+A NR-33 organiza isso com clareza e separa três papéis que não se confundem. O vigia, que fica do lado de fora e não entra de maneira nenhuma. O supervisor de entrada, que autoriza e acompanha. E o trabalhador autorizado, que entra. Essa separação existe porque a maioria dos acidentes fatais em espaço confinado tem a mesma forma: alguém entra para ajudar, e quem entrou para ajudar também desmaia. A cadeia de resgate improvisado é a causa clássica de múltiplas vítimas.
+
+Vale falar do que a norma considera risco específico. A NR-33 detalha a avaliação de atmosfera antes da entrada, com instrumento calibrado e teste em profundidade — porque a camada mais densa, com CO2 ou hidrocarbonetos, fica no fundo e não é alcançada por uma medição feita na abertura. Testar apenas na boca do tanque é medir a entrada, não o espaço.
+
+Existe ainda a questão da energia. Espaço confinado frequentemente está conectado a processo: entrada e saída de produto, agitador, aquecimento, eletricidade, linha de vácuo. Antes de entrar, essas fontes precisam ser isoladas, bloqueadas e sinalizadas, da mesma forma que em qualquer manutenção. A diferença é que o espaço confinado tem agravante: se a linha for religada enquanto alguém está dentro, o espaço deixa de ser confinado e passa a ser câmara de submersão ou de intoxicação.
+
+A pergunta que resume o tema é simples e deve ser feita antes de toda entrada: por que é preciso entrar? Muitas vezes a resposta é que a tarefa pode ser feita de fora, com ferramenta longa, câmera, ou com o equipamento desmontado. A entrada é a última opção, e quando ela é escolhida como primeira, o procedimento inteiro já começa invertido.
+
+Espaço confinado não é um lugar hostil. É apenas um lugar que não precisa de gente — e que passa a ser hostil no instante em que alguém entra sem saber o que está respirando.
+
+Fontes e Referências:
+- NR-33: Segurança e Saúde no Trabalho em Espaços Confinados.
+- NR-20: Inflamáveis e combustíveis — vapores e atmosfera explosiva.
+- NR-06: EPI — respirador e detector portátil.
+- ACGIH TLV — limiares de exposição ocupacional.

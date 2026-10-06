@@ -1,0 +1,30 @@
+{
+  "name": "dds-na-mao",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "PWA de Diálogos Diários de Segurança - catálogo offline com sugestão inteligente.",
+  "scripts": {
+    "conteudo": "node scripts/gerar-conteudo.mjs",
+    "icones": "node scripts/gerar-icones.mjs",
+    "predev": "npm run conteudo",
+    "dev": "vite",
+    "prebuild": "npm run conteudo && npm run icones",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "node scripts/testar-algoritmo.mjs",
+    "smoke": "node scripts/smoke-app.mjs"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-markdown": "^10.1.0",
+    "react-router-dom": "^7.9.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.0.4",
+    "puppeteer-core": "^25.12.0",
+    "vite": "^7.1.9",
+    "vite-plugin-pwa": "^1.1.0"
+  }
+}

@@ -1,0 +1,23 @@
+# DDS: A Luz que Fala (ou Não) — Iluminação, Ofuscamento e a Falha do Olhar
+
+Um erro de operação raramente nasce de ignorância técnica. Nasce, com frequência, de ver errado. E o que limita o que vemos na indústria é, na maioria das vezes, a luz. A iluminação do posto de trabalho não é um item de conforto: ela é um item de segurança. Um operador que não distingue um cabo de energia de um cabo de sinalização não está cometendo um erro de raciocínio; está cometendo um erro de iluminação.
+
+Do ponto de vista normativo, a NHO 11 da FUNDACENTRO e a NBR 5413 estabelecem os níveis de iluminância por tipo de atividade. Os números são generosos no papel e disappointantes na prática: uma operação industrial comum exige algo como 300 a 500 lux; inspeção de peças de precisão, leitura de documentos com letra miúda ou trabalho noturno em área de baixa altura podem exigir 750 lux ou mais. O problema é que a medição é feita em pontos isolados, com o medidor apoiado na bancada, e não representa a iluminação real da tarefa. Uma bancada pode ter 500 lux no ponto de medição e uma sombra profunda exatamente onde a mão do trabalhador precisa enxergar o parafuso.
+
+Os dois vilões da iluminação industrial são a deficiência e o ofuscamento. A deficiência luminosa obriga a pupila a abrir-se continuamente, gerando fadiga visual e redução da capacidade de discriminar detalhe. Já o ofuscamento — um reflexo especular em uma superfície metálica polida, no vidro de um visor, ou o brilho do sol refletido em um capacete — cria uma diferença de luminância tão grande que o olho se Ofusca e perde a adaptação. Resultado: o trabalhador fica alguns segundos literalmente cego diante de uma área que estava normalmente iluminada. Alguns segundos de cegueira em uma área com prensa, empilhadeira ou piso irregular são todos que o acidente precisa.
+
+Há ainda um efeito menos conhecido: o flicker estroboscópico. certas fontes de luz, especialmente lâmpadas fluorescentes com reator antigo e os arcos de solda pontual, pulsam em altas frequências. Sob esse efeito, um movimento rotativo contínuo pode parecer parado ou, pior, parecer girando no sentido errado. Um operador que decide "dar um jeito" porque a máquina "parece" parada está baseando uma decisão de segurança em uma alucinação visual induzida pela própria luz.
+
+Como reduzir esse risco na prática, sem esperar por um projeto de engenharia:
+
+1. Iluminação local dirigida para a tarefa, e não iluminação geral difusa. Um luminária articulada apontada para o ponto de trabalho vale mais do que o dobro de luminárias de teto.
+2. Contraste antes de cor. Um sinal de perigo legível depende mais da diferença de luminância entre fundo e símbolo do que da cor em si. Por isso a NR-26 padroniza esquemas de cores — e por isso o contraste de um símbolo escuro sobre fundo claro pode ser pior do que um símbolo claro sobre fundo escuro.
+3. Limpeza e integridade dos visores e lanternas. Uma lente arranhada ou suja espalha o feixe e multiplica o ofuscamento. Se o seu capacete tem visor embaçado, ele está reduzindo a sua visão e criando um risco que não existe no projeto.
+
+Iluminação é um tema que ninguém discute porque não há como reclamar de uma luz que "funciona". Mas visão cansada é a origem de uma série inteira de erros: peça trocada, etiqueta lida errado, nível conferido no olho em vez do instrumento, SIGNALIZação ignorada por estar ofuscada. Um olhar cansado não é um olhar preguiçoso; é um olhar fisiologicamente limitado. E nenhuma meta de produção justifica um ambiente que rouba a capacidade de ver.
+
+Fontes e Referências:
+- NBR 5413: Iluminação de interiores.
+- NHO 11 da FUNDACENTRO: Avaliação da Iluminação de Ambientes Internos de Trabalho.
+- NR-17: Ergonomia (condições de iluminação do ambiente de trabalho).
+- NR-26: Sinalização de Segurança (cor e contraste).

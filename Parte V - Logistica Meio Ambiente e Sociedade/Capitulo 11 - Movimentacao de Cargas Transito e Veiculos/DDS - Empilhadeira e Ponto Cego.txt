@@ -1,0 +1,21 @@
+# DDS: Empilhadeira — O Operador e o Ponto Cego que Ninguém Enxerga
+
+Existe um veículo que circula por toda fábrica, pesa toneladas, alcança vários metros de altura e é operado por uma pessoa sentada de costas para o caminho que percorre. É a empilhadeira. Ela não tem buzina obrigatória, não tem cinto em todos os modelos antigos e, na maioria das plantas, divide o corredor com pedestres que não têm nenhuma das proteções que ela possui.
+
+O ponto cego é a característica mais importante e a menos discutida. Atrás da empilhadeira, com as lâminas carregadas e a caixa alta, o operador enxerga praticamente nada. Enquanto regride, ele depende de olhar pelo espelho ou de alguém orientando. Quando a carga bloqueia a visão frontal, ele depende da consciência de que existe alguém adiante. Em ambos os casos, a segurança depende de um fator externo: pedestre que aparece e operador que enxerga.
+
+A carga muda a dinâmica do veículo. Com a lâmina no alto e a carga pesada, o centro de gravidade sobe e a estabilidade lateral cai. Girar em curva com a carga elevada é a forma mais comum de tombamento. A física é simples: a estabilidade depende da base e da altura. Elevar a carga reduz a margem, e a margem é o que impede o tombamento.
+
+Vale a velocidade. Empilhadeira em corredor de pedestres não é carro de corrida nem brinquedo — é equipamento com inércia própria. Pedestre que pula para escapar não consegue prever a trajetória, e o operador que freia tarde não consegue corrigir. A regra prática de planta é conhecida: pedestre nunca deve cruzar na frente de equipamento em movimento, e equipamento nunca deve passar por cima de alguém com pressa.
+
+Há também a carga que não é visível do operador quando ele está com a lâmina baixa e o palete alto demais. A solução é técnica e simples: empilhar de forma que a visão seja mantida, transportar com a lâmina baixa o suficiente para enxergar, e usar equipamento de controle quando a carga bloquear permanentemente a visão.
+
+O trânsito interno exige conjunto de regras que todas as plantas sabem e poucas cumprem: velocidade limitada, prioridade definida, faixa ou rota para pedestre, sinalização de curva, retrovisores íntegros, farol ligado, cinto usado e exame de aptidão em dia. Quando qualquer um desses itens falta, o que se tem não é um sistema de trânsito — é uma convenção informal entre motoristas e caminhantes.
+
+A pergunta que resume o assunto: se você estivesse andando de costas pelo corredor, com uma caixa na frente, alguém conseguiria te ver? Se a resposta for não, o risco está do lado de fora da empilhadeira — e é justamente ali que quase todos os acidentes acontecem.
+
+Fontes e Referências:
+- NR-11: Transporte, movimentação, armazenagem e manuseio de materiais.
+- NR-12: Segurança no Trabalho em Máquinas e Equipamentos.
+- NR-17: Ergonomia — condução e postura do operador.
+- ISO 3691-4: Industrial trucks — safety requirements and verification.

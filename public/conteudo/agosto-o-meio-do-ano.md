@@ -1,0 +1,21 @@
+# DDS: Agosto — O Meio do Ano: Conferir o Que Foi Prometido
+
+Existe um momento do calendário em que o ano já tem história suficiente para ser avaliado, e ainda tempo suficiente para ser corrigido. É o meio do ciclo. Metade das metas está cumprida ou não; parte dos treinamentos venceu ou foi realizado; exames periódicos foram agendados ou acumulados; e as mudanças prometidas em abril já deveriam estar visíveis.
+
+A conferência de meio de ano não é burocracia — é a única forma de descobrir, com folga, o que ficou pendente. Quando a revisão acontece só em dezembro, ela vira justificativa. Quando acontece em agosto, ela vira correção.
+
+Vale a validade documental. Treinamento vencido, exame periódico atrasado, laudo de higiene desatualizado, calibração de instrumento fora de prazo e certificação de equipamento vencida. Nesses cinco casos, a empresa continua operando normalmente e, ao mesmo tempo, está formalmente fora de conformidade — sem nenhum sinal visível de que algo está errado.
+
+Há também os EPC. Cinto com costura gasta, capacete exposto a impacto, luva ressecada, protetor auditivo com vedação rompida e óculos com arranhões. Item fornecido não é item em condição de uso, e a substituição é obrigatória — não por economia de material, mas porque a proteção deixou de existir.
+
+Outro ponto é o plano de ação. Toda avaliação de risco produz medidas; toda medida tem prazo; e quase todo prazo vence no meio do ano. Retomar a lista e conferir o que foi executado é mais eficaz do que produzir uma nova lista — a anterior ainda não foi cumprida.
+
+Vale puxar a lista: quantos itens do plano de ação do primeiro semestre ainda estão abertos? Se ninguém souber responder sem procurar, o plano está arquivado, não em execução.
+
+Meio do ano não é para recomeçar. É para perceber o que ainda não começou.
+
+Fontes e Referências:
+- NR-01: Disposições Preliminares — gerenciamento de riscos e plano de ação.
+- NR-05: CIPA — plano de trabalho e acompanhamento.
+- NR-06: EPI — fornecimento, uso, conservação e substituição.
+- NR-07: Exame Médico Admissional, Periódico e Demissional.

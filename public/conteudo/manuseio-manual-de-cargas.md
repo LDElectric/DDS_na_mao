@@ -1,0 +1,23 @@
+# DDS: Manuseio Manual de Cargas — O Peso que a Coluna Guarda
+
+Existe um trabalho que não exige equipamento, não exige treinamento formal e é feito por todo mundo em qualquer planta: levantar e carregar alguma coisa com as mãos. É também o trabalho que mais produz afastamento por lesão por esforço repetitivo e por distúrbio da coluna — porque, como não parece operação perigosa, ninguém planeja como fazê-lo.
+
+A coluna não falha de uma vez. Ela acumula. Cada levantamento mal feito transfere carga para estruturas que não foram desenhadas para aquela direção: disco intervertebral, ligamento, músculo estabilizador. Quando a carga é leve, a soma parece inofensiva. Quando a mesma carga leve é repetida duzentas vezes por turno, durante anos, a soma chega ao limite — e o limite aparece como dor que não vai embora, não como lesão do dia.
+
+O método correto tem quatro passos e é sempre o mesmo. Posicione-se junto da carga, não longe dela. Flexione joelhos e quadril, mantendo a coluna ereta — a perna levanta, a coluna estabiliza. Aproxime a carga do corpo, porque a distância multiplicada pelo peso é a força que age sobre a lombar. E não gire o tronco com a carga nas mãos: gire os pés.
+
+Vale o limite de peso. A NR-17 trata desse tema com valores de referência que variam conforme a altura de levantamento, a frequência e a distância. O número existe para orientar a decisão, não para substituí-la: uma carga de cinco quilos, cento vezes por turno, no nível do chão, é mais exigente do que uma carga de quinze quilos, uma vez por dia, na altura da cintura. O cálculo leva em conta repetição e distância, não apenas a massa.
+
+Há também o caso da carga que não se vê bem. Canto vivo sem identificação, peso desbalanceado, embalagem escorregadia e carga que bloqueia a visão. Cada um desses elementos exige mais força, mais esforço e mais contorsão — e é nesse acréscimo que a lesão nasce. Luva, embalagem adequada e organização da bancada são medidas ergonômicas, não conforto.
+
+A solução quando o peso é realmente grande não é técnica de levantamento: é eliminá-lo. Carrinho, mesa niveladora, manipulador, altura de trabalho e embalagem menores. Quando a carga precisa ser levantada muitas vezes, a pergunta correta não é como levantar — é por que está sendo levantada tantas vezes.
+
+O erro cultural mais comum é tratar dor como parte do trabalho. Dor lombar que aparece no terceiro ano de função não é idade nem azar: é o registro de uma carga mal resolvida. Quem trabalha com dor já está operando com o limite atingido.
+
+Levantar não é força. É posicionamento — e posicionamento é uma decisão que se toma antes de encostar a mão.
+
+Fontes e Referências:
+- NR-17: Ergonomia — levantamento e transporte manual de cargas.
+- NR-11: Transporte, movimentação, armazenagem e manuseio de materiais.
+- NIOSH: Applications Manual — Recommended Limit on Lifting.
+- ISO 11228-1: Manual handling — lifting and carrying.

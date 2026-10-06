@@ -1,0 +1,21 @@
+# DDS: Água — O Recurso que a Planta Usa sem Ver
+
+Existe um insumo que entra na fábrica sem pedido, não aparece na nota de produção e é consumido o tempo todo: a água. Ela lava, resfria, dilui, transporta, gera vapor e limpa. Quando falta, a operação para; quando sobra, ninguém percebe — porque o consumo de água raramente é medido por posto, e o que não é medido não é administrado.
+
+O desperdício tem endereço. Torneira sem fechamento, mangueira aberta sem uso, válvula com vazamento, resfriamento com caudal maior que o necessário, lavagem de piso com jato quando bastaria vassoura, e fuga em trecho enterrado. Cada um desses casos gera conta e volume, e nenhum deles aparece no relatório de produção.
+
+Vale a medição por setor. Quando o consumo é medido no global, o desperdício de um posto se dilui no total de todos. Quando é medido por setor, ele aparece — e o que aparece é corrigido. Só é possível gerir o que é possível medir, e água é um dos casos mais claros dessa frase.
+
+Há também o efluente. Água que sai da operação carrega óleo, resíduo sólido, carga orgânica, pH fora de faixa e, eventualmente, metais ou solvente. Tratamento, controle de pH e conformidade com os limites legais são obrigações — e vazamento ou descarga irregular transformam economia em passivo ambiental, com multa e responsabilização.
+
+O caso da reutilização é onde há mais ganho. Água de processo que pode ser recirculada, água de chuva que pode ser armazenada para limpeza, e resfriamento em circuito fechado que reduz consumo de forma relevante. Essas decisões são de projeto, e elas se pagam em conta.
+
+Outro ponto é a água em emergência. Hidrante, sistema de combate e lavagem de olhos dependem de água disponível e em pressão. Quando o consumo de produção compete com a reserva de emergência, alguém precisa ter decidido prioridade — e essa decisão precisa existir antes, não durante.
+
+A pergunta prática: qual é o consumo de água do seu setor no último mês? Se ninguém souber, o setor está consumindo sem gestão.
+
+Fontes e Referências:
+- Lei nº 9.984: Política Nacional de Recursos Hídricos e outorga.
+- Resolução CONAMA nº 430/2011 — efluentes líquidos.
+- ABNT NBR ISO 14001: Sistemas de gestão ambiental.
+- Lei nº 12.305: Política Nacional de Resíduos Sólidos.

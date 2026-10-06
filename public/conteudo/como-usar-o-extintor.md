@@ -1,0 +1,21 @@
+# DDS: Como Usar o Extintor — Quatro Movimentos que Precisam Ser Automáticos
+
+Existe um equipamento que está em toda empresa, é explicado em treinamento anual e quase nunca é manuseado por quem vai precisar dele. É o extintor portátil. A maior parte das pessoas sabe onde ele está, sabe o nome dele e não tem nenhuma ideia de como tirar o pino, como segurar a mangueira ou em que ponto da chama mirar. Essa distância entre saber e fazer é a diferença entre combater e observar.
+
+O manuseio tem uma sequência que a norma técnica padroniza, e ela existe para ser curta o bastante para ser lembrada sob pressão. Retirar o extintor do suporte e levar até o ponto seguro. Retirar o lacre e o pino de segurança. Segurar a mangueira na ponta, com a mão firme, e não no meio — porque a pressão do jato descontrola a mangueira se ela for segura em qualquer ponto. Apertar o acionador e dirigir o jato para a base da chama, varrendo de um lado para o outro. Esses quatro passos são a operação inteira.
+
+A direção do jato é o que mais se erra. Mirar no topo das chamas produz uma aparência de controle — as chamas se afastam, a fumaça muda de cor e parece que funcionou. O que continua queimando é a base, onde está o combustível e onde a temperatura é maior. Apagar incêndio é sempre um problema de fundo, nunca de topo.
+
+Vale a distância de segurança. Longe o bastante para proteger quem opera e perto o bastante para o jato alcançar. Existe também a direção do vento: combater contra o vento significa levar fumaça, calor e produto de volta para quem opera. A posição correta é sempre com o vento nas costas ou lateral, com saída livre atrás.
+
+Há ainda a decisão de permanecer ou sair. Um extintor portátil resolve o estágio inicial de fogo — o fogo que ainda cabe em uma lixeira, em uma bancada ou em um balde. Quando as chamas já atingiram a altura do teto, já atingiram dois ambientes ou já envolveram material inflamável em quantidade, o extintor não é mais a resposta. Nesse momento, a única decisão correta é evacuar, acionar e afastar — e essa decisão precisa estar tomada antes, porque depois da pressão ela não é tomada.
+
+O treinamento que funciona é o que põe a mão na ferramenta. Saber o nome do extintor não é saber usá-lo. Pesar, sacudir, puxar e mirar são gestos que só viram reflexo quando foram feitos antes — de preferência com extintor já vazio ou em simulação, e nunca pela primeira vez na frente de uma chama real.
+
+A pergunta que resume é simples: quando foi a última vez que você tirou um extintor do suporte e apertou o gatilho? Se a resposta for "nunca", então o extintor está na parede apenas para mostrar que existe.
+
+Fontes e Referências:
+- ABNT NBR 14426: Extintores portáteis de incêndio.
+- ABNT NBR 9075: Combate a incêndio em edificações.
+- NR-20: Inflamáveis e combustíveis — treinamento de combate.
+- NFPA 10: Standard for Portable Fire Extinguishers.

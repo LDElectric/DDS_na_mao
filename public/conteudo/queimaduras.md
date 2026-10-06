@@ -1,0 +1,21 @@
+# DDS: Queimaduras — O Dano que Continua Depois da Fonte
+
+Existe um tipo de lesão em que o contato dura um segundo e o dano continua por semanas: a queimadura. Ela pode vir de calor, de produto químico, de eletricidade ou de radiação, e a profundidade importa muito mais do que a área aparente. Uma queimadura grande e superficial exige atenção; uma queimadura pequena e profunda exige hospital.
+
+O primeiro passo é afastar a fonte e interromper o contato. Em queimadura por produto químico, isso significa lavar com água corrente em abundância por tempo suficiente — normalmente vinte minutos ou mais —, retirando roupa e joia enquanto lava. A diluição é o que reduz o dano, e ela depende de quantidade de água e de tempo, não de pressa.
+
+Vale o que não se passa. Não se aplica pasta de dente, manteiga, óleo, creme, pomada, gelo nem álcool. Esses produtos contaminam a lesão, dificultam a avaliação, podem agravar o dano térmico e comprometem o tratamento posterior. A cobertura feita com pano limpo e não aderente existe justamente para proteger sem grudar.
+
+Há também a queimadura elétrica. Ela costuma ser pequena na entrada e grande na saída — a corrente atravessa o corpo e lesa tecido ao longo do caminho. Isso significa que quem sofreu choque elétrico pode ter lesão interna sem lesão externa aparente, e deve ser avaliado mesmo que pareça bem. A mesma lógica vale para raios.
+
+O caso do vapor e do líquido quente é o mais frequente em cozinha e em manutenção. Ele atinge face, mãos e punhos — áreas que importam para função e para aparência. Proteção facial, manga comprida e luva existem para esses pontos, e a ausência delas é o que expõe as regiões mais vulneráveis.
+
+A avaliação inicial considera a extensão, a profundidade, a localização e a causa. Face, mãos, pés, genitais, articulações e queimadura circunferencial exigem atendimento especializado imediato. Quando a lesão envolve essas regiões, a regra é acionar sem esperar evolução.
+
+Uma pergunta prática para o chão de fábrica: onde está a água de lavagem mais próxima deste posto? Se ninguém souber responder, o plano de resposta a queimadura química não existe — existe apenas a intenção de lavar quando acontecer.
+
+Fontes e Referências:
+- NR-20: Inflamáveis e combustíveis — queimaduras e risco térmico.
+- NR-05: CIPA — plano de resposta a emergências e primeiros socorros.
+- Sociedade Brasileira de Medicina de Emergência — diretrizes de queimaduras.
+- ACGIH TLV — limiares de exposição ocupacional.

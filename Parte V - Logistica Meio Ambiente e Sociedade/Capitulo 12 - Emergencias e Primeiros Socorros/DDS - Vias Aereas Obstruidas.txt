@@ -1,0 +1,21 @@
+# DDS: Vias Aéreas Obstruídas — O Engasgo que Não Resolve Sozinho
+
+Existe uma emergência que começa com uma cena banal: alguém está conversando, comendo ou operando com a mão na boca, e de repente não consegue falar, não consegue respirar e faz o gesto universal de engasgo. A obstrução de via aérea é rápida, visível e, quando completa, tem tempo curto — e a maior parte das pessoas não sabe o que fazer, porque acha que bater nas costas resolve tudo.
+
+A distinção decide a conduta. Obstrução parcial permite tosse forte e eficaz — nesse caso, não se interfere, apenas se incentiva a tossir e se fica ao lado. Obstrução completa impede a tosse eficaz, a fala e a respiração, e aí a intervenção é imediata. Confundir os dois é comum, e confundir em sentido errado — interferir quando a tosse resolve — só atrapalha.
+
+A manobra de Heimlich, ou compressões abdominais, é a técnica para adulto consciente. Posição atrás da vítima, punho acima do umbigo, tração rápida e ascendente, repetida até a desobstrução ou até a perda de consciência. Se a pessoa perder consciência, o cuidado muda: a vítima vai ao chão com cuidado, inicia-se RCP e as compressões torácicas muitas vezes liberam a obstrução por conta própria.
+
+Vale o caso da vítima que está sozinha. Ação sobre objeto firme — encosto de cadeira, beiral de bancada — é a alternativa quando não há ninguém por perto. É uma técnica de situação limite, e ela precisa ter sido praticada antes, não imaginada na hora.
+
+Há também o caso da criança e do lactente, que tem técnica diferente — compressões torácica e abdominal alternadas, com força proporcional ao tamanho. Aplicar a manobra de adulto em criança é uma forma comum de lesão. Quem lida com criança precisa ter treinamento específico para essa faixa etária.
+
+A prevenção é ainda mais simples: não conversar com comida na boca, não trabalhar com objeto na boca, usar proteção em operação com partículas e evitar situação em que a mão e a respiração disputam o mesmo caminho. Nenhum desses pontos exige recurso — exige apenas a decisão de não colocar as duas coisas ali ao mesmo tempo.
+
+A pergunta prática: se alguém engasgar agora neste ambiente, você faz o quê? Se a resposta for "bato nas costas" sem diferenciar parcial de completa, o procedimento está incompleto.
+
+Fontes e Referências:
+- American Heart Association — Basic Life Support.
+- NR-05: CIPA — plano de resposta a emergências e primeiros socorros.
+- Sociedade Brasileira de Medicina de Emergência — obstrução de via aérea.
+- NR-06: EPI — proteção respiratória contra partículas.

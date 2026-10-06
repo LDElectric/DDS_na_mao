@@ -1,0 +1,21 @@
+# DDS: Logística Reversa — O Caminho de Volta que Precisa Existir
+
+Existe um sistema previsto em lei que poucas empresas conseguem explicar: a logística reversa. Ele obriga que determinados produtos e embalagens voltem ao ciclo depois do uso — pilha, óleo, pneu, lâmpada, medicamento, embalagem de agrotóxico, eletrônico e outros. A obrigação é do produtor e, por extensão, de toda a cadeia que coloca o material no mercado.
+
+O conceito é simples: o caminho de ida tem que ter um caminho de volta. Quando não existe, o material fica no destino do consumidor — e o consumidor, em grande parte, não tem para onde devolver. A consequência é descarte irregular, queima, lançamento em dreno e contaminação de solo e água.
+
+Vale a rastreabilidade. Nota fiscal, termo de destinação, contrato com operador licenciado e comprovante de recebimento formam a cadeia. Sem esses documentos, o material pode ter saído da empresa, mas não se sabe onde chegou — e responsabilidade não se transfere por vontade.
+
+Há também o ponto de recebimento. Um container de pilha no pátio, sem identificação e sem acesso fácil, gera quase nada. Quando o ponto é visível, acessível e com informação clara sobre o que aceita, o retorno cresce. Logística reversa funciona melhor quando é mais fácil do que jogar fora.
+
+O caso do óleo de cozinha e do óleo lubrificante ilustra bem. Ambos têm destino técnico e valor quando separados na origem. Quando chegam misturados no esgoto, viram passivo — e o custo de recuperação é muito maior do que o custo de separar.
+
+A separação na origem é o ponto de partida de tudo. Se o resíduo é misturado no início da cadeia, nada depois disso recupera o valor. Coleta seletiva, ponto definido e instrução clara ao usuário interno são as ações mais simples e mais efetivas.
+
+A pergunta é prática: o que a sua empresa faz com a lâmpada queimada, com a pilha gasta e com o filtro de óleo usado? Se a resposta for "joga no lixo comum", a logística reversa não existe — existe apenas descarte.
+
+Fontes e Referências:
+- Lei nº 12.305: Política Nacional de Resíduos Sólidos.
+- Decreto nº 7.802/2012: regulamenta a Política Nacional de Resíduos Sólidos.
+- Resolução CONAMA nº 401/2008 — pilhas e baterias.
+- ABNT NBR 10004: Resíduos sólidos — classificação.

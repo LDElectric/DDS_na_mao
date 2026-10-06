@@ -1,0 +1,23 @@
+# DDS: Setembro — A Pergunta Que Ninguém Faz, e Que Precisa Ser Feita
+
+Existe um tipo de sofrimento que não deixa marca visível, não muda o laudo e não aparece em nenhuma métrica de acidente. Ele chega ao trabalho junto com a pessoa, ocupa a atenção, altera o sono, muda o humor e reduz a margem de segurança — e, mesmo assim, continua tratado como assunto particular.
+
+10 de setembro é o Dia Mundial da Prevenção do Suicídio. A data incomoda porque ela tira o assunto da esfera privada e coloca onde a vida acontece: no meio de quem convive com a pessoa todos os dias. A maior parte dos sinais é percebida por colegas, não por familiares — porque são eles que veem a mudança de comportamento ao longo de semanas.
+
+Os sinais são reconhecíveis e não exigem treinamento clínico: isolamento, irritabilidade nova, ausências frequentes, queda de produtividade, perda de interesse, alteração de higiene, comentários de desesperança e, às vezes, presentear o que é caro. Nenhum desses sinais diagnostica nada — mas todos pedem uma conversa.
+
+Vale a conversa. Perguntar diretamente, com calma e sem julgamento, é mais eficaz do que esperar que a pessoa fale sozinha. Não existe evidência de que perguntar piora; existe evidência de que silêncio piora. Quem não sabe o que dizer pode começar por uma frase simples e concreta: estou percebendo que você não está bem, quer conversar?
+
+Há também o acesso. Quando existe canal de apoio psicológico, linha de escuta, plano de saúde com sessões ou parceria com serviço de referência, a pergunta tem onde terminar. Quando não existe, o profissional é convidado a fazer terapia espontânea — e essa não é a função de ninguém.
+
+Outro ponto é a organização. Assédio, sobrecarga, medo, insegurança de emprego e falta de autonomia são fatores de risco psicossocial reconhecidos e são modificáveis. Nenhuma campanha resolve um ambiente que produz o sofrimento que depois se tenta amenizar.
+
+A pergunta que ninguém faz: se alguém do seu time estiver mal amanhã, você perceberia? E se percebesse, para onde levaria essa pessoa?
+
+Ninguém precisa saber resolver. Precisa saber perguntar — e saber onde encaminhar.
+
+Fontes e Referências:
+- OMS: Saúde mental no trabalho — diretrizes.
+- NR-01: Disposições Preliminares — riscos psicossociais e organizacionais.
+- ABNT NBR ISO 45003: Saúde e segurança no trabalho — gestão de riscos psicossociais.
+- IASP/OMS: Dia Mundial da Prevenção do Suicídio (10 de setembro).

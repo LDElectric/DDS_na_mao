@@ -1,0 +1,21 @@
+# DDS: Lazer e Fim de Semana — O Risco que Não Está no Horário de Expediente
+
+Existe uma mudança de contexto que acontece toda semana: a pessoa sai do posto onde há procedimento, EPI, sinalização e supervisão e entra num ambiente onde nada disso existe. É o fim de semana. Churrasco, esporte, pesca, viagem, festa, obra na área e brincadeira com criança — todas atividades em que o risco é o mesmo do trabalho, e o controle é nenhum.
+
+O esporte é o ponto mais frequente. Corrida, futebol, bicicleta, skate e natação produzem lesão com lógica de esforço repetitivo e impacto — as mesmas que a ergonomia tenta evitar. A diferença é que no trabalho a pausa é planejada; no lazer, ela depende de vontade, e vontade costuma ceder à sequência.
+
+Vale a preparação. Aquecimento, condição física compatível, hidratação, superfície adequada e equipamento em bom estado são as mesmas bases de qualquer prevenção. Trocar o treino por entusiasmo, o capacete por desconforto e a pausa por resultado é a forma mais comum de transformar lazer em afastamento.
+
+Há também a bebida e o calor. Ambos reduzem julgamento e aumentam a disposição para risco — e a soma dos dois, em atividade física ou em proximidade de água, é a combinação mais frequente em afogamento e em queda.
+
+O caso da pesca e da atividade em água merece nota. Veste ou colete, distância da margem, solo irregular e correnteza. Ninguém entra no trabalho sem análise de risco; no lazer, entra-se apenas porque é verão.
+
+Outro ponto é o churrasco e a área de lazer. Fogo, criança, churrasqueira em local fechado, álcool próximo da brasa e carro perto da área de criança. A mesma lógica de ignição, distância e supervisão da planta se aplica — só que ninguém chama a brigada.
+
+A pergunta prática: das coisas que você faria amanhã de manhã, alguma exigiria EPI se fosse feita aqui dentro? Se a resposta for sim, aquilo também pede cuidado fora.
+
+Fontes e Referências:
+- NR-06: EPI — princípios de proteção aplicados ao lazer.
+- NR-17: Ergonomia — pausas, esforço e descanso.
+- Sociedade Brasileira de Medicina do Esporte — prevenção de lesões.
+- Corpo de Bombeiros — prevenção de afogamento.

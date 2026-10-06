@@ -1,0 +1,21 @@
+# DDS: Acidentes Domésticos — A Cozinha, o Banheiro e o Chão Molhado
+
+Existe um ambiente em que a maior parte das pessoas se machuca mais do que no trabalho: a casa. Ele tem escada, tapete, fogão, banco de trabalho improvisado, tomada, criança, animal e piso molhado — e, ao contrário da planta, quase não tem sinalização, nem procedimento, nem EPI. O que tem é pressa, distração e a sensação de que ali não há risco.
+
+A cozinha é o posto de maior frequência. Óleo quente que respinga, faca usada na direção da mão, pano sobre o fogão, panela com cabo para dentro, criança alcançando a mesa e liquidificador ligado com a tampa aberta. Cada um desses casos é conhecido de todo mundo e acontece com frequência porque ninguém considera aquela rotina como operação de risco.
+
+O banheiro é o segundo. Piso molhado, tapete sem antiderrapante, box sem apoio, chuveiro com risco elétrico e movimento em superfície escorregadia. Queda em banheiro produz lesão grave com frequência — lesão de quadril em idoso, fratura de punho em qualquer idade — e se resolve com aderência, apoio e iluminação.
+
+Vale a escada domiciliar. Ela não tem guarda-corpo completo, não tem iluminação em todos os degraus e é frequentemente usada carregando objeto que ocupa as duas mãos. Todo ano há acidente doméstico em escada por exatamente esse motivo: uma mão livre não existe quando se leva uma caixa.
+
+Há também o caso do improviso em manutenção. Bancada improvisada, cadeira no lugar de escada, ferramenta inadequada, eletricista sem treinamento e disjuntor religado com a mão. Improviso em casa tem a mesma lógica do improviso na planta — só que sem quem observe.
+
+O caso infantil merece nota. Tomada descoberta, produto de limpeza acessível, gaveta pesada, móvel que tomba, janela sem trava e pequenos objetos que a criança leva à boca. Prevenção infantil é toda de projeto: inacessibilidade, altura e trava.
+
+A pergunta é outra: se você olhasse para a sua casa com o mesmo olhar que usa na vistoria do posto, o que você mudaria primeiro? Se a resposta for "muita coisa", o cuidado está sendo aplicado apenas onde existe fiscalização.
+
+Fontes e Referências:
+- NR-17: Ergonomia — níveis de trabalho e acessos.
+- NR-05: CIPA — cultura de prevenção aplicada ao domicílio.
+- ABNT NBR 9050: Acessibilidade — apoios e contrapisos.
+- Sociedade Brasileira de Medicina de Emergência — primeiros socorros.

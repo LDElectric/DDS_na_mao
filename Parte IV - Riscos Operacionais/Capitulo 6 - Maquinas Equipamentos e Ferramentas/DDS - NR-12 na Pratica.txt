@@ -1,0 +1,23 @@
+# DDS: NR-12 na Prática — A Avaliação de Risco que Não Vive no Gaveteiro
+
+Existe um documento que aparece em praticamente toda fábrica brasileira, e que a maioria dos trabalhadores nunca viu de perto. Ele tem um nome pomposo — Avaliação de Risco das Máquinas — e existe em uma pasta, com data, assinatura e um carimbo da auditoria. A pergunta que surge na cabeça de quem pega esse papel na mão é sempre a mesma: isso foi feito para proteger alguém ou foi feito para ser mostrado a alguém?
+
+A distinção importa porque a NR-12 não pede um documento. Ela pede um processo. A norma estabelece que toda máquina deva ter proteção adequada, que os dispositivos de segurança existam e funcionem, e que o risco seja gerenciado. O documento é apenas o registro disso. Quando a avaliação fica apenas no gaveteiro, a máquina continua exatamente igual, com a mesma guarda improvisada, o mesmo sensor bridgeado e o mesmo botão de emergência que ninguém sabe onde fica.
+
+Um documento de avaliação de risco de máquina normalmente tem quatro camadas. A primeira é a identificação dos perigos: quais pontos da máquina podem causar dano, e de que tipo. A segunda é a estimativa de risco, combinando a probabilidade de ocorrência com a severidade do dano. A terceira é a definição das medidas de redução — e aqui está o ponto crucial: a ordem das medidas importa mais do que a quantidade. Primeiro se elimina o perigo; depois se reduz a exposição por proteção fixa; depois por proteção móvel com intertravamento; depois por dispositivo de segurança; e só no fim se recorre ao EPI. Uma empresa que "soluciona" o risco da máquina com capacete de segurança inverteu a hierarquia e não resolveu nada.
+
+A quarta camada é a camada que quase sempre falta: a verificação de que as medidas funcionam. Porque há uma diferença crucial entre proteção instalada e proteção funcional. Um sensor de presença pode estar instalado, corretamente posicionado no papel, e ter sido bridgeado com um elástico há seis meses porque "estava dando falso positivo". Um botão de emergência pode existir, ser vermelho, estar no lugar exigido pela norma e não ter sido testado desde a instalação. Nenhum dos dois está protegido. Ambos apenas parecem protegidos.
+
+É por isso que a avaliação de risco só funciona quando ela tem um ciclo. A máquina muda: o material muda, a velocidade muda, a pressão muda, a ferramenta muda, o operador muda de turno, o produto muda. Cada uma dessas mudanças invalida parte do que foi avaliado. Uma avaliação feita há três anos descreve uma máquina que talvez nem exista mais no mesmo lugar, operada com os mesmos parâmetros.
+
+O lado humano disso é o mais importante. A avaliação feita apenas pela engenharia, no escritório, sem quem opera a máquina todo dia, produz um documento tecnicamente correto e praticamente inútil — porque não sabe quais atalhos a operação cria, quais proteções são removidas "só para ganhar tempo", e qual barulho normal da máquina já está anunciando desgaste. O conhecimento de quem opera é parte insubstituível da avaliação.
+
+Um teste simples revela se a avaliação de risco vive na sua fábrica: pergunte a um operador qual foi a última mudança real de segurança que ele viu nascer de uma avaliação. Se a resposta vier devagar, se ninguém souber dizer, ou se a resposta for "só aquele papel novo", o documento está onde estava: no gaveteiro.
+
+A avaliação de risco não é burocracia que atrapalha a produção. É o mecanismo que impede que a produção aprenda, por tentativas e erros, que determinada máquina é segura. Uma fábrica pode aprender com um acidente, e aprender rápido, ou pode aprender antes dele, e isso se chama gestão de risco. A diferença entre as duas é que a primeira custa um ferido; a segunda custa um relatório.
+
+Fontes e Referências:
+- NR-12: Segurança no Trabalho em Máquinas e Equipamentos.
+- NR-12 Anexo I — Proteções e dispositivos de segurança.
+- ISO 12100: Safety of machinery — Risk assessment and risk reduction.
+- ISO 13849-1: Safety of machinery — Safety-related parts of control systems.

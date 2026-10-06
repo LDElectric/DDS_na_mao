@@ -1,0 +1,21 @@
+# DDS: Quedas em Casa — O Chão que Machuca Mais do que Parece
+
+Existe uma causa de lesão que lidera os atendimentos de emergência em qualquer país e que quase não aparece em discussão de segurança do trabalho: a queda doméstica. Ela acontece no banheiro, na escada, no corredor e na soleira, e produz fratura de quadril, de punho, de fêmur e traumatismo craniano — sobretudo em idosos, mas não apenas.
+
+A mecânica é simples e subestimada. Perda de apoio, desequilíbrio, superfície instável ou visão ruim. Cada um desses fatores existe em casa com frequência: tapete que desliza, piso molhado, escurecimento súbito ao acender a luz, objeto no chão e bicho doméstico no caminho.
+
+Vale a iluminação. Escada sem luz no primeiro degrau, corredor escuro e banheiro sem lâmpada são causas diretas. Quando a pessoa acorda de madrugada e precisa enxergar em poucos segundos, iluminação deficiente não é conforto — é a diferença entre piso e acidente.
+
+Há também o apoio. Barra no banheiro, corrimão na escada, tapete antiderrapante e alça de apoio existem para quando o equilíbrio falha. O erro é tratá-los como sinal de idade: eles são projeto de prevenção, e projeto de prevenção serve para qualquer pessoa que esteja desequilibrada no momento.
+
+O caso da escada merece destaque. Descer é mais perigoso do que subir, porque o corpo avança além do apoio e a energia cai junto. Fazer a escada olhando para o degrau, sem celular na mão, sem carga que ocupe as duas mãos e com o piso limpo, resolve a maior parte dos eventos.
+
+A encostada é o gesto mais subestimado de todos. Quando a pessoa sente tontura, fraqueza ou desvio, ela tende a continuar andando até o destino. Sentando-se ou apoiando-se imediatamente muda completamente o risco — e é uma decisão de segundos.
+
+A pergunta prática: se você precisasse descer a sua escada às três da manhã, sem celular, o que estaria no caminho? Se houver qualquer coisa, o risco está no seu corredor.
+
+Fontes e Referências:
+- NR-17: Ergonomia — acessos, iluminação e circulação.
+- ABNT NBR 9050: Acessibilidade — apoios e contrapisos.
+- Sociedade Brasileira de Geriatria e Gerontologia — prevenção de quedas.
+- American Heart Association — primeiros socorros.

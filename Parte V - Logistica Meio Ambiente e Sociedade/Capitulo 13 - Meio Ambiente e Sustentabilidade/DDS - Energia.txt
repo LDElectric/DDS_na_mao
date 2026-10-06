@@ -1,0 +1,21 @@
+# DDS: Energia — O Consumo que Ninguém Vê na Produção
+
+Existe um custo que aparece no fim do mês e não é atribuído a ninguém: a conta de energia. Ela chega global, chega cheia de detalhe e é paga sem discussão — porque discutir exigiria saber qual setor, qual equipamento e qual turno gera o que. Enquanto essa informação não existir, a energia é tratada como despesa fixa, e despesa fixa não é gerida.
+
+O consumo tem endereço e quase sempre tem desperdício. Equipamento ligado sem uso, motor dimensionado acima da necessidade, iluminação acesa em área desocupada, ar-condicionado em ambiente aberto, ar-comprimido vazando pela mangueira e carga reativa que penaliza a fatura. Cada um desses casos é técnico, mensurável e corrigível.
+
+Vale o caso do ar comprimido. Ele é um dos custos mais altos de qualquer planta industrial e um dos mais ignorados. Um vazamento de poucos milímetros custa milhares por ano, porque o compressor trabalha 24 horas para repor o que escapa. Medição de vazamento e plano de correção são medidas de retorno rápido — e elas existem há décadas.
+
+Há também a carga reativa. Fator de potência baixo significa que a energia chega e não é convertida em trabalho útil, e a concessionária cobra por isso. Capacitor, correção de fator e leitura de medidor são assuntos de engenharia, mas o efeito aparece diretamente na conta e no desperdício do sistema.
+
+A energia de emergência tem prioridade própria. Iluminação de saída, bomba de incêndio, exaustão e comunicação precisam ser alimentados em qualquer condição — e o dimensionamento desses circuitos deve ser separado do consumo de processo. Quando os dois disputam o mesmo quadro, a emergência fica exposta.
+
+Outro ponto é o desligamento real. Desligar no disjuntor, e não no botão de comando; conferir modo de espera; e programar parada de turno. Energia em standby parece insignificante em cada equipamento, e em soma vira uma linha relevante da fatura.
+
+A pergunta prática: qual é o equipamento que mais consome energia neste setor? Se ninguém souber, ninguém está olhando.
+
+Fontes e Referências:
+- ABNT NBR ISO 50001: Sistemas de gestão da energia.
+- ABNT NBR ISO 14001: Sistemas de gestão ambiental.
+- INMETRO/ANEEL — medição e fator de potência.
+- NR-10: Segurança em Instalações e Serviços em Eletricidade.

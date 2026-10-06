@@ -1,0 +1,28 @@
+# DDS: A Reação que Ninguém Esperava — o Perigo Oculto dos Produtos de Limpeza
+
+Se você perguntar a um operador onde está o risco químico mais óbvio da fábrica, ele provavelmente vai apontar para o galão de solvente, o tambor de ácido ou o tanque de produto. É uma resposta razoável. Mas se a pergunta for qual é o acidente químico mais fácil de acontecer e mais difícil de prever, a resposta muda: está no armário de limpeza, no carrinho da copa e no banheiro do vestiário.
+
+A razão é simples. Os produtos de limpeza são os únicos agentes químicos que circulam pela empresa sem nenhum controle técnico formal. Ninguém faz análise de risco para saber o que vai acontecer se o empregado da faxina misturar o derivado de cloro com o removedor de amônia. Ninguém emite uma permissão de trabalho para encher um balde. E ainda assim é exatamente aí que acontecem as intoxicações graves — e não por acaso: essas misturas produzem gases que não precisam de faísca, de chama ou de equipamento energizado para provocar a primeira vítima.
+
+As duas reações mais importantes para conhecer são estas. A primeira é entre o hipoclorito de sódio — o cloro ativo presente na água sanitária, na lavanderia institucional e em parte dos produtos de múltiplo uso — e a amônia, presente em desengraxantes e em alguns limpadores. O resultado são as cloraminas, gases que causam irritação intensa dos olhos, da garganta e dos pulmões, podendo evoluir para edema pulmonar em poucas horas. Alguém que tossiu à noite e acordou sem ar é um quadro clássico de intoxicação por cloramina.
+
+A segunda combinação é talvez a mais perigosa: hipoclorito com ácido. Desincrustantes, removedores de calcário e produtos de limpeza de banheiro quase sempre contêm ácido. A reação libera gás cloro, o mesmo agente químico empregado como arma na Primeira Guerra Mundial. Cloro inalado em concentração suficiente queima a córnea, o nariz, a traqueia e os alvéolos, com alta mortalidade.
+
+E há uma terceira armadilha, menos letal mas mais frequente: água oxigenada com vinagre forma ácido peracético, e água oxigenada com substâncias orgânicas pode favorecer incêndio. A falsa ideia de que produtos de cozinha ou de casa são inofensivos é justamente o que faz a mistura parecer segura.
+
+A NR-26 exige sinalização adequada, e a NBR 14725 padroniza as fichas de segurança. No plano operacional, o que funciona de verdade é simples e depende de disciplina:
+
+1. Proibição absoluta de mistura. Só se mistura o que o fabricante indica de forma explícita. Na dúvida, a resposta é não misturar.
+2. Segregação física do estoque. Ácidos longe de hipocloritos e de amônias, em armários separados, nunca na mesma prateleira. Um carrinho com seis produtos é um acidente esperando pela combinação errada.
+3. Identificação e controle de acesso. Produto transferido da embalagem original precisa ser rotulado com nome e concentração. Armário trancado, restrito à equipe responsável, fora do alcance de quem vai fazer uma "limpeza rápida".
+4. Diluição correta e medida. Diluir com água, na ordem indicada no rótulo, usando medidor. Nunca "no olho", nunca "um pouco mais forte": produto de limpeza mais concentrado não é mais limpo, é mais perigoso.
+
+Há um detalhe cultural que vale nomear. A área de limpeza costuma ser a última a receber treinamento e a primeira a receber improviso. Quem limpa tem pressa, muitas vezes não tem formação formal e raramente tem acesso direto ao SESMT. É por isso que os acidentes de limpeza se concentram ali — e por isso que vale incluir copeiros e auxiliares nas campanhas e nos treinamentos, em vez de tratá-los como "equipe de apoio".
+
+Uma mistura acidental de produtos é, tecnicamente, uma reação química não planejada acontecendo dentro da empresa, com pessoas dentro. Tratar isso com a seriedade que um laboratório exigiria — etiqueta, incompatibilidade, armário, instrução — é o que separa a limpeza concluída do acidente inevitável..
+
+Fontes e Referências:
+- NR-26: Sinalização de Segurança.
+- NBR 14725: Ficha de Informações de Segurança de Produtos Químicos (FISPQ).
+- GHS (Globally Harmonized System) — Perigos de reação e incompatibilidades químicas.
+- Centers for Disease Control and Prevention (CDC) — Guidelines for Cleaning and Disinfecting in Workplaces.

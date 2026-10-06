@@ -1,0 +1,25 @@
+# DDS: Intertravamento — A Costura que Some quando a Produção Apertar
+
+Uma porta de proteção com sensor funciona muito bem no dia da instalação. Funciona no teste da fábrica. E funciona mal no terceiro mês, quando alguém precisa passar a peça com a mão e a porta atrapalha, quando o sensor dá falso positivo e a linha para, e quando alguém resolve "dar um pulo" e amarra a porta aberta com uma correia plástica.
+
+Esse gesto tem nome técnico: bypass. E ele é a principal causa de não funcionamento de sistemas de segurança em máquinas. Não porque o intertravamento seja ruim, mas porque ele atrapalha. Ele impede o ciclo quando a porta não está fechada, e isso significa que alguém, em algum momento, vai precisar que o ciclo rode com a porta aberta. Aí nasce a pergunta que o sistema de segurança precisa responder sozinho: por que a porta precisa estar aberta para fazer isso?
+
+Quando a resposta é "porque o processo precisa disso", existe uma decisão de engenharia escondida. Se a abertura da proteção é realmente necessária para produzir, a solução não é retirar o sensor; é redesenhar o processo para que a proteção só precise estar aberta fora do momento perigoso, ou então substituir o intertravamento por um sistema de tempo e velocidade que permita carregar e descarregar com a porta aberta e só bloqueie o movimento perigoso quando houver interferência.
+
+O intertravamento, portanto, não é um sensor. É uma condição de segurança: o movimento perigoso só é possível quando a pessoa está protegida. Sensor sem condição de segurança é apenas um contato elétrico.
+
+A ISO 14119 define requisitos importantes para esses dispositivos. Entre os mais relevantes: o dispositivo deve ter nível de segurança adequado ao risco; deve ser resistente a tentativas de burlar; deve incluir proteção contra falhas; deve impedir o acionamento enganoso por meios como chaves, ímãs e objetos sólidos; e deve ser possível detectar o bypass. Esse último ponto é o que mais incomoda as operações: um intertravamento bem feito sabe quando foi burlado. Ele não impede que alguém amarre a porta, mas registra ou bloqueia a partida quando detecta a condição anormal.
+
+Aqui está a parte que costuma faltar nas empresas brasileiras: o uso de chave com codificação. A chave só pode ser retirada no modo seguro, com a máquina parada. Isso elimina o bypass do tipo "deixo a chave no chaveiro enquanto a porta fica aberta". Quando a chave é retirada e o sensor ainda acusa porta aberta, o sistema registra falha de segurança e exige reinício.
+
+O que fazer quando a proteção atrapalha a produção? Essa é a pergunta operacional, e a resposta profissional tem quatro saídas, em ordem de preferência. Primeiro: eliminar a necessidade de abrir, mudando o método de carga e descarga. Segundo: mudar o momento, abrindo só na parada e com tempo definido para carregar. Terceiro: usar tecnologia, com sensor de área e muting controlado e monitorado. Quarto: aceitar a exposição, documentando o risco, com EPI adequado e revisão formal das opções. A opção "sempre aberto" só é aceitável como último recurso e com gestão formal de risco. Sempre aberto sem gestão é acidente adiado.
+
+Há uma consequência cultural que vale observar: cada vez que um intertravamento é burlado e não gera consequência, o próximo burlar fica mais fácil. O sinal de um sistema de segurança maduro é o contrário — o bypass é detectado, comunicado e tratado como evento. Uma fábrica onde ninguém nunca viu ninguém ser punido por tirar uma proteção, e também onde ninguém nunca viu ninguém ser parabenizado por reportar um problema, tem um problema de sinal, não de pessoas.
+
+O intertravamento é uma costura. Costura que não aparece na foto do equipamento, que ninguém sente no dia a dia e que só falha quando o ponto mais frágil cede. O que a mantém firme não é o sensor; é a organização que decide não improvisar quando ele atrapalha.
+
+Fontes e Referências:
+- NR-12: Segurança no Trabalho em Máquinas e Equipamentos.
+- ISO 14119: Interlocking devices associated with guards — Design principles for configuration, installation and maintenance.
+- ISO 13849-1: Safety-related parts of control systems.
+- ISO 13857: Distâncias de segurança para evitar que partes do corpo entrem na zona de perigo.

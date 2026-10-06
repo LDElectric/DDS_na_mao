@@ -1,0 +1,19 @@
+# DDS: Aterramento — O Fio que Ninguém Vê e que Segura o Mundo
+
+Existe um condutor em toda instalação elétrica que não leva energia, não alimenta equipamento e não é medido no fim do mês. Ele não tem função aparente. É o aterramento. E é justamente por não ter função aparente que ele costuma ser o primeiro a ser substituído por algo mais barato, o primeiro a ser cortado quando falta espaço no tubo e o último a ser testado quando algo dá errado.
+
+A função do aterramento é oferecer um caminho para a corrente quando algo falha. Se a carcaça metálica de um equipamento ganha tensão por um furo no isolamento, o aterramento permite que a corrente flua por ali e acione a proteção, interrompendo o circuito. Sem aterramento, a carcaça fica viva, ninguém percebe, e a primeira pessoa que encostar fecha o circuito pelo corpo. O aterramento é a diferença entre uma falha que vira um estouro no quadro e uma falha que vira um acidente na pessoa.
+
+A continuidade é o ponto técnico que quase sempre escapa. Ter um fio verde-e-amarelo conectado não significa ter aterramento. Se o condutor está rompido dentro do tubo, se o terminal está oxidado, se o eletrodo está seco, se a ligação em um dos elos da cadeia está frouxa, o caminho existe no desenho e não existe na prática. Por isso os testes de continuidade e de resistência de aterramento existem — e por isso eles precisam ser repetidos, não apenas realizados na entrega da instalação.
+
+Vale o caso do equipamento móvel. Uma furadeira, um computador ou um inversor ligado em tomada sem aterramento não é apenas um risco para a pessoa: é um risco para o equipamento, porque a tensão induzida não tem para onde ir e passa a circular por outros caminhos. É por isso que a NR-10 reforça a importância de aterramento eficaz em instalações e de proteção contra contactos indiretos.
+
+Existe também o lado da organização. Quando um cabo de aterramento é desconectado durante uma manutenção e ninguém reconecta, o sistema continua funcionando por meses sem ninguém notar. Não há alarme, não há falha visível, não há ninguém reclamando. É uma falha silenciosa, do tipo que só aparece no momento exato em que seria necessária. Testar aterramento depois de toda intervenção é o gesto que separa o serviço concluído do serviço apenas encerrado.
+
+Uma regra prática vale para tudo: se o fio de aterramento é o primeiro a ser removido quando falta espaço, ele é o primeiro a ser verificado quando falta segurança. Aterramento não é item opcional de instalação. É o item que transforma uma falha em evento administrável.
+
+Fontes e Referências:
+- NR-10: Segurança em Instalações e Serviços em Eletricidade.
+- IEC 60364-4-41: Proteção contra choques elétricos.
+- IEC 60364-5-54: Sistemas de aterramento e condutores de proteção.
+- ABNT NBR 5410: Instalações elétricas de baixa tensão.

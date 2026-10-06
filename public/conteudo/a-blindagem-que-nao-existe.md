@@ -1,0 +1,23 @@
+# DDS: A Blindagem que Não Existe — Quando a Proteção de Partes Móveis é Removida
+
+Existe um acordo não escrito na maioria das fábricas: para consertar qualquer coisa, é preciso tirar a proteção. É um acordo prático, compreensível — e quase sempre ignorado. A máquina para, alguém se inclina por cima da bancada, mexe no mecanismo, e a placa de proteção fica apoiada na parede, do lado de fora, "só por enquanto". A tarefa leva dez minutos. A placa volta ao lugar em dez minutos também. Mas entre esses dois dez minutos mora a maioria dos acidentes de máquina em que a vítima é alguém que estava ali apenas de passagem, ou o próprio manutenção que terminou apressado.
+
+A NR-12 é a norma que rege segurança no trabalho em máquinas e equipamentos, e ela tem uma exigência que costuma ser mal compreendida: proteção deve existir para proteger, não para satisfazer auditoria. Uma proteção de partes móveis que pode ser removida sem ferramenta é uma proteção que não resiste ao primeiro momento de pressa. Isso significa que em qualquer projeto sério de proteção, a remoção exige uma ferramenta específica — e a máquina só pode funcionar com o conjunto montado. Esse detalhe pequeno separa um sistema real de proteção de um cenário de teatro montado para a visita.
+
+A física do perigo explica a urgência da questão. Uma mão, um braço ou o rosto a centímetros de um ponto de prensagem, de um fuso de rosca em rotação, ou de um eixo que "só" gira a 500 rpm. O que a percepção equivocada sempre subestima é a velocidade. Uma máquina que parece lenta na demonstração pode executar o ciclo em menos de um segundo, e o tempo de reação humano para retirar a mão está na casa dos décimos de segundo. Não existe reflexo capaz de salvar uma mão dentro de uma prensa.
+
+Por isso, os requisitos práticos de uma proteção de partes móveis se resumem a alguns princípios que valem para qualquer equipamento: ela deve impedir o alcance do ponto perigoso ao longo de toda a operação, não apenas no início; ela deve resistir ao uso normal e à tentativa de removê-la; ela não pode atrapalhar o processo a ponto de ser "contornada" com improviso; e, quando precisa ser aberta para manutenção, existe um procedimento formal que normalmente é chamado de bloqueio e etiquetagem.
+
+O ponto que merece atenção especial é a diferença entre proteção fixa e proteção móvel. A proteção fixa é pregada à estrutura e não se move em operação — a ideal. A proteção móvel é articulada ou removível, e existe por uma razão prática válida: é preciso acessar o processo. Mas proteção móvel sem intertravamento é apenas uma porta decorativa. Sem um sensor ou chave que impeça o fechamento da máquina enquanto o operador está dentro da área, o movimento de abertura da proteção já é o momento de exposição.
+
+É aqui que entra a diferença entre o que a norma pede e o que a engenharia de segurança descobre quando acompanha os acidentes de perto. O que a norma pede é: proteção presente, intertravada quando móvel, bloqueio na manutenção. O que os relatórios de investigação encontram, repetidamente, é a mesma sequência: um intertravamento foi "contornado" com uma arame ou uma fita, porque atrapalhava a produção; ninguém comunicou a liderança; a proteção foi retirada para "trocar a peça"; e na semana seguinte, alguém não estava mais no posto.
+
+Por isso, a pergunta que o tema deve deixar é simples e desconfortável: quando você tira a proteção para fazer um ajuste rápido, quem é a pessoa que está do outro lado da máquina? Não é uma pergunta teórica. É a pergunta do seu colega que passa pelo corredor no exato segundo em que o ciclo é acionado.
+
+Uma máquina protegida é uma máquina que aceita ser mantida em produção. Uma máquina que depende da memória de quem opera não tem proteção — tem apenas um operador sortudo. A diferença entre as duas é a diferença entre uma norma que é cumprida e uma norma que é apenas lembrada.
+
+Fontes e Referências:
+- NR-12: Segurança no Trabalho em Máquinas e Equipamentos.
+- NR-12: Anexo I — Proteções e dispositivos de segurança em máquinas.
+- ISO 12100: Safety of machinery — General principles for design — Risk assessment and risk reduction.
+- ISO 14119: Interlocking devices associated with guards.

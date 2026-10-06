@@ -1,0 +1,28 @@
+# DDS: O Improviso de Ferramentas — Quando a Gambiarra Vira Método
+
+Existe uma cena que qualquer técnico de manutenção reconhece de imediato: alguém ajoelhado no chão, com um pedaço de mangueira, dois fios e uma abraçadeira, tentando resolver um problema que já tem solução pronta na loja de peças. A pergunta quase sempre é a mesma: por que não foi buscar a ferramenta certa? E a resposta, quase sempre, tem três partes — não tinha, estava ocupada, e dava para resolver ali mesmo.
+
+Esse é o Improviso de Ferramentas. Ele é menos visível que o improviso de procedimento, mas produz o mesmo tipo de resultado: um sistema que funciona até o dia em que não funciona. E funciona mal, porque gambiarra não tem análise de falha, não tem controle de qualidade, não tem limite de aplicação e não tem previsão de quando vai ceder.
+
+O que a NR-12 estabelece sobre isso é direto: as partes das máquinas e dos equipamentos não podem ser alteradas, removidas ou modificadas de forma a comprometer a segurança. Isso inclui improvisar dispositivos de segurança, substituir peças por outras com dimensões diferentes e usar materiais que não foram especificados para aquele ponto. A razão técnica é simples e não admite discussão: um componente foi dimensionado para uma carga específica, com uma margem específica, e dentro de um sistema de proteção que foi verificado com aquele componente. Trocar o componente muda a equação inteira, e ninguém recalculou nada.
+
+O improviso de ferramenta manual tem o mesmo problema em menor escala, e com um agravante: o risco aparece no momento em que a ferramenta escorrega. Chave de boca errada, chave de fenda com cabo solto, alicate usado como martelo, martelo com cabeça frouxa, chave de torque usada sem torquímetro. Todos são situações comuns, e todos têm a mesma origem: a pressa por resolver agora.
+
+Vale falar de uma ferramenta específica, porque ela concentra uma quantidade impressionante de acidentes: a chave de impacto. Usada com soquete errado, ou com soquete sem acoplamento, ela pode projetar o soquete com energia suficiente para atingir o olho. O mesmo vale para ferramentas de impacto pneumático: ar comprimido na direção errada, ou a ferramenta conectada sem retenção, transforma a peça em projétil. Ferramenta de impacto exige a peça correta, o acoplamento correto e a verificação de que nada está com folga.
+
+O que a NR-17 acrescenta nesse ponto é o conceito de esforço e o limite de aplicação de força. Existe diferença entre apertar um parafuso e forçar o ponto de quebra. Quando a ferramenta não tem a capacidade adequada, a pessoa aumenta o esforço e a ferramenta falha — ou cede. Nenhuma das duas opções é segura.
+
+O que substitui o improviso, na prática, é organização e política clara:
+
+1. Ferramenta certa disponível. Se a loja de peças não tem a ferramenta, existe uma decisão de gestão a tomar: comprar, alugar ou terceirizar. O que não pode é sobrar para o improviso.
+2. Lista de ferramentas obrigatórias por tipo de manutenção. Cada tarefa crítica tem uma lista mínima. Se algum item não está disponível, a tarefa não começa.
+3. Proibição explícita de gambiarra em proteção e segurança. Não é sugestão; é regra, porque é justamente aí que a improvisação cria risco para terceiros.
+4. Treinamento e competência. Quem opera ferramentas de impacto, sistemas de torque ou equipamentos críticos precisa estar habilitado para aquilo.
+
+O improviso de ferramenta não costuma nascer de falta de conhecimento. Nasce de uma pergunta de gestão que ninguém respondeu: o que fazemos quando a ferramenta certa não está disponível? Enquanto essa pergunta ficar sem resposta, a gambiarra continua sendo o método mais eficiente que a empresa possui.
+
+Fontes e Referências:
+- NR-12: Segurança no Trabalho em Máquinas e Equipamentos.
+- NR-17: Ergonomia (esforço, aplicação de forças e limites de aplicação).
+- NR-6: EPI — adequação à ferramenta e à atividade.
+- Procedimentos de manutenção segura e gestão de ferramentas (ISO 55000 — gestão de ativos, aplicável ao controle de ferramentas críticas).

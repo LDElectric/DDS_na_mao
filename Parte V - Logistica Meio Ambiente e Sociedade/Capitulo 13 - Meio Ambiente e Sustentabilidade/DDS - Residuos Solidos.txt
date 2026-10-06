@@ -1,0 +1,21 @@
+# DDS: Resíduos Sólidos — A Classificação que Decide o Destino
+
+Existe um momento em que o resíduo deixa de ser lixo e passa a ser um problema de gestão: o momento em que alguém escolhe o container. Se o óleo de motor foi para a caixa comum, se a lâmina cortante foi para o saco plástico, se o resíduo químico foi misturado com a sobra de refeição, a solução do problema foi trocada por um problema maior. A classificação é a primeira decisão ambiental de todo processo.
+
+No Brasil, o sistema de coleta se baseia na diferenciação por tipo. Resíduo comum, resíduo reciclável, resíduo orgânico e resíduo de serviço de saúde têm destinos distintos — e quando se misturam, o conjunto passa a ser tratado pelo caminho mais caro e, muitas vezes, pelo mais inadequado. Misturar transforma reciclável em rejeito e rejeito em passivo.
+
+Vale a ficha de resíduo. Ela descreve a origem, a composição, o volume, a frequência e o destino. Quando a ficha existe e é conferida, a empresa sabe o que gera. Quando não existe, ela apenas imagina — e gestão por imaginação produz erro de classificação, erro de armazenamento e erro de destino.
+
+Há também o armazenamento temporário. Local coberto, piso impermeabilizado, contenção para derramamento, identificação clara, incompatibilidade respeitada e acesso controlado. Resíduo químico ao lado de resíduo orgânico, lâmina exposta em saco comum e contentor sem identificação são as falhas mais frequentes e mais evitáveis.
+
+O caso do resíduo perigoso merece atenção própria. Ele exige armazenamento compatível, etiqueta com classe de risco, contrato com empresa licenciada, manifesto de transporte e rastreabilidade até o destino final. Sem essa cadeia documental, a responsabilidade permanece com o gerador — e ela não se transfere por causa de um comprovante de retirada.
+
+A reciclagem não é gesto de boa vontade: é separação feita na origem, em volume suficiente e com material limpo. Papel com gordura, plástico com resíduo e vidro misturado perdem valor e voltam para o aterro. Quem separa certo devolve material; quem separa errado devolve problema.
+
+Pergunta direta: se alguém da fiscalização perguntasse hoje para onde vai o resíduo gerado no seu setor, você saberia dizer o destino final — ou apenas o nome da empresa que retirou?
+
+Fontes e Referências:
+- Lei nº 12.305: Política Nacional de Resíduos Sólidos.
+- Resolução CONAMA nº 335/2003 — classificação de resíduos sólidos.
+- ABNT NBR 10004: Resíduos sólidos — classificação.
+- NR-26: Sinalização de segurança — identificação de resíduos.

@@ -1,0 +1,21 @@
+# DDS: Dezembro — O Balanço e a Última Decisão do Ano
+
+Existe uma semana em que todo mundo quer a mesma coisa: encerrar. A produção fecha, as pendências se acumulam, a festa se aproxima e as férias começam. É o momento em que a pressa atinge o pico do ano — e é também o momento em que o cuidado atinge o mínimo. A soma dos dois produz a última semana mais perigosa de todo o calendário.
+
+A decisão mais importante de dezembro não é sobre festa: é sobre a ordem das coisas. Terminar o que está em andamento, não iniciar o que não pode ser concluído, desligar o que precisa ser desligado e deixar registrado o que ficou pendente. Começar uma tarefa no dia 28 é garantir que ela fique pela metade, sem bloqueio, sem identificação e sem responsável.
+
+Vale a parada. Equipamento que fica parado por duas semanas precisa de procedimento de desligamento, isolamento e, quando voltar, de inspeção antes da partida. Bateria, fluido, temperatura, vedação e proteção são itens que não se recuperam sozinhos — e a primeira partida depois do feriado longo é o momento em que essas falhas aparecem.
+
+Há também o festejo dentro da empresa. Bebida, área restrita, horário de trabalho e equipamento ligado não se combinam. Quando a confraternização acontece nas instalações, ela precisa acontecer fora do horário e fora da área operacional — não como rigor, mas porque a combinação já deu resultado em muitas empresas.
+
+Outro ponto é o próximo ano. Antes de fechar, vale anotar três coisas: o que deu errado e não foi corrigido, o que quase deu errado e ninguém contou, e o que mudou no risco do posto. Sem essas três notas, o próximo ano começa com a mesma informação do anterior — e a informação do ano anterior já não descreve mais a realidade.
+
+Antes de encerrar, uma pergunta: o que a sua área vai deixar escrito para quem assumir o primeiro turno de janeiro? Se a resposta for "nada", quem chegar vai descobrir sozinho.
+
+Ano não se encerra sozinho. Ele se encerra com alguém decidindo o que fica e o que não volta.
+
+Fontes e Referências:
+- NR-12: Segurança no Trabalho em Máquinas e Equipamentos — partida e manutenção.
+- NR-10: Segurança em Instalações e Serviços em Eletricidade — liberação e isolamento.
+- NR-05: CIPA — plano de trabalho e registro de eventos.
+- NR-17: Ergonomia — jornada, pausas e fadiga acumulada.

@@ -1,0 +1,21 @@
+# DDS: Junho — A Fogueira, o Calor e a Regra que Ninguém Precisa Escrever
+
+Existe um mês em que o risco de incêndio sai da fábrica e vai para a rua: junho. Fogueira, querosene, barraca, fogos de artifício e comida sobre brasa. Tudo isso acontece fora do controle da empresa, e mesmo assim chega à empresa no dia seguinte, com alguém queimado, intoxicado ou simplesmente atrasado.
+
+A proximidade entre a celebração e o posto é o que liga os dois assuntos. Quando a festa acontece no terreno da empresa, quando o evento é promovido pela empresa ou quando o retorno se dá direto ao turno, a responsabilidade deixa de ser apenas do particular. Nesses casos, o que se aplica é o mesmo que se aplica a qualquer operação: distância do material combustível, superfície livre, extintor acessível, afastamento de estrutura e nenhuma bebida antes de qualquer tarefa.
+
+Vale a física da fogueira. Querosene aplicado sobre brasa acesa é a causa clássica de queimadura grave — a chama sobe pelo fluxo de ar até a mão que segura a garrafa. Nenhuma quantidade de cuidado compensa a decisão de jogar combustível no fogo. A regra é simples e antiga: só lenha, nunca líquido.
+
+Há também o calor. Junho é inverno em boa parte do país, mas o interior e o centro-norte seguem quentes, e em cozinha de evento o calor é intenso. Hidratação, pausa e área fresca valem para quem monta barraca, para quem opera e para quem trabalha no processo — o corpo não distingue entre trabalho e celebração.
+
+Outro ponto é a criança. Fogueira acesa, fogos, escada improvisada e pátio escuro formam o cenário mais frequente de acidente doméstico nessa época. Supervisão, afastamento e iluminação são as três medidas, e todas são gratuitas.
+
+Vale imaginar o cenário: se a sua festa de junho acontecesse aqui dentro, o que precisaria ser mudado para não virar acidente? Se a resposta for "muita coisa", vale mudar por lá também.
+
+Fogo não celebra. Ele apenas obedece.
+
+Fontes e Referências:
+- NR-20: Inflamáveis e combustíveis — controle de fontes de ignição.
+- ABNT NBR 9075: Combate a incêndio em edificações.
+- NR-05: CIPA — prevenção e resposta a emergências.
+- Sociedade Brasileira de Medicina de Emergência — queimaduras.

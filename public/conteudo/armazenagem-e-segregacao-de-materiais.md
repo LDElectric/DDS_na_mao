@@ -1,0 +1,21 @@
+# DDS: Armazenagem e Segregação — O Que Está Junto demais
+
+Existe um erro de armazenamento que não exige erro de manutenção, nem falha de equipamento, nem pessoa desatenta. Ele acontece apenas quando dois materiais são colocados lado a lado. O óxido de cálcio com água, o solvente com o oxidante, o líquido inflamável com a fonte de calor, e o material incompatível com o produto que reage com ele. A reação não precisa de ignição. Ela só precisa de proximidade.
+
+A segregação é o princípio mais simples da armazenagem e o mais ignorado. Materiais incompatíveis não podem dividir o mesmo espaço, a mesma estante ou o mesmo recipiente externo. A classificação química diz quem reage com quem; o que falta é alguém olhar a etiqueta antes de apoiar o balde no chão ao lado de outro. Reação entre produtos ocorre com frequência em armários de limpeza, onde detergente, desengordurante e sanitizante convivem sem nenhuma separação.
+
+Vale a lógica de quantidades. A quantidade armazenada determina a classe de risco da área. Um litro em bancada é uma operação; cinquenta litros em armário é um armazenamento; duzentos litros em depósito é uma instalação com requisitos próprios de contenção, ventilação, sinalização e separação de substâncias. Muitas empresas mantêm volume total que já exigiria controle de área classe apenas porque os volumes estão divididos em vários recipientes menores — a soma, no entanto, é a mesma.
+
+Há também a compatibilidade com a própria estrutura. Madeira em contato com solvente, aço com ácido, plástico com solvente que o degrada, e chapa metálica que vaza quando o produto a corrói. O recipiente é parte do sistema de contenção e precisa ser compatível com o que guarda. Substituir um balde plástico por um de metal — ou o contrário — sem consultar a ficha é uma decisão de estética tomada sobre uma equação química.
+
+Outro ponto é a estabilidade. Frasco pesado em prateleira alta, garrafa sem para-luz, pilha de bombona em cima de outra, e recipiente sem identificação. Nenhum desses casos causa incêndio sozinho, mas todos produzem derramamento — e derramamento é como a maioria dos eventos químicos começa. Rótulo legível, fechamento íntegro e altura acessível são controle de primeira linha.
+
+A organização também tem relação com o tempo de resposta. Quando o material está segregado, identificado e com ficha ao alcance, a resposta a um derramamento é imediata. Quando está misturado, quem responde precisa primeiro descobrir o que é — e descobrir o que é, com fumaça ou com vapor, é a fase mais cara de toda resposta.
+
+A pergunta prática é direta: se este frasco vazar agora, o produto ao lado reage, absorve ou espalha? Se ninguém souber, a segregação não existe — existe apenas proximidade.
+
+Fontes e Referências:
+- NR-20: Inflamáveis e combustíveis — armazenagem e segregação.
+- GHS: Sistema Globalmente Harmonizado — classificação e compatibilidade.
+- ABNT NBR 14725: Classificação, FDS e rotulagem de produtos químicos (GHS).
+- NIOSH: Pocket Guide to Chemical Hazards.

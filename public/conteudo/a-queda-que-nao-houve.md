@@ -1,0 +1,21 @@
+# DDS: A Queda que Não Houve — O Acidente que Não Virou Notícia
+
+Existe um tipo de relato que quase nunca chega a nenhum lugar oficial. Alguém está em altura, sente o pé escorregar, agarra o que encontra, o sistema de retenção entra em tensão, e a pessoa volta para o trabalho em seguida. Não houve ferimento, não houve afastamento, não houve registro. Em algumas empresas, nem houve conversa. A pessoa apenas respira fundo e continua — porque parar para relatar parece exagero para algo que não deu em nada.
+
+Esses relatos são a maior fonte de informação que uma organização tem sobre o que está prestes a acontecer. Quando o talabarte segura, ele não está demonstrando que o sistema funciona. Ele está demonstrando que houve queda — e que, em outra circunstância, o sistema poderia não estar lá. Quase acidente de altura é acidente que falhou em acontecer por motivos pequenos: um segundo a mais, um metro a menos, um apoio que não cedeu.
+
+O problema do registro é de percepção. Relatar uma queda sem ferimento parece ocupar tempo de quem trabalha e de quem analisa. Mas a análise de quase acidente é barata: ninguém está ferido, a sequência está fresca e as condições são conhecidas. Já a análise de acidente é cara, e chega sempre depois. Toda investigação séria mostra o mesmo: os feridos anteriores contaram a mesma história, e ninguém ouviu.
+
+Vale o caso do sistema de retenção que foi acionado. Quando um talabarte entra em funcionamento, ele é consumido — o absorvedor abre, e o equipamento não pode mais ser usado. Se a pessoa não relata, o equipamento volta ao armário aparentemente intacto, e o próximo que o vestir recebe uma proteção que já gastou sua capacidade. Relatar não é só para investigação; é para que o equipamento errado não volte ao uso.
+
+Há também o lado da cultura. Uma organização que pergunta "o que quase aconteceu hoje?" e recebe silêncio está recebendo a resposta correta para a pergunta errada. As pessoas não escondem por má-fé: elas avaliam o custo de falar. Se relatar gera discussão, punição ou desconfiança, o relato desaparece. Se relatar gera correção, reconhecimento e mudança visível, o relato aparece.
+
+Uma prática simples muda o resultado: pedir explicitamente, no fim de todo trabalho em altura, o que quase aconteceu. Não o que deu errado — o que quase deu. A diferença de redação muda completamente a disposição de contar, porque ninguém precisa admitir falha para descrever uma queda evitada.
+
+A queda que não houve é a única oportunidade barata de aprender. Depois disso, o aprendizado passa a custar mais.
+
+Fontes e Referências:
+- NR-35: Trabalho em Altura — investigação e análise de eventos.
+- NR-05: CIPA — investigação de acidentes e incidentes de trabalho.
+- ISO 45001: Sistemas de gestão da saúde e segurança no trabalho.
+- ISO 31000: Gestão de riscos — diretrizes.

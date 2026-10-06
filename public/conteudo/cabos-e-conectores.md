@@ -1,0 +1,20 @@
+# DDS: Cabos e Conectores — A Falha que Não Avisa
+
+Existe um componente em toda instalação que é feito para ser flexível, transportado, dobrado, puxado e enroscado: o cabo. Por causa dessa flexibilidade, ele é também o único elemento que trabalha em movimento constante enquanto todo o resto fica parado. E é justamente por isso que ele concentra uma parte enorme das falhas elétricas — não porque seja fraco, mas porque é o item que mais sofre.
+
+A degradação do cabo é lenta e silenciosa. O isolamento resseca com calor e tempo, trinca com flexão repetida, cede com solvente e gordura, e cede mais rápido onde há dobramento. O ponto de maior tensão mecânica quase sempre é o mesmo: a entrada do conector, onde o cabo deixa de estar preso e passa a balançar. Ali o cobre sofre fadiga, o isolamento se rompe primeiro, e o curto nasce exatamente no lugar onde ninguém olha.
+
+Existem sinais que aparecem antes da falha e que qualquer pessoa pode identificar sem instrumento. Cabo com mancha de aquecimento, sobretudo junto ao terminal. Cabo com isolação que não volta ao lugar depois de dobrado. Conector com marca de calor ou com pinos escurecidos. Cabo puxado pelo fio em vez do próprio conector. Enrolamento apertado, que cria tensão permanente no cobre. Cada um desses sinais indica que o cabo já está trabalhando fora das condições para as quais foi dimensionado.
+
+Vale falar do uso e da conservação, porque é onde está a maior parte do problema. Cabo não é corda. Ele não deve ser usado para puxar carga, não deve passar sobre bordas vivas sem proteção, não deve ficar sobre tráfego de empilhadeira sem cobertura e não deve ser içado pela isolação. Cada uma dessas práticas encurta a vida útil de forma gradual, e a gradual é justamente a forma mais difícil de perceber.
+
+Há ainda o erro de dimensionamento. Seção correta para a corrente, comprimento adequado para a queda de tensão e proteção compatível com a seção. Cabo subdimensionado aquece, e o aquecimento não é imediato — ele se acumula turno após turno, até que o isolante cede. Quando isso acontece dentro de uma canalização fechada, o problema não aparece no cabo; aparece na fumaça.
+
+O conector também tem vida útil. Pinos de força, contato desgastado, trava quebrada e soquete de tomada frouxo geram resistência elétrica, e resistência gera calor. Aquecimento em ponto de conexão é uma das causas mais comuns de incêndio elétrico em instalações, e ele acontece exatamente no lugar que ninguém mede com termômetro.
+
+Uma rotina curta resolve a maior parte: inspeção visual do cabo antes de cada uso, substituição por prazo e não por falha, guardado sem dobra forçada, e substituição imediata quando houver qualquer marca de calor. Ferramenta boa é aquela que chega inteira ao fim do turno — e o cabo é a parte da ferramenta que decide isso.
+
+Fontes e Referências:
+- NR-10: Segurança em Instalações e Serviços em Eletricidade.
+- ABNT NBR 5410: Instalações elétricas de baixa tensão.
+- IEC 60245: Rubber-insulated cables — equipment with rated voltage.

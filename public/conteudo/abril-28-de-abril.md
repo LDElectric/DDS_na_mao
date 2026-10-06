@@ -1,0 +1,21 @@
+# DDS: Abril — 28 de Abril: A Data que Serve para Conferir o Ano
+
+Existe uma data que pertence inteiramente a quem trabalha: 28 de abril, Dia Mundial da Segurança e Saúde no Trabalho. Ela nasceu de uma tragédia e existe para lembrar que a prioridade em qualquer operação não é a produção, a qualidade nem o prazo — é a pessoa que executa. Todo ano se repete a campanha, e todo ano ela se esvazia em cartaz antes de virar prática.
+
+A utilidade real dessa data não é a celebração. É o exame. Um ano inteiro de operação passou, e o que mudou? Quantos riscos foram identificados e quantos foram de fato controlados? Quantos treinamentos foram realizados ou apenas assinados? Quantos quase acidentes foram registrados e investigados? A data serve de marco para essa conferência — e ela precisa de números, não de discurso.
+
+Vale a conversa que ninguém faz. Trabalhadores sabem exatamente onde estão os problemas: o equipamento que força postura, o treinamento que não corresponde à função, o EPI que não serve, o canal de denúncia que ninguém responde. A pergunta "o que você mudaria aqui?" é mais produtiva do que qualquer palesta — e ela raramente é feita porque a resposta costuma ser desconfortável.
+
+Há também a questão do reconhecimento. Quando o relato de risco é acolhido e corrigido, o canal funciona. Quando é ignorado ou tratado como reclamação, ele fecha — e uma empresa sem canal aberto não sabe o que está acontecendo no chão de fábrica.
+
+Quem circula pela planta sem aparecer na lista de riscos também entra nessa conferência: o terceiro, o prestador, o visitante. Em muitas plantas é justamente quem chegou recentemente, sem treinamento e sem familiaridade com o posto, quem mais se machuca. Conferir se a proteção alcança quem está de passagem faz parte do mesmo exame.
+
+Outro ponto é o compromisso do próximo ciclo. Todo 28 de abril vale anotar três mudanças concretas que serão feitas até o próximo 28 de abril, com prazo e responsável. Sem isso, a data vira ritual, e ritual não reduz acidente.
+
+Vale conferir agora: o que mudou no seu posto desde o último 28 de abril? Se a resposta for "nada percebido", a campanha chegou ao cartaz e não chegou ao trabalho.
+
+Fontes e Referências:
+- OIT: Dia Mundial da Segurança e Saúde no Trabalho (28 de abril).
+- NR-05: CIPA — prevenção, participação e investigação.
+- ISO 45001: Sistemas de gestão da saúde e segurança no trabalho.
+- NR-01: Disposições Preliminares e Gerenciamento de Riscos Ocupacionais.

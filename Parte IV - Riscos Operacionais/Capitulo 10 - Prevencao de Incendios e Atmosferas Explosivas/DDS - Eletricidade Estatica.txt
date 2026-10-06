@@ -1,0 +1,21 @@
+# DDS: Eletricidade Estática — A Faísca que Ninguém Produz de Propósito
+
+Existe uma fonte de ignição que não tem chama, não tem faísca visível, não faz barulho e não precisa de equipamento defeituoso. É a eletricidade estática. Ela nasce do atrito, da separação de superfícies e do movimento de fluido, e é capaz de provocar a ignição de vapor inflamável sem que ninguém tenha tocado em nada. Quem opera uma torneira de solvente, quem derrama produto num balde, quem anda sobre piso sintético com sapato de sola dura — todos produzem carga sem perceber.
+
+O mecanismo é simples e a consequência não. Duas superfícies se separam, uma fica carregada e a outra também, e a diferença de potencial se acumula até encontrar um caminho. Quando esse caminho é o ar entre o dedo e a peça metálica, o que acontece é uma descarga. Em ambiente seco, com baixa umidade, a produção de carga é maior e a descarga é mais energética. É por isso que os acidentes por estática se concentram no inverno e em ambientes com ar-condicionado.
+
+Vale o caso da transferência de produto. Líquido descendo por tubulação, escoando em duto ou caindo em recipiente gera carga por atrito e por arraste. Quando a linha não está aterrada, essa carga se acumula no líquido e no recipiente — e a ignição acontece no momento em que o produto encontra uma superfície com potencial diferente. É por isso que aterramento durante transferência, velocidade controlada e recipiente condutivo são requisitos, e não detalhes.
+
+Há também o caso do equipamento de ar-comprimido. Jato de ar em superfície isolante, sopro de poeira e limpeza com ar geram carga rapidamente. Em área classificada, isso basta para produzir ignição. O mesmo vale para borracha, plástico e tecido em movimento — correia transportadora, mangueira, adesivo e embalagem são fontes conhecidas.
+
+A forma de controle é sempre a mesma e tem três camadas: aterrar, aumentar a umidade relativa quando possível e eliminar a superfície que acumula carga. Aterramento com continuidade verificada é o que resolve de verdade. Um condutor que liga o equipamento ao chão sem continuidade é um condutor no desenho — e a carga continua onde estava.
+
+Vale a sequência de operação. Quando uma empresa controla ignição mas esquece a estática, ela remove o fósforo e mantém a faísca. Todo o controle de fontes de ignição — sem corte, sem solda, sem equipamento elétrico inadequado — perde valor se a estática continua produzindo descarga dentro da área classificada.
+
+Estática é um risco que parece pequeno porque nunca ninguém viu acontecer. É exatamente assim que ela funciona: invisível, silenciosa, e disponível o tempo todo.
+
+Fontes e Referências:
+- NR-20: Inflamáveis e combustíveis — controle de fontes de ignição.
+- NR-10: Segurança em Instalações e Serviços em Eletricidade — área classificada.
+- NFPA 77: Standard on Static Electricity.
+- ABNT NBR 5410: Instalações elétricas de baixa tensão — aterramento e equipotencialização.

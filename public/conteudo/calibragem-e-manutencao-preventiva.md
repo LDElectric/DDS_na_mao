@@ -1,0 +1,19 @@
+# DDS: Calibragem e Manutenção Preventiva — A Parada que Não Custa Dinheiro
+
+Existe um debate antigo entre quem responde pela produção e quem responde pela manutenção. Para o primeiro, parada programada é dinheiro jogado fora: a máquina está boa, o produto ia sair hoje, e agora existe uma linha ociosa. Para o segundo, a parada programada é a única chance de descobrir o que está se rompendo enquanto a máquina ainda funciona. Os dois raciocínios são corretos. O erro da organização é exigir que um deles vença.
+
+A manutenção preventiva funciona exatamente porque a corretiva não funciona: ela existe para ser feita quando o defeito ainda não virou parada. O exemplo mais claro é o do carro. Ninguém discute a troca de óleo com o óleo ainda limpo dentro do motor. Todo mundo discute quando há material sedimentado no fundo do cárter, porque o dano já está formado. Com equipamentos industriais, a diferença é de escala: um motor de grande porte pode ter o rotor já trincado em três pontos, e a vibração muda completamente de característica. Quando a máquina avisa, ela já está no fim da janela.
+
+Vale a pena falar em manutenção preditiva, porque é onde está a economia real. Ela não espera o defeito nem segue calendário fixo: observa sinais que mudam antes da falha. Temperatura acima do padrão, vibração acima do padrão, ruído com tom novo, pressão que oscila, consumo de energia que sobe sem mudança de produção. Esses sinais são baratos de medir e caríssimos de ignorar. A substituição do componente antes da ruptura custa o componente. Depois da ruptura, custa o componente, a parada, a equipe de emergência, o produto perdido e o acidente quase sempre ferido de alguém.
+
+Há também um erro de linguagem que atrapalha a organização: chamar toda parada programada de manutenção. Não é a mesma coisa. Manutenção preventiva segue um plano definido por fabricante ou por análise de condição, com intervalos conhecidos. Calibragem segue uma referência, e a diferença é que a calibração não impede a falha: ela mantém a exatidão do processo. Uma balança que não é calibrada não para de funcionar; ela passa a responder errado, e o erro se espalha pela cadeia inteira até chegar ao produto. É uma falha silenciosa, do mesmo tipo que a NR-12 tenta evitar quando exige que os dispositivos de segurança sejam testados.
+
+A NR-12 reforça essa lógica em um ponto específico: os dispositivos de segurança devem ser testados, e não apenas mantidos. Sensor, botão de emergência, intertravamento e sistema de parada de emergência têm ciclo de vida definido, com verificação periódica. Equipamento de segurança que não é testado é equipamento de segurança sem garantia de funcionamento, e a norma trata isso como falha, não como burocracia.
+
+Uma pergunta útil para encerrar: qual foi a última vez que alguém nesta planta parou uma máquina porque um número de vibração estava mudando, e não porque alguém reclamou? A resposta mostra se a empresa tem manutenção de verdade ou apenas conserto. O conserto espera o defeito. A manutenção conhece o defeito antes dele e age enquanto ainda dá para escolher.
+
+Fontes e Referências:
+- NR-12: Segurança no Trabalho em Máquinas e Equipamentos — manutenção e dispositivos de segurança.
+- NR-17: Ergonomia — atividades de manutenção e posições de trabalho.
+- ABNT NBR ISO 55000: Gestão de ativos.
+- ABNT NBR ISO 17359: Condição de monitoramento e diagnóstico de máquinas.

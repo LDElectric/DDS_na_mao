@@ -1,0 +1,19 @@
+# DDS: O Perigo da Rotina e a Identificação Rápida de Riscos
+
+A rotina é uma ferramenta poderosa para a eficiência, mas pode ser uma armadilha perigosa para a segurança. Quando executamos as mesmas tarefas diariamente no mesmo ambiente, o cérebro humano cria atalhos cognitivos para poupar energia. O resultado prático disso é o fenômeno conhecido como "habituação" ou cegueira por desatenção: passamos a enxergar condições anormais, como um cabo desgastado, um vazamento de óleo ou uma ferramenta mal posicionada, como parte natural da paisagem. O problema surge quando essa familiaridade nos impede de identificar um risco antes que ele se transforme em um acidente.
+
+A falha na percepção do ambiente não é apenas uma questão de descuido individual, mas um desafio sistêmico. A Administração de Segurança e Saúde Ocupacional dos Estados Unidos (OSHA) aponta de forma categórica que a falha na identificação prévia de perigos é uma das causas raízes mais frequentes de acidentes e doenças ocupacionais. No Brasil, a Norma Regulamentadora nº 1 (NR-1), expedida pelo Ministério do Trabalho e Emprego, corrobora essa premissa ao estabelecer que o Gerenciamento de Riscos Ocupacionais (GRO) depende fundamentalmente da identificação contínua e do levantamento de perigos antes do início de qualquer atividade. Sem essa identificação, nenhum plano de prevenção se sustenta.
+
+Para quebrar o ciclo da habituação e garantir uma identificação rápida e eficaz dos riscos, a equipe precisa adotar métodos ativos de observação diária:
+
+Varredura de 360 Graus: Antes de iniciar o trabalho ou ligar um equipamento, dedique de um a dois minutos para observar o entorno. Olhe para cima, para baixo e para os lados, verificando interferências, ferramentas soltas ou condições inseguras.
+
+O "Olhar de Principiante": Esforce-se para observar seu próprio posto de trabalho como se fosse o seu primeiro dia na empresa. Questione-se: "O que mudou aqui desde ontem? Existe algo fora do padrão?"
+
+Ação e Comunicação Imediatas: Identificar o risco é apenas metade do trabalho. A outra metade é isolar o perigo (quando possível) e comunicar imediatamente a liderança ou o SESMT, garantindo que o problema seja resolvido antes que o turno avance.
+
+A segurança não é um estado estático, mas uma prática de vigilância contínua. Quando normalizamos os pequenos desvios, entregamos nossa integridade física à sorte. Ao assumir o posto de trabalho hoje, vale o exercício prático de parar por um minuto e buscar ativamente um detalhe que a pressa ou a rotina costumam esconder. Romper a cegueira da rotina não toma mais do que alguns segundos, mas é exatamente essa pausa investigativa que garante o retorno seguro de cada profissional para sua casa ao fim da jornada.
+
+Fontes e Referências:
+- Ministério do Trabalho e Emprego (Brasil). Norma Regulamentadora nº 01 (NR-1) - Disposições Gerais e Gerenciamento de Riscos Ocupacionais.
+- Occupational Safety and Health Administration (OSHA). Hazard Identification and Assessment. (Diretrizes de práticas recomendadas para programas de segurança e saúde).

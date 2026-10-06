@@ -1,0 +1,20 @@
+# DDS: Andaimes — A Plataforma que Precisa Ser Merecida
+
+Existe uma estrutura que aparece nas fábricas e nas obras com uma periodicidade previsível: o andaime. Ele nasce quando uma tarefa fica alta demais para a escada e curta demais para a plataforma. É montado, usado por dias ou semanas, e depois desmontado. No intervalo, ele fica parado, disponível, e com a aparência de estar pronto — mesmo que ninguém tenha conferido.
+
+A montagem do andaime é um trabalho de altura em si, e é justamente por isso que ela não pode ser feita por qualquer pessoa. Quem monta precisa saber o que é estrutura, o que é travamento, o que é prancha e o que é guarda-corpo. Falta de travamento entre módulos, prancha assentada sem encaixe, base sem sapata sobre piso irregular, e altura montada acima da especificação são os erros que aparecem depois, quando a carga de pessoas e material já está em cima.
+
+O que sustenta a segurança do andaime é o conjunto, e não a peça. Plataforma sem guarda-corpo perde a proteção lateral. Guarda-corpo sem rodapé deixa cair objeto. Prancha sem fechamento permite passar mão ou pé. Rodapé sem travamento permite que a prancha deslize. Cada elemento existe porque o anterior deixou uma abertura — e essa lógica de complementaridade é o que faz o andaime parecer burocrático para quem só olha uma peça por vez.
+
+Vale o caso do piso irregular. Base de andaime sobre piso que ondula, sobre dreno, sobre grata ou sobre solo compactado sem sapata gera inclinação imperceptível que cresce com a altura. Seis centímetros de desnível na base podem virar trinta no topo, e isso é o suficiente para deslocar o centro de gravidade para fora da base. Por isso a instrução de apoio sobre fundação adequada não é detalhe de montagem: é condição de estabilidade.
+
+Há também a carga. Andaime não é depósito. Empilhar material, ferramenta pesada ou bobina em plataforma montada muda o esforço da estrutura e o centro de gravidade. A instrução de distribuição uniforme e dentro do limite de carga existe para evitar colapso, que é a forma mais grave de falha — porque derruba todo o sistema junto com as pessoas.
+
+A liberação é o momento decisivo. Ninguém deve usar um andaime sem identificação visível indicando que ele foi liberado, quem liberou e quando. O corte de fita vermelha, a etiqueta ou a placa de liberação transformam a estrutura de "parece pronto" para "está autorizado". Sem isso, a decisão de subir é individual — e decisão individual em estrutura montada por outra pessoa é o tipo de risco que não pode ser individual.
+
+A pergunta que resolve é curta: quem montou, quem conferiu e quem liberou? Se as três respostas forem o mesmo nome sem verificação, o andaime ainda não foi liberado — apenas montado.
+
+Fontes e Referências:
+- NR-18: Condições e meio ambiente de trabalho na indústria da construção.
+- NR-35: Trabalho em Altura.
+- ABNT NBR 6494: Segurança nos andaimes.

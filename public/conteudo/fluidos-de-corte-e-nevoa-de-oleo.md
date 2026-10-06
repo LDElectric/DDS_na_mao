@@ -1,0 +1,27 @@
+# DDS: Fluidos de Corte e Névoa de Óleo — o Risco da Mecânica Suja
+
+Existe um cheiro na usinagem que todo mundo reconhece: o cheiro de graxa queimada. Para muita gente ele faz parte do ambiente tanto quanto o barulho da prensa. Ele não é, porém, um marcador de ambiente fabril saudável. É o marcador de um processo que está jogando óleo, metal e calor no ar na forma de uma névoa respirável. A expressão técnica é névoa de óleo, e o que ela carrega é o resultado da fragmentação de um fluido sob a ação de um metal girando em alta velocidade.
+
+Entender como ela se forma explica por que ela é perigosa. O fluido de corte — oleoso, emulsionado ou sintético — é atomizado em microgotículas quando o metal da ferramenta ataca a peça em alta rotação e sob pressão. Parte do óleo fica retido na peça e na ferramenta. O restante se dispersa no ar como aerossol. Gotículas pequenas o suficiente são inaladas até os alvéolos; gotículas maiores se depositam na pele, no chão e, principalmente, nas roupas. Os limites de exposição para névoa de óleo mineral ficam na ordem de poucos miligramas por metro cúbico — números baixos, que exigem controle rigoroso, e não boa vontade.
+
+O que há nessa névoa não é apenas óleo. Dependendo da operação, podem estar presentes partículas metálicas ultrafinas — e o caso mais documentado é o de cromo e níquel, oriundos do trabalho com aço inoxidável — além de aditivos dos próprios fluidos: epóxis, liberadores de formaldeído, conservantes e nitritos. A combinação de fluido de corte com metais de liga é o cenário mais perigoso, porque o metal é o agente cancerígeno comprovado.
+
+As doenças que aparecem em trabalhadores de usinagem formam um espectro coerente. Dermatite de contato alérgica está entre as principais doenças ocupacionais do país entre trabalhadores expostos a fluidos. Ela se manifesta como avermelhamento, coceira e bolhas nas mãos e nos braços, com piora ao longo do turno e melhora durante a noite, porque é justamente durante o expediente que a pele fica em contato com o produto. Ao lado dela aparecem asma ocupacional, bronquite crônica e, em exposição prolongada, redução da função pulmonar. Há ainda os casos de pneumonite por névoa de óleo com hidrocarbonos policíclicos aromáticos, presentes em fluids derramados — situações com associação bem estabelecida com câncer de pulmão.
+
+Do ponto de vista normativo, a NR-15 trata de óleo mineral, chumbo, cromo e níquel, e a NR-20 cobre inflamáveis e combustíveis, que é a mesma família de materiais com que o óleo de corte dialoga. No plano operacional, o que decide é o seguinte:
+
+1. Aspiração localizada no ponto de geração. A névoa se forma na interface entre ferramenta e peça. Um sistema de captação nesse ponto remove a maior parte do aerossol; resolver apenas com ventilação geral é a solução mais cara e a menos eficaz.
+2. Velocidade de corte adequada. Velocidade excessiva, avanço excessivo e ferramenta gasta aumentam muito o calor e a geração de névoa. Ferramenta afiada é medida de segurança.
+3. Concentração do fluido dentro da faixa. Fluido muito diluído perde a lubrificação, gera atrito, aquece a peça e multiplica a névoa. Fluido em excesso desloca o problema. A faixa recomendada pelo fabricante precisa ser respeitada.
+4. Limpeza da bancada e da oleira. Piso coberto de óleo é piso escorregadio e piso contaminado. Limpar com frequência é requisito de segurança, não de estética.
+5. Barreira dérmica e higiene. Roupa de trabalho resistente a óleo, luva compatível com o fluido e lavagem das mãos antes de comer, fumar e ir ao banheiro.
+
+Há um detalhe que costuma passar batido: o óleo não fica na fábrica. Ele vai embora na roupa, no tênis, na toalha e no carro. Levar a roupa oleosa para a lavanderia doméstica transfere o risco para quem lava e leva o resíduo para casa. Onde há névoa de óleo, existe uma fronteira entre risco ocupacional e risco familiar que quase nunca foi desenhada.
+
+Névoa de óleo é um bom exemplo de como um risco invisível se disfarça de rotina. Ela está no ar, misturada ao barulho e ao calor, e ninguém a vê. O que a torna perigosa não é a toxicidade de hoje, mas a dose acumulada ao longo de anos.
+
+Fontes e Referências:
+- NR-15: Atividades e Operações Insalubres (Anexo 11 — Metais e seus sais).
+- NR-20: Segurança e Saúde no Trabalho para CNAE de Combate a Incêndio e Explosivos.
+- NIOSH — Occupational Exposure to Oil Mist (Critérios e recomendações).
+- IARC — Avaliação de névoas de óleo mineral e hidrocarbonos policíclicos aromáticos.

@@ -1,0 +1,21 @@
+# DDS: Prevenção na Fonte — O Controle que Custa Menos Depois
+
+Existe uma hierarquia em gestão ambiental que se repete em qualquer problema: evitar é mais barato do que tratar, e tratar é mais barato do que remediar. Evitar derramamento é mais barato do que recolher. Separar resíduo é mais barato do que classificar depois. Eliminar emissão é mais barato do que compensar. A ordem é óbvia quando escrita — e raramente é seguida quando a pressa aperta.
+
+A prevenção na fonte significa mudar o processo para que o impacto não seja gerado. Substituir produto por outro menos perigoso, alterar parâmetro para reduzir perda, instalar captação no ponto em que a fumaça nasce, trocar embalagem para diminuir volume de descarte e ajustar dosagem para evitar sobra. São decisões de projeto e de operação, não de fim de linha.
+
+Vale o custo comparado. Tratar efluente todo dia custa caro, todos os meses, para sempre. Reduzir a carga na origem custa uma vez e reduz permanentemente. Quando as duas soluções estão disponíveis, a segunda é quase sempre a que vale a pena — mas ela exige alguém pensando no processo, não apenas no fim do cano.
+
+Há também o caso do retrabalho. Produto fora de especificação vira resíduo; peça retrabalhada consome energia e material; e desperdício de matéria-prima é, ao mesmo tempo, perda financeira e geração de resíduo. Melhoria de qualidade é uma das medidas ambientais mais rentáveis que existem, e raramente é apresentada assim.
+
+Outro ponto é o licenciamento. Toda atividade potencialmente poluidora precisa de licença, e a licença descreve condições, limites e monitoramentos. Quando a operação muda sem comunicação ao órgão, a licença deixa de descrever a realidade — e a empresa passa a operar fora do que foi autorizado, mesmo que nada tenha piorado de fato.
+
+A mudança gradual é o inimigo silencioso: um pouco mais de produto, um pouco mais de descarga, um pouco mais de turno. Cada incremento parece pequeno isoladamente, e a soma ultrapassa o limite sem que ninguém assine uma decisão. Monitoramento contínuo existe justamente para enxergar essa soma.
+
+A pergunta prática: qual foi a última mudança feita no processo para reduzir geração de resíduo ou emissão? Se ninguém lembrar, o ambiente está sendo gerido pelo tratamento, não pela prevenção.
+
+Fontes e Referências:
+- ABNT NBR ISO 14001: Sistemas de gestão ambiental.
+- Lei nº 12.305: Política Nacional de Resíduos Sólidos — hierarquia de prioridade.
+- Resolução CONAMA nº 430/2011 — padrões de lançamento de efluentes.
+- ABNT NBR ISO 14004: Sistemas de gestão ambiental — diretrizes gerais.

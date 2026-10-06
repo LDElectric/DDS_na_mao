@@ -1,0 +1,21 @@
+# DDS: Líquidos Inflamáveis e Combustíveis — A Diferença que Atrapalha
+
+Existe uma distinção técnica que parece acadêmica até o momento em que ela decide qual procedimento vale. Inflamável e combustível não são sinônimos. A diferença está na temperatura em que o vapor do produto consegue formar mistura inflamável com o ar — e essa temperatura é o que determina onde o produto pode ser armazenado, como deve ser manuseado e que tipo de controle de ignição existe na área.
+
+O que a pessoa enxerga é o líquido. O que queima é o vapor. Essa é a ideia central, e ela muda a forma de olhar para qualquer recipiente aberto. Um balde de solvente parado não é perigoso pelo conteúdo; é perigoso pela camada de vapor que se forma acima e que se espalha pelo piso, porque vapor inflamável é mais denso que o ar em muitos casos e desce pelas ladeiras, escoa por canaletas e encontra uma fonte de ignição a metros de distância.
+
+A NR-20 organiza isso em níveis de risco e define, para cada um, as medidas de controle: instalação elétrica adequada, eliminação de fontes de ignição, ventilação, sinalização, treinamento, controle de estresse térmico e plano de emergência. A lógica é sempre a mesma — reduzir a chance de haver ignição disponível enquanto houver vapor presente, porque remover o vapor completamente, na maioria das operações, não é possível.
+
+Vale a questão do armazenamento. Recipientes aterrados quando transferindo produto, tampados quando parados, segregados por compatibilidade química e longe de fontes de calor, de operação de corte e de tráfego. Descarga de líquido em fluxo rápido gera eletricidade estática, e essa estática é ignição suficiente — é por isso que aterramento e velocidade limitada de transferência são requisitos técnicos, não preferências.
+
+Há também o caso do produto que não parece inflamável. Álcool em gel, tinta, thinner, solvente de limpeza, óleo vegetal em altas temperaturas e até resíduo de produto acumulado em pano podem sustentar combustão. Muitos acidentes domésticos e industriais começam com um produto que estava "guardado" ou "já seco", e que mantinha capacidade de ignição sem aviso.
+
+O ponto mais importante é a proximidade da operação de corte e solda. Trabalho com fogo ou com faísca a uma distância não definida de material inflamável é a causa clássica de incêndio industrial. Não porque a faísca seja forte, mas porque ela viaja, cai, permanece e encontra material que ninguém sabia estar ali. A distância segura é calculada, sinalizada e, quando não for possível manter, o material é removido ou protegido com tela ignífuga.
+
+Pergunta prática para encerrar: se este recipiente abrir agora, até onde o vapor alcança antes de perder energia? Se a resposta depender de vento, de porta aberta ou de sorte, então a operação não está controlada.
+
+Fontes e Referências:
+- NR-20: Inflamáveis e combustíveis — processo, armazenagem e transporte.
+- NR-10: Segurança em Instalações e Serviços em Eletricidade — área classificada.
+- GHS: Sistema Globalmente Harmonizado — classificação e pictogramas de inflamabilidade.
+- ACGIH TLV — limiares de exposição ocupacional para solventes.

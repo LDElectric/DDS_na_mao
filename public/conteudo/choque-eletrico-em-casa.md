@@ -1,0 +1,20 @@
+# DDS: Choque Elétrico em Casa — A Instalação que Ninguém Conferiu
+
+Existe uma instalação em toda residência que foi feita há muitos anos, por alguém, em algum momento, e que ninguém verificou desde então. Ela tem disjuntor, tem fiação aparente em alguns pontos, tem tomada em cada cômodo e, com frequência, tem aterramento ausente ou deficiente. Quando ela funciona, ninguém pensa nela. Quando dá choque, começa a investigação.
+
+Os sinais de instalação problemática são visíveis e não exigem técnico para serem percebidos: tomada com marcas de calor, disjuntor que dispara sem motivo, tomada sem tampa, fio descascado, porta de painel sem fechamento, chuveiro que dá choque com a mão úmida, e equipamento que "machuca" quando encostado. Todos esses sinais indicam que a instalação pediu ajuda antes de você encostar.
+
+Vale a umidade. Banheiro, área de serviço, cozinha e quintal combinam água e eletricidade — a combinação mais conhecida e mais evitável. Aterramento, disjuntor diferencial, chuveiro em conformidade e tomada protegida existem exatamente para isso, e sua ausência é a causa de boa parte dos acidentes domésticos.
+
+Há também o improviso. Fio pendurado, emenda sem conector, lâmpada em porta-lâmpada improvisado, tomada adaptada sem capacidade e aparelho ligado em extensão inadequada. Improviso elétrico não dá aviso — ele funciona até o dia em que o ponto de emenda aquece e o isolamento cede.
+
+O caso da criança é o mais grave. Tomada descoberta, objeto metálico na tomada e curiosidade por eletricidade. Tampas de proteção são baratas e existem há décadas; a ausência delas é a falha mais fácil de corrigir em qualquer casa.
+
+Outro ponto é a organização de extensões. Múltiplos adaptadores em uma tomada, extensão sobre tráfego, cabo dobrado e sobrecarga. O disjuntor pode não dimensionar essa situação porque a corrente individual de cada aparelho está dentro do limite — mas a soma não.
+
+A pergunta prática: quando foi a última vez que um eletricista conferiu a instalação da sua casa? Se ninguém lembra, a resposta é que ninguém conferiu.
+
+Fontes e Referências:
+- NR-10: Segurança em Instalações e Serviços em Eletricidade — princípios aplicáveis.
+- ABNT NBR 5410: Instalações elétricas de baixa tensão.
+- IEC 60364-4-41: Proteção contra choques elétricos.

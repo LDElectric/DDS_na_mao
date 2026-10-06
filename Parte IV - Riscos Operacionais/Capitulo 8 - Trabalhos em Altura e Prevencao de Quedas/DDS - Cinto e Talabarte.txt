@@ -1,0 +1,21 @@
+# DDS: Cinto e Talabarte — A Inspeção Antes de Subir
+
+Existe um equipamento de segurança que quase nunca falha sozinho: o cinto paraquedista. Ele é fabricado para suportar carga muito acima do que o corpo humano gera numa queda, com costuras testadas e metal dimensionado. Quando ele não protege, quase nunca é porque o cinto cedeu. É porque alguém não conferiu, ou não usou, ou prendeu no lugar errado.
+
+A inspeção antes de subir leva poucos segundos e verifica coisas que o olho entende sem treinamento. Tecido sem corte, sem mancha de químico e sem desgaste. Costura íntegra, sem fio cortado. Argolas sem trinca e sem deformação visível. Alavanca de travamento que fecha e trava. Talabarte sem nó improvisado, sem emenda feita no local, com absorvedor intacto e embalagem ainda fechada. Cada um desses itens se vê. O que não se vê é o histórico — e é por isso que existe etiqueta, fabricante, data de fabricação e registro de uso.
+
+Vale falar do absorvedor de energia, porque ele é a parte menos compreendida do sistema. Um talabarte com absorvedor é dimensionado para dissipar a energia da queda de forma controlada, evitando que a força sobre o corpo ultrapasse o limite que o organismo suporta. Se o absorvedor já foi acionado em um evento anterior — mesmo pequeno —, ele não pode mais ser usado, porque sua capacidade de deformação foi consumida. Talabarte acionado é talabarte descartado, e o descarte precisa ser visível para que ninguém o reaproveite.
+
+A altura do talabarte importa bastante. Talabarte de corpo inteiro com gancho longo, preso em pé, permite queda livre de vários metros antes de o sistema entrar em tensão. Reduzir a folga — prendendo na altura do peito com lanyard curto ou com ajuste — diminui a distância de queda e, com ela, a energia que o absorvedor precisa dissipar. É um detalhe de ajuste que muda o resultado inteiro.
+
+Há também o ponto de ancoragem, que não é o mesmo que ponto de apoio. Ancoragem precisa sustentar a carga de uma queda, que pode ser várias vezes o peso do corpo pelo efeito dinâmico do impacto. Poste, cano, grade de guarda-corpo ou estrutura improvisada raramente foram dimensionados para isso. A ancoragem é definida em projeto ou identificada por avaliação — nunca descoberta no momento.
+
+O erro mais comum continua sendo o mesmo: prender o talabarte no lugar disponível, e não no lugar correto. Gancho preso em trilho de guarda-corpo, preso em cabo de aço, preso em próprio cinto, preso atrás do corpo. Cada uma dessas posições existe porque era a mais próxima. Nenhuma delas protege do jeito que foi desenhado.
+
+Subir sem inspeção é uma decisão, não um esquecimento. A inspeção custa sessenta segundos. A alternativa custa tudo que o sistema deveria ter resolvido.
+
+Fontes e Referências:
+- NR-35: Trabalho em Altura — sistemas de proteção contra quedas.
+- NR-18: Condições e meio ambiente de trabalho na indústria da construção.
+- ABNT NBR 15836: Cintos para segurança tipo paraquedista.
+- ISO 10333-1: Personal fall-arrest systems — full body harnesses.

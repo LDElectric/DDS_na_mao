@@ -1,0 +1,23 @@
+# DDS: Hemorragia — O Controle do Sangramento nos Primeiros Minutos
+
+Existe uma emergência em que o que separa o resultado é quase inteiramente tempo: a hemorragia externa. O corpo perde sangue em velocidade que a maioria das pessoas subestima, e a lesão que parece pequena na superfície pode envolver vaso de calibre relevante. Nos primeiros minutos, a resposta não é cirúrgica — é pressão, compressão e contenção.
+
+O que fazer é simples e deve ser feito na ordem. Proteger as próprias mãos. Aplicar pressão direta e firme sobre o ferimento, com compressa limpa ou pano limpo, sem retirar para conferir. Se o sangramento continuar, adicionar compressa por cima — não retirar a primeira, porque retirar desfaz o coágulo que já começou a se formar. Quando possível, elevar o membro e manter a vítima deitada e aquecida.
+
+Vale o torniquete. Ele existe para sangramento de membro que não responde à compressão direta, e sua aplicação é decidida, identificada e registrada. Quando bem indicado e aplicado no tempo certo, ele salva vida; quando aplicado sem indicação, ele remove perfusão de um membro que poderia ser preservado. É uma técnica que exige treinamento, e não improviso.
+
+Há também o caso do corpo estranço cravado. Não se retira. O objeto pode estar tamponando o vaso, e sua remoção libera sangramento que não estava ativo. Estabiliza-se ao redor, mantém-se pressão ao redor do objeto e espera-se atendimento. A vontade de "resolver" é grande e é justamente ela que produz o dano adicional.
+
+A avaliação da perda é feita por sinais, não por quantidade: palidez, suor frio, confusão, pulso rápido, respiração acelerada e, em estágio avançado, perda de consciência. Esses sinais indicam que a perda já afetou a circulação e que a urgência é máxima — e eles precisam ser informados no acionamento, porque definem a prioridade de atendimento.
+
+Outro ponto é a hemorragia em local difícil: pescoço, tórax, abdômen e região inguinal. Nesses casos, a compressão é mais complexa e a orientação por telefone é limitada. O que se faz é pressão local com pano limpo, proteção da via aérea, manutenção da vítima deitada e acionamento imediato — sem tentativa de procedimento além do treinamento.
+
+A lesão corto-punçante em área de trabalho é comum e quase sempre evitável: ferramenta sem trava, lâmina exposta, canto de metal sem tratamento e faca usada na direção do corpo. O controle de hemorragia é o que se faz depois; a decisão de não se cortar é a que vale mais.
+
+Sangramento não espera. Ele apenas continua — e a pressão é a única coisa que discute com o tempo.
+
+Fontes e Referências:
+- NR-05: CIPA — plano de resposta a emergências e primeiros socorros.
+- NR-06: EPI — proteção do socorrista.
+- American Heart Association — Basic Life Support.
+- Sociedade Brasileira de Medicina de Emergência — diretrizes de trauma.

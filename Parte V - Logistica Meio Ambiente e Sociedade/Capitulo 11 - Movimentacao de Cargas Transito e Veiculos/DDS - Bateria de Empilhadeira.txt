@@ -1,0 +1,21 @@
+# DDS: Bateria de Empilhadeira — O Risco Químico Dentro do Equipamento
+
+Existe um componente em toda empilhadeira elétrica que ninguém olha: a bateria. Ela pesa centenas de quilos, guarda energia suficiente para movimentar o equipamento o turno inteiro e, durante a carga, produz hidrogênio. Nada disso aparece no dia a dia — a bateria fica no compartimento, o equipamento liga normalmente e ninguém pensa nela até que algo dê errado.
+
+O hidrogênio é o ponto técnico mais importante. Ele é gerado durante a carga, é inflamável em concentração baixa e é mais leve que o ar — ou seja, ele sobe e se acumula no teto. Quando o ambiente de carga é fechado, sem ventilação, e existe fonte de ignição, a combinação é a mesma de qualquer área classificada. Ventilação do local de carga não é conforto: é controle de atmosfera.
+
+Vale a carga. Ela deve ser feita com equipamento compatível, com o ciclo completo, em local definido e com tempo suficiente. Interrupção frequente de carga, carregador inadequado e bateria descarregada em excesso encurtam a vida útil e aumentam o aquecimento. Bateria quente é bateria sob estresse, e estresse em bateria de chumbo-ácido produz gás em quantidade maior.
+
+Há também o ácido. Bateria de chumbo-ácido contém eletrólito corrosivo. Vazamento, poça no piso, respingo durante manutenção ou bateria danificada produzem queimadura química e dano em superfície. O equipamento de proteção para esse tipo de serviço é específico: luva compatível, protetor facial, avental e ponto de lavagem de olhos acessível.
+
+O manuseio físico é outro risco subestimado. Bateria de empilhadeira pesa muito e é manuseada com equipamento de içamento próprio. Substituir bateria sem o carrinho adequado, sem o ponto de içamento e sem a área isolada é um risco de prensamento e de queda — e a peça é cara e pesada o suficiente para não deixar margem de erro.
+
+A manutenção inclui conferir nível de eletrólito, tensão, estado dos terminais e integridade do compartimento. Terminal oxidado gera resistência, calor e perda de desempenho. O enchimento com água destilada, quando aplicável, é feito com o procedimento correto e em local ventilado — nunca com fonte de ignição por perto.
+
+A pergunta prática é direta: onde fica o local de carga da sua planta, e ele é ventilado? Se a resposta for "no fundo do corredor", o hidrogênio está acumulando lá em cima, sem ninguém perceber.
+
+Fontes e Referências:
+- NR-11: Transporte, movimentação, armazenagem e manuseio de materiais.
+- NR-10: Segurança em Instalações e Serviços em Eletricidade — baterias.
+- NR-20: Inflamáveis e combustíveis — fontes de ignição.
+- ABNT NBR IEC 60079: Áreas classificadas por atmosferas explosivas.

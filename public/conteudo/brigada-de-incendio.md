@@ -1,0 +1,21 @@
+# DDS: Brigada de Incêndio — O Time que Treina para o Dia em que Não Quer
+
+Existe um grupo de pessoas em toda empresa que recebeu treinamento, que usa identificação distinta e que tem uma função específica quando o alarme toca. É a brigada. Em muitas organizações, ela existe no organograma e quase não existe na prática — reunida uma vez por ano, fotografada em simulacro e desmontada logo depois. O que separa uma brigada funcional de uma brigada nominal não é o número de integrantes: é o que eles fazem nos primeiros minutos.
+
+Os primeiros minutos são onde tudo acontece. Reconhecimento do tipo de início, acionamento, evacuação, combate inicial, bloqueio de energia, apoio a pessoa com dificuldade de locomoção, comunicação com emergência externa e conferência de pessoas. Essas ações têm ordem, e a ordem não é intuitiva — ela é treinada justamente porque a intuição, sob pressão, tende a priorizar o combate sobre a evacuação.
+
+Vale a composição da brigada. Ela precisa ter gente de todos os turnos, de todos os setores e em todos os locais de trabalho. Uma brigada que só tem integrantes no turno da manhã não existe à noite. Quando a planta opera em três turnos, a cobertura também opera em três turnos — e o simulacro precisa acontecer nos três, não apenas no horário mais conveniente.
+
+Há também o equipamento. Extintor, mangote, cobertor anti-chamas, lanterna, chave de corte de energia, comunicação e lista de pessoas. O equipamento precisa estar acessível no momento do acionamento e ser conferido com frequência. Brigada com equipamento obsoleto ou bloqueado aprende, no momento do acidente, que a estratégia prevista não é executável.
+
+A simulação é o que transforma treinamento em desempenho. Ela precisa variar: turno diferente, início de incêndio em local diferente, porta obstruída, rota alternativa, pessoa ferida. Simulacro idêntico todo ano ensina a fazer o simulacro, e não a responder a emergência. A variação é o que expõe as falhas de planejamento sem que ninguém se machuque.
+
+Existe um ponto cultural que merece atenção: a brigada não é premiada por apagar fogo. Ela é eficiente quando o fogo não se espalha, quando a evacuação é completa e quando o acionamento é rápido. Isso significa que o reconhecimento deve estar ligado à rapidez e à correção da resposta, e não ao heroísmo. Cultura que valoriza quem entra no fogo está ensinando o comportamento errado.
+
+Uma pergunta define a maturidade da brigada: quantos minutos leva, hoje, para sua brigada estar em posição de agir neste setor? Se a resposta depender de acordar alguém, de encontrar equipamento ou de esperar ordem, a brigada ainda não está pronta — ela apenas está cadastrada.
+
+Fontes e Referências:
+- ABNT NBR 9075: Combate a incêndio em edificações.
+- NR-20: Inflamáveis e combustíveis — treinamento e equipes de emergência.
+- NR-05: CIPA — plano de resposta a emergências.
+- ABNT NBR 14426: Extintores portáteis de incêndio.

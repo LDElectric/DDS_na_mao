@@ -1,0 +1,21 @@
+# DDS: Trânsito Interno — Prioridade que Precisa Estar Escrita
+
+Existe uma convenção silenciosa em toda planta: quem é maior passa primeiro. Ela não está escrita em nenhum lugar, não foi decidida em reunião nenhuma e funciona enquanto ninguém desrespeita. Quando o pedestre e a empilhadeira chegam juntos ao cruzamento, cada um confia que o outro vai parar — e essa confiança, quando dividida por duas pessoas, vale exatamente a metade do que deveria.
+
+A prioridade em trânsito interno é um elemento de projeto, não de bom senso. Ela se define com rotas, com faixas, com sinalização de cruzamento, com espelhos em curva cega, com limite de velocidade em pontos críticos e com regra clara de quem cede. Sem isso, a decisão é tomada no instante, por duas pessoas, com informação incompleta e sob pressa.
+
+Vale a separação entre pedestre e equipamento. A faixa pintada no chão não é decoração: é o que define onde o pedestre pode caminhar com previsibilidade. Quando a faixa termina no meio do corredor, quando é bloqueada por paletes ou quando cruza doca sem tratamento especial, ela deixa de existir — e o pedestre volta a ser elemento imprevisível no caminho do equipamento.
+
+Existe também o alarme de marcha à ré. Empilhadeira que regride sem aviso é um risco que se resolve com equipamento barato e bem instalado. O alarme não evita a colisão sozinho, mas ele transforma um movimento invisível em informação — e informação é o que falta nos segundos anteriores ao impacto.
+
+Outro ponto é a porta de corredor e a saída de curva. Espelho nesses pontos existe para mostrar o que a geometria esconde. Espelho sujo, desalinhado ou em ângulo errado é pior do que não ter espelho: ele dá a sensação de estar vendo, e a pessoa confia. A limpeza e o ajuste do espelho são itens de manutenção de segurança.
+
+Há também a carga que transborda para o corredor. Palete mal posicionado, lâmina deixada na passagem e material encostado na parede reduzem a largura livre e empurram o pedestre para fora da faixa. Todo aumento de tráfego traz esse tipo de efeito, e ele só é percebido quando alguém passa raspando.
+
+Vale começar por uma verificação: existe, hoje, uma regra escrita de prioridade nos seus cruzamentos? Se ela existir, ela é conhecida? Se for conhecida, ela é cumprida? Três perguntas, e a maior parte das plantas perde a segunda.
+
+Fontes e Referências:
+- NR-11: Transporte, movimentação, armazenagem e manuseio de materiais.
+- NR-12: Segurança no Trabalho em Máquinas e Equipamentos — circulação.
+- NR-17: Ergonomia — circulação e acessos.
+- ISO 3691-4: Industrial trucks — safety requirements.

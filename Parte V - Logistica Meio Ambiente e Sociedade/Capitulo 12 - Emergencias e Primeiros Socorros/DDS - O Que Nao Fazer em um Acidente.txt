@@ -1,0 +1,21 @@
+# DDS: O que NÃO Fazer em um Acidente — A Lista Mais Importante dos Primeiros Socorros
+
+Existe uma disciplina que começa com uma inversão: antes de aprender o que fazer, é preciso aprender o que não fazer. Em primeiros socorros, a maior parte dos danos adicionais não vem da lesão original — vem da reação de quem está por perto. Mover quem não devia ser movido, oferecer água a quem vai ser operado, retirar objeto encravado, passar pomada em queimadura e tentar "colocar no lugar" um osso fraturado são gestos feitos com boa intenção e produzem dano novo.
+
+A regra que organiza tudo é simples: proteger, acionar e atender dentro do próprio limite de treinamento. Proteger significa impedir novo dano — afastar a vítima da fonte de risco, isolar a área e manter a calma. Acionar significa chamar ajuda qualificada antes de tentar resolver. Atender significa fazer apenas o que se foi treinado a fazer.
+
+Vale a sequência do ambiente. Antes de chegar perto, avalie se há risco ativo: energia, fogo, produto químico, queda de carga, estrutura instável ou trânsito. Socorrista que se torna vítima multiplica o problema e consome a equipe que resolveria o primeiro. A ordem é sempre proteger o socorrista antes de atender a vítima.
+
+Há também a avaliação da consciência. Fala, responde a comandos, abre os olhos, ou não responde. Essa informação define quase tudo o que vem depois — e ela precisa ser comunicada no acionamento. Vítima consciente que respira bem e vítima inconsciente que não respira exigem respostas completamente diferentes.
+
+O caso do objeto encravado merece destaque porque gera muito impulso. Não se retira, não se empurra e não se tenta recolocar. O objeto pode estar tamponando uma lesão e sua remoção pode liberar sangramento que não havia. Mantém-se no lugar, estabiliza-se ao redor e espera-se atendimento qualificado.
+
+O caso do medicamento também. Nunca se administra remédio a outra pessoa sem prescrição e sem orientação. Quem toma por conta própria não sabe se o que sente é o mesmo que o outro sente, e a dosagem não é a mesma.
+
+A pergunta que resolve quase toda situação é: isso que estou prestes a fazer vai ajudar ou pode prejudicar? Se a resposta não for imediata e clara, a resposta correta é não fazer — e chamar quem sabe.
+
+Fontes e Referências:
+- NR-05: CIPA — plano de resposta a emergências e primeiros socorros.
+- NR-06: EPI — proteção do socorrista.
+- Sociedade Brasileira de Medicina de Emergência — diretrizes de primeiros socorros.
+- American Heart Association — Basic Life Support.

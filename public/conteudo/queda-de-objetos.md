@@ -1,0 +1,23 @@
+# DDS: Queda de Objetos — A Ferramenta que Cai de Cima
+
+Existe uma categoria de acidente que ninguém considera acidente de altura: a queda de objeto. Alguém está no chão, trabalhando normalmente, e de cima cai uma chave, um parafuso, um pedaço de tubo ou uma lata. A pessoa não estava em altura nenhuma. Estava apenas no lugar errado — e o lugar errado, numa fábrica, é quase sempre embaixo.
+
+A energia envolvida é o que torna isso grave. Um parafuso de cem gramas caindo de dez metros alcança velocidade suficiente para fraturar crânio. Não é uma questão de tamanho: é uma questão de altura e de gravidade. A mesma peça que machuca o pé ao cair de um banco pode matar quando cai de uma treliça.
+
+Os pontos de origem mais comuns são previsíveis: ferramenta sem amarra, material apoiado em guarda-corpo, peças deixadas em plataforma, lata sem tampa, ferramenta na mão de quem trabalha em altura e objeto puxado por cabo. Nenhum desses casos nasce de descuido deliberado. Nasce de ausência de um lugar definido para a peça enquanto o trabalho acontece.
+
+A NR-18 e a NR-35 tratam desse tema com a mesma lógica: proteger quem está embaixo. Isso significa guarda-corpo com rodapé, tela ou rede que retenha material, ferramenta amarrada ou presa ao cinto, isolamento da área abaixo com sinalização e, quando possível, retirada das pessoas da zona de queda durante o serviço. Cinto de segurança no trabalhador em altura não protege quem está no chão — quem está no chão precisa de outra camada.
+
+Vale falar da ferramenta amarrada. Todo equipamento usado em altura deveria ter cordão ou cabo que o ligue ao operador ou à estrutura. Isso parece exagero para uma chave pequena, e é exatamente para a chave pequena que funciona melhor, porque é ela que escapa da mão sem aviso. Ferramenta pesada demais para cordão usa bolsa ou suporte fixo; ferramenta leve usa amarra.
+
+Há também o caso do objeto lançado. Quando se iça material com cabo ou talha, existe risco de o material escorregar, de o cabo arrebentar ou do ponto de sustentação ceder. A área de projeção precisa ser isolada antes do início da movimentação, não depois que o material já está no ar. E o içamento nunca deve passar por cima de pessoas.
+
+A pergunta que resolve é sempre do ponto de vista de quem está embaixo: se isso cair daqui de cima, quem leva? Se a resposta envolver alguém que não foi consultado, o serviço ainda não começou do lugar certo.
+
+Cair de cima machuca quem cai. E, com frequência, machuca quem estava apenas trabalhando em paz embaixo.
+
+Fontes e Referências:
+- NR-18: Condições e meio ambiente de trabalho na indústria da construção.
+- NR-35: Trabalho em Altura — proteção contra quedas de objetos.
+- NR-11: Transporte, movimentação, armazenagem e manuseio de materiais.
+- NR-06: EPI — capacete com jugular.

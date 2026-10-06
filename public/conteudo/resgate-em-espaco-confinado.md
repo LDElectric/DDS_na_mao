@@ -1,0 +1,21 @@
+# DDS: Resgate em Espaço Confinado — O Que Precisa Estar Pronto Antes
+
+Existe uma estatística que toda equipe que trabalha em espaço confinado deveria conhecer de cor: a maior parte das vítimas fatais não era quem entrou primeiro. Eram as pessoas que entraram para resgatar. A sequência é sempre parecida — alguém para de responder, alguém entra para ajudar, e essa pessoa também perde a consciência, porque o que causou o problema na primeira pessoa continua causando na segunda.
+
+É por isso que o resgate em espaço confinado não é improviso. Ele é planejado antes da entrada, com equipamento conferido e equipe identificada. Um plano de resgate desse tipo tem elementos muito concretos: talabarte de resgate com ponto de içamento, tripé ou estrutura de sustentação sobre a abertura, corda e roldana, equipamento de sustentação da cabeça e colar cervical quando houver perda de consciência, comunicação com emergência e tempo estimado de acesso calculado.
+
+O tempo é o fator que define tudo. Em espaço confinado com atmosfera deficiente, a perda de consciência pode ocorrer em segundos, e o resgate tem de ser mais rápido que isso. Se a equipe não consegue sacar uma pessoa em poucos minutos, a resposta correta não é treinar mais rápido — é ventilar, medir e controlar a atmosfera antes de permitir a entrada. A prevenção substitui o resgate sempre que possível.
+
+Vale o caso do resgate vertical. Tirar uma pessoa inconsciente de um tanque por abertura superior exige içamento controlado, sem arranhar contra a borda e sem lesar coluna. Sem tripé e sem talabarte de resgate, o improviso vira arrastão — e a manobra em espaço fechado, com a pessoa pesada e sem movimento, é fisicamente impossível de fazer só com força de braço.
+
+Há também a questão de quem executa. Resgate de espaço confinado exige equipe treinada, com simulação real, em equipamento igual ao que será usado. Treinamento em sala não produz capacitação para manobra em espaço apertado, no escuro, com pressa e com uma pessoa inconsciente. Simulação periódica é o que transforma procedimento em reflexo.
+
+O outro ponto é a decisão de entrar. Ela nunca deve ser tomada por quem está no chão olhando. Ela deve estar prevista no plano, com quem entra, quem puxa, quem aciona e quem comunica. Quando essa decisão é tomada no instante do acidente, ela é tomada por quem tem maior afeto pela vítima — e afeto é exatamente o que não pode orientar uma entrada em atmosfera desconhecida.
+
+Uma frase resume o assunto e deveria estar escrita na abertura de todo espaço confinado: ninguém entra para morrer junto. O resgate se prepara antes, porque depois disso não há tempo para preparar.
+
+Fontes e Referências:
+- NR-33: Segurança e Saúde no Trabalho em Espaços Confinados — plano de resgate.
+- NR-35: Trabalho em Altura — içamento e retenção de pessoas.
+- NR-05: CIPA — preparação para emergências e simulações.
+- NIOSH: Criteria for a Recommended Standard — Confined Spaces.

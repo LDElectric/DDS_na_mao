@@ -1,0 +1,25 @@
+# DDS: As Vibrações e o Trauma que Não se Vê
+
+A solda é invisível, o ruído se ouve, a poeira se vê. A vibração não faz nenhum dos dois. Ela entra pela sola das botas, sobe pela canela, atravessa a pelve e se instala na coluna — silenciosamente, durante anos, cobrando a conta muito depois, em forma de hérnia de disco, degeneração articular ou perda de sensibilidade nas mãos. Esse é o grande perigo das vibrações: elas não doem no dia seguinte. Doem no ano seguinte.
+
+A exposição divide-se em duas categorias com comportamentos completamente diferentes. A vibração de corpo inteiro atinge quem dirige ou opera máquinas que transmitem choque pelo assento: empilhadeiras, tratores, cavalos mecânicos de extração, compactadores, elevadores de carga e veículos de coleta. Nesse caso, o problema não é só a coluna. Quando a frequência da vibração coincide com a frequência natural do abdômen e da pelve — faixa próxima de 5 a 20 Hz —, ocorre o fenômeno da ressonância: o corpo passa a amplificar a vibração em vez de absorvê-la. Os músculos eretores da coluna entram em fadiga crônica, os discos intervertebrais passam a absorver carga de compressão de forma alternada, e o resultado estatístico é uma incidência de lombalgia e degeneração discal muito acima da média populacional.
+
+A vibração mão-bra é o outro lado da moeda. Afeta marteletes pneumáticos, lixadeiras orbitais, retificadoras, ferramentas de impacto e serras de corte. Aqui o dano é vascular e nervoso. A exposição prolongada leva à síndrome de Raynaud ocupacional, popularmente chamada de "doença da mão branca": os dedos ficam pálidos ou arroxeados em contato com o frio, porque o vasoespasmo induzido pela vibração impede o fluxo sanguíneo. Com o tempo, a perda de circulação se torna permanente e surge a neuropatia — formigamento, dormência e perda da força de pegada. Para quem ganha a vida com as mãos, isso não é apenas uma doença ocupacional; é a perda da profissão.
+
+Do ponto de vista normativo, a NR-15 (Anexo 13) estabelece a avaliação das vibrações, e as normas técnicas ISO 5349 (mão-bra) e ISO 2631 (corpo inteiro) definem como medir. A avaliação é feita sobre a exposição diária (A(8), em m/s² ponderado em frequência), e não sobre o pico isolado. Isso muda a leitura do dia a dia: um martelete pode passar dez minutos acima do limite e ainda assim ter uma exposição diária aceitável, enquanto um operador de empilhadeira mal suspenso pode passar o expediente inteiro dentro do limite e ainda assim estar sobrecarregado. Se a sua empresa não faz essa medição, ninguém sabe — e o que não se mede, não se controla.
+
+O que reduz a exposição, na prática, raramente é o EPI. Antivibratório de mão tem eficácia limitada e depende do uso correto. O que funciona de verdade é a engenharia:
+
+1. Controle na fonte — manutenção do equipamento, balanceamento, troca de ponteiras e batentes gastos, eliminação de folgas mecânicas. Vibração sempre começa em folga.
+2. Controle na transmissão — assento com suspensão, uso correto do banco, isolamento do piso e braçadeiras firmes em tubulações.
+3. Controle na duração — rotação de funções, pausas de recuperação e limitação da exposição diária acumulada.
+
+Um detalhe importante e frequentemente ignorado: não é só o operador que sofre. Um trabalhador com exposição elevada a vibração de corpo inteiro e que depois carrega a roupa de trabalho suja para casa está transferindo o risco da empresa para o domicílio. A roupa não vibra, mas o contaminante que ela carrega vai junto.
+
+Vibração não é o risco mais visível da fábrica, e é por isso que ela vence. Ela não bate no peito, não ensurdece, não mancha a pele. Apenas acumula, ano após ano, um dano que só aparece quando o corpo já não tem mais reserva. Quem sente a vibração hoje está ouvindo o estrago de amanhã.
+
+Fontes e Referências:
+- NR-15: Atividades e Operações Insalubres (Anexo 13 — Vibrações Industriais).
+- ISO 5349-1 / ISO 5349-D9: Vibração mão-bra — Avaliação e medição.
+- ISO 2631-1: Vibração de corpo inteiro — Avaliação e medição.
+- NIOSH — Criteria for Occupational Vibration Exposure (Publicação 97-108).

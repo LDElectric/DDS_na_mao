@@ -1,0 +1,23 @@
+# DDS: Energia Armazenada — Pneumática, Hidráulica e a Mola que Não Esquece
+
+Existe uma classe de perigo que não aparece em nenhum painel e não faz barulho antes de agir: a energia armazenada. Ela não vem da tomada, não precisa de fiação e não é interrompida pelo disjuntor. Ela está em um cilindro hidráulico que segura um braço, em uma mola de prensa, em uma linha de ar comprimido, em um sistema de contrapeso ou em uma carga suspensa. Toda vez que uma máquina faz força e para, ela provavelmente guardou parte dessa força em algum lugar.
+
+O hidráulico é o caso mais rotineiro. Um cilindro sob pressão mantém o braço no ar por horas depois de a bomba desligar. A válvula de retenção segura, na maioria das vezes. Quando ela vaza — e válvula envelhecida vaza devagar —, o braço desce sem aviso. A gravidade faz o resto. O mesmo vale para sistemas pneumáticos com câmara fechada e para contra-pesos de máquinas de corte.
+
+A mola é outro exemplo, e o mais subestimado porque parece inofensiva. Uma mola industrial sob tensão guarda energia mecânica pura, e ela não precisa de fonte externa para liberar. Mola de porta, mola de máquina, dispositivo de retorno e bloco de equilíbrio funcionam do mesmo jeito: enquanto estiver comprimida, ela é uma arma. Tirar o componente sem travar é receber a força da mola diretamente na mão ou no rosto.
+
+A NR-12 trata essa questão ao exigir que a segurança considere a energia residual, e não apenas a fonte. O que muda na prática é o que se faz antes de encostar: identificar quais tipos de energia estão presentes, isolar a fonte, e então remover a energia armazenada — drenando o ar, descarregando a pressão hidráulica, liberando a mola de forma controlada ou travando o mecanismo em posição segura. Sem esse passo, o desligamento é apenas aparente.
+
+Vale falar de uma situação clássica: a tentativa de segurar o braço de uma máquina na mão enquanto se solta o cabo. A força disponível num cilindro hidráulico comum supera em muito a capacidade de qualquer mão. Nenhum reflexo resolve isso. O que resolve é travar mecanicamente antes de intervir, com trava ou cunha de segurança, e não com o corpo.
+
+A energia gravitacional merece menção própria. Braço de robô, mesa elevatória, tesoura elevatória, ponte rolante com carga em suspensão e tesoura de corte são fontes permanentes de gravidade ativa. O procedimento para todos é o mesmo: posicionar em ângulo seguro ou apoio mecânico, isolar a fonte e só então trabalhar. Bolha de ar sob a carga não é apoio mecânico.
+
+Existe um detalhe de organização que costuma faltar: identificar onde está a energia. Se ninguém sabe onde está a válvula de dreno, onde está o bloco de travamento ou onde está a trava do contrapeso, o procedimento existe apenas no manual. Equipamento com energia armazenada deve ter o ponto de alívio visível, acessível e sinalizado.
+
+Toda máquina que faz força, quando para, guarda uma parte dessa força. A diferença entre trabalhar seguro e trabalhar na sorte é saber, exatamente, onde essa parte ficou guardada.
+
+Fontes e Referências:
+- NR-12: Segurança no Trabalho em Máquinas e Equipamentos — energia residual e travamento.
+- NR-10: Segurança em Instalações e Serviços em Eletricidade — energias armazenadas.
+- ISO 14118: Safety of machinery — Prevention of unexpected start-up.
+- NR-16: Atividades e operações perigosas — prensas e máquinas de corte.

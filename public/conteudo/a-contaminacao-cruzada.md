@@ -1,0 +1,27 @@
+# DDS: A Contaminação Cruzada — do Piso da Fábrica até o Prato da Casa
+
+Nenhum acidente de fábrica começa no prato de almoço. Mas muitos problemas de saúde dos trabalhadores começam no chão de fábrica, e a cadeia que leva até o organismo costuma ser bem simples: resíduo no chão, mão suja, boca. É o que se chama de contaminação cruzada, e ela é tão invisível quanto o risco que transporta.
+
+A rota padrão começa no posto de trabalho. O resíduo de processo, a poeira de metal, a graxa que secou na bancada, o produto químico que ficou na superfície. Depois vem a transferência: a mão toca o resíduo e, sem pensar nisso, toca no punho do macacão, no botão do elevador, na maçaneta da copa, no celular. Cada toque transfere parte do resíduo. No refeitório, a mão contaminada pega a colher, o copo, o pão. A exposição, aí, já não está no SESMT: está em você. E o que se ingere vai direto para a corrente sanguínea.
+
+Há um detalhe que agrava tudo: muitos EPI que deveriam bloquear essa rota não conseguem. A luva de corte protege a mão do abrasão, mas não foi desenhada para bloquear transferência química ou biológica. A máscara bloqueia a inalação, mas não impede o toque no rosto. O rosto, a barba, o bolso do macacão e a ferramenta compartilhada funcionam como ponte. E vale lembrar que álcool gel não resolve esse caso: ele reduz a carga de alguns microrganismos, mas não remove chumbo, cromo, solvente ou hidrocarbono. Para contaminante químico, a resposta é água corrente e sabão.
+
+E aqui aparece o ponto que costuma passar em branco: a fronteira entre a empresa e a casa. O trabalhador que calça tênis manchado de óleo, dirige com as mãos sujas de produto químico ou traz a roupa de trabalho para lavar em casa está transferindo exposição ocupacional para o núcleo familiar. Isso não é exagero: é a continuação da mesma cadeia, com três passos a mais. Existem estudos que detectaram chumbo e asbestos no organismo de filhos de trabalhadores expostos, crianças que nunca pisaram numa fundição.
+
+O arcabouço normativo é simples e antigo. A NR-24 exige que o vestiário possua lavatório com água corrente, sabonete e toalha individual ou secador em condições higiênicas. A NR-06 trata o vestuário como EPI. A NR-07 prevê que vestuário e EPI contaminados sejam lavados por serviço industrializado, e nunca em casa. Essas regras são antigas porque a contaminação cruzada é um risco antigo e persistente.
+
+Para quebrar essa cadeia, o comportamento cotidiano vale mais que regra nova:
+
+1. Lavar as mãos ao sair da área de trabalho, antes de comer, antes de fumar e antes de ir ao banheiro. É o ponto de corte da cadeia, e o único que realmente interrompe o caminho.
+2. Não limpar o suor da testa com a mão na área de processo. Existe o clássico do operário que tira o boné, coça o rosto com a mão suja de óleo e depois leva a mão à boca. Uma toalha individual resolve isso.
+3. Nunca comer, beber ou fumar na área de produção. Nem garrafa de água deixada sobre a bancada. Água aberta perto de poeira de chumbo é água contaminada.
+4. Levar a roupa suja direto para a lavanderia industrial, sem passar por casa. Roupa de trabalho não é roupa de usar em casa.
+5. Cuidar da higiene do celular e do carro. São os objetos que fazem a ponte entre a fábrica e a casa, e quase nunca entram em qualquer plano de higiene. Um volante com resíduo de processo é um vetor de exposição perfeitamente discreto.
+
+A contaminação cruzada não é um tema distante da área técnica. Ela é a prova de que segurança não termina no portão da fábrica, e de que a diferença entre uma empresa que protege pessoas e uma que apenas cumpre norma está, muitas vezes, num sabonete e em alguns segundos de disciplina.
+
+Fontes e Referências:
+- NR-24: Condições Sanitárias e de Conforto nos Locais de Trabalho.
+- NR-06: EPI — vestuário e roupa de proteção.
+- NR-07: PCMSO — tratamento de vestuário e EPI contaminados.
+- CDC / OMS — Diretrizes sobre higiene das mãos em ambientes de trabalho.

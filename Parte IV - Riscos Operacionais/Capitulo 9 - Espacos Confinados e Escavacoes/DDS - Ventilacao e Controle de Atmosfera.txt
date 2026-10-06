@@ -1,0 +1,21 @@
+# DDS: Ventilação — Trocar o Ar Antes de Confiar Nele
+
+Existe uma operação que custa pouco, não exige ninguém dentro, e resolve a maior parte dos riscos de espaço confinado: ventilar. Ela é simplesmente a substituição do ar de dentro por ar de fora, feita de forma controlada, com tempo suficiente e com direção definida. Quase todo espaço confinado pode ser tornado seguro com ventilação adequada — e quase todo acidente evitável poderia ter sido evitado com ela.
+
+O princípio é físico e não tem segredo. A entrada de ar limpo deve ser posicionada de forma a empurrar a atmosfera contaminada para a saída, e não a misturá-la. Ventilar na boca do tanque com exaustão no fundo, ou ao contrário, depende de onde está a fonte de contaminação e da densidade dos gases. Gases mais densos que o ar se acumulam no fundo e exigem exaustão baixa. Gases mais leves sobem e exigem exaustão alta. Ventilar sem entender isso é soprar o problema de lugar.
+
+A duração importa tanto quanto o equipamento. O tempo de troca depende do volume do espaço, do vazão do ventilador e do grau de contaminação. Dois minutos de ligar e desligar não trocam ar de um tanque grande — apenas movimentam o que já estava lá. Ventilação contínua durante todo o período de trabalho é a condição que impede a reconcentração quando o produto é mexido ou a temperatura sobe.
+
+Vale o caso do equipamento de ventilação usado com material inflamável. Ventilador comum tem motor elétrico que pode gerar faísca. Em atmosfera com vapor inflamável, isso é uma fonte de ignição dentro do próprio espaço. Por isso, em ambiente classe de risco, usa-se equipamento à prova de explosão, com motor selado e sem pontos de faísca — e a escolha do ventilador não é decisão de quem está montando o serviço no dia.
+
+Há também a ventilação como medida isolada. Ela reduz risco, mas não substitui a medição. A atmosfera pode estar boa agora e mudar quando a tarefa começar, quando a linha for aberta ou quando o ventilador parar. A ordem correta é ventilar, medir, e medir novamente durante o trabalho — porque a ventilação é controle, e controle se verifica.
+
+O caso mais frequente de falha é desligar a ventilação por causa do ruído, do calor ou do incômodo do tubo dentro do espaço. Quando a ventilação incomoda quem está trabalhando, ela está funcionando. A solução não é retirar o tubo: é repensar a tarefa, o posicionamento ou o período de trabalho.
+
+Ar não é detalhe de conforto. É a diferença entre trabalhar num espaço e trabalhar num lugar que decidiu expulsar quem entra.
+
+Fontes e Referências:
+- NR-33: Segurança e Saúde no Trabalho em Espaços Confinados — ventilação e controle de atmosfera.
+- NR-20: Inflamáveis e combustíveis — atmosfera explosiva.
+- NIOSH: Criteria for a Recommended Standard — Confined Spaces.
+- ACGIH TLV — limiares de exposição ocupacional.

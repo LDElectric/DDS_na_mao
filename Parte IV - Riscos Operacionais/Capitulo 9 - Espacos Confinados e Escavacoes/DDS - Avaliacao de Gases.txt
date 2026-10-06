@@ -1,0 +1,21 @@
+# DDS: Avaliação de Gases — Antes de Respirar, Meça
+
+Existe um instrumento pequeno, de bolso ou prendido no cinto, cuja única função é dizer se o ar está seguro. É o detector multigás. Ele mede oxigênio, gases tóxicos e gases inflamáveis, e informa em segundos algo que nenhum sentido humano informa: cheiro, cor e aspecto não são confiáveis para avaliar atmosfera. Muitos gases letais não têm odor; muitos que têm odor perdem a capacidade de ser detectado em exposição contínua, porque o nariz satura.
+
+Os números que o instrumento exibe têm significado e precisam ser entendidos, não apenas observados. Oxigênio abaixo de 19,5% indica atmosfera deficiente, e acima de 23,5% indica atmosfera enriquecida, com risco de combustão acelerada. Ambos os casos são perigosos, e a maioria das pessoas só enxerga o risco do oxigênio baixo — ninguém imagina que oxigênio demais também queima melhor.
+
+Em relação aos gases inflamáveis, a leitura mais importante é o percentual do limite inferior de inflamabilidade. Quando a concentração atinge 10% desse limite, a entrada é proibida. A escala do instrumento está em volume, e confundir percentual de LEL com percentual em volume é um erro que já causou decisões erradas em campo. Quem lê o instrumento precisa saber o que cada unidade significa.
+
+Os gases tóxicos exigem comparação com limite de exposição ocupacional. Um valor que parece baixo pode ser significativo para permanência prolongada, e um valor alto pode ser aceitável em exposição curtíssima com equipamento de proteção. É por isso que a interpretação não é apenas "verde ou vermelho": depende do tempo de exposição, do agente e da atividade.
+
+Vale o momento da medição. Ela deve ser feita antes da entrada, em profundidade, e repetida durante o trabalho — porque a atmosfera muda quando a tarefa começa: solda altera composição, produto residual é liberado, ventilador desligado interrompe a troca de ar, e o próprio trabalhador modifica a mistura. Medir uma vez na porta e entrar depois de duas horas é medir uma situação que já não existe.
+
+O teste do instrumento também tem procedimento. Ele deve ser ligado e confirmado antes do uso, em atmosfera conhecida, para saber se os sensores estão respondendo. Sensor com poeira, contaminado ou no fim da vida útil apresenta leitura estável e errada — o tipo de erro que não dá alarme. A calibração e a verificação periódica existem por esse motivo.
+
+Uma frase resume tudo: o detector não é um acessório do traje de entrada. É a condição que autoriza a entrada. Sem leitura válida, não existe atmosfera conhecida, e sem atmosfera conhecida, não existe decisão de entrar.
+
+Fontes e Referências:
+- NR-33: Segurança e Saúde no Trabalho em Espaços Confinados — avaliação de atmosfera.
+- NR-06: EPI — detector portátil e respirador.
+- ACGIH TLV — limiares de exposição ocupacional.
+- ABNT NBR 14146 / NIOSH: Detecção de gases e vapores em ambiente de trabalho.

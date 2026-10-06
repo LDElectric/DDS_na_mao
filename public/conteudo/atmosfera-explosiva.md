@@ -1,0 +1,21 @@
+# DDS: Atmosfera Explosiva — Quando o Ar Já Está Pronto para Queimar
+
+Existe uma condição em que o ambiente de trabalho deixa de ser apenas inflamável e passa a ser explosivo. Ela acontece quando a concentração de vapor, gás ou poeira no ar entra na faixa em que qualquer faísca produz deflagração. Não é preciso ter produto aberto nem vazamento visível — basta a mistura certa no ar certo, na proporção certa, com uma ignição qualquer.
+
+A faixa tem dois limites e eles são técnicos. Abaixo do limite inferior de inflamabilidade, a mistura é pobre demais para queimar; acima do limite superior, é rica demais — falta oxigênio. Entre os dois existe a faixa explosiva, e é dentro dela que o perigo existe. A concentração se expressa em percentual do limite inferior, e todo sistema de controle usa esse número como referência: a partir de determinado percentual, a entrada é proibida e o equipamento deve ser desligado.
+
+Vale a ideia de zona. Área classificada é aquela em que a atmosfera explosiva pode aparecer com frequência, ocasionalmente ou em condição anormal, e essa frequência define a zona. A zona, por sua vez, define o tipo de equipamento elétrico permitido, o nível de proteção exigido e as atividades que podem ou não ser realizadas. Trocar um equipamento por outro sem considerar a zona é uma das formas mais comuns de introduzir fonte de ignição em área controlada.
+
+Há também o lado do monitoramento. Detector fixo, detector portátil e alarme automático existem porque o vapor não se vê. O detector dispara em função da concentração, e o alarme deve ter consequência definida: desligamento da fonte, evacuação ou ambos. Alarme que soa e é ignorado é um equipamento que cumpriu sua função técnica e falhou na organizacional.
+
+A poeira merece atenção própria, porque ela é subestimada. Poeira de farinha, açúcar, madeira, metal, plástico e produto químico em suspensão pode explodir quando a concentração e a fonte de ignição coincidem. A diferença é que a poeira depositada em superfície, levantada por vibração ou por jato de ar, mantém o risco mesmo quando o ar parece limpo. Limpeza com ar comprimido em área de poeira é uma das formas de criar a mistura na hora errada.
+
+O controle tem três frentes e nenhuma delas basta sozinha: reduzir a fonte de emissão, controlar a ignição e manter a ventilação. Eliminar vazamento evita a mistura. Equipamento à prova de explosão, aterramento, controle de estática e proibição de corte evitam a ignição. Ventilação mantém a concentração abaixo do limite. Quando as três funcionam juntas, a área classificada deixa de ser um risco e vira uma condição administrada.
+
+A pergunta prática é sempre a mesma: se houver um vazamento agora, quanto tempo leva para a mistura atingir a faixa explosiva neste ambiente? Se a resposta for desconhecida, o ambiente não está avaliado.
+
+Fontes e Referências:
+- NR-20: Inflamáveis e combustíveis — atmosfera explosiva.
+- NR-10: Segurança em Instalações e Serviços em Eletricidade — área classificada.
+- ABNT NBR IEC 60079: Áreas classificadas por atmosferas explosivas.
+- NFPA 68 / NFPA 69: Ventilação de explosão e sistemas de prevenção.
