@@ -1,6 +1,6 @@
 /**
  * Gera os ícones PNG do PWA (192, 512 e 512 maskable) sem dependências externas.
- * Desenho: sigla "DDS" em âmbar sobre fundo azul-escuro.
+ * Desenho: sigla "DDS" em azul sobre fundo grafite (mesmo padrão do PWA OS).
  *
  * Uso: npm run icones
  */
@@ -11,8 +11,8 @@ import { fileURLToPath } from "node:url";
 
 const RAIZ = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 
-const FUNDO = [11, 18, 32, 255]; // #0b1220
-const TRACO = [245, 158, 11, 255]; // #f59e0b
+const FUNDO = [44, 44, 44, 255]; // #2c2c2c
+const TRACO = [74, 144, 196, 255]; // #4a90c4
 
 // Fonte 5x7 usada para desenhar as letras.
 const GLIFOS = {

@@ -3,32 +3,34 @@
    ========================================================================== */
 
 :root {
-  --bg: #0b1220;
-  --bg-superficie: #111a2e;
-  --bg-elevado: #16213a;
-  --borda: #22304f;
-  --texto: #e6ecf7;
-  --texto-suave: #9fb0cc;
-  --acento: #f59e0b;
-  --acento-forte: #d97706;
+  --faixa: #2c2c2c;
+  --bg: #eef0f3;
+  --bg-superficie: #ffffff;
+  --bg-elevado: #ffffff;
+  --borda: #e4e7ec;
+  --texto: #1c1c1c;
+  --texto-suave: #6b7280;
+  --acento: #4a90c4;
+  --acento-forte: #3a7aab;
+  --sucesso: #2f9e6a;
+  --perigo: #e5484d;
+  --sombra: 0 1px 3px rgba(0, 0, 0, 0.04);
+  --raio: 16px;
+}
+
+:root[data-tema="escuro"] {
+  --faixa: #2c2c2c;
+  --bg: #1b1b1b;
+  --bg-superficie: #242424;
+  --bg-elevado: #2c2c2c;
+  --borda: #3d3d3d;
+  --texto: #f3f4f6;
+  --texto-suave: #9ca3af;
+  --acento: #4a90c4;
+  --acento-forte: #3a7aab;
   --sucesso: #34d399;
   --perigo: #f87171;
   --sombra: 0 10px 30px rgba(0, 0, 0, 0.35);
-  --raio: 14px;
-}
-
-:root[data-tema="claro"] {
-  --bg: #f6f7fb;
-  --bg-superficie: #ffffff;
-  --bg-elevado: #ffffff;
-  --borda: #e2e7f1;
-  --texto: #16213a;
-  --texto-suave: #5b6b86;
-  --acento: #b45309;
-  --acento-forte: #92400e;
-  --sucesso: #047857;
-  --perigo: #b91c1c;
-  --sombra: 0 8px 24px rgba(22, 33, 58, 0.1);
 }
 
 * {
@@ -70,48 +72,109 @@ button {
 .cabecalho {
   position: sticky;
   top: 0;
-  z-index: 10;
+  z-index: 20;
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 12px;
   padding: calc(12px + env(safe-area-inset-top)) 16px 12px;
-  background: color-mix(in srgb, var(--bg) 88%, transparent);
-  backdrop-filter: blur(10px);
-  border-bottom: 1px solid var(--borda);
+  background: var(--faixa);
+  color: #ffffff;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.25);
+  border-bottom: 3px solid var(--acento);
 }
 
 .marca {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
+  min-width: 0;
   font-weight: 700;
-  letter-spacing: 0.2px;
+  letter-spacing: 0.3px;
+  color: #ffffff;
+}
+
+.marca img {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  object-fit: cover;
+  border: 2px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
 }
 
 .marca span {
   display: flex;
   flex-direction: column;
   line-height: 1.15;
+  min-width: 0;
 }
 
 .marca small {
-  font-size: 0.68rem;
+  font-size: 0.75rem;
   font-weight: 500;
-  color: var(--texto-suave);
-  letter-spacing: 0.4px;
-  text-transform: uppercase;
+  color: #c6d8e8;
+  letter-spacing: 0.2px;
+  text-transform: none;
+}
+
+.cabecalho__acoes {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.btn-instalar {
+  background: var(--acento);
+  color: #ffffff;
+  border: none;
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-weight: 700;
+  font-size: 13px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  white-space: nowrap;
+}
+
+.btn-info {
+  width: 32px;
+  height: 32px;
+  flex: 0 0 auto;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.55);
+  background: transparent;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 17px;
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-info:hover {
+  background: rgba(255, 255, 255, 0.15);
 }
 
 .botao-icone {
-  width: 40px;
-  height: 40px;
+  width: 32px;
+  height: 32px;
   border-radius: 50%;
-  border: 1px solid var(--borda);
-  background: var(--bg-superficie);
-  color: var(--texto);
-  font-size: 1.1rem;
+  border: 2px solid rgba(255, 255, 255, 0.55);
+  background: transparent;
+  color: #ffffff;
+  font-size: 0.95rem;
   cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* -------------------------------- Conteúdo ------------------------------ */
@@ -253,10 +316,6 @@ button {
 .botao--primario {
   background: var(--acento);
   border-color: var(--acento);
-  color: #1b1204;
-}
-
-:root[data-tema="claro"] .botao--primario {
   color: #fff;
 }
 
@@ -292,12 +351,18 @@ button {
   gap: 10px;
 }
 
-.painel-estatisticas div {
+.painel-estatisticas__item {
   background: var(--bg-superficie);
   border: 1px solid var(--borda);
   border-radius: var(--raio);
   padding: 14px 10px;
   text-align: center;
+  transition: border-color 0.12s ease, transform 0.12s ease;
+}
+
+.painel-estatisticas__item:hover {
+  border-color: var(--acento);
+  transform: translateY(-1px);
 }
 
 .painel-estatisticas strong {
@@ -488,12 +553,8 @@ button {
 .chips__item--ativo {
   background: var(--acento);
   border-color: var(--acento);
-  color: #1b1204;
-  font-weight: 700;
-}
-
-:root[data-tema="claro"] .chips__item--ativo {
   color: #fff;
+  font-weight: 700;
 }
 
 /* -------------------------------- Leitura -------------------------------- */
@@ -626,6 +687,94 @@ button {
 
 .zona-perigo .link-suave {
   color: var(--perigo);
+}
+
+/* -------------------------- Modal instalar PWA -------------------------- */
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  background: rgba(0, 0, 0, 0.45);
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transition: opacity 0.2s;
+}
+
+.modal-overlay--aberto {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+
+.modal {
+  background: var(--bg-superficie);
+  color: var(--texto);
+  width: 100%;
+  max-width: 480px;
+  border-radius: 22px 22px 0 0;
+  padding: 22px 20px calc(22px + env(safe-area-inset-bottom));
+  transform: translateY(100%);
+  transition: transform 0.25s;
+  max-height: 85vh;
+  overflow-y: auto;
+  box-shadow: 0 -6px 30px rgba(0, 0, 0, 0.2);
+}
+
+.modal-overlay--aberto .modal {
+  transform: translateY(0);
+}
+
+.modal h3 {
+  font-size: 18px;
+  margin: 0 0 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.modal__passo {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  margin-bottom: 16px;
+}
+
+.modal__num {
+  flex: 0 0 26px;
+  height: 26px;
+  border-radius: 50%;
+  background: var(--acento);
+  color: #fff;
+  font-weight: 700;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1px;
+}
+
+.modal__passo p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.modal__fechar {
+  width: 100%;
+  margin-top: 6px;
+  background: var(--faixa);
+  color: #fff;
+  border: none;
+  border-radius: 14px;
+  padding: 14px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
 }
 
 /* -------------------------------- Rodapé -------------------------------- */

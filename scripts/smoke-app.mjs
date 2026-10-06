@@ -94,7 +94,45 @@ try {
   const lidos = await pagina.$$eval(".item-dds__situacao--lido", (els) => els.length);
   verificar("marcação de lido visível", lidos >= 1, `→ ${lidos}`);
 
-  console.log("5) PWA (manifest + Service Worker)");
+  console.log("5) Tela de DDS lidos (título + data)");
+  await pagina.goto(`${URL}#/lidos`, { waitUntil: "networkidle0" });
+  await pagina.waitForSelector(".lista .item-dds", { timeout: 15000 });
+  const metaLidos = await pagina.$$eval(".item-dds__meta", (els) => els.map((e) => e.textContent));
+  verificar("lista de lidos traz ao menos 1 item", metaLidos.length >= 1, `→ ${metaLidos.length}`);
+  verificar(
+    "cada item mostra a data da leitura",
+    metaLidos.every((texto) => /Lido em \d{2}\/\d{2}\/\d{4} às \d{2}:\d{2}/.test(texto)),
+    `→ ${metaLidos[0] ?? ""}`,
+  );
+  const temLink = await pagina.$(".lista a.item-dds");
+  verificar("item da lista reabre o DDS (link)", Boolean(temLink));
+
+  await pagina.goto(`${URL}#/lidos?janela=180`, { waitUntil: "networkidle0" });
+  await pagina.waitForSelector(".titulo-pagina", { timeout: 15000 });
+  const rotuloJanela = await pagina.$eval(".chips__item--ativo", (el) => el.textContent.trim());
+  verificar("filtro de 180 dias aplicado", rotuloJanela.includes("180"), `→ ${rotuloJanela}`);
+
+  console.log("6) Cabeçalho: botão 'i' de instalação");
+  await pagina.goto(URL, { waitUntil: "networkidle0" });
+  await pagina.waitForSelector(".btn-info", { timeout: 15000 });
+  const atalhosEstatisticas = await pagina.$$eval(".painel-estatisticas__item", (els) =>
+    els.map((e) => e.tagName),
+  );
+  verificar("cards de estatística viraram links", atalhosEstatisticas.every((t) => t === "A"));
+  await pagina.click(".btn-info");
+  await pagina.waitForSelector(".modal-overlay--aberto .modal", { timeout: 10000 });
+  const textoModal = await pagina.$eval(".modal", (el) => el.textContent);
+  verificar(
+    "modal explica como instalar (Android e iPhone)",
+    textoModal.includes("Android") && textoModal.includes("iPhone"),
+  );
+  await pagina.keyboard.press("Escape");
+  await pagina.waitForFunction(() => !document.querySelector(".modal-overlay--aberto"), {
+    timeout: 5000,
+  });
+  verificar("modal fecha com Escape", true);
+
+  console.log("7) PWA (manifest + Service Worker)");
   await pagina.goto(URL, { waitUntil: "networkidle0" });
   const manifest = await pagina.evaluate(async () => {
     const link = document.querySelector('link[rel="manifest"]');
@@ -115,7 +153,7 @@ try {
   // Dá tempo do pré-cache terminar antes de simular offline.
   await new Promise((resolver) => setTimeout(resolver, 2500));
 
-  console.log("6) Funcionamento offline");
+  console.log("8) Funcionamento offline");
   await pagina.setOfflineMode(true);
   try {
     await pagina.reload({ waitUntil: "networkidle0", timeout: 20000 });

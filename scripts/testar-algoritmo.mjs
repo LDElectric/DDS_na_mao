@@ -16,6 +16,7 @@ import {
   sugerirDoDia,
   verificarCampanhaMes,
 } from "../src/lib/algoritmo.js";
+import { listarLeituras } from "../src/lib/historico.js";
 
 const RAIZ = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const catalogo = JSON.parse(
@@ -137,6 +138,24 @@ console.log("5) Busca e catálogo");
     "todos os arquivos .md existem",
     catalogo.every((i) => fs.existsSync(path.join(RAIZ, "public", i.arquivo_md))),
   );
+}
+
+console.log("6) Lista de DDS lidos");
+{
+  const agora = new Date("2026-10-06T12:00:00").getTime();
+  const historico = {
+    ...historicoVazio(),
+    leituras: {
+      [catalogo[0].id]: "2026-10-06T10:00:00.000Z",
+      [catalogo[1].id]: "2026-01-01T10:00:00.000Z",
+    },
+  };
+  const todos = listarLeituras(historico, catalogo, null, agora);
+  const janela = listarLeituras(historico, catalogo, 180, agora);
+  verificar("lista total tem 2 itens", todos.length === 2);
+  verificar("mais recente vem primeiro", todos[0].id === catalogo[0].id);
+  verificar("janela de 180 dias omite leitura antiga", janela.length === 1 && janela[0].id === catalogo[0].id);
+  verificar("traz o título do catálogo", todos[0].titulo === catalogo[0].titulo);
 }
 
 console.log(falhas ? `\n✘ ${falhas} verificação(ões) falharam` : "\n✔ todos os testes passaram");

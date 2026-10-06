@@ -87,10 +87,4 @@ export const useHistorico = () => {
   return contexto;
 };
 
-/** Quantidade de DDS lidos dentro da janela de 6 meses. */
-export const contarLidos = (historico, dias = 180) => {
-  const limite = Date.now() - dias * 86400000;
-  return Object.values(historico.leituras).filter(
-    (data) => new Date(data).getTime() >= limite,
-  ).length;
-};
+export { contarLidos, formatarDataLeitura, listarLeituras } from "../lib/historico.js";

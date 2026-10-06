@@ -104,18 +104,18 @@ export default function Home() {
       </section>
 
       <section className="painel-estatisticas" aria-label="Resumo">
-        <div>
+        <Link className="painel-estatisticas__item" to={`/lidos?janela=${DIAS_JANELA_LEITURA}`}>
           <strong>{lidos}</strong>
           <span>lidos em {DIAS_JANELA_LEITURA} dias</span>
-        </div>
-        <div>
+        </Link>
+        <Link className="painel-estatisticas__item" to="/biblioteca">
           <strong>{itens.length}</strong>
           <span>DDS no catálogo</span>
-        </div>
-        <div>
+        </Link>
+        <Link className="painel-estatisticas__item" to="/lidos">
           <strong>{Object.keys(historico.leituras).length}</strong>
           <span>lidos no total</span>
-        </div>
+        </Link>
       </section>
 
       <section className="atalhos">
