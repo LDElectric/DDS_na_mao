@@ -2301,19 +2301,6 @@
     "capitulo_nome": "Julho Amarelo"
   },
   {
-    "id": "outubro-preconceito-e-desinformacao",
-    "titulo": "O Perigo da Desinformação na Saúde",
-    "subtitulo": null,
-    "tema": "campanha-sesmt",
-    "campanha_sesmt": "outubro",
-    "arquivo_md": "conteudo/outubro-preconceito-e-desinformacao.md",
-    "data_criacao": "2026-10-05",
-    "parte": 6,
-    "parte_nome": "Calendario Anual SESMT",
-    "capitulo": null,
-    "capitulo_nome": "Outubro Rosa"
-  },
-  {
     "id": "o-perigo-da-rotina-e-a-identificacao-rapida-de-riscos",
     "titulo": "O Perigo da Rotina e a Identificação Rápida de Riscos",
     "subtitulo": null,
@@ -2555,6 +2542,19 @@
     "campanha_sesmt": "outubro",
     "arquivo_md": "conteudo/outubro-autocuidado-e-exames.md",
     "data_criacao": "2026-10-05",
+    "parte": 6,
+    "parte_nome": "Calendario Anual SESMT",
+    "capitulo": null,
+    "capitulo_nome": "Outubro Rosa"
+  },
+  {
+    "id": "outubro-preconceito-e-desinformacao",
+    "titulo": "Outubro Rosa",
+    "subtitulo": "A Mentira que Atrasa o Diagnóstico",
+    "tema": "campanha-sesmt",
+    "campanha_sesmt": "outubro",
+    "arquivo_md": "conteudo/outubro-preconceito-e-desinformacao.md",
+    "data_criacao": "2026-10-06",
     "parte": 6,
     "parte_nome": "Calendario Anual SESMT",
     "capitulo": null,

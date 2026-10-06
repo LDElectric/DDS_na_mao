@@ -238,7 +238,10 @@ export const verificarCampanhaMes = (catalogo, historico, agora = new Date()) =>
   const nucleo = (CAMPANHAS_MES[mes]?.ids ?? [])
     .map((id) => catalogo.find((item) => item.id === id))
     .filter((item) => item && !leituraRecente(historico.leituras[item.id], DIAS_JANELA_LEITURA, agora));
-  if (nucleo.length) return { dds: sortear(nucleo), origem: "campanha" };
+  // O primeiro DDS do mês é o central da campanha (determinístico: primeiro
+  // da lista ainda disponível), não um sorteio — a abertura do mês sempre
+  // apresenta o texto mais forte e alinhado ao tema.
+  if (nucleo.length) return { dds: nucleo[0], origem: "campanha" };
 
   const doMes = catalogo.filter(
     (item) =>
@@ -268,6 +271,26 @@ export const sortearNovoDDS = (catalogoFiltrado, ultimoTema) => {
 };
 
 /**
+ * Promoção da sugestão do dia ("primeiro DDS do mês" blindado).
+ * Se a sugestão salva para hoje é um DDS de campanha do mês que não é o
+ * central (ex.: um texto antigo gravado antes do núcleo existir), promove a
+ * sugestão para o DDS central da campanha — desde que o dia ainda não tenha
+ * escolha fixa e não seja um dia celebrado. A estabilidade do dia é mantida
+ * quando a sugestão já é a central.
+ */
+const promoverParaCentral = ({ dds, catalogo, historico, agora }) => {
+  if (historico.escolhas[chaveDia(agora)]) return null; // já há escolha fixa hoje
+  if (DIAS_CELEBRADOS[chaveDiaCurto(agora)]) return null; // dia celebrado rege a sugestão
+  const mes = mesAtual(agora);
+  if (dds.campanha_sesmt !== mes) return null;
+  const nucleo = (CAMPANHAS_MES[mes]?.ids ?? [])
+    .map((id) => catalogo.find((item) => item.id === id))
+    .filter((item) => item && !leituraRecente(historico.leituras[item.id], DIAS_JANELA_LEITURA, agora));
+  if (!nucleo.length || nucleo[0].id === dds.id) return null;
+  return { dds: nucleo[0], origem: "do-dia", doDia: true };
+};
+
+/**
  * Sugestão do dia: respeita a ordem estrita de prioridades e, quando já
  * existe sugestão registrada para hoje, devolve a mesma.
  */
@@ -277,7 +300,14 @@ export const sugerirDoDia = (catalogo, historico, agora = new Date()) => {
   const salva = historico.sugestoes[chaveDia(agora)];
   if (salva) {
     const dds = catalogo.find((item) => item.id === salva);
-    if (dds) return { dds, origem: "do-dia", doDia: true };
+    if (dds) {
+      // Sugestão antiga e fraca de campanha (gravada antes de o DDS central
+      // existir) é promovida ao DDS central do mês — o "primeiro DDS" da
+      // campanha entra no lugar do texto desalinhado.
+      const promovida = promoverParaCentral({ dds, catalogo, historico, agora });
+      if (promovida) return promovida;
+      return { dds, origem: "do-dia", doDia: true };
+    }
   }
 
   // Dia celebrado tem prioridade sobre a campanha do mês: o DDS sugerido

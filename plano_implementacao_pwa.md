@@ -115,6 +115,16 @@ Regra de uso real (turnos rotativos, mesmo dispositivo):
     de 6 meses — se o DDS central foi lido recentemente, cai para outro DDS do mês. Mapas
     `CAMPANHAS_MES` e `DIAS_CELEBRADOS` em `src/lib/algoritmo.js` — fáceis de ajustar.
 
+12. **"Primeiro DDS do mês" blindado e textos fortes:** o DDS central de cada campanha agora é
+    **determinístico** (o primeiro da lista `ids` ainda disponível) — a abertura do mês sempre
+    apresenta o texto mais forte e alinhado ao tema, nunca um sorteio. Se a sugestão salva do
+    dia é um DDS de campanha **antigo e fraco** (gravado antes de o núcleo existir), uma
+    **promoção** a substitui pelo DDS central — respeitando a escolha fixa do dia e os dias
+    celebrados. Necessário porque a sugestão é **estável por dia** (regra dos turnos): um texto
+    fraco sugerido de manhã ficava o dia inteiro. Também foi **reescrito** o DDS de outubro
+    "O Perigo da Desinformação na Saúde" (curto e listado) como *"Outubro Rosa — A Mentira que
+    Atrasa o Diagnóstico"* — denso, empático e alinhado ao tema da campanha.
+
 ---
 
 ## 4. Fases de Implementação (Passo a Passo)

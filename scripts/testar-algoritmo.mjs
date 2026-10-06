@@ -223,6 +223,54 @@ console.log("5) Campanhas do mês e dias celebrados");
       sugestaoSemNucleo.dds.id !== "outubro-autocuidado-e-exames",
     `→ ${sugestaoSemNucleo?.dds.id}`,
   );
+
+  const novAdv = new Date("2026-11-05T09:00:00");
+  const sugNovo = sugerirDoDia(catalogo, historicoVazio(), novAdv);
+  verificar(
+    "primeiro DDS do mês é o central, determinístico (novembro)",
+    sugNovo?.dds.id === "novembro-o-homem-que-nao-procura" && sugNovo.origem === "campanha",
+    `→ ${sugNovo?.dds.id}`,
+  );
+
+  const out8 = new Date("2026-10-08T09:00:00");
+  const sugestaoAntiga = {
+    ...historicoVazio(),
+    sugestoes: { [chaveDia(out8)]: "outubro-preconceito-e-desinformacao" },
+  };
+  const promovida = sugerirDoDia(catalogo, sugestaoAntiga, out8);
+  verificar(
+    "sugestão antiga e fraca de campanha é promovida ao DDS central do mês",
+    promovida?.dds.id === "outubro-autocuidado-e-exames" && promovida.origem === "do-dia",
+    `→ ${promovida?.dds.id}`,
+  );
+
+  const comEscolhaFixa = {
+    ...sugestaoAntiga,
+    escolhas: {
+      [chaveDia(out8)]: {
+        id: "outubro-preconceito-e-desinformacao",
+        iso: out8.toISOString(),
+      },
+    },
+  };
+  const semPromocao = sugerirDoDia(catalogo, comEscolhaFixa, out8);
+  verificar(
+    "dia com escolha fixa não altera a sugestão salva",
+    semPromocao?.dds.id === "outubro-preconceito-e-desinformacao",
+    `→ ${semPromocao?.dds.id}`,
+  );
+
+  const celebre10 = new Date("2026-10-10T09:00:00");
+  const sugestaoCelebre = {
+    ...historicoVazio(),
+    sugestoes: { [chaveDia(celebre10)]: "outubro-seguranca-nas-escolas" },
+  };
+  const semPromocaoCelebre = sugerirDoDia(catalogo, sugestaoCelebre, celebre10);
+  verificar(
+    "dia celebrado rege a sugestão (sem promoção ao central)",
+    semPromocaoCelebre?.dds.id === "outubro-seguranca-nas-escolas",
+    `→ ${semPromocaoCelebre?.dds.id}`,
+  );
 }
 
 console.log("6) Busca e catálogo");
