@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>DDS na mão - Lista de Presença</title>
+<style>
+  /* ===== CONFIGURAÇÃO A4 ===== */
+  @page {
+    size: A4 portrait;
+    margin: 12mm 12mm 12mm 12mm;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #1a1a1a;
+    background: #fff;
+    line-height: 1.35;
+  }
+
+  .folha {
+    width: 210mm;
+    min-height: 297mm;
+    padding: 10mm;
+    margin: 0 auto;
+    background: #fff;
+  }
+
+  /* ===== CABEÇALHO ===== */
+  .cabecalho {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 2px solid #f4c400;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+  }
+
+  .icone {
+    width: 52px;
+    height: 52px;
+    flex-shrink: 0;
+    background: #2b2b2b;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .icone svg {
+    width: 38px;
+    height: 38px;
+  }
+
+  .titulo-app {
+    flex: 1;
+  }
+
+  .titulo-app h1 {
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 0.5px;
+    color: #2b2b2b;
+    text-transform: uppercase;
+  }
+
+  .titulo-app h1 span {
+    color: #f4c400;
+  }
+
+  .titulo-app p {
+    font-size: 10px;
+    color: #555;
+    font-weight: bold;
+    letter-spacing: 0.3px;
+    margin-top: 1px;
+  }
+
+  /* ===== LINHA DE INFO ===== */
+  .info-linha {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    margin: 10px 0 12px 0;
+    font-size: 11px;
+  }
+
+  .info-linha .campo {
+    flex: 1;
+    border-bottom: 1px solid #999;
+    padding: 2px 4px 3px 4px;
+    display: flex;
+    gap: 4px;
+  }
+
+  .info-linha .campo strong {
+    color: #2b2b2b;
+    white-space: nowrap;
+  }
+
+  .info-linha .campo .valor {
+    flex: 1;
+    min-height: 14px;
+    color: #333;
+  }
+
+  /* ===== TEMA DESTAQUE ===== */
+  .tema-box {
+    background: #fff8d6;
+    border-left: 4px solid #f4c400;
+    padding: 6px 10px;
+    margin-bottom: 12px;
+    font-size: 12px;
+  }
+
+  .tema-box strong {
+    color: #2b2b2b;
+  }
+
+  /* ===== TEXTO DO DDS ===== */
+  .texto-dds {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px 12px;
+    margin-bottom: 14px;
+    min-height: 120px;
+    font-size: 11px;
+    text-align: justify;
+    color: #222;
+    line-height: 1.5;
+    white-space: pre-wrap;
+  }
+
+  .texto-dds .placeholder {
+    color: #999;
+    font-style: italic;
+  }
+
+  /* ===== TÍTULO DA LISTA ===== */
+  .titulo-lista {
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #2b2b2b;
+    background: #f4c400;
+    padding: 5px 10px;
+    border-radius: 3px 3px 0 0;
+    letter-spacing: 0.5px;
+  }
+
+  /* ===== TABELA ===== */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+  }
+
+  thead th {
+    background: #2b2b2b;
+    color: #fff;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    padding: 6px 6px;
+    text-align: left;
+    border: 1px solid #2b2b2b;
+  }
+
+  tbody td {
+    border: 1px solid #bbb;
+    height: 22px;
+    padding: 2px 6px;
+    font-size: 10.5px;
+    vertical-align: middle;
+  }
+
+  tbody tr:nth-child(even) td {
+    background: #fafafa;
+  }
+
+  .col-num { width: 6%; text-align: center; }
+  .col-nome { width: 46%; }
+  .col-assinatura { width: 28%; }
+  .col-empresa { width: 20%; }
+
+  /* ===== RODAPÉ ===== */
+  .rodape {
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 10px;
+  }
+
+  .rodape .assinatura {
+    flex: 1;
+    border-top: 1px solid #333;
+    padding-top: 3px;
+    text-align: center;
+    color: #333;
+  }
+
+  .rodape .assinatura strong {
+    display: block;
+    font-size: 10px;
+    color: #2b2b2b;
+  }
+
+  .rodape .assinatura span {
+    font-size: 9px;
+    color: #666;
+  }
+
+  /* ===== BOTÕES (não aparecem na impressão) ===== */
+  .acoes {
+    text-align: center;
+    margin: 16px 0;
+  }
+
+  .acoes button {
+    background: #f4c400;
+    color: #2b2b2b;
+    border: none;
+    padding: 10px 22px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 0 6px;
+    transition: 0.2s;
+  }
+
+  .acoes button:hover {
+    background: #e0b400;
+  }
+
+  /* ===== IMPRESSÃO ===== */
+  @media print {
+    body {
+      background: #fff;
+    }
+    .folha {
+      width: auto;
+      min-height: auto;
+      padding: 0;
+      margin: 0;
+    }
+    .acoes {
+      display: none !important;
+    }
+    tbody tr:nth-child(even) td {
+      background: #fafafa !important;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+    thead th {
+      background: #2b2b2b !important;
+      color: #fff !important;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+    .titulo-lista {
+      background: #f4c400 !important;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+    .tema-box {
+      background: #fff8d6 !important;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+    .icone {
+      background: #2b2b2b !important;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+    .titulo-app h1 span {
+      color: #f4c400 !important;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
+    }
+  }
+</style>
+</head>
+<body>
+
+<div class="folha">
+
+  <!-- ===== CABEÇALHO ===== -->
+  <header class="cabecalho">
+    <div class="icone">
+      <!-- Ícone: capacete amarelo + balão DDS -->
+      <svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+        <!-- Capacete -->
+        <path d="M32 8 C20 8 12 18 12 30 L12 36 L52 36 L52 30 C52 18 44 8 32 8 Z" fill="#f4c400"/>
+        <rect x="8" y="34" width="48" height="6" rx="3" fill="#f4c400"/>
+        <!-- Balão DDS -->
+        <rect x="30" y="38" width="28" height="18" rx="5" fill="#ffffff" stroke="#2b2b2b" stroke-width="1.5"/>
+        <path d="M34 56 L30 62 L40 56 Z" fill="#ffffff" stroke="#2b2b2b" stroke-width="1.5"/>
+        <text x="44" y="51" font-family="Arial" font-size="10" font-weight="bold" fill="#2b2b2b" text-anchor="middle">DDS</text>
+      </svg>
+    </div>
+    <div class="titulo-app">
+      <h1>DDS <span>na mão</span></h1>
+      <p>Diálogo Diário de Segurança</p>
+    </div>
+  </header>
+
+  <!-- ===== LINHA DE INFO ===== -->
+  <div class="info-linha">
+    <div class="campo">
+      <strong>Tema:</strong>
+      <span class="valor" id="campoTema">[Título do Texto]</span>
+    </div>
+  </div>
+
+  <div class="info-linha">
+    <div class="campo">
+      <strong>Data:</strong>
+      <span class="valor" id="campoData">____/____/________</span>
+    </div>
+    <div class="campo">
+      <strong>Leitor:</strong>
+      <span class="valor" id="campoLeitor">_______________________________</span>
+    </div>
+  </div>
+
+  <!-- ===== TEXTO DO DDS ===== -->
+  <div class="tema-box">
+    <strong>📄 TEMA:</strong> [Título do Texto]
+  </div>
+
+  <div class="texto-dds" id="textoDDS">
+    <span class="placeholder">
+      [Texto do DDS aqui — conteúdo a ser lido para a equipe]
+    </span>
+  </div>
+
+  <!-- ===== LISTA DE PRESENÇA ===== -->
+  <div class="titulo-lista">📋 Lista de Presença</div>
+
+  <table>
+    <thead>
+      <tr>
+        <th class="col-num">Nº</th>
+        <th class="col-nome">Nome</th>
+        <th class="col-assinatura">Assinatura</th>
+        <th class="col-empresa">Empresa</th>
+      </tr>
+    </thead>
+    <tbody id="corpoTabela">
+      <!-- Linhas geradas via JS -->
+    </tbody>
+  </table>
+
+  <!-- ===== RODAPÉ ===== -->
+  <div class="rodape">
+    <div class="assinatura">
+      <strong>Assinatura do Leitor</strong>
+      <span>Responsável pela leitura do DDS</span>
+    </div>
+    <div class="assinatura">
+      <strong>Assinatura do Responsável</strong>
+      <span>Supervisor / Engenheiro / Téc. Segurança</span>
+    </div>
+  </div>
+
+</div>
+
+<!-- ===== BOTÕES ===== -->
+<div class="acoes">
+  <button onclick="window.print()">🖨️ Imprimir / Salvar PDF</button>
+  <button onclick="adicionarLinhas(10)">➕ Adicionar 10 linhas</button>
+</div>
+
+<script>
+  // ===== GERA LINHAS DA TABELA =====
+  const totalLinhas = 20; // ajuste conforme necessário
+  const corpo = document.getElementById('corpoTabela');
+
+  function criarLinha(numero) {
+    const tr = document.createElement('tr');
+    tr.innerHTML = `
+      <td class="col-num">${numero}</td>
+      <td class="col-nome"></td>
+      <td class="col-assinatura"></td>
+      <td class="col-empresa"></td>
+    `;
+    return tr;
+  }
+
+  for (let i = 1; i <= totalLinhas; i++) {
+    corpo.appendChild(criarLinha(i));
+  }
+
+  function adicionarLinhas(qtd) {
+    const atual = corpo.children.length;
+    for (let i = 1; i <= qtd; i++) {
+      corpo.appendChild(criarLinha(atual + i));
+    }
+  }
+</script>
+
+</body>
+</html>

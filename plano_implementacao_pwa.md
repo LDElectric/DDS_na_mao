@@ -60,6 +60,26 @@ O motor de sugestão do aplicativo operará seguindo uma ordem estrita de priori
 2. Da lista já filtrada na Prioridade 2, exclui temporariamente todos os DDS que possuam o mesmo tema.
 3. Realiza o sorteio final (aleatório) com a lista resultante e apresenta ao usuário.
 
+### Ciclo do dia (ler → escolher → imprimir)
+Regra de uso real (turnos rotativos, mesmo dispositivo):
+
+1. **Abrir o texto não conta como leitura.** O DDS pode ser aberto à vontade para conferir
+   antes de decidir — nada é gravado no histórico.
+2. **"Escolher este DDS"** é a confirmação: grava a leitura e, sendo a **primeira escolha da
+   data**, fixa o **DDS do dia** (`escolhas["AAAA-MM-DD"] = { id, iso }`).
+3. **O DDS fixado permanece até 23:59** — os demais turnos do mesmo dia acessam o mesmo DDS
+   pela Home (selo "✓ DDS do dia").
+4. **Outros turnos podem escolher outro tema**: cada escolha vira um novo registro na mesma
+   data, mas **não troca** o DDS já fixado.
+5. **Escolher encerra o ciclo**: depois da confirmação não há sugestão de "próximo conteúdo
+   relacionado" — só confirmação, impressão e links de navegação. As sugestões continuam
+   aleatórias seguindo as Prioridades 1–3 acima.
+6. **Impressão com ata:** `/imprimir/:id` gera o documento (texto + lista de presença em
+   **página seguinte**, ideal frente e verso) para imprimir ou salvar em PDF, assinar e
+   arquivar — acessível pelos cartões da tela "DDS lidos".
+7. **Mensagens amigáveis:** todos os estados vazios e de erro orientam o próximo passo
+   (ex.: busca sem resultado sugere temas e leva à biblioteca completa).
+
 ---
 
 ## 4. Fases de Implementação (Passo a Passo)
@@ -68,7 +88,9 @@ O motor de sugestão do aplicativo operará seguindo uma ordem estrita de priori
 > testes automatizados do algoritmo (`npm test`) e smoke test em navegador real com
 > modo offline (`npm run smoke`). Lighthouse: **PWA 100 · Acessibilidade 100 ·
 > Boas Práticas 100 · SEO 100 · Desempenho 98**.
-> Pendente: ativação do GitHub Pages (workflow pronto).
+> GitHub Pages ativo: publicação automática em https://ldelectric.github.io/DDS_na_mao/
+> a cada push em `main`. Ciclo do dia (escolher/fixar DDS) e impressão com ata implementados
+> — ver seção 3.
 
 ### Fase 1: Setup do Projeto e Estrutura Básica
 - [x] Inicializar o projeto com Vite (`npm create vite@latest dds-na-mao -- --template react`).
@@ -98,7 +120,7 @@ O motor de sugestão do aplicativo operará seguindo uma ordem estrita de priori
 ### Fase 5: Testes e Deploy
 - [x] Validar no navegador (Lighthouse) se atende aos critérios PWA. *(PWA 100 · Acessibilidade 100 · Boas Práticas 100 · SEO 100 · Desempenho 98)*
 - [x] Realizar testes forçando datas diferentes no sistema para validar a lógica do Calendário SESMT e dos 6 meses. *(`npm test` — datas simuladas de out/nov 2026)*
-- [ ] Realizar o deploy inicial via Vercel ou GitHub Pages. *(workflow pronto em `.github/workflows/deploy.yml`)*
+- [x] Realizar o deploy inicial via GitHub Pages. *(automático a cada push em `main`)*
 
 ---
 

@@ -82,3 +82,38 @@ export const buscarDDS = (catalogo, termo, { tema = null } = {}) => {
       .includes(consulta),
   );
 };
+
+/**
+ * Temas para sugerir quando a busca não encontra nada: prioriza os que têm
+ * mais afinidade com o termo digitado; se nada afinar, sugere os temas com
+ * mais DDS (caminhos de exploração).
+ */
+export const sugerirTemas = (catalogo, termo, limite = 4) => {
+  const tokens = normalizar(termo)
+    .split(/\s+/)
+    .map((t) => t.replace(/[^\wÀ-ÿ-]/g, ""))
+    .filter((t) => t.length >= 3);
+  if (!tokens.length) return [];
+
+  const placar = new Map();
+  for (const item of catalogo) {
+    const alvo = [rotuloTema(item.tema), item.titulo, item.subtitulo, item.capitulo_nome]
+      .map(normalizar)
+      .join(" ");
+    const pontos = tokens.filter((token) => alvo.includes(token)).length;
+    if (pontos) placar.set(item.tema, (placar.get(item.tema) ?? 0) + pontos);
+  }
+
+  const relacionados = [...placar.entries()]
+    .sort((a, b) => b[1] - a[1])
+    .map(([tema]) => tema)
+    .slice(0, limite);
+  if (relacionados.length) return relacionados;
+
+  const porTema = new Map();
+  for (const item of catalogo) porTema.set(item.tema, (porTema.get(item.tema) ?? 0) + 1);
+  return [...porTema.entries()]
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, limite)
+    .map(([tema]) => tema);
+};

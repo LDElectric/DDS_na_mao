@@ -1,4 +1,5 @@
 import { useMemo, useState } from "react";
+import { Link } from "react-router-dom";
 import ItemDDS from "../components/ItemDDS.jsx";
 import { useCatalogo } from "../hooks/useCatalogo.jsx";
 import { useHistorico } from "../hooks/useHistorico.jsx";
@@ -11,7 +12,7 @@ const FILTROS = [
 ];
 
 export default function Biblioteca() {
-  const { itens, carregando, erro } = useCatalogo();
+  const { itens, carregando, erro, recarregar } = useCatalogo();
   const { historico, limparHistorico } = useHistorico();
   const [filtro, setFiltro] = useState("todos");
 
@@ -42,7 +43,20 @@ export default function Biblioteca() {
   }, [itens, historico.leituras, filtro]);
 
   if (carregando) return <p className="aviso">Carregando catálogo…</p>;
-  if (erro) return <p className="aviso aviso--erro">Erro ao carregar o catálogo.</p>;
+
+  if (erro) {
+    return (
+      <div className="aviso aviso--erro">
+        <p>
+          Não conseguimos carregar o catálogo agora. Se estiver sem conexão, tente de novo em
+          alguns instantes.
+        </p>
+        <button type="button" className="botao" onClick={recarregar}>
+          Tentar novamente
+        </button>
+      </div>
+    );
+  }
 
   const lidosTotal = Object.keys(historico.leituras).length;
   const progresso = itens.length ? Math.round((lidosTotal / itens.length) * 100) : 0;
@@ -84,7 +98,25 @@ export default function Biblioteca() {
         </section>
       ))}
 
-      {!grupos.length && <p className="aviso">Nenhum DDS neste filtro.</p>}
+      {!grupos.length && (
+        <div className="aviso">
+          <p>
+            <strong>Nenhum DDS neste filtro agora.</strong>
+          </p>
+          <p>
+            Limpe o filtro para ver os {itens.length} DDS do catálogo — ou use a{" "}
+            <strong>Busca</strong> para procurar por palavra-chave.
+          </p>
+          <div className="aviso__acoes">
+            <button type="button" className="botao botao--primario" onClick={() => setFiltro("todos")}>
+              Limpar filtro
+            </button>
+            <Link className="botao" to="/busca">
+              Pesquisar DDS
+            </Link>
+          </div>
+        </div>
+      )}
 
       <div className="zona-perigo">
         <button

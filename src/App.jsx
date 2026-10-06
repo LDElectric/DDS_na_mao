@@ -12,6 +12,7 @@ import Lidos from "./pages/Lidos.jsx";
 // A tela de Leitura puxa o react-markdown: carregada sob demanda para
 // deixar o bundle inicial (e o primeiro paint) mais leve.
 const Leitura = lazy(() => import("./pages/Leitura.jsx"));
+const Imprimir = lazy(() => import("./pages/Imprimir.jsx"));
 
 const CHAVE_TEMA = "dds-na-mao:tema";
 
@@ -29,10 +30,11 @@ export default function App() {
         <div className="app">
           <Cabecalho tema={tema} onAlternarTema={() => setTema(tema === "escuro" ? "claro" : "escuro")} />
           <main className="conteudo">
-            <Suspense fallback={<p className="aviso">Carregando…</p>}>
+            <Suspense fallback={<p className="aviso">Preparando a tela…</p>}>
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/ler/:id" element={<Leitura />} />
+                <Route path="/imprimir/:id" element={<Imprimir />} />
                 <Route path="/busca" element={<Busca />} />
                 <Route path="/biblioteca" element={<Biblioteca />} />
                 <Route path="/lidos" element={<Lidos />} />

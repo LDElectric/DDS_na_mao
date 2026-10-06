@@ -1,16 +1,22 @@
 import { createContext, useCallback, useContext, useMemo, useState } from "react";
 import { chaveDia, chaveMes } from "../lib/algoritmo.js";
+import { registrarEscolha } from "../lib/historico.js";
 
 /**
- * Histórico de leituras e sugestões persistido no dispositivo
+ * Histórico de escolhas e sugestões persistido no dispositivo
  * (localStorage, conforme o plano: backend-less).
+ *
+ * Regra importante: abrir o texto de um DDS NÃO conta como leitura.
+ * Só a confirmação ("Escolher este DDS") grava o registro — e a primeira
+ * escolha do dia vira o "DDS do dia", fixo para todos os turnos da data.
  */
 const CHAVE = "dds-na-mao:historico:v1";
 const Contexto = createContext(null);
 
 const vazio = () => ({
-  versao: 1,
-  leituras: {}, // id -> ISO da última leitura
+  versao: 2,
+  leituras: {}, // id -> ISO da última escolha confirmada
+  escolhas: {}, // "AAAA-MM-DD" -> { id, iso } = DDS fixado do dia (1ª escolha)
   sugestoes: {}, // "AAAA-MM-DD" -> id sugerido
   campanhaDoMes: {}, // "AAAA-MM" -> id da campanha já sorteada no mês
   ultimoTema: null,
@@ -45,12 +51,8 @@ export function HistoricoProvider({ children }) {
     });
   }, []);
 
-  const registrarLeitura = useCallback(
-    (id) =>
-      atualizar((atual) => ({
-        ...atual,
-        leituras: { ...atual.leituras, [id]: new Date().toISOString() },
-      })),
+  const escolherDDS = useCallback(
+    (id) => atualizar((atual) => registrarEscolha(atual, id)),
     [atualizar],
   );
 
@@ -74,8 +76,8 @@ export function HistoricoProvider({ children }) {
   const limparHistorico = useCallback(() => atualizar(() => vazio()), [atualizar]);
 
   const valor = useMemo(
-    () => ({ historico, registrarLeitura, registrarSugestao, limparHistorico }),
-    [historico, registrarLeitura, registrarSugestao, limparHistorico],
+    () => ({ historico, escolherDDS, registrarSugestao, limparHistorico }),
+    [historico, escolherDDS, registrarSugestao, limparHistorico],
   );
 
   return <Contexto.Provider value={valor}>{children}</Contexto.Provider>;
@@ -87,4 +89,11 @@ export const useHistorico = () => {
   return contexto;
 };
 
-export { contarLidos, formatarDataLeitura, listarLeituras } from "../lib/historico.js";
+export {
+  contarLidos,
+  escolhaDoDia,
+  escolhidoHoje,
+  formatarDataLeitura,
+  listarLeituras,
+  registradoHoje,
+} from "../lib/historico.js";

@@ -1,11 +1,12 @@
 import { useMemo, useState } from "react";
+import { Link } from "react-router-dom";
 import ItemDDS from "../components/ItemDDS.jsx";
 import { useCatalogo } from "../hooks/useCatalogo.jsx";
 import { useHistorico } from "../hooks/useHistorico.jsx";
-import { buscarDDS, rotuloTema } from "../lib/catalogo.js";
+import { buscarDDS, rotuloTema, sugerirTemas } from "../lib/catalogo.js";
 
 export default function Busca() {
-  const { itens, carregando, erro } = useCatalogo();
+  const { itens, carregando, erro, recarregar } = useCatalogo();
   const { historico } = useHistorico();
   const [termo, setTermo] = useState("");
   const [tema, setTema] = useState(null);
@@ -19,14 +20,33 @@ export default function Busca() {
 
   const resultados = useMemo(() => buscarDDS(itens, termo, { tema }), [itens, termo, tema]);
 
+  const temasSugeridos = useMemo(
+    () => (resultados.length ? [] : sugerirTemas(itens, termo)),
+    [itens, termo, resultados.length],
+  );
+
   if (carregando) return <p className="aviso">Carregando catálogo…</p>;
-  if (erro) return <p className="aviso aviso--erro">Erro ao carregar o catálogo.</p>;
+
+  if (erro) {
+    return (
+      <div className="aviso aviso--erro">
+        <p>
+          Não conseguimos carregar o catálogo agora. Se estiver sem conexão, tente de novo em
+          alguns instantes.
+        </p>
+        <button type="button" className="botao" onClick={recarregar}>
+          Tentar novamente
+        </button>
+      </div>
+    );
+  }
 
   return (
     <div className="pagina">
       <h1 className="titulo-pagina">Busca manual</h1>
       <p className="subtitulo-pagina">
-        A pesquisa manual permite acessar qualquer DDS, inclusive os lidos nos últimos 6 meses.
+        A pesquisa manual permite acessar qualquer DDS, inclusive os já escolhidos nos últimos 6
+        meses.
       </p>
 
       <div className="campo-busca">
@@ -76,7 +96,60 @@ export default function Busca() {
         ))}
       </ul>
 
-      {!resultados.length && <p className="aviso">Nenhum DDS encontrado para esse filtro.</p>}
+      {!resultados.length && (
+        <div className="aviso">
+          <p>
+            <strong>Ops! Não encontramos DDS para {termo ? `“${termo}”` : "esse filtro"}</strong>
+            {tema && (
+              <>
+                <br />o filtro <strong>{rotuloTema(tema)}</strong> também pode estar escondendo
+                resultados.
+              </>
+            )}
+          </p>
+          <p>
+            Tente uma palavra mais curta (ex.: “altura” em vez de “trabalho em altura”), limpe o
+            filtro de tema ou navegue pelo catálogo completo.
+          </p>
+
+          {temasSugeridos.length > 0 && (
+            <div className="sugestoes-tema">
+              <span>Talvez você procure por:</span>
+              <div className="chips">
+                {temasSugeridos.map((valor) => (
+                  <button
+                    key={valor}
+                    type="button"
+                    className="chips__item"
+                    onClick={() => {
+                      setTermo("");
+                      setTema(valor);
+                    }}
+                  >
+                    {rotuloTema(valor)}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+
+          <div className="aviso__acoes">
+            <button
+              type="button"
+              className="botao"
+              onClick={() => {
+                setTermo("");
+                setTema(null);
+              }}
+            >
+              Limpar busca
+            </button>
+            <Link className="botao botao--primario" to="/biblioteca">
+              Biblioteca completa
+            </Link>
+          </div>
+        </div>
+      )}
     </div>
   );
 }

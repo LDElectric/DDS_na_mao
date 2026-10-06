@@ -840,6 +840,434 @@ button {
   font-weight: 700;
 }
 
+/* ------------------------- Ciclo: escolher o DDS ------------------------- */
+
+.etiqueta--escolha {
+  background: color-mix(in srgb, var(--sucesso) 16%, transparent);
+  border-color: color-mix(in srgb, var(--sucesso) 45%, transparent);
+  color: var(--sucesso);
+}
+
+.destaque__nota,
+.leitura__dica {
+  margin: 14px 0 0;
+  padding: 8px 10px;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: var(--texto-suave);
+  background: color-mix(in srgb, var(--acento) 10%, transparent);
+  border-left: 3px solid var(--acento);
+  border-radius: 8px;
+}
+
+.escolha {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  margin-top: 14px;
+}
+
+.escolha__ajuda {
+  margin: 0;
+  max-width: 48ch;
+  font-size: 0.82rem;
+  line-height: 1.5;
+  color: var(--texto-suave);
+}
+
+.confirmacao {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 16px;
+  border: 1px solid color-mix(in srgb, var(--sucesso) 45%, transparent);
+  background: color-mix(in srgb, var(--sucesso) 10%, var(--bg-superficie));
+  border-radius: var(--raio);
+}
+
+.confirmacao p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.confirmacao strong {
+  color: var(--sucesso);
+}
+
+.confirmacao__acoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* --------------------------- Estados amigáveis --------------------------- */
+
+.aviso__acoes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.sugestoes-tema {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.sugestoes-tema > span {
+  font-size: 0.85rem;
+  color: var(--texto-suave);
+}
+
+/* ------------------------ DDS lidos: ação imprimir ----------------------- */
+
+.item-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.item-lista__imprimir {
+  align-self: flex-end;
+  padding: 8px 14px;
+  font-size: 0.85rem;
+}
+
+/* -------------------- Documento impresso (texto + ata) -------------------- */
+
+@page {
+  size: A4 portrait;
+  margin: 12mm;
+}
+
+.pagina--impressao {
+  gap: 12px;
+}
+
+.impressao-acoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.impressao-dica {
+  text-align: left;
+  padding: 10px 14px;
+  font-size: 0.85rem;
+  background: var(--bg-superficie);
+  border: 1px solid var(--borda);
+  border-radius: 12px;
+}
+
+.folha {
+  width: 100%;
+  max-width: 210mm;
+  margin: 0 auto;
+  padding: 16px;
+  background: #ffffff;
+  color: #1a1a1a;
+  border: 1px solid var(--borda);
+  border-radius: var(--raio);
+  box-shadow: var(--sombra);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.folha__cabecalho {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #f4c400;
+  margin-bottom: 10px;
+  break-inside: avoid;
+}
+
+.folha__icone {
+  width: 52px;
+  height: 52px;
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #2b2b2b;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.folha__cabecalho h1 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #2b2b2b;
+}
+
+.folha__cabecalho h1 span {
+  color: #f4c400;
+}
+
+.folha__cabecalho p {
+  margin: 1px 0 0;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  color: #555;
+}
+
+.folha__info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 12px;
+  margin: 10px 0 12px;
+}
+
+.folha__campo {
+  flex: 1 1 220px;
+  display: flex;
+  gap: 4px;
+  padding: 2px 4px 3px;
+  border-bottom: 1px solid #999;
+  font-size: 12px;
+}
+
+.folha__campo--pequeno {
+  flex: 1 1 140px;
+}
+
+.folha__campo strong {
+  color: #2b2b2b;
+  white-space: nowrap;
+}
+
+.folha__campo span {
+  flex: 1;
+  min-height: 14px;
+  color: #333;
+  word-break: break-word;
+}
+
+.folha__tema {
+  padding: 6px 10px;
+  margin-bottom: 12px;
+  background: #fff8d6;
+  border-left: 4px solid #f4c400;
+  font-size: 12px;
+  break-inside: avoid;
+}
+
+.folha__tema strong {
+  color: #2b2b2b;
+}
+
+.folha__texto {
+  padding: 10px 12px;
+  background: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #222222;
+  font-size: 13px;
+  text-align: justify;
+}
+
+.folha__texto h1 {
+  margin: 0 0 10px;
+  font-size: 15px;
+  color: #2b2b2b;
+}
+
+.folha__texto h2,
+.folha__texto h3 {
+  margin: 14px 0 6px;
+  font-size: 13.5px;
+  color: #1a1a1a;
+  break-after: avoid;
+}
+
+.folha__texto strong {
+  color: #1a1a1a;
+}
+
+.folha__texto p {
+  margin: 0 0 10px;
+  orphans: 3;
+  widows: 3;
+}
+
+.folha__texto blockquote {
+  padding: 8px 12px;
+  background: #fafafa;
+  border-left: 3px solid #f4c400;
+  color: #333;
+}
+
+.folha__texto hr {
+  border-top: 1px solid #ccc;
+}
+
+/* A ata começa sempre em uma página nova (frente e verso). */
+.folha__ata {
+  margin-top: 14px;
+  break-before: page;
+  page-break-before: always;
+}
+
+.folha__ata h2 {
+  margin: 0;
+  padding: 5px 10px;
+  font-size: 13px;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #2b2b2b;
+  background: #f4c400;
+  border-radius: 3px 3px 0 0;
+  break-after: avoid;
+}
+
+.folha__ata table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 10px;
+}
+
+.folha__ata thead {
+  display: table-header-group;
+}
+
+.folha__ata tr {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.folha__ata th {
+  padding: 6px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: #ffffff;
+  background: #2b2b2b;
+  border: 1px solid #2b2b2b;
+}
+
+.folha__ata td {
+  height: 24px;
+  padding: 2px 6px;
+  font-size: 11px;
+  vertical-align: middle;
+  border: 1px solid #bbb;
+}
+
+.folha__ata tbody tr:nth-child(even) td {
+  background: #fafafa;
+}
+
+.folha__ata .c-num {
+  width: 6%;
+  text-align: center;
+}
+
+.folha__ata .c-nome {
+  width: 46%;
+}
+
+.folha__ata .c-assinatura {
+  width: 28%;
+}
+
+.folha__ata .c-empresa {
+  width: 20%;
+}
+
+.folha__assinaturas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 16px;
+  break-inside: avoid;
+}
+
+.folha__assinatura {
+  flex: 1 1 180px;
+  padding-top: 3px;
+  border-top: 1px solid #333;
+  text-align: center;
+  font-size: 10px;
+  color: #333;
+}
+
+.folha__assinatura strong {
+  display: block;
+  font-size: 11px;
+  color: #2b2b2b;
+}
+
+/* -------------------------------- Impressão ------------------------------ */
+
+@media print {
+  body {
+    background: #ffffff;
+  }
+
+  .cabecalho,
+  .rodape,
+  .impressao-acoes,
+  .impressao-dica {
+    display: none !important;
+  }
+
+  .conteudo {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .pagina {
+    gap: 0;
+  }
+
+  .folha {
+    width: auto;
+    max-width: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 11px;
+  }
+
+  .folha__texto {
+    padding: 0;
+    border: 0;
+    font-size: 11px;
+  }
+
+  .folha__cabecalho h1 span,
+  .folha__tema,
+  .folha__ata h2,
+  .folha__ata th,
+  .folha__ata tbody tr:nth-child(even) td,
+  .folha__icone {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .folha__ata th {
+    background: #2b2b2b !important;
+    color: #ffffff !important;
+  }
+}
+
 /* ------------------------------ Desktop fino ---------------------------- */
 
 @media (min-width: 640px) {

@@ -1,7 +1,12 @@
 import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { useCatalogo } from "../hooks/useCatalogo.jsx";
-import { contarLidos, useHistorico } from "../hooks/useHistorico.jsx";
+import {
+  contarLidos,
+  escolhaDoDia,
+  registradoHoje,
+  useHistorico,
+} from "../hooks/useHistorico.jsx";
 import {
   DIAS_JANELA_LEITURA,
   ROTULOS_ORIGEM,
@@ -11,15 +16,23 @@ import {
 } from "../lib/algoritmo.js";
 import { rotuloParte, rotuloTema } from "../lib/catalogo.js";
 
+const horaDo = (iso) =>
+  new Date(iso).toLocaleTimeString("pt-BR", { hour: "2-digit", minute: "2-digit" });
+
 export default function Home() {
   const { itens, carregando, erro, recarregar } = useCatalogo();
-  const { historico, registrarLeitura, registrarSugestao } = useHistorico();
+  const { historico, escolherDDS, registrarSugestao } = useHistorico();
   const localizacao = useLocation();
   const [sugestao, setSugestao] = useState(null);
 
+  // DDS já escolhido hoje: ele substitui a sugestão e vale para todos os turnos.
+  const escolha = escolhaDoDia(historico);
+  const ddsDoDia = escolha ? itens.find((dds) => dds.id === escolha.id) ?? null : null;
+
   // Sorteio inicial (ou re-sorteio quando a tela veio da leitura).
+  // Sem re-sorteio se já existe DDS fixado do dia: ele permanece até 23:59.
   useEffect(() => {
-    if (carregando || erro || !itens.length || sugestao) return;
+    if (carregando || erro || !itens.length || sugestao || ddsDoDia) return;
 
     const reSortear = Boolean(localizacao.state?.sortear);
     const resultado = reSortear
@@ -44,7 +57,10 @@ export default function Home() {
   if (erro) {
     return (
       <div className="aviso aviso--erro">
-        <p>Não foi possível carregar o catálogo. Verifique a conexão e tente de novo.</p>
+        <p>
+          Não conseguimos carregar o catálogo agora. Se estiver sem conexão, tente de novo em
+          alguns instantes.
+        </p>
         <button type="button" className="botao" onClick={recarregar}>
           Tentar novamente
         </button>
@@ -53,15 +69,27 @@ export default function Home() {
   }
 
   const lidos = contarLidos(historico);
-  const dds = sugestao?.dds;
+  const dds = ddsDoDia ?? sugestao?.dds;
+  const hoje = registradoHoje(historico);
 
   return (
     <div className="pagina">
       <section className="destaque">
         <header className="destaque__cabecalho">
-          <span className="etiqueta">Sugestão do dia</span>
-          {sugestao && (
-            <span className="etiqueta etiqueta--origem">{ROTULOS_ORIGEM[sugestao.origem]}</span>
+          {ddsDoDia ? (
+            <>
+              <span className="etiqueta etiqueta--escolha">✓ DDS do dia</span>
+              <span className="etiqueta etiqueta--origem">
+                Escolhido às {horaDo(escolha.iso)}
+              </span>
+            </>
+          ) : (
+            <>
+              <span className="etiqueta">Sugestão do dia</span>
+              {sugestao && (
+                <span className="etiqueta etiqueta--origem">{ROTULOS_ORIGEM[sugestao.origem]}</span>
+              )}
+            </>
           )}
         </header>
 
@@ -80,23 +108,53 @@ export default function Home() {
               {rotuloParte(dds.parte)} · {dds.capitulo_nome}
             </p>
 
-            <div className="destaque__acoes">
-              <Link className="botao botao--primario" to={`/ler/${dds.id}`}>
-                Ler agora
-              </Link>
-              <button type="button" className="botao" onClick={aoSortear}>
-                Sortear outro
-              </button>
-            </div>
+            {ddsDoDia ? (
+              <>
+                <div className="destaque__acoes">
+                  <Link className="botao botao--primario" to={`/ler/${dds.id}`}>
+                    Ler agora
+                  </Link>
+                  <Link className="botao" to="/busca">
+                    Registrar outro DDS
+                  </Link>
+                </div>
+                <p className="destaque__nota">
+                  📍 Fixado às {horaDo(escolha.iso)} e válido até 23:59: todos os turnos de hoje
+                  leem este mesmo DDS. Outros turnos podem registrar DDS adicional sem trocar o
+                  fixado.
+                </p>
+                {hoje > 1 && (
+                  <Link className="link-suave" to="/lidos">
+                    {hoje} DDS registrados hoje · ver todos
+                  </Link>
+                )}
+              </>
+            ) : (
+              <>
+                <div className="destaque__acoes">
+                  <Link className="botao botao--primario" to={`/ler/${dds.id}`}>
+                    Ler agora
+                  </Link>
+                  <button type="button" className="botao" onClick={aoSortear}>
+                    Sortear outro
+                  </button>
+                </div>
 
-            <button
-              type="button"
-              className={`link-suave${historico.leituras[dds.id] ? " link-suave--ok" : ""}`}
-              onClick={() => registrarLeitura(dds.id)}
-              disabled={Boolean(historico.leituras[dds.id])}
-            >
-              {historico.leituras[dds.id] ? "✓ Marcado como lido" : "Marcar como lido"}
-            </button>
+                <div className="escolha">
+                  <button
+                    type="button"
+                    className="botao botao--primario botao-escolher"
+                    onClick={() => escolherDDS(dds.id)}
+                  >
+                    ✓ Escolher este DDS
+                  </button>
+                  <p className="escolha__ajuda">
+                    Abrir o texto ainda não registra nada: confirme aqui (ou dentro da leitura) e o
+                    DDS fica fixado para todos os turnos de hoje.
+                  </p>
+                </div>
+              </>
+            )}
           </>
         ) : (
           <p>Sorteando…</p>
@@ -132,8 +190,9 @@ export default function Home() {
       </section>
 
       <p className="rodape-info">
-        O app respeita a ordem de prioridades: campanha SESMT do mês → 6 meses sem repetição →
-        diversidade de tema.
+        Ciclo do dia: ler → <strong>escolher</strong> → imprimir com ata. A 1ª escolha fica fixada
+        até 23:59 (turnos do mesmo dia usam o mesmo DDS). Sugestões seguem campanha SESMT do mês →
+        6 meses sem repetição → diversidade de tema.
       </p>
     </div>
   );

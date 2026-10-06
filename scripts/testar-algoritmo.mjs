@@ -16,7 +16,7 @@ import {
   sugerirDoDia,
   verificarCampanhaMes,
 } from "../src/lib/algoritmo.js";
-import { listarLeituras } from "../src/lib/historico.js";
+import { listarLeituras, registrarEscolha, escolhaDoDia, escolhidoHoje, registradoHoje } from "../src/lib/historico.js";
 
 const RAIZ = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const catalogo = JSON.parse(
@@ -24,8 +24,9 @@ const catalogo = JSON.parse(
 );
 
 const historicoVazio = () => ({
-  versao: 1,
+  versao: 2,
   leituras: {},
+  escolhas: {},
   sugestoes: {},
   campanhaDoMes: {},
   ultimoTema: null,
@@ -149,6 +150,9 @@ console.log("6) Lista de DDS lidos");
       [catalogo[0].id]: "2026-10-06T10:00:00.000Z",
       [catalogo[1].id]: "2026-01-01T10:00:00.000Z",
     },
+    escolhas: {
+      "2026-10-06": { id: catalogo[0].id, iso: "2026-10-06T10:00:00.000Z" },
+    },
   };
   const todos = listarLeituras(historico, catalogo, null, agora);
   const janela = listarLeituras(historico, catalogo, 180, agora);
@@ -156,6 +160,37 @@ console.log("6) Lista de DDS lidos");
   verificar("mais recente vem primeiro", todos[0].id === catalogo[0].id);
   verificar("janela de 180 dias omite leitura antiga", janela.length === 1 && janela[0].id === catalogo[0].id);
   verificar("traz o título do catálogo", todos[0].titulo === catalogo[0].titulo);
+  verificar("identifica qual é o DDS do dia", todos[0].doDia === true && todos[1].doDia === false);
+}
+
+console.log("7) Ciclo do dia: abrir não é lido; escolher fixa o DDS");
+{
+  const turnoda = new Date("2026-10-06T07:00:00");
+  const tarde = new Date("2026-10-06T15:30:00");
+  const noite = new Date("2026-10-06T23:00:00");
+  const amanha = new Date("2026-10-07T07:00:00");
+  const primeiro = catalogo[0];
+  const outro = catalogo[1];
+
+  let historico = historicoVazio();
+  historico = registrarEscolha(historico, primeiro.id, turnoda);
+  verificar("1ª escolha fixa o DDS do dia", escolhaDoDia(historico, turnoda)?.id === primeiro.id);
+  verificar("a escolha grava a leitura", Boolean(historico.leituras[primeiro.id]));
+  verificar("escolhidoHoje confirma no mesmo dia", escolhidoHoje(historico, primeiro.id, tarde));
+
+  historico = registrarEscolha(historico, outro.id, tarde);
+  verificar(
+    "2ª escolha do dia NÃO troca o DDS fixado",
+    escolhaDoDia(historico, tarde)?.id === primeiro.id,
+  );
+  verificar("2ª escolha vira registro extra na mesma data", Boolean(historico.leituras[outro.id]));
+  verificar("turno da noite segue no mesmo ciclo", escolhaDoDia(historico, noite)?.id === primeiro.id);
+
+  historico = registrarEscolha(historico, catalogo[2].id, noite);
+  verificar("3 registros no mesmo dia", registradoHoje(historico, noite) === 3, `→ ${registradoHoje(historico, noite)}`);
+
+  verificar("novo dia começa ciclo novo (sem DDS fixado)", escolhaDoDia(historico, amanha) === null);
+  verificar("escolha antiga não vale como 'hoje'", escolhidoHoje(historico, primeiro.id, amanha) === false);
 }
 
 console.log(falhas ? `\n✘ ${falhas} verificação(ões) falharam` : "\n✔ todos os testes passaram");
