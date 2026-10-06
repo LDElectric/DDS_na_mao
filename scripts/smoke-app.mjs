@@ -126,6 +126,18 @@ try {
     "modal explica como instalar (Android e iPhone)",
     textoModal.includes("Android") && textoModal.includes("iPhone"),
   );
+  const credito = await pagina.$eval(".modal__creditos", (el) => ({
+    texto: el.textContent,
+    href: el.querySelector("a")?.getAttribute("href") ?? "",
+    externo: el.querySelector("a")?.target === "_blank",
+  }));
+  verificar(
+    "créditos com o autor e link do LinkedIn",
+    credito.texto.includes("Leonam Dias") &&
+      credito.href === "https://www.linkedin.com/in/leonamdias1" &&
+      credito.externo,
+    `→ ${credito.href}`,
+  );
   await pagina.keyboard.press("Escape");
   await pagina.waitForFunction(() => !document.querySelector(".modal-overlay--aberto"), {
     timeout: 5000,
@@ -141,7 +153,11 @@ try {
     return resposta.ok ? resposta.json() : null;
   });
   verificar("manifest encontrado", Boolean(manifest));
-  verificar("manifest com nome 'DDS na Mão'", manifest?.name === "DDS na Mão", `→ ${manifest?.name}`);
+  verificar(
+    "manifest com nome 'DDS na mão'",
+    manifest?.name === "DDS na mão" && manifest?.short_name === "DDS na mão",
+    `→ name=${manifest?.name} / short_name=${manifest?.short_name}`,
+  );
   verificar("manifest com 3 ícones", manifest?.icons?.length === 3, `→ ${manifest?.icons?.length}`);
 
   const swAtivo = await pagina.evaluate(async () => {

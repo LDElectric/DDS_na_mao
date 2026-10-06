@@ -48,7 +48,7 @@ export default function ModalInstalar({ aberto, onFechar }) {
           Desenvolvido e mantido por <b>Leonam Dias</b>.<br />
           Sugestões ou dúvidas? Entre em contato pelo LinkedIn{" "}
           <a
-            href="https://www.linkedin.com/in/leonamdias1/"
+            href="https://www.linkedin.com/in/leonamdias1"
             target="_blank"
             rel="noopener noreferrer"
             className="modal__creditos-link"

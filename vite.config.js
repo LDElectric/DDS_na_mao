@@ -11,8 +11,9 @@ export default defineConfig({
       registerType: "autoUpdate",
       includeAssets: ["favicon.svg", "icon-192.png", "icon-512.png", "icon-512-maskable.png"],
       manifest: {
-        name: "DDS na Mão",
-        short_name: "DDS",
+        // Nome exibido no dispositivo (área de trabalho / tela inicial).
+        name: "DDS na mão",
+        short_name: "DDS na mão",
         description:
           "Diálogos Diários de Segurança com sugestão inteligente e leitura 100% offline.",
         lang: "pt-BR",

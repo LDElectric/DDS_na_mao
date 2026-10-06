@@ -2,12 +2,30 @@
   <!-- Fundo grafite — igual ao header do app -->
   <rect width="64" height="64" rx="14" fill="#2c2c2c"/>
 
-  <!-- Aba do capacete -->
-  <rect x="9" y="32" width="36" height="5" rx="2.5" fill="#FFD600"/>
-  <!-- Cúpula do capacete -->
-  <ellipse cx="27" cy="32" rx="19" ry="17" fill="#FFD600"/>
-  <!-- Crista do capacete -->
-  <rect x="24" y="12" width="6" height="3" rx="1.5" fill="#E6C000"/>
+  <!-- Capacete de segurança (hard hat) -->
+  <!-- Cúpula principal — formato de capacete, não círculo -->
+  <path d="M11 35
+           C11 20, 17 11, 28 11
+           C39 11, 45 20, 45 35
+           Z" fill="#FFD600"/>
+
+  <!-- Aba do capacete (brim) — mais larga na frente -->
+  <path d="M7 34
+           C7 38, 10 39.5, 14 39.5
+           L42 39.5
+           C46 39.5, 49 38, 49 34
+           L7 34 Z" fill="#FFD600"/>
+
+  <!-- Crista / ridge no topo do capacete -->
+  <path d="M25.5 11
+           Q28 6.5, 30.5 11
+           L30.5 15
+           Q28 13, 25.5 15
+           Z" fill="#E6C000"/>
+
+  <!-- Destaque sutil na cúpula (volume) -->
+  <path d="M15 27
+           Q28 21, 41 27" fill="none" stroke="#E6C000" stroke-width="1.4" stroke-linecap="round" opacity="0.55"/>
 
   <!-- Balão de diálogo -->
   <rect x="29" y="38" width="28" height="18" rx="4" fill="white"/>

@@ -12,7 +12,7 @@ export default function Cabecalho({ tema, onAlternarTema }) {
       <Link to="/" className="marca">
         <img src={`${import.meta.env.BASE_URL}favicon.svg`} alt="" width="40" height="40" />
         <span>
-          DDS na Mão
+          DDS na mão
           <small>Diálogos Diários de Segurança</small>
         </span>
       </Link>
