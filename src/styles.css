@@ -284,9 +284,10 @@ button {
 }
 
 .etiqueta--campanha {
-  background: color-mix(in srgb, var(--sucesso) 16%, transparent);
-  border-color: color-mix(in srgb, var(--sucesso) 45%, transparent);
-  color: var(--sucesso);
+  --campanha-cor: var(--sucesso);
+  background: color-mix(in srgb, var(--campanha-cor) 16%, transparent);
+  border-color: color-mix(in srgb, var(--campanha-cor) 45%, transparent);
+  color: var(--campanha-cor);
 }
 
 /* -------------------------------- Botões -------------------------------- */
@@ -377,26 +378,27 @@ button {
   color: var(--texto-suave);
 }
 
-/* Card da campanha em vigor (mês ou dia celebrado). */
+/* Card da campanha em vigor (mês ou dia celebrado), colorido pela cor do mês. */
 .campanha-mes {
+  --campanha-cor: var(--sucesso);
   display: flex;
   flex-direction: column;
   gap: 4px;
   padding: 14px 16px;
-  background: color-mix(in srgb, var(--sucesso) 9%, var(--bg-superficie));
-  border: 1px solid color-mix(in srgb, var(--sucesso) 35%, var(--borda));
+  background: color-mix(in srgb, var(--campanha-cor) 10%, var(--bg-superficie));
+  border: 1px solid color-mix(in srgb, var(--campanha-cor) 45%, transparent);
   border-radius: var(--raio);
 }
 
 .campanha-mes strong {
   font-size: 1rem;
-  color: var(--sucesso);
+  color: var(--campanha-cor);
 }
 
 .campanha-mes__dia {
   font-size: 0.78rem;
   font-weight: 600;
-  color: var(--texto-suave);
+  color: color-mix(in srgb, var(--campanha-cor) 78%, var(--texto-suave));
 }
 
 .campanha-mes p {

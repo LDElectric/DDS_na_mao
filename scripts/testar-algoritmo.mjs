@@ -188,6 +188,35 @@ console.log("5) Campanhas do mês e dias celebrados");
     sugestaoDoDia?.dds.id === "abril-28-de-abril",
     `→ ${sugestaoDoDia?.dds.id}`,
   );
+
+  const outubro6 = new Date("2026-10-06T09:00:00");
+  const outubro6Camp = campanhaDoDia(outubro6);
+  verificar(
+    "campanha traz a cor do mês (hex rosado)",
+    /^#[0-9a-f]{6}$/i.test(outubro6Camp?.cor ?? "") && outubro6Camp.cor === "#d95f8b",
+    `→ ${outubro6Camp?.cor}`,
+  );
+
+  const sugestaoOut = sugerirDoDia(catalogo, historicoVazio(), outubro6);
+  verificar(
+    "sugestão do mês prefere o DDS central da campanha (prevenção do câncer de mama)",
+    sugestaoOut?.dds.id === "outubro-autocuidado-e-exames" && sugestaoOut.origem === "campanha",
+    `→ ${sugestaoOut?.dds.id}`,
+  );
+
+  const nucleoLido = {
+    ...historicoVazio(),
+    leituras: {
+      "outubro-autocuidado-e-exames": new Date(outubro6.getTime() - 5 * 86400000).toISOString(),
+    },
+  };
+  const sugestaoSemNucleo = sugerirDoDia(catalogo, nucleoLido, outubro6);
+  verificar(
+    "com o DDS central lido há pouco, cai para outro DDS da campanha do mês",
+    sugestaoSemNucleo?.dds.campanha_sesmt === "outubro" &&
+      sugestaoSemNucleo.dds.id !== "outubro-autocuidado-e-exames",
+    `→ ${sugestaoSemNucleo?.dds.id}`,
+  );
 }
 
 console.log("6) Busca e catálogo");

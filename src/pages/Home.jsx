@@ -101,7 +101,9 @@ export default function Home() {
                 <span className="etiqueta etiqueta--tema">{rotuloTema(dds.tema)}</span>
               )}
               {dds.campanha_sesmt === campanhaAtual?.chave && (
-                <span className="etiqueta etiqueta--campanha">📢 {campanhaAtual.nome}</span>
+                <span className="etiqueta etiqueta--campanha" style={{ "--campanha-cor": campanhaAtual.cor }}>
+                  📢 {campanhaAtual.nome}
+                </span>
               )}
             </div>
 
@@ -160,7 +162,7 @@ export default function Home() {
       </section>
 
       {campanhaAtual && (
-        <aside className="campanha-mes">
+        <aside className="campanha-mes" style={{ "--campanha-cor": campanhaAtual.cor }}>
           <strong>📢 {campanhaAtual.nome}</strong>
           {campanhaAtual.dia && <span className="campanha-mes__dia">{campanhaAtual.dia}</span>}
           <p>{campanhaAtual.texto}</p>

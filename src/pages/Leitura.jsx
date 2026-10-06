@@ -155,7 +155,9 @@ export default function Leitura() {
             <span className="etiqueta etiqueta--tema">{rotuloTema(item.tema)}</span>
           )}
           {item.campanha_sesmt === campanhaAtual?.chave && (
-            <span className="etiqueta etiqueta--campanha">📢 {campanhaAtual.nome}</span>
+            <span className="etiqueta etiqueta--campanha" style={{ "--campanha-cor": campanhaAtual.cor }}>
+              📢 {campanhaAtual.nome}
+            </span>
           )}
           {ehDoDia && <span className="etiqueta etiqueta--escolha">✓ DDS do dia</span>}
         </div>

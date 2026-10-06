@@ -120,6 +120,14 @@ try {
       bannerTexto.length > 20,
       `→ ${bannerTexto.slice(0, 60)}…`,
     );
+    const corBanner = await pagina
+      .$eval(".campanha-mes", (el) => getComputedStyle(el).getPropertyValue("--campanha-cor").trim())
+      .catch(() => "");
+    verificar(
+      "card da campanha usa a cor dinâmica do mês (outubro → rosado)",
+      corBanner === campanhaEsperada.cor,
+      `→ "${corBanner}" (esperado "${campanhaEsperada.cor}")`,
+    );
   } else {
     const semBanner = await pagina.$(".campanha-mes");
     verificar("sem campanha para o mês/dia, o card não é exibido", !semBanner);
@@ -163,6 +171,14 @@ try {
     "leitura mostra a campanha com o nome oficial",
     chipCampanhaLeitura === esperadoChip,
     `→ "${chipCampanhaLeitura}" (esperado "${esperadoChip}")`,
+  );
+  const corChip = await pagina
+    .$eval(".leitura .etiqueta--campanha", (el) => getComputedStyle(el).getPropertyValue("--campanha-cor").trim())
+    .catch(() => "");
+  verificar(
+    "chip da campanha na leitura usa a mesma cor dinâmica",
+    corChip === (campanhaEsperada?.cor ?? ""),
+    `→ "${corChip}" (esperado "${campanhaEsperada?.cor}")`,
   );
 
   let historico = await lerHistorico();
