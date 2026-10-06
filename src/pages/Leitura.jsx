@@ -11,6 +11,7 @@ import {
   useHistorico,
 } from "../hooks/useHistorico.jsx";
 import { rotuloParte, rotuloTema, urlConteudo } from "../lib/catalogo.js";
+import { semTituloInicial } from "../lib/markdown.js";
 
 export default function Leitura() {
   const { id } = useParams();
@@ -131,7 +132,7 @@ export default function Leitura() {
 
       {fonte && (
         <div className="markdown">
-          <ReactMarkdown>{fonte}</ReactMarkdown>
+          <ReactMarkdown>{semTituloInicial(fonte)}</ReactMarkdown>
         </div>
       )}
 
@@ -164,16 +165,10 @@ export default function Leitura() {
           </div>
         ) : (
           <div className="escolha">
-            <button
-              type="button"
-              className="botao botao--primario botao-escolher"
-              onClick={() => setEscolhendo(true)}
-            >
-              ✓ Escolher este DDS
-            </button>
             <p className="escolha__ajuda">
-              Só este botão registra a leitura e fixa o DDS para os turnos de hoje — no próximo
-              passo você pode informar seu nome (opcional) para a ata de presença.
+              Só o botão <strong>✓ Escolher este DDS</strong> (barra abaixo, sempre visível)
+              registra a leitura e fixa o DDS para os turnos de hoje — no momento da escolha você
+              pode informar seu nome (opcional) para a ata de presença.
             </p>
             <div className="confirmacao__acoes">
               <button
@@ -190,6 +185,29 @@ export default function Leitura() {
           </div>
         )}
       </footer>
+
+      {/* Ação sempre à vista enquanto o texto é exibido (fica acima da barra de navegação) */}
+      <div className="leitura__barra">
+        {!escolhidoHojeEste ? (
+          <button
+            type="button"
+            className="botao botao--primario botao-escolher"
+            onClick={() => setEscolhendo(true)}
+          >
+            ✓ Escolher este DDS
+          </button>
+        ) : (
+          <>
+            <span className="leitura__barra-ok">
+              ✓ {ehDoDia ? "DDS do dia escolhido" : "Registrado hoje"}
+              {leitor ? ` por ${leitor}` : ""}
+            </span>
+            <Link className="botao botao--primario" to={`/imprimir/${item.id}`}>
+              🖨 Imprimir
+            </Link>
+          </>
+        )}
+      </div>
 
       <ModalEscolha
         aberto={escolhendo}

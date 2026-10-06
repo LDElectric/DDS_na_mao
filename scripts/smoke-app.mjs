@@ -84,6 +84,13 @@ try {
   const tamanhoTexto = await pagina.$eval(".markdown", (el) => el.textContent.length);
   verificar("texto do DDS carregado", tamanhoTexto > 800, `→ ${tamanhoTexto} caracteres`);
 
+  const h1NoTexto = await pagina.$$eval(".markdown h1", (els) => els.length);
+  verificar(
+    "título não se repete dentro do texto (H1 removido)",
+    h1NoTexto === 0,
+    `→ ${h1NoTexto} H1`,
+  );
+
   let historico = await lerHistorico();
   verificar(
     "abrir o texto NÃO grava leitura",
@@ -101,6 +108,18 @@ try {
     /Escolher este DDS/.test(rotuloEscolher),
     `→ "${rotuloEscolher}"`,
   );
+  const naBarraVisivel = await pagina
+    .$eval(".leitura__barra .botao-escolher", (el) => {
+      const caixa = el.getBoundingClientRect();
+      return (
+        caixa.width > 0 &&
+        caixa.height > 0 &&
+        caixa.top >= 0 &&
+        caixa.bottom <= window.innerHeight
+      );
+    })
+    .catch(() => false);
+  verificar("escolher fica na barra fixa, sempre à vista durante a leitura", naBarraVisivel);
   const botaoVoltar = await pagina.$(".escolha__voltar");
   const rotuloVoltar = botaoVoltar ? await pagina.$eval(".escolha__voltar", (el) => el.textContent) : "";
   verificar(
@@ -215,15 +234,42 @@ try {
   const temasSugeridos = await pagina.$$eval(".sugestoes-tema .chips__item", (els) => els.length);
   verificar("sugere temas quando não encontra nada", temasSugeridos > 0, `→ ${temasSugeridos}`);
 
-  console.log("5) Biblioteca");
+  console.log("5) Biblioteca (sumário colapsável)");
   await pagina.goto(`${URL}#/biblioteca`, { waitUntil: "networkidle0" });
-  await pagina.waitForSelector(".grupo", { timeout: 15000 });
+  await pagina.waitForSelector(".grupo__botao", { timeout: 15000 });
   const grupos = await pagina.$$eval(".grupo", (els) => els.length);
-  const itens = await pagina.$$eval(".item-dds", (els) => els.length);
   verificar("6 partes agrupadas", grupos === 6, `→ ${grupos}`);
-  verificar("todos os 228 DDS listados", itens === 228, `→ ${itens}`);
+
+  const itensColapsados = await pagina.$$eval(".item-dds", (els) => els.length);
+  verificar(
+    "sumário começa com todas as partes colapsadas",
+    itensColapsados === 0,
+    `→ ${itensColapsados}`,
+  );
+
+  const rotulosPartes = await pagina.$$eval(".grupo__botao", (els) =>
+    els.map((el) => el.textContent.replace(/\s+/g, " ").trim()),
+  );
+  verificar(
+    "cada parte do sumário mostra o total de DDS",
+    rotulosPartes.length === 6 && rotulosPartes.every((texto) => /\d+ DDS/.test(texto)),
+    `→ ${rotulosPartes[0] ?? ""}`,
+  );
+
+  await pagina.click(".sumario-expandir");
+  await pagina.waitForFunction(() => document.querySelectorAll(".item-dds").length === 228, {
+    timeout: 15000,
+  });
+  const itens = await pagina.$$eval(".item-dds", (els) => els.length);
+  verificar("expandir todas lista todos os 228 DDS", itens === 228, `→ ${itens}`);
   const lidos = await pagina.$$eval(".item-dds__situacao--lido", (els) => els.length);
   verificar("marcação de lido visível", lidos >= 1, `→ ${lidos}`);
+
+  await pagina.click(".sumario-recolher");
+  await pagina.waitForFunction(() => document.querySelectorAll(".item-dds").length === 0, {
+    timeout: 15000,
+  });
+  verificar("recolher tudo volta ao sumário", true);
 
   console.log("6) Tela de DDS lidos (título + data + imprimir)");
   await pagina.goto(`${URL}#/lidos`, { waitUntil: "networkidle0" });

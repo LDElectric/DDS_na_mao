@@ -4,6 +4,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { useCatalogo } from "../hooks/useCatalogo.jsx";
 import { nomeLeitor, useHistorico } from "../hooks/useHistorico.jsx";
 import { urlConteudo } from "../lib/catalogo.js";
+import { semTituloInicial } from "../lib/markdown.js";
 
 const LINHAS_INICIAIS = 20;
 
@@ -147,7 +148,7 @@ export default function Imprimir() {
 
         {fonte && (
           <div className="markdown folha__texto">
-            <ReactMarkdown>{fonte}</ReactMarkdown>
+            <ReactMarkdown>{semTituloInicial(fonte)}</ReactMarkdown>
           </div>
         )}
 

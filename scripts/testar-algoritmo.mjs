@@ -17,6 +17,7 @@ import {
   verificarCampanhaMes,
 } from "../src/lib/algoritmo.js";
 import { listarLeituras, registrarEscolha, escolhaDoDia, escolhidoHoje, registradoHoje } from "../src/lib/historico.js";
+import { semTituloInicial } from "../src/lib/markdown.js";
 
 const RAIZ = path.dirname(path.dirname(fileURLToPath(import.meta.url)));
 const catalogo = JSON.parse(
@@ -198,6 +199,38 @@ console.log("7) Ciclo do dia: abrir não é lido; escolher fixa o DDS");
 
   verificar("novo dia começa ciclo novo (sem DDS fixado)", escolhaDoDia(historico, amanha) === null);
   verificar("escolha antiga não vale como 'hoje'", escolhidoHoje(historico, primeiro.id, amanha) === false);
+}
+
+console.log("8) Título único: H1 inicial removido da exibição");
+{
+  const comTitulo = "# DDS: O impacto da privação do sono\n\nTexto do DDS começa aqui.";
+  const semTitulo = semTituloInicial(comTitulo);
+  verificar(
+    "remove o H1 inicial e a linha em branco seguinte",
+    !semTitulo.startsWith("#") && semTitulo.startsWith("Texto do DDS"),
+    `→ ${JSON.stringify(semTitulo.slice(0, 40))}`,
+  );
+
+  const semH1 = "Parágrafo de abertura.\n\n## Subseção mantida";
+  verificar("texto sem H1 inicial passa inalterado", semTituloInicial(semH1) === semH1);
+
+  const comH1NoMeio = "Intro.\n\n# Título interno\n\nCorpo.";
+  verificar(
+    "não remove H1 que não está no início",
+    semTituloInicial(comH1NoMeio) === comH1NoMeio,
+  );
+
+  const arquivos = fs.readdirSync(path.join(RAIZ, "public", "conteudo")).filter((nome) => nome.endsWith(".md"));
+  const real = fs.readFileSync(path.join(RAIZ, "public", "conteudo", arquivos[0]), "utf8");
+  const tratado = semTituloInicial(real);
+  const linhasReais = real.split(/\r?\n/);
+  verificar(
+    "arquivo real do catálogo perde só título e linha em branco",
+    !tratado.startsWith("#") &&
+      real.split("\n").length - tratado.split("\n").length === 2 &&
+      tratado.startsWith(linhasReais[2]),
+    `→ ${arquivos[0]}`,
+  );
 }
 
 console.log(falhas ? `\n✘ ${falhas} verificação(ões) falharam` : "\n✔ todos os testes passaram");

@@ -16,6 +16,7 @@
   --perigo: #e5484d;
   --sombra: 0 1px 3px rgba(0, 0, 0, 0.04);
   --raio: 16px;
+  --rodape-altura: 64px; /* medida real da barra de navegação (atualizada pelo JS) */
 }
 
 :root[data-tema="escuro"] {
@@ -471,20 +472,90 @@ button {
   color: var(--sucesso);
 }
 
+/* Sumário da biblioteca (estilo índice de livro): partes colapsadas,
+   expandíveis individualmente. */
 .grupo {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  background: var(--bg-superficie);
+  border: 1px solid var(--borda);
+  border-radius: var(--raio);
+  overflow: hidden;
 }
 
 .grupo__titulo {
-  margin: 14px 0 0;
-  font-size: 0.8rem;
-  letter-spacing: 0.8px;
-  text-transform: uppercase;
+  margin: 0;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.grupo__botao {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 16px;
+  background: transparent;
+  border: 0;
+  color: var(--texto);
+  font-size: 0.95rem;
+  font-weight: 700;
+  text-align: left;
+  cursor: pointer;
+}
+
+.grupo__botao:hover {
+  background: color-mix(in srgb, var(--acento) 7%, transparent);
+}
+
+.grupo__seta {
   color: var(--texto-suave);
-  border-bottom: 1px solid var(--borda);
-  padding-bottom: 6px;
+  transition: transform 0.15s ease;
+}
+
+.grupo--aberta .grupo__seta {
+  transform: rotate(90deg);
+}
+
+.grupo__nome {
+  min-width: 0;
+}
+
+.grupo__contagem {
+  margin-left: auto;
+  font-size: 0.74rem;
+  font-weight: 500;
+  color: var(--texto-suave);
+  white-space: nowrap;
+}
+
+.grupo .lista {
+  gap: 0;
+}
+
+.grupo .item-dds {
+  background: transparent;
+  border: 0;
+  border-top: 1px solid var(--borda);
+  border-radius: 0;
+  padding: 12px 16px;
+}
+
+.grupo .item-dds:hover {
+  transform: none;
+  background: color-mix(in srgb, var(--acento) 6%, transparent);
+}
+
+.sumario-acoes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+}
+
+.sumario-dica {
+  margin: 0;
+  font-size: 0.82rem;
+  color: var(--texto-suave);
 }
 
 .barra-progresso {
@@ -563,6 +634,7 @@ button {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  padding-bottom: 52px; /* espaço para a barra de ação fixa */
 }
 
 .leitura__topo {
@@ -595,6 +667,41 @@ button {
   gap: 10px;
   padding-top: 8px;
   border-top: 1px solid var(--borda);
+}
+
+/* Barra fixa com a ação principal: fica sempre à vista enquanto o texto
+   é exibido, encaixada exatamente acima da barra de navegação. */
+.leitura__barra {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: var(--rodape-altura, 64px);
+  z-index: 15;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  padding: 12px 16px;
+  background: var(--bg-superficie);
+  border-top: 1px solid var(--borda);
+  box-shadow: 0 -6px 24px rgba(0, 0, 0, 0.16);
+}
+
+.leitura__barra .botao {
+  flex: 1;
+  max-width: 520px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.leitura__barra-ok {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--sucesso);
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .markdown {
@@ -1276,6 +1383,7 @@ button {
 
   .cabecalho,
   .rodape,
+  .leitura__barra,
   .impressao-acoes,
   .impressao-dica {
     display: none !important;

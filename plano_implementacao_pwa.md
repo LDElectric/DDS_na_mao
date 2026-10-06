@@ -65,8 +65,9 @@ Regra de uso real (turnos rotativos, mesmo dispositivo):
 
 1. **Abrir o texto não conta como leitura.** O DDS pode ser aberto à vontade para conferir
    antes de decidir — nada é gravado no histórico.
-2. **"Escolher este DDS"** é a confirmação e fica **dentro da tela de leitura** — na Home o
-   cartão traz só o botão **"Ver texto"** e, logo abaixo, a instrução de que nada é registrado
+2. **"Escolher este DDS"** é a confirmação e fica **dentro da tela de leitura**, numa **barra
+   fixa logo acima da navegação inferior — sempre visível enquanto o texto é exibido**. Na Home
+   o cartão traz só o botão **"Ver texto"** e, logo abaixo, a instrução de que nada é registrado
    antes da confirmação. Na leitura há ainda **"Voltar para escolher outro"**. Ao confirmar,
    grava a leitura e, sendo a **primeira escolha da data**, fixa o **DDS do dia**
    (`escolhas["AAAA-MM-DD"] = { id, iso }`).
@@ -84,6 +85,13 @@ Regra de uso real (turnos rotativos, mesmo dispositivo):
    **só a assinatura do leitor** (sem assinatura do responsável).
 7. **Mensagens amigáveis:** todos os estados vazios e de erro orientam o próximo passo
    (ex.: busca sem resultado sugere temas e leva à biblioteca completa).
+8. **Título único:** o H1 inicial dos arquivos (`# DDS: …`) é removido na leitura e na
+   impressão, pois o título do catálogo já aparece logo acima do texto.
+9. **Biblioteca como sumário:** as partes aparecem como o índice de um livro, **todas
+   colapsadas** — toque numa parte para expandir (várias podem ficar abertas), cada linha
+   mostra o total de DDS e quantos já foram lidos, e há ações **"Expandir todas as partes"** /
+   **"Recolher tudo"**. Os filtros "Lidos/Não lidos" já abrem as partes; "Todos" volta ao
+   sumário.
 
 ---
 
