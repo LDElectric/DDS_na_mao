@@ -3,9 +3,9 @@ name: Deploy PWA no GitHub Pages
 # Ative o gatilho "push" abaixo para publicar automaticamente a cada commit na main.
 # Antes disso: Settings → Pages → Build and deployment → Source: GitHub Actions.
 on:
+  push:
+    branches: [main]
   workflow_dispatch:
-  # push:
-  #   branches: [main]
 
 permissions:
   contents: read
