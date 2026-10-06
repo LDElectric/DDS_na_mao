@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="hg" cx="35%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#FFD54F"/>
+      <stop offset="60%" stop-color="#FFA000"/>
+      <stop offset="100%" stop-color="#E65100"/>
+    </radialGradient>
+    <radialGradient id="bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#283593"/>
+      <stop offset="100%" stop-color="#1a237e"/>
+    </radialGradient>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="140%">
+      <feDropShadow dx="3" dy="5" stdDeviation="10" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Fundo azul naval arredondado -->
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+
+  <!-- Capacete: cupula principal -->
+  <ellipse cx="210" cy="218" rx="158" ry="118" fill="url(#hg)"/>
+
+  <!-- Capacete: aba inferior -->
+  <ellipse cx="210" cy="228" rx="175" ry="34" fill="#F57F17"/>
+
+  <!-- Faixa reflexiva no capacete -->
+  <ellipse cx="210" cy="246" rx="148" ry="20" fill="rgba(255,255,255,0.52)"/>
+
+  <!-- Brilho no capacete (topo esquerdo) -->
+  <ellipse cx="152" cy="162" rx="52" ry="34" fill="rgba(255,255,255,0.32)" transform="rotate(-25 152 162)"/>
+
+  <!-- Balao de dialogo (com sombra) -->
+  <rect x="218" y="278" width="252" height="162" rx="30" fill="white" filter="url(#shadow)"/>
+
+  <!-- Rabinho/cauda do balao apontando para o capacete -->
+  <polygon points="248,440 222,494 295,440" fill="white"/>
+
+  <!-- Texto DDS dentro do balao -->
+  <text
+    x="344"
+    y="392"
+    font-family="Arial Black, Arial, sans-serif"
+    font-weight="900"
+    font-size="90"
+    fill="#1a237e"
+    text-anchor="middle"
+  >DDS</text>
+</svg>

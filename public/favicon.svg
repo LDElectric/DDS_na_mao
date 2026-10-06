@@ -1,6 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="14" fill="#2c2c2c" />
-  <g fill="#4a90c4" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="700" text-anchor="middle">
-    <text x="32" y="41">DDS</text>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="DDS na mão">
+  <defs>
+    <radialGradient id="hg" cx="35%" cy="30%" r="65%">
+      <stop offset="0%" stop-color="#FFD54F"/>
+      <stop offset="65%" stop-color="#FFA000"/>
+      <stop offset="100%" stop-color="#E65100"/>
+    </radialGradient>
+  </defs>
+  <!-- Fundo azul naval -->
+  <rect width="64" height="64" rx="14" fill="#1a237e"/>
+  <!-- Capacete: cupula -->
+  <ellipse cx="26" cy="27" rx="19" ry="14" fill="url(#hg)"/>
+  <!-- Capacete: aba -->
+  <ellipse cx="26" cy="28.5" rx="21" ry="4" fill="#F57F17"/>
+  <!-- Faixa reflexiva -->
+  <ellipse cx="26" cy="30.5" rx="18" ry="2.5" fill="rgba(255,255,255,0.5)"/>
+  <!-- Brilho -->
+  <ellipse cx="19" cy="20" rx="6" ry="4" fill="rgba(255,255,255,0.3)" transform="rotate(-20 19 20)"/>
+  <!-- Balao de dialogo -->
+  <rect x="27" y="34" width="31" height="20" rx="4" fill="white"/>
+  <!-- Cauda do balao -->
+  <polygon points="31,54 27,62 38,54" fill="white"/>
+  <!-- Texto DDS -->
+  <text x="42.5" y="49" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="11" fill="#1a237e" text-anchor="middle">DDS</text>
 </svg>

@@ -9,7 +9,7 @@ export default defineConfig({
     react(),
     VitePWA({
       registerType: "autoUpdate",
-      includeAssets: ["icon.svg", "favicon.svg"],
+      includeAssets: ["favicon.svg", "icon-192.png", "icon-512.png", "icon-512-maskable.png"],
       manifest: {
         name: "DDS na Mão",
         short_name: "DDS",
