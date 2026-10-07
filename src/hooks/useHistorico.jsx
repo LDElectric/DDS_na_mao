@@ -1,10 +1,14 @@
 import { createContext, useCallback, useContext, useMemo, useState } from "react";
-import { chaveDia, chaveMes } from "../lib/algoritmo.js";
+import { chaveDia } from "../lib/algoritmo.js";
 import { registrarEscolha } from "../lib/historico.js";
 
 /**
- * Histórico de escolhas e sugestões persistido no dispositivo
- * (localStorage, conforme o plano: backend-less).
+ * Histórico de escolhas e sugestões do app (backend-less).
+ *
+ * Definitivo (localStorage): leituras, escolhas (DDS do dia) e leitores.
+ * Da sessão (só memória do provider): a sugestão sorteada hoje. Ela NÃO é
+ * persistida de propósito — cada nova abertura do app sorteia um novo DDS da
+ * campanha do mês, e navegar entre telas mantém a mesma sugestão da sessão.
  *
  * Regra importante: abrir o texto de um DDS NÃO conta como leitura.
  * Só a confirmação ("Escolher este DDS") grava o registro — e a primeira
@@ -18,8 +22,7 @@ const vazio = () => ({
   leituras: {}, // id -> ISO da última escolha confirmada
   escolhas: {}, // "AAAA-MM-DD" -> { id, iso } = DDS fixado do dia (1ª escolha)
   leitores: {}, // id -> nome de quem confirmou a última escolha (opcional)
-  sugestoes: {}, // "AAAA-MM-DD" -> id sugerido
-  campanhaDoMes: {}, // "AAAA-MM" -> id da campanha já sorteada no mês
+  sugestoes: {}, // "AAAA-MM-DD" -> id sugerido (apenas desta sessão)
   ultimoTema: null,
 });
 
@@ -27,7 +30,11 @@ const ler = () => {
   try {
     const bruto = localStorage.getItem(CHAVE);
     if (!bruto) return vazio();
-    return { ...vazio(), ...JSON.parse(bruto) };
+    return {
+      ...vazio(),
+      ...JSON.parse(bruto),
+      sugestoes: {}, // não restaura a sugestão antiga: cada abertura sorteia de novo
+    };
   } catch {
     return vazio();
   }
@@ -35,7 +42,8 @@ const ler = () => {
 
 const gravar = (historico) => {
   try {
-    localStorage.setItem(CHAVE, JSON.stringify(historico));
+    const { sugestoes, ...persistente } = historico;
+    localStorage.setItem(CHAVE, JSON.stringify(persistente));
   } catch {
     /* modo privado / cota cheia: segue apenas em memória */
   }
@@ -58,19 +66,12 @@ export function HistoricoProvider({ children }) {
   );
 
   const registrarSugestao = useCallback(
-    ({ dds, origem }) =>
-      atualizar((atual) => {
-        const agora = new Date();
-        const proximo = {
-          ...atual,
-          sugestoes: { ...atual.sugestoes, [chaveDia(agora)]: dds.id },
-          ultimoTema: dds.tema,
-        };
-        if (origem === "campanha") {
-          proximo.campanhaDoMes = { ...atual.campanhaDoMes, [chaveMes(agora)]: dds.id };
-        }
-        return proximo;
-      }),
+    ({ dds }) =>
+      atualizar((atual) => ({
+        ...atual,
+        sugestoes: { ...atual.sugestoes, [chaveDia(new Date())]: dds.id },
+        ultimoTema: dds.tema,
+      })),
     [atualizar],
   );
 

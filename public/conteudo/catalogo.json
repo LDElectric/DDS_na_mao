@@ -404,7 +404,7 @@
   },
   {
     "id": "novembro-o-dia-do-tst-e-engenheiro",
-    "titulo": "A Homenagem aos Profissionais de SST",
+    "titulo": "A Homenagem aos Profissionais de SST (26 e 27/11)",
     "subtitulo": null,
     "tema": "campanha-sesmt",
     "campanha_sesmt": "novembro",
@@ -570,19 +570,6 @@
     "parte_nome": "Base da Segurança",
     "capitulo": 2,
     "capitulo_nome": "Gestao de Riscos Organizacao e Normatizacao"
-  },
-  {
-    "id": "a-percepcao-de-risco",
-    "titulo": "A Percepção de Risco",
-    "subtitulo": "Você vê o perigo ou apenas o caminho?",
-    "tema": "cultura",
-    "campanha_sesmt": null,
-    "arquivo_md": "conteudo/a-percepcao-de-risco.md",
-    "data_criacao": "2026-10-05",
-    "parte": 1,
-    "parte_nome": "Base da Segurança",
-    "capitulo": 1,
-    "capitulo_nome": "Cultura Comportamento e Reflexao"
   },
   {
     "id": "a-pressa-e-a-gestao-do-tempo",
@@ -1131,19 +1118,6 @@
     "capitulo_nome": "Maquinas Equipamentos e Ferramentas"
   },
   {
-    "id": "outubro-a-saude-e-o-retorno",
-    "titulo": "Câncer e o Mercado de Trabalho",
-    "subtitulo": "A Rede de Apoio",
-    "tema": "campanha-sesmt",
-    "campanha_sesmt": "outubro",
-    "arquivo_md": "conteudo/outubro-a-saude-e-o-retorno.md",
-    "data_criacao": "2026-10-07",
-    "parte": 6,
-    "parte_nome": "Calendario Anual SESMT",
-    "capitulo": null,
-    "capitulo_nome": "Outubro Rosa"
-  },
-  {
     "id": "capacitores-e-energia-residual",
     "titulo": "Capacitores e a Energia que Fica Depois do Desligamento",
     "subtitulo": null,
@@ -1376,19 +1350,6 @@
     "parte_nome": "Calendario Anual SESMT",
     "capitulo": null,
     "capitulo_nome": "Dezembro Laranja e Vermelho"
-  },
-  {
-    "id": "outubro-seguranca-nas-escolas",
-    "titulo": "Dia Nacional de Segurança e Saúde nas Escolas (10/10)",
-    "subtitulo": null,
-    "tema": "campanha-sesmt",
-    "campanha_sesmt": "outubro",
-    "arquivo_md": "conteudo/outubro-seguranca-nas-escolas.md",
-    "data_criacao": "2026-10-07",
-    "parte": 6,
-    "parte_nome": "Calendario Anual SESMT",
-    "capitulo": null,
-    "capitulo_nome": "Outubro Rosa"
   },
   {
     "id": "direcao-defensiva",
@@ -2223,6 +2184,19 @@
     "capitulo_nome": "Cultura Comportamento e Reflexao"
   },
   {
+    "id": "novembro-o-exame-que-incomoda-e-salva",
+    "titulo": "O Exame que Incomoda e Salva",
+    "subtitulo": "PSA e toque retal sem mistério",
+    "tema": "campanha-sesmt",
+    "campanha_sesmt": "novembro",
+    "arquivo_md": "conteudo/novembro-o-exame-que-incomoda-e-salva.md",
+    "data_criacao": "2026-10-07",
+    "parte": 6,
+    "parte_nome": "Calendario Anual SESMT",
+    "capitulo": null,
+    "capitulo_nome": "Novembro Azul"
+  },
+  {
     "id": "o-excesso-de-experiencia-como-risco",
     "titulo": "O Excesso de Experiência como Risco",
     "subtitulo": null,
@@ -2509,25 +2483,25 @@
     "capitulo_nome": "Emergencias e Primeiros Socorros"
   },
   {
-    "id": "outubro-o-trabalho-e-o-tratamento",
-    "titulo": "Outubro — O Trabalho que Não Pode Parar para Quem Está Tratando",
-    "subtitulo": null,
+    "id": "dezembro-sinais-que-a-pele-da",
+    "titulo": "Os Sinais que a Pele dá",
+    "subtitulo": "a regra ABCDE no espelho",
     "tema": "campanha-sesmt",
-    "campanha_sesmt": "outubro",
-    "arquivo_md": "conteudo/outubro-o-trabalho-e-o-tratamento.md",
-    "data_criacao": "2026-10-05",
+    "campanha_sesmt": "dezembro",
+    "arquivo_md": "conteudo/dezembro-sinais-que-a-pele-da.md",
+    "data_criacao": "2026-10-07",
     "parte": 6,
     "parte_nome": "Calendario Anual SESMT",
     "capitulo": null,
-    "capitulo_nome": "Outubro Rosa"
+    "capitulo_nome": "Dezembro Laranja e Vermelho"
   },
   {
-    "id": "outubro-autocuidado-e-exames",
+    "id": "outubro-rosa-mes-de-conscientizacao-sobre-o-cancer-de-mama",
     "titulo": "Outubro Rosa",
-    "subtitulo": "Autocuidado Não Pode Esperar",
+    "subtitulo": "Mês de Conscientização Sobre o Câncer de Mama",
     "tema": "campanha-sesmt",
     "campanha_sesmt": "outubro",
-    "arquivo_md": "conteudo/outubro-autocuidado-e-exames.md",
+    "arquivo_md": "conteudo/outubro-rosa-mes-de-conscientizacao-sobre-o-cancer-de-mama.md",
     "data_criacao": "2026-10-07",
     "parte": 6,
     "parte_nome": "Calendario Anual SESMT",
@@ -2535,12 +2509,12 @@
     "capitulo_nome": "Outubro Rosa"
   },
   {
-    "id": "outubro-preconceito-e-desinformacao",
+    "id": "outubro-rosa-incentivo-a-prevencao-do-cancer-de-mama",
     "titulo": "Outubro Rosa",
-    "subtitulo": "A Mentira que Atrasa o Diagnóstico",
+    "subtitulo": "Incentivo à prevenção do câncer de mama",
     "tema": "campanha-sesmt",
     "campanha_sesmt": "outubro",
-    "arquivo_md": "conteudo/outubro-preconceito-e-desinformacao.md",
+    "arquivo_md": "conteudo/outubro-rosa-incentivo-a-prevencao-do-cancer-de-mama.md",
     "data_criacao": "2026-10-07",
     "parte": 6,
     "parte_nome": "Calendario Anual SESMT",
@@ -2572,6 +2546,19 @@
     "parte_nome": "Calendario Anual SESMT",
     "capitulo": null,
     "capitulo_nome": "Fevereiro Roxo e Laranja"
+  },
+  {
+    "id": "percepcao-de-riscos",
+    "titulo": "Percepção de Riscos",
+    "subtitulo": null,
+    "tema": "cultura",
+    "campanha_sesmt": null,
+    "arquivo_md": "conteudo/percepcao-de-riscos.md",
+    "data_criacao": "2026-10-07",
+    "parte": 1,
+    "parte_nome": "Base da Segurança",
+    "capitulo": 1,
+    "capitulo_nome": "Cultura Comportamento e Reflexao"
   },
   {
     "id": "permissao-de-entrada",
@@ -2793,6 +2780,19 @@
     "parte_nome": "Higiene Ocupacional",
     "capitulo": 5,
     "capitulo_nome": "Agentes Fisicos Quimicos e Biologicos"
+  },
+  {
+    "id": "outubro-rosa-saude-da-mulher-cuidados-antes-durante-e-apos-o-cancer-de-mama",
+    "titulo": "Saúde da mulher",
+    "subtitulo": "cuidados antes, durante e após o câncer de mama",
+    "tema": "campanha-sesmt",
+    "campanha_sesmt": "outubro",
+    "arquivo_md": "conteudo/outubro-rosa-saude-da-mulher-cuidados-antes-durante-e-apos-o-cancer-de-mama.md",
+    "data_criacao": "2026-10-07",
+    "parte": 6,
+    "parte_nome": "Calendario Anual SESMT",
+    "capitulo": null,
+    "capitulo_nome": "Outubro Rosa"
   },
   {
     "id": "maio-seguranca-com-empilhadeiras",

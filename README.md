@@ -12,13 +12,14 @@ no próprio dispositivo (backend-less).
 
 | # | Regra | Como funciona |
 |---|-------|---------------|
-| 1 | **Calendário SESMT** | No primeiro acesso do mês, sorteia um DDS com `campanha_sesmt` do mês atual (ex.: *Novembro Azul*). Só volta a agir no mês seguinte. |
+| 1 | **Calendário SESMT** | A 1ª sugestão é sempre um DDS da campanha do mês em vigor (ex.: *Outubro Rosa*, *Novembro Azul*), sorteado aleatoriamente a cada **nova abertura** do app — nunca um texto fixo. Navegar entre telas mantém a mesma sugestão da sessão. |
 | 2 | **Regra dos 6 meses** | Antes de qualquer sorteio aleatório, exclui da lista tudo que foi lido nos últimos **180 dias**. |
 | 3 | **Regra de diversidade** | Exclui temporariamente os DDS do mesmo `tema` do último sugerido e só então sorteia. |
 
 > A **pesquisa manual** nunca passa por esses filtros: você pode ler qualquer DDS, inclusive repetidos.
+> Fechar e reabrir o app gera **um novo DDS da campanha do mês** na primeira sugestão.
 
-Implementação: [`src/lib/algoritmo.js`](src/lib/algoritmo.js) — `verificarCampanhaMes`,
+Implementação: [`src/lib/algoritmo.js`](src/lib/algoritmo.js) — `sugerirCampanhaMes`,
 `filtrarLidosRecentes`, `sortearNovoDDS`, `sugerirDoDia`, `sortearOutro`.
 
 ---
@@ -47,13 +48,13 @@ Implementação: [`src/lib/algoritmo.js`](src/lib/algoritmo.js) — `verificarCa
 
 ```json
 {
-  "id": "a-percepcao-de-risco",
-  "titulo": "A Percepção de Risco",
-  "subtitulo": "Você vê o perigo ou apenas o caminho?",
+  "id": "percepcao-de-riscos",
+  "titulo": "Percepção de Riscos",
+  "subtitulo": null,
   "tema": "cultura",
   "campanha_sesmt": null,
-  "arquivo_md": "conteudo/a-percepcao-de-risco.md",
-  "data_criacao": "2026-10-05",
+  "arquivo_md": "conteudo/percepcao-de-riscos.md",
+  "data_criacao": "2026-10-07",
   "parte": 1,
   "capitulo": 1,
   "capitulo_nome": "Cultura Comportamento e Reflexao"
@@ -102,7 +103,7 @@ npm run smoke        # navegador real: UI + Service Worker + offline (requer pre
 - **vite-plugin-pwa / Workbox** — manifest + Service Worker
   - `precache`: casca do app (HTML, JS, CSS, ícones)
   - `CacheFirst` para `/conteudo/` (catálogo e textos → leitura offline total)
-- **localStorage** — histórico de leituras, sugestões do dia e campanha do mês
+- **localStorage** — histórico de leituras e escolhas confirmadas (a sugestão do dia é recalculada a cada abertura do app e vive na memória da sessão)
 
 ---
 

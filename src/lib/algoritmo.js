@@ -1,7 +1,8 @@
 /**
  * Motor de sugestão do "DDS na Mão".
  *
- * Prioridade 1: Calendário SESMT (primeiro DDS do mês).
+ * Prioridade 1: Calendário SESMT — a 1ª sugestão é sempre um DDS da campanha
+ *               do mês, sorteado a cada nova abertura do app.
  * Prioridade 2: Regra dos 6 meses (antirrepeticão).
  * Prioridade 3: Regra de diversidade (evitar monotonia de tema).
  */
@@ -28,12 +29,12 @@ export const chaveDiaCurto = (agora = new Date()) =>
   `${doisDigitos(agora.getMonth() + 1)}-${doisDigitos(agora.getDate())}`;
 
 /**
- * Nome, cor, assunto e DDS central das campanhas do calendário SESMT, por mês.
+ * Nome, cor e tema oficial das campanhas do calendário SESMT, por mês.
  * `cor` colore dinamicamente os cards (ex.: "Outubro Rosa" → tom rosado);
  * `assunto` diz de que trata a campanha (ex.: "Conscientização sobre o Câncer
  * de Mama") e é exibido no card: "Outubro Rosa — Conscientização sobre o
- * Câncer de Mama."; `ids` são os DDS que mais conversam com o tema central da
- * campanha e têm prioridade na sugestão do mês (janela de 6 meses).
+ * Câncer de Mama.". A sugestão do mês é sempre um DDS da campanha em vigor,
+ * sorteado aleatoriamente entre os textos do mês (nunca um texto fixo).
  */
 export const CAMPANHAS_MES = {
   janeiro: {
@@ -41,84 +42,72 @@ export const CAMPANHAS_MES = {
     cor: "#7fa3c3",
     assunto: "Conscientização sobre a Saúde Mental",
     texto: "Mês da saúde mental: o estresse, o sono e a rotina também são riscos de segurança.",
-    ids: ["janeiro-a-carga-invisivel-do-esgotamento"],
   },
   fevereiro: {
     nome: "Fevereiro Roxo",
     cor: "#8a5db5",
     assunto: "Doenças Invisíveis: Lúpus, Fibromialgia e Alzheimer",
     texto: "Doenças invisíveis e os cuidados que evitam o desgaste: exames, pausas ativas e ergonomia.",
-    ids: ["fevereiro-microtraumas-e-a-acumulacao-invisivel"],
   },
   marco: {
     nome: "Março Lilás",
     cor: "#b06ab3",
     assunto: "Saúde e Segurança da Mulher",
     texto: "Mês da mulher: prevenção, inclusão e segurança da trabalhadora.",
-    ids: ["marco-prevencao-na-saude-da-mulher"],
   },
   abril: {
     nome: "Abril Verde",
     cor: "#3e9b4f",
     assunto: "Segurança e Saúde no Trabalho",
     texto: "Mês da segurança e saúde no trabalho — 28 de abril, regras de ouro e direito de recusa.",
-    ids: ["abril-28-de-abril"],
   },
   maio: {
     nome: "Maio Amarelo",
     cor: "#c99a00",
     assunto: "Segurança no Trânsito",
     texto: "Mês do trânsito seguro: atenção no trajeto, direção defensiva e o risco do celular ao volante.",
-    ids: ["maio-direcao-defensiva-no-trajeto"],
   },
   junho: {
     nome: "Junho Verde",
     cor: "#2e8b57",
     assunto: "Meio Ambiente e Doação de Sangue",
     texto: "Mês do meio ambiente: resíduos, descarte correto e sustentabilidade com segurança.",
-    ids: ["junho-a-sustentabilidade-e-o-sesmt"],
   },
   julho: {
     nome: "Julho Amarelo",
     cor: "#c99a00",
     assunto: "Prevenção e Combate às Hepatites Virais",
     texto: "Mês das hepatites virais: prevenção, higiene e proteção no trabalho.",
-    ids: ["julho-higiene-ocupacional-hepatites-virais"],
   },
   agosto: {
     nome: "Agosto Dourado",
     cor: "#bf8f00",
     assunto: "Aleitamento Materno e Combate ao Assédio",
     texto: "Mês do cuidado: aleitamento, saúde e respeito no ambiente de trabalho.",
-    ids: ["agosto-aleitamento-e-saude-da-familia", "agosto-prevencao-ao-assedio"],
   },
   setembro: {
     nome: "Setembro Amarelo",
     cor: "#d19e00",
     assunto: "Prevenção ao Suicídio e Valorização da Vida",
     texto: "Mês da valorização da vida: escuta ativa e saúde mental no turno.",
-    ids: ["setembro-a-valorizacao-da-vida"],
   },
   outubro: {
     nome: "Outubro Rosa",
     cor: "#d95f8b",
     assunto: "Conscientização sobre o Câncer de Mama",
     texto: "Mês da prevenção ao câncer de mama: autocuidado, exames e informação salvam vidas.",
-    ids: ["outubro-autocuidado-e-exames"],
   },
   novembro: {
     nome: "Novembro Azul",
     cor: "#4a6fc4",
     assunto: "Saúde do Homem e Prevenção ao Câncer de Próstata",
     texto: "Mês da saúde do homem: exames, coração e a quebra de tabus.",
-    ids: ["novembro-o-homem-que-nao-procura", "novembro-saude-do-homem-e-tabus"],
   },
   dezembro: {
     nome: "Dezembro Laranja",
     cor: "#e07b2f",
     assunto: "Prevenção ao Câncer de Pele e Combate ao HIV",
     texto: "Mês da prevenção ao câncer de pele e das celebrações com responsabilidade.",
-    ids: ["dezembro-radiacao-solar"],
   },
 };
 
@@ -156,16 +145,6 @@ export const DIAS_CELEBRADOS = {
     campanha: "setembro",
     dia: "Dia Mundial de Prevenção ao Suicídio",
     ids: ["setembro-a-valorizacao-da-vida"],
-  },
-  "10-10": {
-    campanha: "outubro",
-    dia: "Dia Nacional de Segurança e Saúde nas Escolas",
-    ids: ["outubro-seguranca-nas-escolas"],
-  },
-  "10-19": {
-    campanha: "outubro",
-    dia: "Dia Internacional de Combate ao Câncer de Mama",
-    ids: ["outubro-autocuidado-e-exames"],
   },
   "11-27": {
     campanha: "novembro",
@@ -224,31 +203,20 @@ const leituraRecente = (data, dias, agora) =>
 
 /**
  * Prioridade 1 - Calendário SESMT.
- * Devolve um DDS de campanha somente quando ainda não houve sugestão
- * de campanha registrada neste mês.
+ * Devolve um DDS da campanha do mês atual, sorteado aleatoriamente entre os
+ * textos do mês ainda não lidos (janela de 6 meses). Como a "primeira sugestão"
+ * deve ser sempre um DDS da campanha, ele continua disponível mesmo depois de o
+ * mês já ter tido uma sugestão — cada nova abertura do app sorteia de novo.
  */
-export const verificarCampanhaMes = (catalogo, historico, agora = new Date()) => {
-  if (historico.campanhaDoMes[chaveMes(agora)]) return null;
-
+export const sugerirCampanhaMes = (catalogo, historico, agora = new Date()) => {
   const mes = mesAtual(agora);
+  const doMes = catalogo.filter((item) => item.campanha_sesmt === mes);
+  if (!doMes.length) return null;
 
-  // Núcleo da campanha (DDS que mais conversam com o tema, ex.: "Outubro Rosa"
-  // → prevenção do câncer de mama) tem prioridade, desde que não tenha sido
-  // lido há menos de 6 meses.
-  const nucleo = (CAMPANHAS_MES[mes]?.ids ?? [])
-    .map((id) => catalogo.find((item) => item.id === id))
-    .filter((item) => item && !leituraRecente(historico.leituras[item.id], DIAS_JANELA_LEITURA, agora));
-  // O primeiro DDS do mês é o central da campanha (determinístico: primeiro
-  // da lista ainda disponível), não um sorteio — a abertura do mês sempre
-  // apresenta o texto mais forte e alinhado ao tema.
-  if (nucleo.length) return { dds: nucleo[0], origem: "campanha" };
-
-  const doMes = catalogo.filter(
-    (item) =>
-      item.campanha_sesmt === mes &&
-      !leituraRecente(historico.leituras[item.id], DIAS_JANELA_LEITURA, agora),
+  const recentes = doMes.filter(
+    (item) => !leituraRecente(historico.leituras[item.id], DIAS_JANELA_LEITURA, agora),
   );
-  const escolhido = sortear(doMes.length ? doMes : catalogo.filter((i) => i.campanha_sesmt === mes));
+  const escolhido = sortear(recentes.length ? recentes : doMes);
   return escolhido ? { dds: escolhido, origem: "campanha" } : null;
 };
 
@@ -271,43 +239,20 @@ export const sortearNovoDDS = (catalogoFiltrado, ultimoTema) => {
 };
 
 /**
- * Promoção da sugestão do dia ("primeiro DDS do mês" blindado).
- * Se a sugestão salva para hoje é um DDS de campanha do mês que não é o
- * central (ex.: um texto antigo gravado antes do núcleo existir), promove a
- * sugestão para o DDS central da campanha — desde que o dia ainda não tenha
- * escolha fixa e não seja um dia celebrado. A estabilidade do dia é mantida
- * quando a sugestão já é a central.
- */
-const promoverParaCentral = ({ dds, catalogo, historico, agora }) => {
-  if (historico.escolhas[chaveDia(agora)]) return null; // já há escolha fixa hoje
-  if (DIAS_CELEBRADOS[chaveDiaCurto(agora)]) return null; // dia celebrado rege a sugestão
-  const mes = mesAtual(agora);
-  if (dds.campanha_sesmt !== mes) return null;
-  const nucleo = (CAMPANHAS_MES[mes]?.ids ?? [])
-    .map((id) => catalogo.find((item) => item.id === id))
-    .filter((item) => item && !leituraRecente(historico.leituras[item.id], DIAS_JANELA_LEITURA, agora));
-  if (!nucleo.length || nucleo[0].id === dds.id) return null;
-  return { dds: nucleo[0], origem: "do-dia", doDia: true };
-};
-
-/**
- * Sugestão do dia: respeita a ordem estrita de prioridades e, quando já
- * existe sugestão registrada para hoje, devolve a mesma.
+ * Sugestão do dia: respeita a ordem estrita de prioridades.
+ * A sugestão de hoje fica na memória da sessão (useHistorico) — navegar entre
+ * telas mantém o mesmo DDS; uma nova abertura do app sorteia um novo texto da
+ * campanha do mês.
  */
 export const sugerirDoDia = (catalogo, historico, agora = new Date()) => {
   if (!catalogo.length) return null;
 
+  // Mesma sessão: devolve a sugestão já sorteada hoje (sem re-sorteio quando
+  // o usuário volta da leitura).
   const salva = historico.sugestoes[chaveDia(agora)];
   if (salva) {
     const dds = catalogo.find((item) => item.id === salva);
-    if (dds) {
-      // Sugestão antiga e fraca de campanha (gravada antes de o DDS central
-      // existir) é promovida ao DDS central do mês — o "primeiro DDS" da
-      // campanha entra no lugar do texto desalinhado.
-      const promovida = promoverParaCentral({ dds, catalogo, historico, agora });
-      if (promovida) return promovida;
-      return { dds, origem: "do-dia", doDia: true };
-    }
+    if (dds) return { dds, origem: "do-dia", doDia: true };
   }
 
   // Dia celebrado tem prioridade sobre a campanha do mês: o DDS sugerido
@@ -325,7 +270,8 @@ export const sugerirDoDia = (catalogo, historico, agora = new Date()) => {
     }
   }
 
-  const campanha = verificarCampanhaMes(catalogo, historico, agora);
+  // Campanha do mês: sempre na frente e sorteada a cada nova abertura do app.
+  const campanha = sugerirCampanhaMes(catalogo, historico, agora);
   if (campanha) return { ...campanha, doDia: false };
 
   return sortearResultado(catalogo, historico, { agora });

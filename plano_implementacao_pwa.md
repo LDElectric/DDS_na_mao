@@ -129,13 +129,22 @@ Regra de uso real (turnos rotativos, mesmo dispositivo):
 
 ## 4. Fases de Implementação (Passo a Passo)
 
-> **Status (06/10/2026):** Fases 1 a 4 concluídas e verificadas — 228 DDS convertidos,
-> testes automatizados do algoritmo (`npm test`) e smoke test em navegador real com
-> modo offline (`npm run smoke`). Lighthouse: **PWA 100 · Acessibilidade 100 ·
+> **Status (07/10/2026):** Fases 1 a 4 concluídas e verificadas — **228 DDS convertidos**
+> (60 do calendário SESMT), testes automatizados do algoritmo (`npm test`) e smoke test em
+> navegador real com modo offline (`npm run smoke`). Lighthouse: **PWA 100 · Acessibilidade 100 ·
 > Boas Práticas 100 · SEO 100 · Desempenho 98**.
 > GitHub Pages ativo: publicação automática em https://ldelectric.github.io/DDS_na_mao/
 > a cada push em `main`. Ciclo do dia (escolher/fixar DDS) e impressão com ata implementados
 > — ver seção 3.
+>
+> **Rodada de conteúdo e sugestão aleatória (07/10/2026):** Outubro foi substituído por
+> **3 textos novos do Outubro Rosa** (Incentivo à prevenção do câncer de mama; Saúde da
+> mulher — cuidados antes, durante e após o câncer de mama; Mês de conscientização sobre
+> o câncer de mama) e a **Parte I** ganhou a substituição "Percepção de Riscos" (renomeada
+> pelo autor, com slug/`id` novo). Na mecânica de sugestão, o mês **não abre com um texto
+> fixo**: a 1ª sugestão é sempre um DDS da campanha do mês, **sorteado a cada nova abertura
+> do app** — fechar e reabrir gera uma sugestão nova. A sugestão da sessão (navegar entre
+> telas) continua estável: ficou na memória do `HistoricoProvider` e não é mais persistida.
 
 ### Fase 1: Setup do Projeto e Estrutura Básica
 - [x] Inicializar o projeto com Vite (`npm create vite@latest dds-na-mao -- --template react`).
@@ -146,7 +155,7 @@ Regra de uso real (turnos rotativos, mesmo dispositivo):
 ### Fase 2: Motor Lógico e Gerenciamento de Estado
 - [x] Implementar um Hook customizado ou estado global (ex: Zustand) para gerenciar o `historicoLeituras`.
 - [x] Escrever as funções utilitárias do algoritmo:
-  - `verificarCampanhaMes(historico)`
+  - `sugerirCampanhaMes(catalogo, historico)` — 1ª sugestão: DDS da campanha do mês, sorteado a cada abertura
   - `filtrarLidosRecentes(catalogo, historico)`
   - `sortearNovoDDS(catalogoFiltrado, ultimoTema)`
 

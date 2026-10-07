@@ -9,13 +9,12 @@ import {
   DIAS_JANELA_LEITURA,
   campanhaDoDia,
   chaveDia,
-  chaveMes,
   filtrarLidosRecentes,
   mesAtual,
   sortearNovoDDS,
   sortearOutro,
+  sugerirCampanhaMes,
   sugerirDoDia,
-  verificarCampanhaMes,
 } from "../src/lib/algoritmo.js";
 import { listarLeituras, registrarEscolha, escolhaDoDia, escolhidoHoje, registradoHoje } from "../src/lib/historico.js";
 import { semTituloInicial } from "../src/lib/markdown.js";
@@ -31,7 +30,6 @@ const historicoVazio = () => ({
   escolhas: {},
   leitores: {},
   sugestoes: {},
-  campanhaDoMes: {},
   ultimoTema: null,
 });
 
@@ -46,31 +44,35 @@ const verificar = (rotulo, condicao, detalhe = "") => {
 
 const diasAtras = (dias) => new Date(Date.now() - dias * 86400000).toISOString();
 
-console.log("1) Calendário SESMT (Prioridade 1)");
+console.log("1) Campanha do mês: sempre na 1ª sugestão");
 {
   const agora = new Date("2026-11-05T09:00:00");
   verificar("mês atual é novembro", mesAtual(agora) === "novembro", `→ ${mesAtual(agora)}`);
 
   const historico = historicoVazio();
-  const campanha = verificarCampanhaMes(catalogo, historico, agora);
-  verificar("há sugestão de campanha no primeiro acesso", Boolean(campanha?.dds));
-  verificar("o DDS sorteado é de novembro", campanha?.dds.campanha_sesmt === "novembro");
-
-  const historicoComCampanha = {
-    ...historico,
-    campanhaDoMes: { [chaveMes(agora)]: campanha.dds.id },
-  };
+  const campanha = sugerirCampanhaMes(catalogo, historico, agora);
   verificar(
-    "não repete campanha dentro do mesmo mês",
-    verificarCampanhaMes(catalogo, historicoComCampanha, agora) === null,
+    "primeira sugestão do mês vem da campanha",
+    Boolean(campanha?.dds) && campanha.origem === "campanha",
+  );
+  verificar(
+    "o DDS sorteado é de novembro",
+    campanha?.dds?.campanha_sesmt === "novembro",
+    `→ ${campanha?.dds?.id}`,
   );
 
-  const historicoDoDia = {
-    ...historico,
-    sugestoes: { [chaveDia(agora)]: campanha.dds.id },
-  };
+  // A campanha não "acaba" no primeiro acesso: reabrir o app volta a sortear
+  // um DDS do mês (a 1ª sugestão é sempre da campanha).
+  const novamente = sugerirCampanhaMes(catalogo, historico, agora);
+  verificar(
+    "reabrir o app mantém a campanha na frente",
+    novamente?.dds?.campanha_sesmt === "novembro",
+    `→ ${novamente?.dds?.id}`,
+  );
+
+  const historicoDoDia = { ...historico, sugestoes: { [chaveDia(agora)]: campanha.dds.id } };
   const repetida = sugerirDoDia(catalogo, historicoDoDia, agora);
-  verificar("sugestão do dia é estável (mesmo id)", repetida?.dds.id === campanha.dds.id);
+  verificar("na mesma sessão a sugestão é estável (mesmo id)", repetida?.dds.id === campanha.dds.id);
 }
 
 console.log("2) Regra dos 6 meses (Prioridade 2)");
@@ -85,14 +87,21 @@ console.log("2) Regra dos 6 meses (Prioridade 2)");
   const recentes = filtrarLidosRecentes(amostra, historico, DIAS_JANELA_LEITURA, agora);
   verificar(
     "exclui DDS lidos há menos de 180 dias",
-    recentes.length === 20 && recentes.every((i) => new Date(historico.leituras[i.id]).getTime() < agora.getTime() - 180 * 86400000),
+    recentes.length === 20 &&
+      recentes.every(
+        (i) => new Date(historico.leituras[i.id]).getTime() < agora.getTime() - 180 * 86400000,
+      ),
     `→ ${recentes.length} itens`,
   );
   verificar("mantém DDS lidos há mais de 180 dias", recentes.some((i) => i.id === amostra[1].id));
 
   const sorteio = sortearOutro(amostra, historico, { agora });
   verificar("o sorteio sai da lista filtrada", recentes.some((i) => i.id === sorteio?.dds.id));
-  verificar("o sorteio nunca repete leitura recente", !historico.leituras[sorteio?.dds.id] || new Date(historico.leituras[sorteio.dds.id]).getTime() < agora.getTime() - 180 * 86400000);
+  verificar(
+    "o sorteio nunca repete leitura recente",
+    !historico.leituras[sorteio?.dds.id] ||
+      new Date(historico.leituras[sorteio.dds.id]).getTime() < agora.getTime() - 180 * 86400000,
+  );
 }
 
 console.log("3) Regra de diversidade (Prioridade 3)");
@@ -104,13 +113,16 @@ console.log("3) Regra de diversidade (Prioridade 3)");
 
   const misto = catalogo.filter((i) => ["ergonomia", "cultura", "incendio"].includes(i.tema));
   const escolhas = Array.from({ length: 60 }, () => sortearNovoDDS(misto, ultimoTema));
-  verificar("nunca sorteia o mesmo tema em 60 tentativas", escolhas.every((i) => i && i.tema !== ultimoTema));
+  verificar(
+    "nunca sorteia o mesmo tema em 60 tentativas",
+    escolhas.every((i) => i && i.tema !== ultimoTema),
+  );
   verificar("a diversidade de resultados é real", new Set(escolhas.map((i) => i.id)).size > 1);
 }
 
-console.log("4) Integração: sugerirDoDia usa a ordem estrita de prioridades");
+console.log("4) Integração: ordem estrita de prioridades");
 {
-  // 06/10 não é dia celebrado: o fluxo normal (campanha → antirrepeticão → diversidade).
+  // 06/10 não é dia celebrado: o fluxo normal começa pela campanha do mês.
   const agora = new Date("2026-10-06T08:00:00");
   const historico = historicoVazio();
   catalogo.slice(0, 60).forEach((item, indice) => {
@@ -121,16 +133,33 @@ console.log("4) Integração: sugerirDoDia usa a ordem estrita de prioridades");
   verificar("primeiro acesso do mês sorteia a campanha", primeira?.origem === "campanha");
   verificar("campanha de outubro", primeira?.dds.campanha_sesmt === "outubro");
 
-  const segundoMes = {
-    ...historico,
-    campanhaDoMes: { [chaveMes(agora)]: primeira.dds.id },
-  };
-  const segunda = sugerirDoDia(catalogo, segundoMes, agora);
-  verificar("sem campanha pendente, aplica antirrepeticão", segunda?.origem === "antirepeticao");
-  verificar("não sugere algo lido há 10 dias", !segundoMes.leituras[segunda.dds.id]);
+  // Voltar da leitura mantém a sugestão da sessão (sem re-sorteio).
+  const comSugestao = { ...historico, sugestoes: { [chaveDia(agora)]: primeira.dds.id } };
+  const segundaLigacao = sugerirDoDia(catalogo, comSugestao, agora);
+  verificar("voltar da leitura mantém a sugestão da sessão", segundaLigacao?.dds.id === primeira.dds.id);
 
-  const terceira = sugerirDoDia(catalogo, { ...segundoMes, ultimoTema: segunda.dds.tema }, agora);
-  verificar("evita repetir o tema do último sugerido", terceira.dds.tema !== segunda.dds.tema);
+  // Dia celebrado tem prioridade sobre a campanha.
+  const no27 = sugerirDoDia(catalogo, historicoVazio(), new Date("2026-11-27T09:00:00"));
+  verificar("27/11 rege a sugestão com o DDS da data", no27?.dds.id === "novembro-o-dia-do-tst-e-engenheiro");
+
+  // Toda a campanha do mês lida: a 1ª sugestão segue vindo da campanha
+  // (repetição permitida — ela nunca deixa de ser a 1ª posição).
+  const doMes = catalogo.filter((i) => i.campanha_sesmt === "novembro");
+  const tudoLido = {
+    ...historicoVazio(),
+    leituras: Object.fromEntries(doMes.map((i) => [i.id, diasAtras(5)])),
+  };
+  const semDisponivel = sugerirDoDia(catalogo, tudoLido, new Date("2026-11-20T09:00:00"));
+  verificar(
+    "mesmo lendo o mês todo, a 1ª sugestão segue da campanha",
+    semDisponivel?.dds?.campanha_sesmt === "novembro",
+    `→ ${semDisponivel?.dds?.id}`,
+  );
+
+  // Sem nenhum DDS de campanha no mês, cai para a antirrepeticão (6 meses).
+  const semCalendario = catalogo.filter((i) => !i.campanha_sesmt);
+  const semMes = sugerirDoDia(semCalendario, historicoVazio(), new Date("2026-11-20T09:00:00"));
+  verificar("sem campanha no mês, aplica a regra dos 6 meses", semMes?.origem === "antirepeticao");
 }
 
 console.log("5) Campanhas do mês e dias celebrados");
@@ -144,8 +173,8 @@ console.log("5) Campanhas do mês e dias celebrados");
 
   const diaMama = campanhaDoDia(new Date("2027-10-19T09:00:00"));
   verificar(
-    "dia celebrado tem prioridade sobre o mês",
-    diaMama?.nome === "Outubro Rosa" && diaMama.dia === "Dia Internacional de Combate ao Câncer de Mama",
+    "19/10 sem texto de data: vale a campanha do mês",
+    diaMama?.nome === "Outubro Rosa" && diaMama.dia === null,
     `→ ${JSON.stringify(diaMama)}`,
   );
 
@@ -178,17 +207,6 @@ console.log("5) Campanhas do mês e dias celebrados");
     `→ ${sugestaoJaLido?.dds.id}`,
   );
 
-  const campanhaJaSugerida = {
-    ...historicoVazio(),
-    campanhaDoMes: { "2027-04": "abril-o-direito-de-recusa" },
-  };
-  const sugestaoDoDia = sugerirDoDia(catalogo, campanhaJaSugerida, abril28);
-  verificar(
-    "dia celebrado tem prioridade sobre a campanha já sugerida no mês",
-    sugestaoDoDia?.dds.id === "abril-28-de-abril",
-    `→ ${sugestaoDoDia?.dds.id}`,
-  );
-
   const outubro6 = new Date("2026-10-06T09:00:00");
   const outubro6Camp = campanhaDoDia(outubro6);
   verificar(
@@ -205,71 +223,89 @@ console.log("5) Campanhas do mês e dias celebrados");
 
   const sugestaoOut = sugerirDoDia(catalogo, historicoVazio(), outubro6);
   verificar(
-    "sugestão do mês prefere o DDS central da campanha (prevenção do câncer de mama)",
-    sugestaoOut?.dds.id === "outubro-autocuidado-e-exames" && sugestaoOut.origem === "campanha",
+    "sugestão de outubro vem da campanha do mês",
+    sugestaoOut?.origem === "campanha" && sugestaoOut.dds.campanha_sesmt === "outubro",
     `→ ${sugestaoOut?.dds.id}`,
+  );
+
+  const variedade = new Set(
+    Array.from({ length: 60 }, () => sugerirDoDia(catalogo, historicoVazio(), outubro6).dds.id),
+  );
+  verificar(
+    "a sugestão da campanha é aleatória (varia entre os textos do mês)",
+    variedade.size > 1,
+    `→ ${[...variedade].join(", ")}`,
   );
 
   const nucleoLido = {
     ...historicoVazio(),
     leituras: {
-      "outubro-autocuidado-e-exames": new Date(outubro6.getTime() - 5 * 86400000).toISOString(),
+      "outubro-rosa-incentivo-a-prevencao-do-cancer-de-mama":
+        new Date(outubro6.getTime() - 5 * 86400000).toISOString(),
     },
   };
   const sugestaoSemNucleo = sugerirDoDia(catalogo, nucleoLido, outubro6);
   verificar(
-    "com o DDS central lido há pouco, cai para outro DDS da campanha do mês",
+    "texto da campanha lido há pouco não volta na sugestão",
     sugestaoSemNucleo?.dds.campanha_sesmt === "outubro" &&
-      sugestaoSemNucleo.dds.id !== "outubro-autocuidado-e-exames",
+      sugestaoSemNucleo.dds.id !== "outubro-rosa-incentivo-a-prevencao-do-cancer-de-mama",
     `→ ${sugestaoSemNucleo?.dds.id}`,
   );
 
   const novAdv = new Date("2026-11-05T09:00:00");
   const sugNovo = sugerirDoDia(catalogo, historicoVazio(), novAdv);
   verificar(
-    "primeiro DDS do mês é o central, determinístico (novembro)",
-    sugNovo?.dds.id === "novembro-o-homem-que-nao-procura" && sugNovo.origem === "campanha",
+    "campanha de novembro abre com um DDS do mês",
+    sugNovo?.dds.campanha_sesmt === "novembro" && sugNovo.origem === "campanha",
     `→ ${sugNovo?.dds.id}`,
   );
 
-  const out8 = new Date("2026-10-08T09:00:00");
-  const sugestaoAntiga = {
-    ...historicoVazio(),
-    sugestoes: { [chaveDia(out8)]: "outubro-preconceito-e-desinformacao" },
-  };
-  const promovida = sugerirDoDia(catalogo, sugestaoAntiga, out8);
+  const dez3 = new Date("2026-12-03T09:00:00");
+  const sugDez = sugerirDoDia(catalogo, historicoVazio(), dez3);
   verificar(
-    "sugestão antiga e fraca de campanha é promovida ao DDS central do mês",
-    promovida?.dds.id === "outubro-autocuidado-e-exames" && promovida.origem === "do-dia",
-    `→ ${promovida?.dds.id}`,
+    "campanha de dezembro abre com um DDS do mês",
+    sugDez?.dds.campanha_sesmt === "dezembro" && sugDez.origem === "campanha",
+    `→ ${sugDez?.dds.id}`,
   );
 
-  const comEscolhaFixa = {
-    ...sugestaoAntiga,
-    escolhas: {
-      [chaveDia(out8)]: {
-        id: "outubro-preconceito-e-desinformacao",
-        iso: out8.toISOString(),
-      },
+  // Datas comemorativas continuam regendo a sugestão com o DDS que alude à data.
+  const sugTst = sugerirDoDia(catalogo, historicoVazio(), new Date("2026-11-27T09:00:00"));
+  verificar(
+    "27/11 sugere o DDS alusivo à data (homenagem ao TST)",
+    sugTst?.dds.id === "novembro-o-dia-do-tst-e-engenheiro",
+    `→ ${sugTst?.dds.id}`,
+  );
+
+  const sugEng = sugerirDoDia(catalogo, historicoVazio(), new Date("2026-12-11T09:00:00"));
+  verificar(
+    "11/12 sugere o DDS alusivo à data (Dia do Engenheiro)",
+    sugEng?.dds.id === "dezembro-o-dia-do-engenheiro",
+    `→ ${sugEng?.dds.id}`,
+  );
+
+  // Sugestão da sessão é mantida (é a nova abertura do app que troca o texto).
+  const out8 = new Date("2026-10-08T09:00:00");
+  const sugestaoSalva = {
+    ...historicoVazio(),
+    sugestoes: {
+      [chaveDia(out8)]: "outubro-rosa-mes-de-conscientizacao-sobre-o-cancer-de-mama",
     },
   };
-  const semPromocao = sugerirDoDia(catalogo, comEscolhaFixa, out8);
+  const mantida = sugerirDoDia(catalogo, sugestaoSalva, out8);
   verificar(
-    "dia com escolha fixa não altera a sugestão salva",
-    semPromocao?.dds.id === "outubro-preconceito-e-desinformacao",
-    `→ ${semPromocao?.dds.id}`,
+    "sugestão da sessão é mantida ao navegar",
+    mantida?.dds.id === "outubro-rosa-mes-de-conscientizacao-sobre-o-cancer-de-mama" &&
+      mantida.origem === "do-dia",
+    `→ ${mantida?.dds.id}`,
   );
 
-  const celebre10 = new Date("2026-10-10T09:00:00");
-  const sugestaoCelebre = {
-    ...historicoVazio(),
-    sugestoes: { [chaveDia(celebre10)]: "outubro-seguranca-nas-escolas" },
-  };
-  const semPromocaoCelebre = sugerirDoDia(catalogo, sugestaoCelebre, celebre10);
+  // Sem textos próprios de 10/10 e 19/10, outubro é campanha pura.
+  const diaEscolas = new Date("2026-10-10T09:00:00");
+  const semEscola = sugerirDoDia(catalogo, historicoVazio(), diaEscolas);
   verificar(
-    "dia celebrado rege a sugestão (sem promoção ao central)",
-    semPromocaoCelebre?.dds.id === "outubro-seguranca-nas-escolas",
-    `→ ${semPromocaoCelebre?.dds.id}`,
+    "10/10: sem texto de escolas, cai para a campanha do mês",
+    semEscola?.origem === "campanha" && semEscola.dds.campanha_sesmt === "outubro",
+    `→ ${semEscola?.dds.id}`,
   );
 }
 
@@ -278,7 +314,26 @@ console.log("6) Busca e catálogo");
   verificar("catálogo com 228 itens", catalogo.length === 228, `→ ${catalogo.length}`);
   verificar("ids únicos", new Set(catalogo.map((i) => i.id)).size === catalogo.length);
   verificar("todos têm H1/título", catalogo.every((i) => i.titulo?.length > 0));
-  verificar("60 DDS de campanha SESMT", catalogo.filter((i) => i.campanha_sesmt).length === 60);
+  verificar(
+    "60 DDS de campanha SESMT",
+    catalogo.filter((i) => i.campanha_sesmt).length === 60,
+    `→ ${catalogo.filter((i) => i.campanha_sesmt).length}`,
+  );
+  verificar(
+    "novos DDS de campanha incluídos (outubro x3, novembro e dezembro)",
+    [
+      "outubro-rosa-incentivo-a-prevencao-do-cancer-de-mama",
+      "outubro-rosa-mes-de-conscientizacao-sobre-o-cancer-de-mama",
+      "outubro-rosa-saude-da-mulher-cuidados-antes-durante-e-apos-o-cancer-de-mama",
+      "novembro-o-exame-que-incomoda-e-salva",
+      "dezembro-sinais-que-a-pele-da",
+    ].every((id) => catalogo.some((i) => i.id === id)),
+  );
+  verificar(
+    "outubro reúne 3 DDS de campanha (textos novos)",
+    catalogo.filter((i) => i.campanha_sesmt === "outubro").length === 3,
+    `→ ${catalogo.filter((i) => i.campanha_sesmt === "outubro").length}`,
+  );
   verificar(
     "todos os arquivos .md existem",
     catalogo.every((i) => fs.existsSync(path.join(RAIZ, "public", i.arquivo_md))),

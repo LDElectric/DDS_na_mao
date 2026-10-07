@@ -1,12 +1,14 @@
-# DDS: A Homenagem aos Profissionais de SST
+# DDS: A Homenagem aos Profissionais de SST (26 e 27/11)
 
-Nos dias 26 e 27 de novembro, a segurança do trabalho comemora os seus: o Dia do Engenheiro de Segurança e o Dia do Técnico de Segurança do Trabalho. É a data de olhar para quem cuida de quem trabalha — e de dizer, sem rodeios, que esses profissionais são muito mais do que a fama que colecionam.
+Nos dias 26 e 27 de novembro, a segurança do trabalho comemora os seus: o Dia do Engenheiro de Segurança do Trabalho e o Dia do Técnico de Segurança do Trabalho. É a data de olhar para quem cuida de quem trabalha — e de dizer, sem rodeios, que esses profissionais são muito mais do que a fama que colecionam.
 
-Todo mundo conhece a fama: o técnico e o engenheiro de segurança são os "chatos necessários". São eles que param a tarefa no meio, que exigem o cinto ancorado, que conferem a validade do extintor, que perguntam por que o bloqueio não foi feito, que investigam por que o procedimento foi pulado. No dia a dia da produção, eles parecem obstáculos — aquele que atrasa o fechamento, aquele que "enche o saco". Mas existe outra leitura, e o mês azul ajuda a fazer: eles são os profissionais que trabalham para que o atraso de cinco minutos hoje nunca seja a ausência de amanhã.
+Todo mundo conhece a fama: o técnico e o engenheiro de segurança são os "chatos necessários". São eles que param a tarefa no meio, que exigem o cinto ancorado, que conferem a validade do extintor, que perguntam por que o bloqueio não foi feito, que investigam por que o procedimento foi pulado. No dia a dia da produção eles parecem obstáculos — aquele que atrasa o fechamento, aquele que "enche o saco". Mas existe outra leitura, bem mais justa: eles são os profissionais que trabalham para que o atraso de cinco minutos hoje nunca seja a ausência de amanhã.
 
 O trabalho do SESMT é invisível quando dá certo. A maior vitória do técnico de segurança não é a advertência aplicada — é o fim do mês com todos voltando inteiros para casa. Nenhum elogio, nenhum cartaz, nenhuma comemoração: só a estatística silenciosa de mais um dia sem tragédia. É uma profissão que mede o sucesso pela ausência de desastre — e a ausência nunca aparece em reunião de resultados. Por isso, quando um ambiente é seguro, vale reconhecer o trabalho invisível de quem o faz acontecer.
 
-E o Novembro Azul empresta à homenagem um recado que cabe perfeitamente: profissionais de segurança também são trabalhadores. O técnico e o engenheiro que cuidam da saúde de todos também precisam ser cuidados — fazer o exame periódico, olhar a própria pressão, marcar o urologista, não adiar a própria saúde por causa da responsabilidade dos outros. Cuidar de quem cuida não é frase de efeito: é prevenção — e a prevenção, para quem vive dela, não pode ser o único hábito que não pratica.
+Por trás dessa invisibilidade, o dia a dia é de trabalho muito concreto: inspecionar os postos e as máquinas, atualizar o mapa de riscos, orientar a CIPA, cobrar o uso correto do EPI, treinar antes da tarefa nova, acompanhar o exame periódico, investigar cada quase-acidente e corrigir a causa antes de o prejuízo aparecer. Cada item dessa lista é um dia em que a tragédia foi impedida antes de acontecer — e ninguém percebeu. O técnico e o engenheiro de segurança são, na prática, os guardiões do "não aconteceu".
+
+E não custa lembrar a origem desse trabalho organizado: foi a Lei nº 7.410, de 1985, que reconheceu e regulamentou as duas profissões no Brasil, anos depois de o SESMT ter nascido dentro das indústrias pela NR-4. De lá para cá, a função amadureceu: saiu do "fiscal que multa" para o "profissional que previne" — e a segurança deixou de ser responsabilidade de um setor para virar cultura de todos.
 
 Se você trabalha em um ambiente seguro — e reconhece que não é obra do acaso —, agradeça a esses profissionais. E lembre: a segurança não se faz só com o crachá do SESMT. Faz-se com a atitude de todos, todos os dias, inclusive no domingo, no vestiário e no caminho de casa.
 
@@ -16,4 +18,4 @@ Fontes e Referências:
 - 26/11: Dia do Engenheiro de Segurança do Trabalho.
 - 27/11: Dia do Técnico de Segurança do Trabalho.
 - Lei nº 7.410/1985: regulamentação das profissões de TST e Eng. de Segurança.
-- Novembro Azul: saúde do trabalhador — inclusive dos que cuidam dos outros.
+- NR-4 (Portaria 3.214/78): serviços especializados em segurança e medicina do trabalho.

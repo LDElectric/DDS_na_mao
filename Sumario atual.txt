@@ -1,0 +1,346 @@
+SUMÁRIO: DIÁLOGOS DIÁRIOS DE SEGURANÇA (EDIÇÃO ANUÁRIO)
+Catálogo atual: 228 DDS publicados (1 por dia útil).
+Pendente de conversão: 5 textos do autor em "novos/" (fora do catálogo) +
+revisão de "Textos faltantes.txt" — aguardando aprovação do SESMT.
+
+────────────────────────────────────────────────────────
+PROGRESSO GERAL (ATUAL — catálogo publicado e testado)
+────────────────────────────────────────────────────────
+PARTE I — A Base da Segurança .................. 37 DDS  [CONCLUÍDA]
+PARTE II — Saúde Integral ....................... 23 DDS  [CONCLUÍDA]
+PARTE III — Higiene Ocupacional ................. 15 DDS  [CONCLUÍDA]
+PARTE IV — Riscos Operacionais ................. 55 DDS  [CONCLUÍDA]
+PARTE V — Logística, Meio Ambiente e Sociedade .. 38 DDS  [CONCLUÍDA]
+PARTE VI — Calendário Anual SESMT .............. 60 DDS  [CONCLUÍDA]
+                                                (5 textos de campanha por mês,
+                                                 com textos extras de datas em
+                                                 nov/dez; outubro com 3 novos)
+
+TOTAL: 228 DDS (Parte I 37 · Parte II 23 · Parte III 15 ·
+Parte IV 55 · Parte V 38 · Parte VI 60)
+
+Estado atual: catálogo publicado e verificado (npm test + smoke em navegador
+real com offline). A 1ª sugestão é sempre um DDS da campanha do mês, sorteado
+aleatoriamente a cada nova abertura do app (navegar entre telas mantém a
+sugestão da sessão); datas comemorativas têm texto próprio (27/11, 11/12).
+
+────────────────────────────────────────────────────────
+PARTE I: A Base da Segurança (Comportamento, Cultura e Gestão)
+Temas de altíssima abrangência, aplicáveis a qualquer empresa.
+
+CAPÍTULO 1: Cultura, Comportamento e Reflexão — 20 DDS
+  Textos do autor:
+   - Segurança de Verdade Não se Faz Sozinho: A Força do Engajamento
+   - A Síndrome do "Deixar para o Outro" e o Senso de Responsabilidade
+  Demais (ordem do catálogo):
+   - A Armadilha da Confiança e a Erosão da Vigilância
+   - A Coragem de Questionar e a Segurança Psicológica no Chão de Fábrica
+   - A Distância entre o Saber e o Fazer: O Desafio da Consistência Comportamental
+   - A Ética da Segurança e o Dilema da Conformidade
+   - A Gestão do Estresse e o Impacto na Percepção de Risco
+   - A Pressa e a Gestão do Tempo
+   - A Pressa e o Preço do "Rapidinho"
+   - A Psicologia do Risco e o Perigo da "Sorte" como Método de Trabalho
+   - A Responsabilidade Coletiva e o Conceito de Cuidado Mútuo (Brother's Keeper)
+   - A Síndrome do Excesso de Confiança e a Ilusão do Controle
+   - Fadiga Mental e a Erosão da Atenção: O Risco Invisível
+   - O Custo Invisível do Atalho e a Ilusão da Eficiência
+   - O Efeito Manada e a Armadilha da Validação Coletiva
+   - O Ego Profissional e a Vulnerabilidade da Segurança
+   - O Excesso de Experiência como Risco
+   - O Peso do Exemplo — Liderança que Ensina sem Falar
+   - O Vício do "Sempre Foi Assim" e a Resistência à Mudança
+   - Percepção de Riscos
+
+CAPÍTULO 2: Gestão de Riscos, Organização e Normatização — 17 DDS
+  Textos do autor:
+   - O Aviso Oculto e a Matemática da Prevenção
+   - O Perigo da Rotina e a Identificação Rápida de Riscos
+  Demais (ordem do catálogo):
+   - A Gestão de EPCs e a Engenharia da Prevenção Coletiva
+   - A Gestão de Resíduos e a Segurança Ambiental
+   - A Gestão de Riscos em Atividades Não Rotineiras
+   - A Hierarquia de Controle
+   - A Importância da CIPA e o Ciclo de Melhoria Contínua na Operação
+   - A Importância da CIPA e o Olhar Crítico sobre a Conformidade Burocrática
+   - A Importância da CIPA e o Protagonismo na Prevenção de Acidentes
+   - A Importância da Organização e a Disciplina Operacional - Além do 5S
+   - A Importância da PT (Permissão de Trabalho)
+   - A Matriz de Risco
+   - A Metodologia 5S
+   - A Recusa de Tarefa Insegura
+   - EPI
+   - O Direito de Recusa
+   - O Gerenciamento de Mudanças
+
+────────────────────────────────────────────────────────
+PARTE II: Saúde Integral do Trabalhador
+Temas voltados ao bem-estar contínuo e campanhas de saúde.
+
+CAPÍTULO 3: Ergonomia e Prevenção de Doenças Ocupacionais — 12 DDS
+  Textos do autor:
+   - O Inimigo Silencioso e o Preço do Desconforto
+  Demais (ordem do catálogo):
+   - A Biomecânica do Levantamento de Peso
+   - A Ergonomia Cognitiva
+   - A Ergonomia do Sono e a Segurança Operacional
+   - A Ergonomia do Transporte de Cargas
+   - A Ergonomia Visual e a Fadiga Ocular
+   - a Importância da Hidratação e a Termorregulação no Trabalho Pesado
+   - A Síndrome do Burnout e a Fronteira entre a Fadiga e o Esgotamento
+   - Ergonomia Fora da Planta — Escritório, Home Office e a Cadeira que Decide
+   - Ginástica Laboral
+   - Hidratação e Performance Cognitiva
+   - Posturas Estáticas e a Fadiga Muscular
+
+CAPÍTULO 4: Saúde Mental e Riscos Psicossociais — 11 DDS
+   - A Anatomia do Estresse Operacional
+   - A Empatia Operacional e a Quebra do Isolamento Psicológico
+   - A Fadiga Invisível e a Segurança
+   - A Fadiga Mental e o Risco do "Piloto Automático" Cognitivo
+   - A Gestão da Ansiedade e o Impacto na Percepção de Risco
+   - A Gestão da Frustração e o Impacto na Disciplina Operacional
+   - A Síndrome do Impostor e a Segurança Psicológica no Trabalho
+   - Assédio e Violência Psicológica
+   - O Ciclo do Sono e a Segurança Operacional
+   - O Impacto da Privação do Sono na Tomada de Decisões Críticas
+   - Trabalho em Turnos e a Luta Contra o Ritmo Circadiano
+
+────────────────────────────────────────────────────────
+PARTE III: Higiene Ocupacional e o Ambiente
+Temas técnicos, com volume dependente do grau de risco da indústria.
+
+CAPÍTULO 5: Agentes Físicos, Químicos e Biológicos — 15 DDS
+   - A Ameaça Invisível das Poeiras e Aerossóis
+   - A Contaminação Cruzada — do Piso da Fábrica até o Prato da Casa
+   - A Exposição Solar e a Proteção da Pele no Trabalho Externo
+   - A Física do Ruído e a Traição da Audição
+   - A Luz que Fala (ou Não) — Iluminação, Ofuscamento e a Falha do Olhar
+   - A Química do Risco
+   - A Reação que Ninguém Esperava — o Perigo Oculto dos Produtos de Limpeza
+   - Agroquímicos e Quem Aplica, Colhe e Reentra
+   - As Vibrações e o Trauma que Não se Vê
+   - Fluidos de Corte e Névoa de Óleo — o Risco da Mecânica Suja
+   - Gases e Vapores — Quando o Cheiro Não É Fiável
+   - Metais Pesados — O Veneno que se Acumula e Não Dá Alarme
+   - O Inimigo Invisível do Calor
+   - Radiação Ionizante e Radiografia Industrial — O Risco que Só Aparece Depois
+   - Riscos Biológicos no Descarte e a Higiene do Ambiente
+
+────────────────────────────────────────────────────────
+PARTE IV: Riscos Operacionais e Atividades Críticas
+O "chão de fábrica". Temas focados em riscos fatais e regras de ouro.
+
+CAPÍTULO 6: Máquinas, Equipamentos e Ferramentas — 15 DDS
+   - A Blindagem que Não Existe — Quando a Proteção de Partes Móveis é Removida
+   - A Quarentena de Equipamentos com Defeito
+   - Calibragem e Manutenção Preventiva — A Parada que Não Custa Dinheiro
+   - Compressores de Ar — A Linha que Tem Memória
+   - Elevação de Carga — A Corrente que Não Deve Esticar
+   - Ferramentas de Corte — O Dente que Pode Cortar
+   - Ferramentas Elétricas Portáteis — O Peso que Você Não Sente
+   - Intertravamento — A Costura que Some quando a Produção Apertar
+   - Manutenção Corretiva — O Componente que Não Esperou
+   - NR-12 na Prática — A Avaliação de Risco que Não Vive no Gaveteiro
+   - O Botão de Emergência e a Linha de Parada
+   - O Improviso de Ferramentas — Quando a Gambiarra Vira Método
+   - Operação Fora da Concepção — A Máquina Fora do Manual
+   - Sinais e Placas de Máquina — A Informação que Fica na Parede
+   - Zonas de Manutenção — Onde a Máquina Foi Desligada, Não Onde Ela Parou
+
+CAPÍTULO 7: Energias Perigosas, Eletricidade e Bloqueio (LOTO) — 12 DDS
+   - A Reenergização — O Momento Mais Perigoso do Procedimento
+   - Arco Elétrico — A Explosão que Ninguém Vê Chegar
+   - Aterramento — O Fio que Ninguém Vê e que Segura o Mundo
+   - Ausência de Tensão — Medir Antes de Acreditar
+   - Bloqueio e Etiquetagem — O Procedimento que Salva Silenciosamente
+   - Cabos e Conectores — A Falha que Não Avisa
+   - Capacitores e a Energia que Fica Depois do Desligamento
+   - Energia Armazenada — Pneumática, Hidráulica e a Mola que Não Esquece
+   - Gerador e Energia de Emergência — A Promessa que Só Testa na Hora
+   - O Choque Elétrico — Como a Corrente Encontra o Caminho
+   - Painel Elétrico — A Porta que Não Deveria Abrir
+   - Trabalho Energizado — Quando a Exceção é o Projeto
+
+CAPÍTULO 8: Trabalhos em Altura e Prevenção de Quedas — 10 DDS
+   - A Queda que Não Houve — O Acidente que Não Virou Notícia
+   - Andaimes — A Plataforma que Precisa Ser Merecida
+   - Cinto e Talabarte — A Inspeção Antes de Subir
+   - Escadas — A Subida que Ninguém Olha
+   - NR-35 e a Regra dos Dois Metros
+   - Permissão de Trabalho em Altura — O Documento que Pára a Pressa
+   - Plataforma e Cestos — O Equipamento que Sobe com Você
+   - Ponto de Ancoragem — Onde a Queda é Interrompida
+   - Queda de Objetos — A Ferramenta que Cai de Cima
+   - Telhados e Superfícies Frágeis — O Piso que Não Existe
+
+CAPÍTULO 9: Espaços Confinados e Escavações — 8 DDS
+   - Avaliação de Gases — Antes de Respirar, Meça
+   - Escavação e Soterramento — O Buraco que Não Sabe Ficar Aberto
+   - Espaço Confinado — O Lugar que Não Foi Feito para Você
+   - Isolamento em Espaço Confinado — A Linha que Não Pode Voltar
+   - O Vigia — A Pessoa que Não Pode Entrar
+   - Permissão de Entrada em Espaço Confinado — O Que Precisa Ser Sabido Antes
+   - Resgate em Espaço Confinado — O Que Precisa Estar Pronto Antes
+   - Ventilação — Trocar o Ar Antes de Confiar Nele
+
+CAPÍTULO 10: Prevenção de Incêndios e Atmosferas Explosivas — 10 DDS
+   - A Evacuação — A Decisão de Sair Antes de Ter Certeza
+   - Armazenagem e Segregação — O Que Está Junto demais
+   - Atmosfera Explosiva — Quando o Ar Já Está Pronto para Queimar
+   - Brigada de Incêndio — O Time que Treina para o Dia em que Não Quer
+   - Classes de Incêndio — O Extintor Errado Não Apaga, Aumenta
+   - Como Usar o Extintor — Quatro Movimentos que Precisam Ser Automáticos
+   - Detecção, Alarme e Roteiro de Fuga — Os Três que Precisam Andar Juntos
+   - Eletricidade Estática — A Faísca que Ninguém Produz de Propósito
+   - Líquidos Inflamáveis e Combustíveis — A Diferença que Atrapalha
+   - O Triângulo do Fogo — Três Coisas que Podem Falhar
+
+────────────────────────────────────────────────────────
+PARTE V: Logística, Meio Ambiente e Sociedade
+Temas que conectam a empresa com o mundo externo e a vida pessoal.
+
+CAPÍTULO 11: Movimentação de Cargas, Trânsito e Veículos — 12 DDS
+   - Armazenagem em Altura — A Prateleira que Guarda e Também Joga
+   - Bateria de Empilhadeira — O Risco Químico Dentro do Equipamento
+   - Carga e Descarga — O Momento em que a Carga Sai do Controle
+   - Carga Suspensa — A Regra do Não Passar Por Baixo
+   - Direção Defensiva — O Corredor da Fábrica Não é Estrada, mas Machuca Igual
+   - Empilhadeira — O Operador e o Ponto Cego que Ninguém Enxerga
+   - Entrada de Veículos no Recinto — O Que Acontece Fora da Planta
+   - Espelhos, Faróis e Sinalização — O Que o Motorista Depende para Ver
+   - Fadiga ao Volante — O Turno que Continua Depois do Ponto
+   - Manuseio Manual de Cargas — O Peso que a Coluna Guarda
+   - Ponte Rolante e Talha — A Carga que Suspende e Não Perdoa
+   - Trânsito Interno — Prioridade que Precisa Estar Escrita
+
+CAPÍTULO 12: Emergências e Primeiros Socorros — 8 DDS
+   - Como Acionar Socorro — A Ligação que Precisa Estar Pronta
+   - Hemorragia — O Controle do Sangramento nos Primeiros Minutos
+   - Kit de Primeiros Socorros — O Conteúdo que Precisa Ser Conhecido
+   - O que NÃO Fazer em um Acidente — A Lista Mais Importante dos Primeiros Socorros
+   - Os Primeiros Minutos — O Que a Planta Faz Antes do SAMU Chegar
+   - Queimaduras — O Dano que Continua Depois da Fonte
+   - RCP e DEA — Os Oito Minutos que Definem o Resultado
+   - Vias Aéreas Obstruídas — O Engasgo que Não Resolve Sozinho
+
+CAPÍTULO 13: Meio Ambiente e Sustentabilidade — 8 DDS
+   - A Licença e a Comunidade — O Vizinho que Reclama Primeiro
+   - Água — O Recurso que a Planta Usa sem Ver
+   - Derramamento — A Resposta que Precisa Ser Imediata e Previsível
+   - Energia — O Consumo que Ninguém Vê na Produção
+   - Logística Reversa — O Caminho de Volta que Precisa Existir
+   - Poluição do Ar — O Que Sai da Chaminé e o Que Fica no Corredor
+   - Prevenção na Fonte — O Controle que Custa Menos Depois
+   - Resíduos Sólidos — A Classificação que Decide o Destino
+
+CAPÍTULO 14: Segurança Fora do Trabalho — 10 DDS
+   - Acidentes Domésticos — A Cozinha, o Banheiro e o Chão Molhado
+   - Choque Elétrico em Casa — A Instalação que Ninguém Conferiu
+   - Crianças e o Ambiente Doméstico — O Projeto que Precisa Ser Feito Antes
+   - Descanso Fora do Trabalho — O Recupério que Ninguém Planeja
+   - Direção nos Feriados — Quando a Estrada Fica Mais Vazia e Mais Perigosa
+   - Kit de Emergência Doméstico — O Que Precisa Estar Pronto Antes
+   - Lazer e Fim de Semana — O Risco que Não Está no Horário de Expediente
+   - Manutenção Doméstica — O Improviso que Custa Mais Caro que o Serviço
+   - O Trajeto — O Risco que Começa Depois do Ponto
+   - Quedas em Casa — O Chão que Machuca Mais do que Parece
+
+────────────────────────────────────────────────────────
+PARTE VI: Calendário Anual SESMT (Cores dos Meses e Campanhas)
+60 DDS [CONCLUÍDA] — 5 textos de campanha por mês, com textos próprios de
+datas comemorativas em novembro (27/11 Dia do TST/Eng. de Segurança) e
+dezembro (11/12 Dia do Engenheiro). Outubro foi atualizado com 3 textos novos
+do Outubro Rosa. A 1ª sugestão é sempre um DDS da campanha do mês, sorteado
+aleatoriamente a cada nova abertura do app — sem texto fixo.
+
+JANEIRO — Janeiro Branco (5 DDS)
+   - A Carga Invisível do Esgotamento Profissional (Burnout)
+   - A Engenharia do Sono e a Segurança Operacional
+   - A Linha Tênue entre Vida Pessoal e Trabalho
+   - Janeiro — O Retorno que Ninguém Treinou
+   - O Peso do Estresse na Operação e o Efeito Túnel
+
+FEVEREIRO — Fevereiro Roxo e Laranja (5 DDS)
+   - A Verdade sobre os Exames Periódicos
+   - Ergonomia Além da Postura
+   - Fevereiro Roxo
+   - Microtraumas
+   - Pausas Importam Ainda Mais para Quem Vive com Dor
+
+MARÇO — Março Lilás e Azul-Marinho (5 DDS)
+   - A Prevenção que Salva Vidas
+   - Diversidade de Pensamento e Percepção de Risco
+   - Inclusão e Segurança da Mulher na Indústria
+   - Março
+   - Respeito como o EPI Invisível
+
+ABRIL — Abril Verde (5 DDS)
+   - Abril — 28 de Abril: A Data que Serve para Conferir o Ano
+   - As Regras de Ouro Não São Negociáveis
+   - O Direito de Recusa não é Opção, é Proteção
+   - O Impacto nas Famílias e o Verdadeiro Propósito
+   - O Quase Acidente
+
+MAIO — Maio Amarelo (5 DDS)
+   - A Cegueira Causada pelo Celular ao Volante
+   - Direção Defensiva no Trajeto e Internamente
+   - Maio — O Trabalho e a Cabeça que o Sustenta
+   - O Trânsito, a Fadiga e as Viagens Longas
+   - Segurança com Empilhadeiras e Veículos Industriais
+
+JUNHO — Junho Vermelho e Verde (5 DDS)
+   - A Primeira Gota
+   - A Relação Inseparável entre Meio Ambiente e Saúde Ocupacional
+   - Doação de Sangue
+   - Junho
+   - O Descarte Correto de Resíduos e o Risco Cruzado
+
+JULHO — Julho Amarelo (5 DDS)
+   - Hepatites Virais e a Higiene Ocupacional
+   - Julho
+   - Julho
+   - Julho Amarelo
+   - O Orgulho da Prevenção
+
+AGOSTO — Agosto Lilás e Dourado (5 DDS)
+   - A Linha Vermelha do Assédio Moral e Sexual
+   - Agosto
+   - Agosto
+   - Agosto Dourado
+   - Segurança Psicológica
+
+SETEMBRO — Setembro Amarelo (5 DDS)
+   - A Escuta Ativa como Ferramenta de Prevenção
+   - A Responsabilidade da Liderança na Saúde Mental
+   - O Risco do Isolamento no Turno de Trabalho
+   - Setembro — A Pergunta Que Ninguém Faz, e Que Precisa Ser Feita
+   - Setembro Amarelo
+
+OUTUBRO — Outubro Rosa (3 DDS)
+   - Outubro Rosa — Incentivo à prevenção do câncer de mama
+   - Outubro Rosa — Mês de Conscientização Sobre o Câncer de Mama
+   - Saúde da mulher — cuidados antes, durante e após o câncer de mama
+
+NOVEMBRO — Novembro Azul (6 DDS)
+   - "Eu Aguento"
+   - A Homenagem aos Profissionais de SST (26 e 27/11)
+   - Novembro — O Homem que Não Procura Atendimento
+   - Novembro Azul e a Quebra de Tabus
+   - O Exame que Incomoda e Salva
+   - O Risco Silencioso
+
+DEZEMBRO — Dezembro Laranja e Vermelho (6 DDS)
+   - Celebre, mas com Responsabilidade
+   - Dezembro — O Balanço e a Última Decisão do Ano
+   - Dezembro Laranja e a Prevenção ao Câncer de Pele
+   - Dezembro Vermelho e as ISTs
+   - Dia do Engenheiro e o Construir com Segurança (11/12)
+   - Os Sinais que a Pele dá
+
+Observação: alguns títulos de H1 do calendário ficaram genéricos ou repetidos
+(ex.: "Outubro Rosa", "Julho" e "Agosto" aparecem mais de uma vez) — candidatos
+a ajuste de título numa próxima rodada de revisão de conteúdo.
+
+Expansão possível: transformar o calendário em 1 DDS semanal (52/ano) mantendo
+a mesma estrutura de campanhas — a decidir conforme a demanda do SESMT.

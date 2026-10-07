@@ -1,0 +1,57 @@
+# DDS: Percepção de Riscos
+Em diversas situações, podemos estar expostos a fatores de risco, seja no trabalho, em casa ou no trânsito. Você sabia que temos instrumentos que podem nos alertar sobre eles e nos ajudar a evitar situações arriscadas? Vejamos!
+
+Afinal, o que é perigo? E o que é risco?
+
+PERIGO, é uma situação ou condição de risco com probabilidade de causar lesão ou dano à saúde das pessoas por ausência de medidas de controle.
+
+RISCO, é a avaliação do perigo, associada à possibilidade de ocorrência de um acidente ou doença. Durante toda nossa vida somos expostos a fatores de riscos em diversas situações.
+
+Quando crianças são inúmeros os acidentes sofridos, devido à ausência da percepção de risco: é um dedo na tomada, uma queda de uma árvore, uma ingestão acidental de um produto de limpeza, e tantos outros. À medida que crescemos, diminui a ocorrência desses acidentes porque desenvolvemos a percepção de risco. E o que vem a ser isso?
+
+O que é perceoção de risco?
+
+A percepção de risco é a capacidade de identificar os riscos existentes no ambiente e agir para evitar a ocorrência de acidentes. É, por exemplo, identificar o risco de dirigir alcoolizado, sem cinto de segurança ou em alta velocidade. São situações cujos fatores podem desencadear um acidente.
+
+No ambiente de trabalho é fundamental essa percepção, visto que há a exposição a diversos perigos, nomeadamente os físicos, químicos, biológicos, ergonômicos e de acidentes.
+
+Como desenvolver a percepção de risco?
+
+É possível desenvolver a percepção de risco, bem como o conceito de segurança comportamental, a partir de:
+
+Treinamentos, diálogos de segurança, simulações de situações reais;
+Conhecimento do local e das atividades, leitura das fichas de informação dos produtos químicos (FISPQ);
+Elaboração do mapa de riscos.
+A percepção de risco na segurança do trabalho baseia-se em identificar os fatores que podem ocasionar acidentes ou doenças no ambiente de trabalho, e agir de maneira preventiva e consciente.
+
+Fatores que influencias na percepção de risco
+
+A percepção de risco está diretamente relacionada às informações sobre a situação. Hoje dispomos de tempo e ferramentas adequadas para obtermos tais informações. No entanto, em diversas ocasiões deixamos de analisar os riscos e assumimos o modo reativo, dispensando o pensamento cognitivo.
+
+São diversos fatores que nos fazem agir assim e prejudicam a percepção de risco:
+
+Agir por impulso para resolver uma situação rapidamente;
+Considerar os riscos que resultaram em acidentes recentes e negligenciar os demais;
+Ter a sensação de controle (por exemplo: acreditamos que é mais seguro viajar de carro do que viajar de avião, porque no avião não temos controle da situação);
+Experiência e familiaridade;
+Excesso de confiança;
+Ausência de treinamento e capacitação.
+
+
+EXEMPLOS
+
+Os fatores que influenciam na percepção de riscos são conhecidos como atos inseguros:
+
+Levantamento improprio de carga;
+Brincadeiras no serviço;
+Manutenção de máquinas em movimentos;
+Danificação ou não uso de EPI;
+Utilização de ferramenta inadequada;
+Execução de serviços para os quais não estão autorizados.
+
+A percepção de risco é essencial tanto no ambiente de trabalho como na vida. É por meio dela que se evita acidentes, estabelece um trabalho seguro, organizado e produtivo. Pode-se dizer que a percepção de risco é imprescindível em qualquer situação.
+
+Muitas mortes teriam sido evitadas se houvesse uma reflexão por alguns instantes sobre a situação e os riscos envolvidos. Você, trabalhador, conheça seu ambiente de trabalho, as tarefas desenvolvidas, os riscos existentes, e aja de maneira segura, exercite a segurança e um faça um otimo trabalho!
+
+
+Fonte: https://www.segurancadotrabalho.ufv.br/percepcao-de-riscos-2/

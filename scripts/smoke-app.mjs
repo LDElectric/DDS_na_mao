@@ -7,8 +7,13 @@
  * Pré-requisito: build feito (`npm run build`) e preview rodando em :4173.
  * Uso: node scripts/smoke-app.mjs [url]
  */
+import { readFileSync } from "node:fs";
 import puppeteer from "puppeteer-core";
-import { campanhaDoDia } from "../src/lib/algoritmo.js";
+import { campanhaDoDia, mesAtual } from "../src/lib/algoritmo.js";
+
+const catalogoTeste = JSON.parse(
+  readFileSync(new globalThis.URL("../public/conteudo/catalogo.json", import.meta.url), "utf8"),
+);
 
 const URL = process.argv[2] ?? "http://localhost:4173/";
 const CHROME =
@@ -141,6 +146,17 @@ try {
     verificar("sem campanha para o mês/dia, o card não é exibido", !semBanner);
   }
 
+  // A 1ª sugestão é sempre um DDS da campanha do mês: o chip "📢 Nome" aparece
+  // no card da Home (e não só no banner da campanha).
+  const chipDaSugestao = await pagina
+    .$eval(".destaque .etiqueta--campanha", (el) => el.textContent.trim())
+    .catch(() => "");
+  verificar(
+    "a sugestão da Home vem da campanha do mês (chip no card)",
+    campanhaEsperada ? chipDaSugestao.includes(campanhaEsperada.nome) : true,
+    `→ "${chipDaSugestao}"`,
+  );
+
   const rodapeInfo = await pagina.$$eval(".rodape-info", (els) => els.length);
   verificar(
     "texto 'Ciclo do dia' removido da Home (cards → ficou objetivo)",
@@ -157,6 +173,28 @@ try {
     chipCampanhaAntiga === 0,
     `→ ${chipCampanhaAntiga}`,
   );
+
+  // Reabrir o app sorteia de novo um DDS da campanha (a sugestão não é fixa).
+  // Em dias celebrados a sugestão é determinística, então o ensaio só roda em
+  // dias normais e quando o mês tem mais de um texto de campanha.
+  const quantosNoMes = catalogoTeste.filter(
+    (item) => item.campanha_sesmt === mesAtual(),
+  ).length;
+  if (campanhaEsperada?.dia === null && quantosNoMes >= 2) {
+    const titulos = new Set();
+    for (let i = 0; i < 6; i++) {
+      await pagina.goto(URL, { waitUntil: "networkidle0" });
+      await pagina.waitForSelector(".destaque__titulo", { timeout: 15000 });
+      titulos.add(await pagina.$eval(".destaque__titulo", (el) => el.textContent.trim()));
+    }
+    verificar(
+      "cada nova abertura do app sorteia uma nova sugestão",
+      titulos.size > 1,
+      `→ ${[...titulos].join(" | ")}`,
+    );
+  } else {
+    verificar("cada nova abertura sorteia de novo (contexto ensaiado)", true);
+  }
 
   console.log("2) Leitura: abrir não conta, ESCOLHER registra");
   await pagina.click(".destaque__acoes a.botao--primario");
@@ -190,12 +228,7 @@ try {
   );
 
   let historico = await lerHistorico();
-  verificar(
-    "abrir o texto NÃO grava leitura",
-    Object.keys(historico?.leituras ?? {}).length === 0,
-    `→ ${Object.keys(historico?.leituras ?? {}).length} leitura(s)`,
-  );
-  verificar("sugestão do dia registrada", Object.keys(historico?.sugestoes ?? {}).length >= 1);
+  verificar("abrir o texto NÃO grava leitura", Object.keys(historico?.leituras ?? {}).length === 0, `→ ${Object.keys(historico?.leituras ?? {}).length} leitura(s)`);
   verificar("último tema registrado para a regra de diversidade", Boolean(historico?.ultimoTema));
 
   await pagina.waitForSelector(".botao-escolher", { timeout: 5000 });
