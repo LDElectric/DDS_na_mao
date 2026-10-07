@@ -129,10 +129,10 @@ Regra de uso real (turnos rotativos, mesmo dispositivo):
 
 ## 4. Fases de Implementação (Passo a Passo)
 
-> **Status (07/10/2026):** Fases 1 a 4 concluídas e verificadas — **228 DDS convertidos**
-> (60 do calendário SESMT), testes automatizados do algoritmo (`npm test`) e smoke test em
-> navegador real com modo offline (`npm run smoke`). Lighthouse: **PWA 100 · Acessibilidade 100 ·
-> Boas Práticas 100 · SEO 100 · Desempenho 98**.
+> **Status (07/10/2026):** Fases 1 a 4 concluídas e verificadas — **225 DDS convertidos**
+> (47 do calendário SESMT + 10 de datas comemorativas na Parte VII), testes automatizados do
+> algoritmo (`npm test`) e smoke test em navegador real com modo offline (`npm run smoke`).
+> Lighthouse: **PWA 100 · Acessibilidade 100 · Boas Práticas 100 · SEO 100 · Desempenho 98**.
 > GitHub Pages ativo: publicação automática em https://ldelectric.github.io/DDS_na_mao/
 > a cada push em `main`. Ciclo do dia (escolher/fixar DDS) e impressão com ata implementados
 > — ver seção 3.
@@ -145,6 +145,16 @@ Regra de uso real (turnos rotativos, mesmo dispositivo):
 > fixo**: a 1ª sugestão é sempre um DDS da campanha do mês, **sorteado a cada nova abertura
 > do app** — fechar e reabrir gera uma sugestão nova. A sugestão da sessão (navegar entre
 > telas) continua estável: ficou na memória do `HistoricoProvider` e não é mais persistida.
+>
+> **Rodada Novembro + Parte VII + nomes de arquivo (07/10/2026):** Novembro Azul trocou os
+> 6 textos antigos pelos **3 do Desktop** (Câncer de próstata — prevenção e exames; Novembro
+> Azul — tudo sobre o mês da saúde masculina; Sobre o câncer de próstata — Novembro Azul) e
+> **27/11 deixou de ter texto próprio** (o texto do TST saiu do catálogo; virou campanha pura).
+> Criada a **Parte VII — Datas Comemorativas** com os **10 DDS de data fixa** (08/03, 28/04,
+> 05/06, 14/06, 28/07, 10/09, 01/12 e 11/12) — cada mês ficou só com DDS ligados ao tema do
+> mês/cor (padrão Outubro/Novembro; campanha caiu de 60 para 47). Nomes de arquivo
+> padronizados como **"DDS - <Título>.txt"** (título = H1) em todas as Partes: 221 renomes,
+> 0 colisões de slug.
 
 ### Fase 1: Setup do Projeto e Estrutura Básica
 - [x] Inicializar o projeto com Vite (`npm create vite@latest dds-na-mao -- --template react`).

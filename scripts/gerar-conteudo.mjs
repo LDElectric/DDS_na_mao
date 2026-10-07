@@ -3,6 +3,7 @@
  *
  *   Pasta "Parte X - ..." > "Capitulo N - ..." > "DDS - Título.txt"
  *   Pasta "Parte VI - Calendario Anual SESMT" > "Mes NN - ..." > "DDS - Mês - Título.txt"
+ *   Pasta "Parte VII - Datas Comemorativas" > "Datas Comemorativas" > "DDS - Título.txt"
  *
  * Saída:
  *   public/conteudo/<slug>.md      (texto integral do DDS)
@@ -41,7 +42,7 @@ const MESES = [
 ];
 
 const romanoParaNumero = (romano) => {
-  const tabela = { I: 1, II: 2, III: 3, IV: 4, V: 5, VI: 6 };
+  const tabela = { I: 1, II: 2, III: 3, IV: 4, V: 5, VI: 6, VII: 7 };
   return tabela[romano.trim().toUpperCase()] ?? null;
 };
 

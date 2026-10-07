@@ -1,5 +1,5 @@
 SUMÁRIO: DIÁLOGOS DIÁRIOS DE SEGURANÇA (EDIÇÃO ANUÁRIO)
-Catálogo atual: 228 DDS publicados (1 por dia útil).
+Catálogo atual: 225 DDS publicados (1 por dia útil).
 Pendente de conversão: 5 textos do autor em "novos/" (fora do catálogo) +
 revisão de "Textos faltantes.txt" — aguardando aprovação do SESMT.
 
@@ -11,18 +11,21 @@ PARTE II — Saúde Integral ....................... 23 DDS  [CONCLUÍDA]
 PARTE III — Higiene Ocupacional ................. 15 DDS  [CONCLUÍDA]
 PARTE IV — Riscos Operacionais ................. 55 DDS  [CONCLUÍDA]
 PARTE V — Logística, Meio Ambiente e Sociedade .. 38 DDS  [CONCLUÍDA]
-PARTE VI — Calendário Anual SESMT .............. 60 DDS  [CONCLUÍDA]
-                                                (5 textos de campanha por mês,
-                                                 com textos extras de datas em
-                                                 nov/dez; outubro com 3 novos)
+PARTE VI — Calendário Anual SESMT .............. 47 DDS  [CONCLUÍDA]
+                                                (apenas DDS ligados ao tema do
+                                                 mês/cor; datas comemorativas
+                                                 com texto próprio na Parte VII)
+PARTE VII — Datas Comemorativas ................ 10 DDS  [CONCLUÍDA]
 
-TOTAL: 228 DDS (Parte I 37 · Parte II 23 · Parte III 15 ·
-Parte IV 55 · Parte V 38 · Parte VI 60)
+TOTAL: 225 DDS (Parte I 37 · Parte II 23 · Parte III 15 ·
+Parte IV 55 · Parte V 38 · Parte VI 47 · Parte VII 10)
 
 Estado atual: catálogo publicado e verificado (npm test + smoke em navegador
 real com offline). A 1ª sugestão é sempre um DDS da campanha do mês, sorteado
 aleatoriamente a cada nova abertura do app (navegar entre telas mantém a
-sugestão da sessão); datas comemorativas têm texto próprio (27/11, 11/12).
+sugestão da sessão); datas comemorativas com texto próprio vivem na Parte VII
+(08/03, 28/04, 05/06, 14/06, 28/07, 10/09, 01/12 e 11/12). 27/11 é campanha
+pura. Nome de arquivo padrão: "DDS - <Título>.txt" (título = H1 do DDS).
 
 ────────────────────────────────────────────────────────
 PARTE I: A Base da Segurança (Comportamento, Cultura e Gestão)
@@ -248,11 +251,11 @@ CAPÍTULO 14: Segurança Fora do Trabalho — 10 DDS
 
 ────────────────────────────────────────────────────────
 PARTE VI: Calendário Anual SESMT (Cores dos Meses e Campanhas)
-60 DDS [CONCLUÍDA] — 5 textos de campanha por mês, com textos próprios de
-datas comemorativas em novembro (27/11 Dia do TST/Eng. de Segurança) e
-dezembro (11/12 Dia do Engenheiro). Outubro foi atualizado com 3 textos novos
-do Outubro Rosa. A 1ª sugestão é sempre um DDS da campanha do mês, sorteado
-aleatoriamente a cada nova abertura do app — sem texto fixo.
+47 DDS [CONCLUÍDA] — apenas DDS diretamente ligados ao tema do mês/cor.
+Textos de datas comemorativas foram para a Parte VII. Novembro passou a ter 3
+textos do Novembro Azul (27/11 virou campanha pura). Outubro segue com os 3
+textos novos do Outubro Rosa. A 1ª sugestão é sempre um DDS da campanha do
+mês, sorteado aleatoriamente a cada nova abertura do app — sem texto fixo.
 
 JANEIRO — Janeiro Branco (5 DDS)
    - A Carga Invisível do Esgotamento Profissional (Burnout)
@@ -262,25 +265,22 @@ JANEIRO — Janeiro Branco (5 DDS)
    - O Peso do Estresse na Operação e o Efeito Túnel
 
 FEVEREIRO — Fevereiro Roxo e Laranja (5 DDS)
-   - A Verdade sobre os Exames Periódicos
-   - Ergonomia Além da Postura
-   - Fevereiro Roxo
-   - Microtraumas
+   - A Verdade sobre os Exames Periódicos — O Invisível que se Detecta a Tempo
+   - Ergonomia Além da Postura — A Fadiga Invisível da Mente
+   - Fevereiro Roxo — A Doença que Não Aparece no Espelho
+   - Microtraumas — A Acumulação Invisível
    - Pausas Importam Ainda Mais para Quem Vive com Dor
 
-MARÇO — Março Lilás e Azul-Marinho (5 DDS)
-   - A Prevenção que Salva Vidas
+MARÇO — Março Lilás e Azul-Marinho (3 DDS)
    - Diversidade de Pensamento e Percepção de Risco
-   - Inclusão e Segurança da Mulher na Indústria
-   - Março
+   - Março — A Doença que Ninguém Vê Chegar
    - Respeito como o EPI Invisível
 
-ABRIL — Abril Verde (5 DDS)
-   - Abril — 28 de Abril: A Data que Serve para Conferir o Ano
+ABRIL — Abril Verde (4 DDS)
    - As Regras de Ouro Não São Negociáveis
    - O Direito de Recusa não é Opção, é Proteção
    - O Impacto nas Famílias e o Verdadeiro Propósito
-   - O Quase Acidente
+   - O Quase Acidente — O Aviso Gratuito
 
 MAIO — Maio Amarelo (5 DDS)
    - A Cegueira Causada pelo Celular ao Volante
@@ -289,58 +289,67 @@ MAIO — Maio Amarelo (5 DDS)
    - O Trânsito, a Fadiga e as Viagens Longas
    - Segurança com Empilhadeiras e Veículos Industriais
 
-JUNHO — Junho Vermelho e Verde (5 DDS)
-   - A Primeira Gota
-   - A Relação Inseparável entre Meio Ambiente e Saúde Ocupacional
-   - Doação de Sangue
-   - Junho
+JUNHO — Junho Vermelho e Verde (2 DDS)
+   - Junho — A Fogueira, a Queimada e a Regra que Ninguém Precisa Escrever
    - O Descarte Correto de Resíduos e o Risco Cruzado
 
-JULHO — Julho Amarelo (5 DDS)
-   - Hepatites Virais e a Higiene Ocupacional
-   - Julho
-   - Julho
-   - Julho Amarelo
-   - O Orgulho da Prevenção
+JULHO — Julho Amarelo (4 DDS)
+   - Julho — A Chuva, a Água e o Fígado que Agradece
+   - Julho — As Mãos, os Cortes e o Vírus por Trás deles
+   - Julho Amarelo — A Limpeza que Funciona como Vacina
+   - O Orgulho da Prevenção — Comemorando o Dia 27 de Julho
 
 AGOSTO — Agosto Lilás e Dourado (5 DDS)
    - A Linha Vermelha do Assédio Moral e Sexual
-   - Agosto
-   - Agosto
-   - Agosto Dourado
-   - Segurança Psicológica
+   - Agosto — A Conferência do Cuidado: o que Prometemos às Mães e Contra o Assédio
+   - Agosto — A Saúde que Começa em Casa e Não Para no Portão
+   - Agosto Dourado — O Apoio à Maternidade e à Vida
+   - Segurança Psicológica — A Coragem de Falar a Verdade
 
-SETEMBRO — Setembro Amarelo (5 DDS)
+SETEMBRO — Setembro Amarelo (4 DDS)
    - A Escuta Ativa como Ferramenta de Prevenção
    - A Responsabilidade da Liderança na Saúde Mental
    - O Risco do Isolamento no Turno de Trabalho
    - Setembro — A Pergunta Que Ninguém Faz, e Que Precisa Ser Feita
-   - Setembro Amarelo
 
 OUTUBRO — Outubro Rosa (3 DDS)
    - Outubro Rosa — Incentivo à prevenção do câncer de mama
    - Outubro Rosa — Mês de Conscientização Sobre o Câncer de Mama
    - Saúde da mulher — cuidados antes, durante e após o câncer de mama
 
-NOVEMBRO — Novembro Azul (6 DDS)
-   - "Eu Aguento"
-   - A Homenagem aos Profissionais de SST (26 e 27/11)
-   - Novembro — O Homem que Não Procura Atendimento
-   - Novembro Azul e a Quebra de Tabus
-   - O Exame que Incomoda e Salva
-   - O Risco Silencioso
+NOVEMBRO — Novembro Azul (3 DDS)
+   - Câncer de próstata — prevenção e exames
+   - Novembro Azul — tudo sobre o mês da saúde masculina
+   - Sobre o câncer de próstata — Novembro Azul
 
-DEZEMBRO — Dezembro Laranja e Vermelho (6 DDS)
+DEZEMBRO — Dezembro Laranja e Vermelho (4 DDS)
    - Celebre, mas com Responsabilidade
    - Dezembro — O Balanço e a Última Decisão do Ano
    - Dezembro Laranja e a Prevenção ao Câncer de Pele
-   - Dezembro Vermelho e as ISTs
-   - Dia do Engenheiro e o Construir com Segurança (11/12)
-   - Os Sinais que a Pele dá
+   - Os Sinais que a Pele dá — a regra ABCDE no espelho
 
-Observação: alguns títulos de H1 do calendário ficaram genéricos ou repetidos
-(ex.: "Outubro Rosa", "Julho" e "Agosto" aparecem mais de uma vez) — candidatos
-a ajuste de título numa próxima rodada de revisão de conteúdo.
+────────────────────────────────────────────────────────
+PARTE VII: Datas Comemorativas (10 DDS)
+Textos de data fixa no calendário (um por dia celebrado), fora das pastas de
+mês. A sugestão do dia respeita a data quando ela tem texto próprio — vale
+para 08/03, 28/04, 05/06, 14/06, 28/07, 10/09, 01/12 e 11/12. 27/11 não tem
+mais texto próprio (campanha pura de novembro).
+
+   - A Prevenção que Salva Vidas — Saúde da Mulher (08/03)
+   - Inclusão e Segurança da Mulher na Indústria (08/03)
+   - Abril — 28 de Abril: A Data que Serve para Conferir o Ano (28/04)
+   - A Primeira Gota — Prevenção de Vazamentos (05/06)
+   - A Relação Inseparável entre Meio Ambiente e Saúde Ocupacional (05/06)
+   - Doação de Sangue — O Gesto Mais Simples de Salvar uma Vida (14/06)
+   - Hepatites Virais e a Higiene Ocupacional (28/07)
+   - Setembro Amarelo — O Combate Silencioso e a Valorização da Vida (10/09)
+   - Dezembro Vermelho e as ISTs (01/12)
+   - Dia do Engenheiro e o Construir com Segurança (11/12)
+
+Observação: nomes de arquivo padronizados como "DDS - <Título>.txt" (títulos
+dos H1). Os textos da Parte VII saíram do catálogo mensal; os DDS restantes
+em cada mês são os ligados diretamente ao tema do mês/cor (padrão de Outubro
+e Novembro).
 
 Expansão possível: transformar o calendário em 1 DDS semanal (52/ano) mantendo
 a mesma estrutura de campanhas — a decidir conforme a demanda do SESMT.

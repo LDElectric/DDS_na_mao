@@ -34,6 +34,7 @@ export const PARTES = {
   4: "Parte IV · Riscos Operacionais",
   5: "Parte V · Logística, Meio Ambiente e Sociedade",
   6: "Parte VI · Calendário Anual SESMT",
+  7: "Parte VII · Datas Comemorativas",
 };
 
 export const rotuloParte = (parte) => PARTES[parte] ?? `Parte ${parte}`;

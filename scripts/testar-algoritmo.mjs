@@ -138,9 +138,13 @@ console.log("4) Integração: ordem estrita de prioridades");
   const segundaLigacao = sugerirDoDia(catalogo, comSugestao, agora);
   verificar("voltar da leitura mantém a sugestão da sessão", segundaLigacao?.dds.id === primeira.dds.id);
 
-  // Dia celebrado tem prioridade sobre a campanha.
+  // 27/11 não tem mais DDS próprio (remoção do dia da "11-27"): virou campanha pura.
   const no27 = sugerirDoDia(catalogo, historicoVazio(), new Date("2026-11-27T09:00:00"));
-  verificar("27/11 rege a sugestão com o DDS da data", no27?.dds.id === "novembro-o-dia-do-tst-e-engenheiro");
+  verificar(
+    "27/11 sem texto de data cai para a campanha do mês",
+    no27?.origem === "campanha" && no27?.dds.campanha_sesmt === "novembro",
+    `→ ${no27?.dds.id}`,
+  );
 
   // Toda a campanha do mês lida: a 1ª sugestão segue vindo da campanha
   // (repetição permitida — ela nunca deixa de ser a 1ª posição).
@@ -182,28 +186,32 @@ console.log("5) Campanhas do mês e dias celebrados");
   const sugestao28 = sugerirDoDia(catalogo, historicoVazio(), abril28);
   verificar(
     "28/04 sugere o DDS que alude à data",
-    sugestao28?.dds.id === "abril-28-de-abril" && sugestao28.origem === "campanha",
+    sugestao28?.dds.id === "abril-28-de-abril-a-data-que-serve-para-conferir-o-ano" && sugestao28.origem === "campanha",
     `→ ${sugestao28?.dds.id}`,
   );
 
   const diaMulher = new Date("2027-03-08T09:00:00");
   const sugestaoMulher = sugerirDoDia(catalogo, historicoVazio(), diaMulher);
   verificar(
-    "08/03 sugere um DDS da campanha da mulher",
-    sugestaoMulher?.dds.campanha_sesmt === "marco" && sugestaoMulher.origem === "campanha",
+    "08/03 sugere um DDS da data (Parte VII — Dia Internacional da Mulher)",
+    ["a-prevencao-que-salva-vidas-saude-da-mulher", "inclusao-e-seguranca-da-mulher-na-industria"].includes(
+      sugestaoMulher?.dds.id,
+    ) &&
+      sugestaoMulher.dds.parte === 7 &&
+      sugestaoMulher.origem === "campanha",
     `→ ${sugestaoMulher?.dds.id}`,
   );
 
   const jaLido = {
     ...historicoVazio(),
     leituras: {
-      "abril-28-de-abril": new Date(abril28.getTime() - 10 * 86400000).toISOString(),
+      "abril-28-de-abril-a-data-que-serve-para-conferir-o-ano": new Date(abril28.getTime() - 10 * 86400000).toISOString(),
     },
   };
   const sugestaoJaLido = sugerirDoDia(catalogo, jaLido, abril28);
   verificar(
     "dia celebrado respeita a janela de 6 meses (cai para a campanha do mês)",
-    sugestaoJaLido?.dds.campanha_sesmt === "abril" && sugestaoJaLido.dds.id !== "abril-28-de-abril",
+    sugestaoJaLido?.dds.campanha_sesmt === "abril" && sugestaoJaLido.dds.id !== "abril-28-de-abril-a-data-que-serve-para-conferir-o-ano",
     `→ ${sugestaoJaLido?.dds.id}`,
   );
 
@@ -268,18 +276,18 @@ console.log("5) Campanhas do mês e dias celebrados");
     `→ ${sugDez?.dds.id}`,
   );
 
-  // Datas comemorativas continuam regendo a sugestão com o DDS que alude à data.
+  // 27/11 não tem mais DDS próprio: a sugestão é a campanha de novembro.
   const sugTst = sugerirDoDia(catalogo, historicoVazio(), new Date("2026-11-27T09:00:00"));
   verificar(
-    "27/11 sugere o DDS alusivo à data (homenagem ao TST)",
-    sugTst?.dds.id === "novembro-o-dia-do-tst-e-engenheiro",
+    "27/11 cai para a campanha do mês (sem texto de data)",
+    sugTst?.origem === "campanha" && sugTst.dds.campanha_sesmt === "novembro",
     `→ ${sugTst?.dds.id}`,
   );
 
   const sugEng = sugerirDoDia(catalogo, historicoVazio(), new Date("2026-12-11T09:00:00"));
   verificar(
     "11/12 sugere o DDS alusivo à data (Dia do Engenheiro)",
-    sugEng?.dds.id === "dezembro-o-dia-do-engenheiro",
+    sugEng?.dds.id === "dia-do-engenheiro-e-o-construir-com-seguranca-11-12",
     `→ ${sugEng?.dds.id}`,
   );
 
@@ -311,22 +319,25 @@ console.log("5) Campanhas do mês e dias celebrados");
 
 console.log("6) Busca e catálogo");
 {
-  verificar("catálogo com 228 itens", catalogo.length === 228, `→ ${catalogo.length}`);
+  verificar("catálogo com 225 itens", catalogo.length === 225, `→ ${catalogo.length}`);
   verificar("ids únicos", new Set(catalogo.map((i) => i.id)).size === catalogo.length);
   verificar("todos têm H1/título", catalogo.every((i) => i.titulo?.length > 0));
   verificar(
-    "60 DDS de campanha SESMT",
-    catalogo.filter((i) => i.campanha_sesmt).length === 60,
+    "47 DDS de campanha SESMT",
+    catalogo.filter((i) => i.campanha_sesmt).length === 47,
     `→ ${catalogo.filter((i) => i.campanha_sesmt).length}`,
   );
   verificar(
-    "novos DDS de campanha incluídos (outubro x3, novembro e dezembro)",
+    "DDS de campanha da rodada presentes (outubro/novembro/dezembro)",
     [
       "outubro-rosa-incentivo-a-prevencao-do-cancer-de-mama",
       "outubro-rosa-mes-de-conscientizacao-sobre-o-cancer-de-mama",
-      "outubro-rosa-saude-da-mulher-cuidados-antes-durante-e-apos-o-cancer-de-mama",
-      "novembro-o-exame-que-incomoda-e-salva",
-      "dezembro-sinais-que-a-pele-da",
+      "saude-da-mulher-cuidados-antes-durante-e-apos-o-cancer-de-mama",
+      "cancer-de-prostata-prevencao-e-exames",
+      "novembro-azul-tudo-sobre-o-mes-da-saude-masculina",
+      "sobre-o-cancer-de-prostata-novembro-azul",
+      "dezembro-laranja-e-a-prevencao-ao-cancer-de-pele",
+      "os-sinais-que-a-pele-da-a-regra-abcde-no-espelho",
     ].every((id) => catalogo.some((i) => i.id === id)),
   );
   verificar(

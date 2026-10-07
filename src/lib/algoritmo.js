@@ -113,53 +113,50 @@ export const CAMPANHAS_MES = {
 
 /**
  * Dias celebrados que dão prioridade a um DDS alusivo à data (ids do
- * catálogo). A campanha em vigor passa a ser a do dia celebrado.
+ * catálogo). Esses textos vivem na "Parte VII - Datas Comemorativas", fora
+ * do calendário mensal de campanhas (campanha_sesmt = null). A campanha em
+ * vigor passa a ser a do dia celebrado.
  */
 export const DIAS_CELEBRADOS = {
   "03-08": {
     campanha: "marco",
     dia: "Dia Internacional da Mulher",
-    ids: ["marco-prevencao-na-saude-da-mulher", "marco-inclusao-e-seguranca-da-mulher"],
+    ids: ["a-prevencao-que-salva-vidas-saude-da-mulher", "inclusao-e-seguranca-da-mulher-na-industria"],
   },
   "04-28": {
     campanha: "abril",
     dia: "Dia Mundial da Segurança e Saúde no Trabalho",
-    ids: ["abril-28-de-abril"],
+    ids: ["abril-28-de-abril-a-data-que-serve-para-conferir-o-ano"],
   },
   "06-05": {
     campanha: "junho",
     dia: "Dia Mundial do Meio Ambiente",
-    ids: ["junho-vazamentos-de-oleo-e-quimicos", "junho-a-sustentabilidade-e-o-sesmt"],
+    ids: ["a-primeira-gota-prevencao-de-vazamentos", "a-relacao-inseparavel-entre-meio-ambiente-e-saude-ocupacional"],
   },
   "06-14": {
     campanha: "junho",
     dia: "Dia Mundial do Doador de Sangue",
-    ids: ["junho-a-solidariedade-e-a-doacao-de-sangue"],
+    ids: ["doacao-de-sangue-o-gesto-mais-simples-de-salvar-uma-vida"],
   },
   "07-28": {
     campanha: "julho",
     dia: "Dia Mundial de Combate às Hepatites",
-    ids: ["julho-higiene-ocupacional-hepatites-virais"],
+    ids: ["hepatites-virais-e-a-higiene-ocupacional"],
   },
   "09-10": {
     campanha: "setembro",
     dia: "Dia Mundial de Prevenção ao Suicídio",
-    ids: ["setembro-a-valorizacao-da-vida"],
-  },
-  "11-27": {
-    campanha: "novembro",
-    dia: "Dia do Técnico de Segurança do Trabalho",
-    ids: ["novembro-o-dia-do-tst-e-engenheiro"],
+    ids: ["setembro-amarelo-o-combate-silencioso-e-a-valorizacao-da-vida"],
   },
   "12-01": {
     campanha: "dezembro",
     dia: "Dia Mundial de Combate à AIDS",
-    ids: ["dezembro-prevencao-ao-hiv"],
+    ids: ["dezembro-vermelho-e-as-ists"],
   },
   "12-11": {
     campanha: "dezembro",
     dia: "Dia do Engenheiro",
-    ids: ["dezembro-o-dia-do-engenheiro"],
+    ids: ["dia-do-engenheiro-e-o-construir-com-seguranca-11-12"],
   },
 };
 

@@ -1,6 +1,6 @@
 # 🦺 DDS na Mão
 
-Progressive Web App (PWA) com **Diálogos Diários de Segurança**: catálogo offline de 228 DDS,
+Progressive Web App (PWA) com **Diálogos Diários de Segurança**: catálogo offline de 225 DDS,
 com sugestão inteligente por prioridades, busca manual e histórico de leituras guardado
 no próprio dispositivo (backend-less).
 
@@ -27,7 +27,7 @@ Implementação: [`src/lib/algoritmo.js`](src/lib/algoritmo.js) — `sugerirCamp
 ## 📂 Estrutura
 
 ```
-├── Parte I … VI/            ← fontes .txt dos DDS (verdade do conteúdo)
+├── Parte I … VII/           ← fontes .txt dos DDS (verdade do conteúdo)
 ├── scripts/
 │   ├── gerar-conteudo.mjs   ← .txt → public/conteudo/*.md + catalogo.json
 │   ├── gerar-icones.mjs     ← gera os ícones PNG (sem dependências externas)
@@ -39,7 +39,7 @@ Implementação: [`src/lib/algoritmo.js`](src/lib/algoritmo.js) — `sugerirCamp
 │   ├── lib/                 ← algoritmo.js e catalogo.js
 │   ├── pages/               ← Home, Leitura, Busca, Biblioteca
 │   ├── App.jsx  main.jsx  styles.css
-├── public/conteudo/         ← 228 .md + catalogo.json (gerados)
+├── public/conteudo/         ← 225 .md + catalogo.json (gerados)
 ├── index.html  vite.config.js  package.json
 └── plano_implementacao_pwa.md
 ```
