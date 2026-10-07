@@ -1,13 +1,16 @@
 # DDS: Dia do Engenheiro e o Construir com Segurança (11/12)
 
-Em 11 de dezembro comemora-se o Dia do Engenheiro. A engenharia é a base da civilização moderna. São os engenheiros que projetam as fábricas, as pontes, os equipamentos e, principalmente, os sistemas de segurança.
+No dia 11 de dezembro, o Brasil comemora o Dia do Engenheiro — a profissão que projeta a civilização moderna: a fábrica, a ponte, a rodovia, o equipamento, a linha de produção. Mas há um projeto que a engenharia assina sem aparecer na planta e que importa mais do que todos: o sistema de segurança embutido em cada máquina, em cada instalação, em cada barreira de proteção.
 
-A maior evolução da segurança ocupacional se deu quando os engenheiros pararam de olhar apenas para o "EPI" e começaram a projetar o equipamento com a "proteção coletiva" intrínseca. Máquinas que param sozinhas ao detectar movimento. Válvulas com sistema duplo de retenção.
+A maior evolução da segurança ocupacional aconteceu no dia em que a engenharia parou de apostar no comportamento humano e começou a projetar a proteção. Em vez de só entregar o EPI e torcer, os engenheiros desenharam a segurança dentro do equipamento: a máquina que desarma sozinha quando a mão entra na zona perigosa, o sensor que interrompe o movimento, a válvula de retenção dupla, o intertravamento que impede a partida com a proteção aberta, a casca que absorve a energia em vez do corpo. Proteção que não depende da atenção de ninguém é a melhor engenharia que existe — é a que funciona até na distração.
 
-Todo profissional na indústria é, em certa medida, um operador do projeto de engenharia. E a nossa responsabilidade é nunca burlar ou "burlar o sistema" (jumper) essas barreiras projetadas. Quando se burla um intertravamento de máquina para ganhar 3 minutos, joga-se no lixo todo o projeto de segurança que poderia salvar a mão de um trabalhador.
+E aqui todo profissional da indústria entra no projeto: cada um de nós é, na prática, um operador do que foi projetado. A barreira física — a grade, a cortina de luz, o intertravamento — está ali por um motivo estudado, calculado e testado. Quando alguém burla o sistema para "ganhar três minutos" — pular o sensor, amarrar a chave, fazer o jumper — não está economizando tempo: está jogando no lixo o trabalho de uma vida inteira de engenharia, deixando a proteção desligada exatamente para o dia em que a mão entrar. O atalho de três minutos vale a mão de um trabalhador? Nunca vale. A resposta da engenharia e a nossa precisam ser a mesma: não.
 
-Respeite as barreiras físicas. Elas estão ali por um motivo muito importante.
+E há um recado que o dezembro empresta à homenagem: o engenheiro também é trabalhador. O profissional que projeta a segurança dos outros é aquele que, não raro, adia a própria saúde — o exame periódico, a consulta, a aferição da pressão, o exame de próstata, o cuidado com o sol, a testagem. No Dezembro Laranja e Vermelho, a frase vale para ele e para todos: não adie o que protege você — a engenharia mais importante é a que mantém o projetista em pé.
+
+Respeite as barreiras projetadas. Elas estão ali para que a tragédia nunca precise ser projetada também. E, neste 11 de dezembro, a homenagem aos engenheiros é simples: reconhecer que atrás de toda vida que volta inteira para casa existe um projeto bem feito — e um operador que decidiu não burlá-lo.
 
 Fontes e Referências:
-- 11/12: Dia do Engenheiro (Regulamentação da profissão no Brasil).
-- NR-12: Segurança no Trabalho em Máquinas e Equipamentos.
+- 11/12: Dia do Engenheiro — regulamentação da profissão no Brasil.
+- NR-12: segurança em máquinas e equipamentos — proteções e intertravamentos.
+- Dezembro Laranja e Vermelho: saúde integral do trabalhador.

@@ -6,6 +6,8 @@ No Outubro Rosa, a campanha inteira gira em torno de uma única equação: quant
 
 No chão de fábrica o mesmo sintoma aparece com outra roupa. "Exame é coisa de quem tem tempo." "Meu tio se curou com chá, não precisa de nada." Quantas vezes esse tipo de fala atravessa o turno vestida de conselho e transforma prevenção em descuido? A cultura de segurança não aceita achismo. EPI, treinamento e exame médico periódico nenhum deles funcionaria se dependesse de "eu acho".
 
+E para o câncer de mama, o preço do atraso se mede em meses — e meses, nessa doença, são a diferença entre um tratamento simples e um tratamento pesado. A corrente que promete cura sem exame não está salvando ninguém: está desarmando, exatamente na hora da decisão, quem precisava chegar ao exame a tempo. Quem ama de verdade repassa informação verificada — e não esperança falsa.
+
 Então, quando receber uma corrente sobre saúde, faça antes o que faria com um procedimento de trabalho: confira a fonte antes de repassar. Três perguntas matam quase todas as mentiras. Quem publicou? Onde está o estudo? O que diz um órgão oficial de saúde? O Ministério da Saúde e o INCA respondem rápido.
 
 Desinformação não é um problema emocional: é um risco operacional. E risco, aqui, se trata com procedimento — verificar, conferir e só então compartilhar. A informação correta é o primeiro exame que a gente faz todos os dias.

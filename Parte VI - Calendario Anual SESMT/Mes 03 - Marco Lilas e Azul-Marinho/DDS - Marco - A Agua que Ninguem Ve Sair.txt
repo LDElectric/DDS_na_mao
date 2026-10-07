@@ -1,21 +1,20 @@
-# DDS: Março — A Água que Ninguém Vê Sair
+# DDS: Março - A Doença que Ninguém Vê Chegar
 
-Existe um recurso que entra em toda empresa sem pedido, não aparece no relatório de produção e é consumido o tempo todo. Ela lava, resfria, dilui, gera vapor e limpa. Falta dela, a operação para; sobra, ninguém percebe — porque o consumo raramente é medido por posto, e o que não é medido não é administrado.
+Existe uma doença que entra ano após ano sem ser notada, não aparece na rotina, não dá dor, não tira o apetite — e só avisa quando já não permite escolha. Não é falha de máquina, nem vazamento: é o câncer de colo do útero. E a única diferença entre quem descobre cedo e quem descobre tarde chama-se exame preventivo.
 
-Março é o mês em que se fala de água, e a conversa costuma ficar no externo: rio, poço, seca. Dentro da planta, a discussão é outra e mais concreta — quanto se gasta, onde se gasta e o que se joga fora. Água de processo contaminada vira efluente; efluente mal tratado vira passivo; e passivo ambiental dura muito mais tempo do que qualquer economia de conta.
+O Março Lilás existe para lembrar disso. O colo do útero não dói quando algo começa a mudar: as primeiras alterações são silenciosas, detectáveis apenas no Papanicolau — o exame preventivo que a mulher em idade fértil deveria fazer com regularidade. É uma prevenção simples, rápida, e com taxa de cura altíssima quando a doença é flagrada no início. A estatística é dura do outro lado: a maioria das mulheres que perde essa batalha nunca fez o exame periodicamente. Não porque não quisessem se cuidar — mas porque o exame sempre ficou para "mês que vem".
 
-Vale a medição por setor. Quando o consumo é medido no total, o desperdício de um posto se dilui no consumo de todos e ninguém enxerga nada. Quando é medido por setor, ele aparece — e o que aparece é corrigido. Torneira sem fechamento, mangueira aberta sem uso, válvula vazando, jato em vez de vassoura e fuga em trecho enterrado são invisíveis na leitura global.
+A rotina industrial funciona parecida com isso. A gente faz inspeção preditiva na máquina justamente para descobrir o desgaste antes da quebra: mede, acompanha, não espera o equipamento parar para agir. Com o corpo é o mesmo raciocínio. Adiar o preventivo é esperar o desgaste virar quebra — e no corpo, ao contrário da máquina, nem todo conserto devolve o que era.
 
-Há também o efluente. pH fora de faixa, óleo, carga orgânica, resíduo sólido e, às vezes, solvente ou metal. Todo esse conjunto precisa sair dentro dos limites legais — e a conformidade não se confere no dia da vistoria, se confere em medição contínua.
+Vale lembrar que o Março tem dois tons. O Lilás fala do colo do útero; o Azul-Marinho, do câncer colorretal, que afeta homens e mulheres e também tem exame preventivo — a colonoscopia — capaz de encontrar a doença antes de ela começar. Duas campanhas, uma mesma mensagem: o exame feito na hora certa é o investimento mais barato que existem em saúde.
 
-Outro ponto é a água de emergência. Hidrante, sistema de combate e lava-olhos dependem de água disponível e em pressão. Quando o consumo de produção disputa a reserva com o sistema de emergência, alguém precisa ter decidido a prioridade — e essa decisão precisa existir antes, não durante o incêndio.
+E aqui a responsabilidade não é só de quem faz o exame. O papel do colega, do gestor e da família é incentivar: perguntar, apoiar, não fazer piada com "frescura de exame". A mulher que ouve em casa e no trabalho que o preventivo importa vai marcar. A que só escuta cobrança, não.
 
-Quanto de água gastou o seu setor no último mês? Se ninguém souber, o setor está consumindo sem gestão.
+A verdadeira segurança não acaba no portão da empresa. Ela chega junto com você em casa — e a prevenção que salva sua vida é a mesma que te traz inteiro amanhã para o turno.
 
-Água não é infinita dentro da planta. Ela apenas chega faturada e vai embora invisível.
+O melhor exame é o que você faz antes da dor aparecer.
 
 Fontes e Referências:
-- Resolução CONAMA nº 430/2011 — efluentes líquidos e limites de lançamento.
-- Lei nº 9.984: Política Nacional de Recursos Hídricos.
-- ABNT NBR ISO 14001: Sistemas de gestão ambiental.
-- ABNT NBR ISO 50001: Sistemas de gestão da energia.
+- Março Lilás: prevenção ao câncer de colo do útero.
+- Março Azul-Marinho: prevenção ao câncer colorretal.
+- INCA / Ministério da Saúde — rastreamento e diagnóstico precoce.

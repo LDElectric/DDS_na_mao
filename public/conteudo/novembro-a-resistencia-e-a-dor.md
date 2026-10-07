@@ -1,11 +1,18 @@
 # DDS: "Eu Aguento" - O Preço de Ignorar a Dor
 
-Muitos profissionais, especialmente homens em áreas de esforço físico, possuem a crença de que ignorar a dor é sinal de resiliência. "A coluna tá doendo, mas eu aguento carregar mais esse saco". "O joelho está estalando, mas não vou no ambulatório por isso".
+Tem uma frase que é quase o hino de certos postos de trabalho: "eu aguento". "A coluna tá doendo, mas eu aguento carregar mais esse saco." "O joelho está estalando, mas não vou ao ambulatório por causa disso." "A dor de cabeça passa, já passei por pior." Quem fala assim se sente forte, resistente, à altura da função. No Novembro Azul, mês da saúde do homem, o recado é direto: ignorar a dor não é resiliência — é imprudência. E o orgulho de aguentar pode ser o que mais caro custa.
 
-Ignorar a dor física não é resiliência, é imprudência. A dor é o alarme do corpo avisando que uma peça da máquina está falhando. Se o painel do seu carro acende a luz do óleo, você continua acelerando achando que ele vai aguentar? Provavelmente não, porque você sabe que o motor vai fundir. Com o corpo é a mesma coisa.
+A dor é o alarme do corpo. Quando o painel do carro acende a luz do óleo, ninguém pensa em "aguentar" até o motor fundir: a gente para, verifica e resolve. Com o corpo é exatamente a mesma lógica — a dor de coluna, o estalo no joelho, o formigamento na mão não são sintomas de fraqueza: são o painel avisando que uma peça está falhando. Quem ignora o aviso não está sendo forte: está financiando um conserto muito mais caro.
 
-No mês dedicado à saúde do homem, seja inteligente. Tratar uma pequena inflamação hoje com repouso e medicamento é rápido. Tratar uma hérnia de disco rompida amanhã levará meses e pode deixar sequelas para sempre. Vá ao médico do trabalho.
+E a conta tem prazo, matematicamente cruel. Tratar uma inflamação pequena hoje — com repouso, alongamento, orientação e, quando preciso, medicação — é rápido e barato, e resolve em semanas. Adiar até virar hérnia de disco, tendinite crônica, lesão de menisco ou bursite instalada transforma semanas em meses — e às vezes em sequelas que não têm volta. A dor que "só doía no fim do turno" vira a que acorda no meio da noite. E o que era um ajuste de função vira afastamento e readaptação.
+
+Tem um detalhe que o mês azul ajuda a enxergar: os homens são profissionais campeões nesse jogo de adiar. Por educação, por vergonha, por "não ser fresco", o homem chega ao ambulatório mais tarde, com o quadro mais avançado e tratando como problema o que era só prevenção. A mesma lógica que adia o exame de próstata adia a ida ao médico por causa do joelho — e as duas pontas saem da mesma raiz: achar que pedir cuidado é perder o lugar de homem.
+
+Não é. O lugar de homem é o lugar de quem cuida de si — porque quem não se cuida não cuida dos que dependem dele. O pai que ignora a dor não é exemplo de força: é exemplo de risco para os filhos que esperam ele em casa.
+
+Vá ao médico do trabalho, relate a dor, use o exame periódico como ele deve ser usado: não como papel para assinar, mas como o alarme que acende na hora certa. A força de verdade não é aguentar calado — é agir antes que o motor funda.
 
 Fontes e Referências:
-- Ergonomia e Fisiologia do Trabalho.
-- Novembro Azul: Mudança de Cultura e Autocuidado.
+- Novembro Azul: autocuidado e mudança de cultura.
+- NR-17: ergonomia — adaptação e pausas.
+- Ergonomia e fisiologia do trabalho: sinais precoces de LER/DORT.

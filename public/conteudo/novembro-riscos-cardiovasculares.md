@@ -1,12 +1,16 @@
-# DDS: O Risco Silencioso: Coração e Pressão Alta
+# DDS: O Risco Silencioso - Coração e Pressão Alta
 
-O Novembro Azul é sobre a saúde global do homem, e não podemos ignorar o inimigo número um: as doenças cardiovasculares. O infarto e o AVC matam muito mais que acidentes de trabalho e que o câncer, e muitas vezes acontecem de repente, sem aviso prévio. 
+O Novembro Azul fala de próstata, mas o mês é dedicado à saúde integral do homem — e o inimigo número um dessa lista não é câncer, é o coração. As doenças cardiovasculares — infarto e AVC — matam mais que acidentes de trabalho, mais que todos os cânceres juntos, e fazem isso de um jeito traiçoeiro: quase nunca dão aviso prévio. O infarto não manda recado. Ele simplesmente acontece — no volante, na cabine, no posto, no meio da tarefa.
 
-A rotina de turnos, o sedentarismo de ficar sentado na cabine do caminhão, a alimentação inadequada à base de lanches rápidos e o estresse da produção são um coquetel perfeito para a hipertensão. A pressão alta é silenciosa; quando os sintomas (dor de nuca, tontura) aparecem, o quadro já é grave.
+E o trabalho industrial é um coquetel perfeito para produzir esse ataque silencioso. O turno que desregula o sono, o sedentarismo de quem passa horas sentado na cabine do caminhão ou operando um painel, a alimentação de lanches rápidos e refrigerantes no intervalo, o estresse da meta e da pressão da produção, o cigarro no fumódromo, o excesso de álcool no fim de semana. Cada um desses ingredientes, sozinho, já pesa. Juntos, eles se chama hipertensão — e a pressão alta é a doença mais traiçoeira que existe: ela não dói, não avisa, não aparece. Quando aparecem os sintomas — dor na nuca, tontura, cansaço inexplicável —, o quadro já é grave.
 
-Ter um mal súbito enquanto se opera um equipamento pesado, dirige um caminhão carregado ou se trabalha em altura coloca a vida do trabalhador e de terceiros em risco imediato. 
-A prevenção é barata e simples: verifique sua pressão no ambulatório regularmente, reduza o sal, diminua o consumo excessivo de álcool e mexa-se.
+Aqui dentro, o risco vale em dobro. Um mal súbito enquanto se opera equipamento pesado, enquanto se dirige um caminhão carregado ou enquanto se trabalha em altura coloca em risco imediato não só a vida do trabalhador, mas a de todos ao redor. A pressão alta tratada é um procedimento de segurança; a pressão alta ignorada é uma falha prestes a acontecer — com o agravante de ser invisível no checklist.
+
+A prevenção é barata, simples e está ao alcance de todo turno: verificar a pressão no ambulatório regularmente — o exame periódico mede e registra, e a primeira medida é gratuita; reduzir o sal e o ultraprocessado; cortar o excesso de álcool e o cigarro; e mexer o corpo, mesmo que seja a caminhada de dez minutos no intervalo. Quem já tem o diagnóstico de pressão alta precisa do remédio como precisa do cinto: todo dia, sem "esquecer".
+
+O Novembro Azul lembra que cuidar do coração é cuidar da função mais importante do turno: voltar para casa. O coração não tem segunda chance de bater — nem a operação tem segunda chance com um trabalhador que se foi no meio dela.
 
 Fontes e Referências:
-- Sociedade Brasileira de Cardiologia (SBC).
-- Campanhas Novembro Azul (Saúde Integral do Homem).
+- Sociedade Brasileira de Cardiologia (SBC): prevenção de infarto e AVC.
+- Novembro Azul: saúde integral do homem.
+- NR-07: exame periódico — aferição de pressão arterial.

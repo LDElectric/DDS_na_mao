@@ -1,21 +1,18 @@
-# DDS: Julho — A Chuva, o Escorregão e a Casa Cheia
+# DDS: Julho - A Chuva, a Água e o Fígado que Agradece
 
-Existe uma combinação que se repete todo inverno: chuva, piso molhado, criança em casa de férias e uma pessoa que está trabalhando enquanto pensa em tudo menos no posto. Julho concentra essas quatro coisas, e elas se encontram em dois lugares diferentes — o chão de fábrica e a residência — com o mesmo resultado.
+Todo inverno a mesma combinação chega junto: chuva, piso molhado e gente com pressa. O corredor da doca escorregando, a rampa com atrito reduzido, o pé no mesmo ritmo de sempre — esse é o risco que a chuva deixa visível. Mas a chuva traz um segundo risco, esse invisível e mais perigoso: ela mexe com a água. E com a água mexe com o fígado.
 
-Na planta, a chuva muda o piso. Corredor molhado, entrada de doca, rampa, escada externa e área de carga passam a ter atrito menor — e a pessoa continua andando na mesma velocidade de sempre, porque a velocidade é hábito, não decisão. A área de risco sobe sem ninguém anunciar. Secagem, sinalização de piso escorregadio, tapete na entrada e regra de redução são medidas simples e baratas.
+O Julho Amarelo é dedicado às hepatites virais, e a hepatite do tipo A — a mais silenciosa de todas — viaja exatamente pela água e pelos alimentos. Chuva forte, enchente, alagamento no bairro, contaminação de poço ou caixa-d'água: quando a água entra em contato com esgoto, o vírus da hepatite A entra em circulação. A pessoa bebe, come fruta mal lavada, usa banheiro sem lavar as mãos — e o vírus chega ao fígado sem pedir licença. Só descobre meses depois, às vezes quando o olho já está amarelo, às vezes quando o fígado se inflama sem aviso.
 
-Vale o equipamento externo. Pneu, freio e farol de veículo em piso molhado precisam de atenção maior, e a distância de frenagem cresce de forma relevante. Quem dirige em área externa com chuva está dirigindo com margem menor — e margem é justamente o que costuma faltar.
+No ambiente de trabalho, a defesa é uma palavra que todo mundo conhece, mas poucos levam a sério: higiene. Lavar as mãos com sabão antes de comer, antes e depois de usar o banheiro. Beber somente água potável — de filtro, garrafa ou bebedouro em condições — nunca de torneira de área externa. No refeitório, cuidado com alimentos que não se cozinham: verduras cruas precisam ser bem lavadas, e aquele lanche compartilhado passando de mão em mão pode carregar mais do que simpatia. Onde há água comunitária, há chance de contaminação — e o nosso posto é comunitário por definição.
 
-Há também a criança em casa. Férias escolares colocam criança no ambiente doméstico por tempo integral, com adulto trabalhando. Produtos de limpeza acessíveis, porta aberta, escada sem supervisão, fogão ao alcance e janela com abertura ampla são os pontos que se repetem nas estatísticas. Supervisão não resolve sozinha — acesso resolvido resolve.
+Quando enchente ou alagamento acontecer perto de casa ou do trabalho, triplique o cuidado: água parada é vetor. Sinalize o posto se houver acúmulo, mantenha poças longe da área de alimentação e nunca limpe inundação sem luvas e botas. A prevenção da hepatite A é prevenção de água.
 
-Outro ponto é a saúde. Inverno concentra quadros respiratórios, e um resfriado que chega ao posto vira queda de atenção e, em ambiente com muita gente junta, vira contaminação do time inteiro. Higiene de mãos, ventilação e afastamento quando sintomático são medidas que existem e são simplesmente não seguidas.
+E a boa notícia: a hepatite A tem vacina gratuita no SUS, além de a hepatite B — que também passa pelo contato com sangue e pode evoluir para câncer de fígado se desprezada. Vacina não é papel do passado: é a ferramenta de segurança que o mês amarelo mais recomenda.
 
-Teste rápido: se molhar hoje o corredor da sua área, o que se faz em seguida? Se a resposta for "continua andando", o risco já está definido.
-
-Chuva não é imprevisível. O que é imprevisível é ninguém ter pensado nela.
+A mesma chuva que molha o piso e pede passos mais lentos pode adoecer o fígado da equipe. Olhe para a água com o mesmo respeito que olha para o piso escorregadio: um é chão, o outro é porta de entrada.
 
 Fontes e Referências:
-- NR-17: Ergonomia — pisos, superfícies e circulação.
-- NR-11: Transporte, movimentação, armazenagem e manuseio de materiais.
-- NR-06: EPI — calçado antiderrapante.
-- Lei nº 9.503: Código de Trânsito Brasileiro — condução em piso molhado.
+- Julho Amarelo: prevenção e combate às hepatites virais.
+- Ministério da Saúde: hepatite A — transmissão hídrica e alimentar.
+- 28/07: Dia Mundial de Luta contra as Hepatites Virais.

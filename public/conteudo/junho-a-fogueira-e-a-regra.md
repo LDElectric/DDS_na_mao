@@ -1,21 +1,19 @@
-# DDS: Junho — A Fogueira, o Calor e a Regra que Ninguém Precisa Escrever
+# DDS: Junho - A Fogueira, a Queimada e a Regra que Ninguém Precisa Escrever
 
-Existe um mês em que o risco de incêndio sai da fábrica e vai para a rua: junho. Fogueira, querosene, barraca, fogos de artifício e comida sobre brasa. Tudo isso acontece fora do controle da empresa, e mesmo assim chega à empresa no dia seguinte, com alguém queimado, intoxicado ou simplesmente atrasado.
+Junho tem dois calendários ao mesmo tempo. Para o meio ambiente, é o mês em que a terra seca, o vento muda e as queimadas começam a fazer a primeira vítima silenciosa: o ar. Para o calendário popular, é o mês da fogueira, do querosene, da barraca e dos fogos. O problema é quando esses dois junhos se encontram na mesma esquina — e a fumaça de uma queimada ou o cheiro de uma festa mal apagada chega ao trabalho no dia seguinte, com alguém queimado, intoxicado ou simplesmente tarde.
 
-A proximidade entre a celebração e o posto é o que liga os dois assuntos. Quando a festa acontece no terreno da empresa, quando o evento é promovido pela empresa ou quando o retorno se dá direto ao turno, a responsabilidade deixa de ser apenas do particular. Nesses casos, o que se aplica é o mesmo que se aplica a qualquer operação: distância do material combustível, superfície livre, extintor acessível, afastamento de estrutura e nenhuma bebida antes de qualquer tarefa.
+Vamos começar pela fogueira de perto, que é a que a gente mais controla. A regra mais antiga da festa junina é também a mais sábia: só lenha, nunca líquido. Jogar querosene ou álcool sobre brasa acesa é a receita clássica da queimadura grave — a chama sobe pelo fluxo de ar exatamente até a mão que segura o recipiente. Nenhum cuidado compensa essa única decisão. E quando a festa é dentro da empresa — no pátio, no evento, na confraternização —, valem as mesmas regras de qualquer operação com fogo: distância do material combustível, superfície livre, extintor acessível, afastamento de estruturas e nenhuma bebida antes de qualquer tarefa.
 
-Vale a física da fogueira. Querosene aplicado sobre brasa acesa é a causa clássica de queimadura grave — a chama sobe pelo fluxo de ar até a mão que segura a garrafa. Nenhuma quantidade de cuidado compensa a decisão de jogar combustível no fogo. A regra é simples e antiga: só lenha, nunca líquido.
+Agora o outro junho, o do meio ambiente. A queimada — a de terreno, a de lixo, a de pasto — tem o mesmo "jeito de fogueira", mas consequências que atravessam o bairro: fumaça, fuligem, monóxido de carbono e aquele cheiro que entra na fábrica e na casa de todo mundo. Queimar lixo e resíduo industrial é crime ambiental além de ser um risco de incêndio fora de controle. O ar contaminado não respeita portão: ele atinge a comunidade, respirado por crianças, idosos e por quem tem doença respiratória — inclusive o seu colega que começa a tossir no turno.
 
-Há também o calor. Junho é inverno em boa parte do país, mas o interior e o centro-norte seguem quentes, e em cozinha de evento o calor é intenso. Hidratação, pausa e área fresca valem para quem monta barraca, para quem opera e para quem trabalha no processo — o corpo não distingue entre trabalho e celebração.
+Junho é também o mês em que o corpo sente o calor de outro jeito. Fogueira acesa, cozinha de evento, sol forte nas regiões quentes: hidratação, pausa e área fresca valem para quem trabalha ou só celebra — o corpo não distingue entre trabalho e festa. E as crianças: fogueira, fogos, escada improvisada e pátio escuro são o cenário favorito de acidente doméstico nessa época. Supervisão, afastamento e iluminação são três medidas, e todas saem de graça.
 
-Outro ponto é a criança. Fogueira acesa, fogos, escada improvisada e pátio escuro formam o cenário mais frequente de acidente doméstico nessa época. Supervisão, afastamento e iluminação são as três medidas, e todas são gratuitas.
+A pergunta que fecha o DDS vale para as duas fogueiras, a do lazer e a do campo: se essa festa, essa queimada ou essa fogueira acontecesse aqui dentro, o que precisaria mudar para não virar acidente? Se a resposta for "muita coisa", vale mudar por lá também.
 
-Vale imaginar o cenário: se a sua festa de junho acontecesse aqui dentro, o que precisaria ser mudado para não virar acidente? Se a resposta for "muita coisa", vale mudar por lá também.
-
-Fogo não celebra. Ele apenas obedece.
+Fogo não celebra. Ele apenas obedece — e o meio ambiente cobra cada chama mal apagada.
 
 Fontes e Referências:
-- NR-20: Inflamáveis e combustíveis — controle de fontes de ignição.
-- ABNT NBR 9075: Combate a incêndio em edificações.
-- NR-05: CIPA — prevenção e resposta a emergências.
-- Sociedade Brasileira de Medicina de Emergência — queimaduras.
+- NR-20: inflamáveis e combustíveis — controle de fontes de ignição.
+- Lei de Crimes Ambientais (Lei nº 9.605/1998) — queimadas e poluição.
+- ABNT NBR 9075: combate a incêndio em edificações.
+- Sociedade Brasileira de Medicina de Emergência — queimaduras e intoxicação por fumaça.

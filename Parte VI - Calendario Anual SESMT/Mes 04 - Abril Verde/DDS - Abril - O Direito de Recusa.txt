@@ -1,13 +1,18 @@
 # DDS: O Direito de Recusa não é Opção, é Proteção
 
-Abril é o mês mais importante para o SESMT (Abril Verde), dedicado à Prevenção de Acidentes de Trabalho. Um dos pilares mais sagrados da segurança é o Direito de Recusa.
+Tem um momento no trabalho em que ninguém pensa até precisar dele: a hora de dizer não. Não ao pedido do chefe, não à meta — mas ao que é inseguro. O Direito de Recusa existe exatamente para isso: a lei garante, e a sua consciência agradece, que você pode parar uma atividade quando enxerga risco grave e iminente para a sua vida ou a de quem trabalha ao seu lado.
 
-A legislação garante ao trabalhador o direito de interromper suas atividades quando constatar uma situação de risco grave e iminente para a sua vida ou saúde. Recusar uma tarefa insegura não é insubordinação, não é fraqueza e não é falta de comprometimento. Pelo contrário: é o mais alto grau de maturidade profissional.
+Dizer não a uma tarefa insegura não é insubordinação. Não é preguiça, não é "fraqueza", não é falta de comprometimento. É o contrário: é o ato de maior maturidade profissional que existe — o momento em que você coloca o valor mais alto da operação acima da pressa, do cronograma e do que o chefe vai achar.
 
-Quando você diz "Não posso fazer isso dessa forma porque não é seguro", você está salvando a sua vida, protegendo a empresa e honrando a sua família. A pressão por produção, o atraso no cronograma ou a falta temporária de um equipamento não justificam burlar a segurança. O trabalho sempre pode esperar; a sua vida, não.
+E é bom deixar o caminho claro, porque o momento de decidir nunca é confortável. Você vê que o equipamento está com defeito, que a proteção não está montada, que o bloqueio de energia não foi feito, que a altura não tem ancoragem. A pressão vem junto: é o fechamento, é o prazo, é o cliente esperando, é "só dessa vez". Tudo isso parece urgente — e nada disso vale uma vida. O trabalho sempre pode esperar; o seu retorno para casa, não.
 
-Se você observar uma condição insegura, pare. Comunique o seu líder. Analisem juntos. O trabalho só recomeça quando o risco for neutralizado.
+Como funciona, na prática: pare. Comunique ao líder o que você viu, sem rodeios e sem culpa. Analisem juntos: o risco é real? Dá para controlar agora? A tarefa só recomeça quando a condição perigosa for neutralizada — não quando a pressão aumentar. Empresa madura não briga com quem recusou: agradece, porque o trabalhador que para é informação viva contra o acidente que viria.
+
+Uma verdade precisa ser dita: recusar também protege o colega. Quando você identifica um risco no seu posto e se recusa a continuar, está avisando todos os que virão depois — no mesmo turno e no turno seguinte. A sua parada é o registro público de que aquela condição é inaceitável. Quem recusa com respeito está construindo a cultura de segurança da planta inteira.
+
+Use o direito antes do dever de doer. A vida é o único patrimônio da operação que não tem reposição — e a sua recusa é a última barreira entre o risco e a família que espera você em casa.
 
 Fontes e Referências:
-- NR-1: Disposições Gerais (Direito de Recusa).
-- Abril Verde.
+- NR-01: disposições gerais — direito de recusa e gerenciamento de riscos.
+- Abril Verde: prevenção de acidentes de trabalho.
+- OIT: Convenção 155 — segurança e saúde dos trabalhadores.

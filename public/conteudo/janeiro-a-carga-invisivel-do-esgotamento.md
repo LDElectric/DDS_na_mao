@@ -1,13 +1,18 @@
 # DDS: A Carga Invisível do Esgotamento Profissional (Burnout)
 
-O Janeiro Branco nos convida a olhar para uma parte da nossa saúde que frequentemente ignoramos: a nossa mente. Na área industrial, o foco quase sempre está no corpo. Usamos capacetes para proteger a cabeça, luvas para as mãos e botas para os pés. Mas qual é o EPI para a nossa saúde mental?
+Ninguém entra na fábrica sem EPI. Capacete para a cabeça, luva para a mão, bota para o pé. A gente se prepara para proteger o corpo inteiro — e ainda assim existe uma parte de nós que entra todo dia sem proteção nenhuma: a mente. O Janeiro Branco existe para lembrar disso. Do mesmo jeito que a gente cuida do joelho e da coluna, precisa cuidar do que sente, pensa e decide.
 
-O Burnout, ou esgotamento profissional, não é apenas 'cansaço'. O cansaço passa com uma boa noite de sono ou um fim de semana de descanso. O esgotamento é diferente. É uma bateria que se recusa a carregar. Ele se manifesta no corpo como dores inexplicáveis, na mente como irritabilidade constante, e no trabalho como apatia e perda de foco.
+E aqui vale separar duas coisas que costumam ser confundidas. Cansaço é uma coisa: ele passa com uma boa noite de sono ou com o fim de semana. Esgotamento é outra. É aquela sensação de bateria que não carrega mais, de começar a semana já no limite, de cumprir a rotina no automático e ainda assim sair esvaziado. O burnout não é preguicite e não é frescura — é uma condição reconhecida pela Organização Mundial da Saúde como doença do trabalho, ligada ao estresse crônico que não teve espaço para ser resolvido.
 
-Muitas vezes, tentamos ignorar os sinais. Dizemos a nós mesmos que precisamos 'aguentar firme' e que 'é assim mesmo'. No entanto, trabalhar no limite do esgotamento é um risco enorme não apenas para a saúde a longo prazo, mas para a segurança imediata. Um trabalhador exausto tem o tempo de reação reduzido e a percepção de risco comprometida.
+O esgotamento raramente grita; ele sussurra. Vem como dor nas costas que o exame não explica, como irritação com colega por um motivo pequeno, como dificuldade de lembrar um procedimento que você já fez mil vezes, como aquela apatia de quem "só está cumprindo tabela". Quem está nesse estado tende a se cobrar ainda mais: precisa aguentar firme, é assim mesmo, todo mundo está cansado. E é exatamente aqui que mora o perigo para a segurança.
 
-O primeiro passo para combater o Burnout é reconhecer que não somos máquinas. Precisamos de pausas, precisamos desconectar quando o turno acaba, e, acima de tudo, precisamos ter a coragem de dizer quando não estamos bem. Pedir ajuda não é sinal de fraqueza; é a atitude mais segura que você pode tomar por si e pela sua equipe.
+Um trabalhador esgotado opera em desvantagem. O tempo de reação cai, a percepção de risco se estreita, a atenção se dispersa — e acidente não espera a pessoa "melhorar de mau humor". O esgotamento não é só um problema de saúde a longo prazo: é um risco imediato de operação.
+
+O primeiro passo é reconhecer que não somos máquinas e que pedir ajuda não é fraqueza. É a atitude mais segura que existe. Se você vem sentindo esgotamento, fale com o SESMT, com o gestor, com alguém de confiança. E se você percebe o colega apagado, irritado e no limite, não julgue: chame, pergunte, encaminhe. Cuidar de quem está ao lado também é trabalho de equipe.
+
+Porque a máquina mais importante da nossa operação é a pessoa. E máquina, a gente não deixa operar a semana inteira no vermelho.
 
 Fontes e Referências:
-- Organização Mundial da Saúde (OMS) - Classificação do Burnout como doença ocupacional.
-- Janeiro Branco: Campanha de conscientização sobre Saúde Mental.
+- Organização Mundial da Saúde (OMS) — reconhecimento do burnout como fenômeno ocupacional.
+- Janeiro Branco: campanha de conscientização sobre saúde mental.
+- ISO 45003: saúde psicológica e segurança no trabalho.

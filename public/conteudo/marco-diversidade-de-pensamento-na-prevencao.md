@@ -1,11 +1,16 @@
 # DDS: Diversidade de Pensamento e Percepção de Risco
 
-Quando todos em uma equipe têm o mesmo histórico, a mesma formação e pensam da mesma maneira, a equipe tem um "ponto cego" coletivo. Em março, mês que promove a inclusão e a diversidade, é importante entender como isso afeta a segurança.
+Quanto mais parecidas as pessoas de uma equipe, mais parecidos os pontos cegos dela. Quando todo mundo vem da mesma formação, cresceu no mesmo contexto e enxerga o trabalho do mesmo jeito, os riscos que ninguém vê continuam invisíveis — porque nenhum dos olhares presentes consegue vê-los. Diversidade de pensamento não é pauta de reunião: é camada de proteção.
 
-A percepção de risco é construída através das nossas experiências. Uma equipe diversa (que inclui mulheres, jovens, veteranos, pessoas de diferentes formações) enxerga um problema sob vários ângulos. Enquanto o operador veterano vê a eficiência da máquina, um técnico mais jovem pode notar um risco de segurança digital, e a operadora pode identificar uma falha ergonômica na disposição das ferramentas.
+A percepção de risco é construída com experiência de vida, e experiência não é só tempo de casa. O veterano que roda a máquina há vinte anos percebe o ruído diferente do equipamento — mas também acha "normal" um procedimento perigoso que sempre foi feito assim. O profissional mais novo traz o olhar que ainda não foi anestesiado pela rotina. A mulher que trabalha há anos no setor enxerga riscos que o desenho histórico da fábrica nem considerou — EPI feito para corpo masculino, posto pensado para estatura média, corredor cujo trajeto a assusta no turno da noite. Todos enxergam, ninguém é mais inteligente: cada um vê um pedaço do mesmo quadro.
 
-A diversidade de pensamento reduz os riscos porque múltiplas perspectivas cobrem os pontos cegos uns dos outros. Quando debatemos um procedimento ou analisamos uma tarefa (APR), precisamos ouvir todas as vozes. O olhar diferente não é um atraso; é uma camada a mais de proteção contra o acidente.
+O perigo mora no momento em que essas vozes não são ouvidas. Na análise de risco antes da tarefa, no DDS, na reunião da CIPA: se o olhar diferente é tratado como atraso, como quem fala demais, ou é cortado com "sempre foi assim", o ponto cego fica — e o acidente que ele escondia também. O olhar da mulher sobre uma ferramenta pesada, sobre o jaleco que não fecha, sobre o colega que faz piada no meio do procedimento não é reclamação: é PERCEPÇÃO de risco. E percepção de risco ignorada vira investigação de acidente.
+
+Mudar isso é simples e barato. Escutar com respeito quem diverge no momento da análise. Perguntar no DDS se alguém enxergou um risco que a maioria não enxergou — e dar tempo de resposta. Registrar o que a operadora veterana apontou, mesmo que "nunca aconteceu". Garantir que a voz feminina, a voz jovem, a voz nova tenham o mesmo peso da voz da função na hierarquia.
+
+Uma equipe que pensa igual previne igual. Toda voz a mais é um risco a menos.
 
 Fontes e Referências:
-- Fatores Humanos em Segurança.
-- Cultura Organizacional Justa.
+- Fatores humanos em segurança do trabalho.
+- Cultura organizacional justa e segurança psicológica.
+- Março: inclusão, diversidade e segurança no trabalho.

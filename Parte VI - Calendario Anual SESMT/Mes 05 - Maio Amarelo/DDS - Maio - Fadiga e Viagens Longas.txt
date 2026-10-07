@@ -1,16 +1,18 @@
 # DDS: O Trânsito, a Fadiga e as Viagens Longas
 
-O cansaço é um inimigo silencioso no trânsito. Diferente do álcool, que o motorista escolhe ingerir, a fadiga pode aparecer sorrateiramente. No Maio Amarelo, precisamos lembrar que muitos acidentes acontecem simplesmente porque o motorista dormiu ao volante.
+O cansaço é o único inimigo do trânsito que não faz barulho. O álcool, a gente escolhe ingerir; o celular, a gente escolhe pegar. A fadiga não pede licença: chega trabalha junto com o turno, acumula durante a semana e decide, sozinha, a hora de cobrar a conta — muitas vezes no pior lugar possível, que é a estrada de volta para casa.
 
-A fadiga reduz os reflexos, prejudica a visão e, em estágios avançados, causa os temidos "microssonos" (breves apagões de 3 a 5 segundos). Pessoas que trabalham em turnos noturnos ou que fazem longas jornadas têm um risco significativamente maior de acidentes no retorno para casa.
+O dado é conhecido da medicina do tráfego: dormir ao volante está entre as causas mais frequentes de acidente grave nas estradas. E o pior é que a fadiga não precisa vencer: basta o "microssono", aquele apagão de três a cinco segundos em que os olhos fecham e o carro segue sozinho. A 80 km/h, cinco segundos são mais de cem metros sem ninguém no comando. Cem metros é a distância entre você e a tragédia — e você não viu nada, porque não estava lá.
 
-Sinais de alerta de fadiga extrema ao volante:
-1. Piscar demorado e olhos pesados.
-2. Dificuldade em manter o carro no centro da faixa.
-3. Não lembrar dos últimos quilômetros percorridos.
+Trabalhador de turno tem cartão de visita para esse problema. Quem sai da madrugada para dirigir, quem faz hora extra e encara a estrada na sequência, quem dormiu mal na semana inteira — todos estão dirigindo com um passageiro invisível chamado débito de sono. Não adianta "se sentir bem": o cérebro cansado sente-se normal. É assim que a fadiga engana — ela remove a capacidade de se avaliar junto com a capacidade de dirigir.
 
-Se sentir esses sinais, abrir a janela, ligar o rádio ou beber café são soluções ineficazes a curto prazo. A única cura para o sono é dormir. Pare em um local seguro e descanse por 15 a 20 minutos. Não aposte a sua vida na crença de que "falta pouco para chegar".
+O corpo avisa antes de apagar, e vale decorar os três sinais: piscar demorado e olhos pesados; dificuldade de manter o carro no centro da faixa; não lembrar dos últimos quilômetros. Qualquer um deles é bilhete de saída da estrada.
+
+E é bom desfazer o maior mito do motorista cansado: abrir a janela, ligar o rádio no alto, mascarar chiclete e tomar café não curam o sono — só o adiam por alguns minutos, até o próximo apagão chegar mais forte. A única cura para o sono é dormir. Pare num local seguro e descanse de 15 a 20 minutos; se necessário, um cochilo estratégico antes da viagem longa vale mais do que meio tanque de combustível. Quem dirige descansado chega — quem "aposta que falta pouco" pode parar de chegar.
+
+A sua família prefere um chamado atrasado a um chamado do hospital. No trânsito, parar para descansar não é perder tempo: é ganhar a chegada.
 
 Fontes e Referências:
-- Associação Brasileira de Medicina do Tráfego (ABRAMET).
-- Impactos do sono na condução (Maio Amarelo).
+- Associação Brasileira de Medicina do Tráfego (ABRAMET) — sono e condução.
+- Maio Amarelo: atenção pela vida.
+- NR-17: organização do trabalho, turnos e fadiga.

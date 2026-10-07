@@ -1,16 +1,22 @@
-# DDS: O Poder das Pausas Ativas
+# DDS: Pausas Importam Ainda Mais para Quem Vive com Dor
 
-Trabalhar de forma contínua e ininterrupta não é sinal de produtividade; muitas vezes, é a receita para uma lesão. No mês de combate às LER (Lesões por Esforço Repetitivo) e DORT (Distúrbios Osteomusculares Relacionados ao Trabalho), o SESMT alerta: o seu corpo foi feito para o movimento, mas não para a repetição exaustiva ou para a estática prolongada.
+Trabalhar horas seguidas na mesma posição parece produtivo. Não é. É a receita mais conhecida para a dor que não tem hora para chegar. E para quem convive com uma doença invisível — fibromialgia, lúpus, dor crônica —, a pausa não é um luxo: é uma necessidade de segurança, igual ao capacete e à luva.
 
-A Pausa Ativa não é 'parar de trabalhar para não fazer nada'. É uma ferramenta de gestão de fadiga. Quando você está muito tempo na mesma posição (seja soldando, operando um painel ou dirigindo), a circulação local diminui e o músculo se tensiona.
+O corpo foi feito para se movimentar, não para a repetição exaustiva nem para a estática interminável. Quando a gente fica muito tempo parado na mesma postura — soldando, operando um painel, dirigindo uma empilhadeira —, a circulação local diminui, o músculo trava e a articulação reclama. Isso vale para todo mundo. Mas quem já carrega uma dor invisível sente isso multiplicado: o que seria um desconforto de fim de turno vira uma noite inteira de agonia.
 
-O que fazer na Pausa Ativa:
-- Mude de postura: Se trabalha sentado, levante. Se trabalha em pé, sente-se por alguns instantes.
-- Alongue-se: Estique braços, pescoço e pernas. Isso devolve o fluxo sanguíneo aos músculos.
-- Descanse os olhos: Olhe para um ponto distante para relaxar a musculatura ocular.
+A Pausa Ativa não é "parar de trabalhar para não fazer nada". É gestão de fadiga, item de procedimento, e já está prevista na NR-17. Cinco minutos bem usados no meio do turno podem evitar semanas de afastamento por inflamação — e para quem tem condição crônica, podem ser a diferença entre terminar o dia em pé e terminar o dia carregado.
 
-Cinco minutos de pausa bem feita podem evitar meses de afastamento por inflamações articulares ou musculares. Não espere a dor chegar para parar.
+O que fazer nesse tempo, na prática:
+- Mude de postura. Quem trabalha sentado levanta; quem trabalha em pé senta por um instante. O simples ato de inverter a posição devolve o fluxo sanguíneo ao corpo.
+- Alongue o que estava parado. Braços, pescoço, pernas: procure o movimento oposto ao da sua tarefa.
+- Descanse os olhos olhando para um ponto distante — a visão também cansa e avisa quando está no limite.
+- Hora de beber água, também vale como pausa.
+
+Dois cuidados valem reforço. Ajuste seu posto: altura da bancada, posição do monitor, regulagem do banco — pequenos ajustes que evitam aquela tensão repetida de todo dia. E respeite os sinais do corpo: dor no fim do dia, formigamento, dormência e rigidez não são "normais de quem trabalha". São avisos. Quem tem doença crônica conhece esses avisos de perto e tem o direito de comunicá-los sem receio de ser chamado de "fresco".
+
+Não espere a dor virar agulha para parar. Pausa no tempo certo é o que mantém a pessoa no trabalho — e o que devolve quem está em casa.
 
 Fontes e Referências:
-- Ministério da Saúde: Prevenção de DORT.
-- NR-17: Pausas no trabalho.
+- NR-17: Ergonomia — pausas na jornada de trabalho.
+- Ministério da Saúde: prevenção de LER/DORT.
+- Fevereiro Roxo: cuidados com quem convive com dor crônica e doenças invisíveis.

@@ -1,13 +1,20 @@
 # DDS: O Quase Acidente - O Aviso Gratuito
 
-Um escorregão sem queda. Uma ferramenta que cai do andaime e não atinge ninguém. Um curto-circuito sem consequências maiores. O que essas três situações têm em comum? São "Quase Acidentes".
+Um escorregão sem queda. A ferramenta que escapa da mão lá em cima e nenhuma cabeça passa por baixo. O curto que desarma e queima, mas não machuca ninguém. A empilhadeira que passou a centímetros do pé do colega, que nem percebeu. Quatro situações, um nome só: quase acidente. E um sentimento comum: alívio. "Deu sorte." E o trabalho volta como se nada tivesse acontecido.
 
-Estatisticamente, para cada acidente grave ou fatal, ocorrem milhares de desvios e centenas de quase acidentes. O quase acidente é a vida lhe dando um aviso gratuito. É o sistema dizendo: "A barreira falhou, mas você teve sorte desta vez".
+A estatística é antiga e a mensagem é simples: para cada acidente grave, existem centenas de quase acidentes que aconteceram antes e não foram aproveitados. O quase acidente é o sistema avisando, de graça, que uma barreira falhou — que a proteção não estava onde deveria, que o procedimento não foi seguido, que a condição perigosa continua ali. É o alarme silencioso que toca antes da sirene.
 
-Infelizmente, a reação comum é rir de alívio e voltar ao trabalho sem relatar o ocorrido. O problema é que a sorte não dura para sempre. Se a condição que causou o quase acidente não for corrigida, o próximo a passar por ali pode não ter a mesma sorte. 
+O problema não é o quase acidente em si. É o que a gente faz com ele — ou melhor, o que a gente não faz. A reação mais comum é rir de alívio, sacudir a poeira e voltar ao trabalho sem dizer palavra. Quem não relata desperdiça o aviso mais barato do sistema de segurança: aquele que ainda não custou ninguém. E a condição que causou o susto não desaparece porque teve sorte. Ela fica no posto esperando alguém que não tenha a mesma sorte de hoje.
 
-Relatar um quase acidente não é procurar culpados; é caçar a falha no processo. Ao notificar a segurança sobre o que quase deu errado, você permite que medidas preventivas sejam tomadas. O relato de hoje evita a tragédia de amanhã.
+Relatar quase acidente não é dedurar ninguém. Não é procurar culpado nem sair apontando colega. É caçar a falha no processo — e a falha no processo não tem rosto, tem causa: falta de trava, ferramenta inadequada, treinamento burocrático, corredor apertado, pressa de fim de turno. Quando a gente notifica, dá ao SESMT a chance de corrigir a causa antes do próximo encontro. Quando a gente silencia, devolve a condição perigosa ao posto — só que agora com sorte usada.
+
+E há um papel que não é da empresa, é da turma: quem vive a instalação sabe onde o quase acidente acontece antes de acontecer. O colega que "quase caiu" naquele quebra-molas, a porta que "quase pegou" o dedo, o canto onde "quase" escorregou. Transformar "quase" em relato é transformar susto em proteção — para você e para quem vem depois no mesmo turno.
+
+O quase acidente é o aviso gratuito. Relatar é a forma de pagar o sistema com a moeda que ele aceita: informação.
+
+Relato de hoje evita o acidente de amanhã. Sem exceção.
 
 Fontes e Referências:
-- Pirâmide de Bird / Teoria de Heinrich.
-- 28 de Abril: Dia Mundial em Memória das Vítimas de Acidentes de Trabalho.
+- Pirâmide de Bird e teoria de Heinrich: relação entre desvios, quase acidentes e acidentes.
+- 28 de abril: Dia Mundial da Segurança e Saúde no Trabalho.
+- NR-01: gerenciamento de riscos e comunicação de ocorrências.

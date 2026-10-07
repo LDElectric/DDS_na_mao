@@ -1,13 +1,18 @@
 # DDS: A Linha Vermelha do Assédio Moral e Sexual
 
-No mês do Agosto Lilás, trazemos para a mesa do DDS um tema que muitas vezes é evitado: o assédio. A indústria mudou e o velho comportamento hostil não é mais tolerado.
+Tem um assunto que o DDS costuma evitar — e é justamente ele que o Agosto Lilás obriga a trazer para a mesa: o assédio. Ninguém gosta de falar, mas todo mundo conhece alguém que já passou por isso: a gozação que não tem graça, o comentário sobre o corpo, a piada de duplo sentido repetida toda semana, a cobrança humilhante em público, a chantagem "quer continuar no emprego?" Entender o que é assédio é o primeiro passo para que ele pare de acontecer onde a gente trabalha.
 
-Assédio moral é a exposição de trabalhadores a situações humilhantes e constrangedoras, repetitivas e prolongadas durante a jornada de trabalho. Assédio sexual são abordagens indesejadas, brincadeiras de duplo sentido, comentários inadequados sobre o corpo e coerção.
+Assédio moral é a exposição repetida e prolongada a situações humilhantes e constrangedoras durante a jornada — o isolamento, a sobrecarga de castigo, o menosprezo público, a perseguição velada. Assédio sexual é a abordagem indesejada de teor sexual: a cantada insistente, o comentário sobre o corpo, a "brincadeira" de mau gosto, a troca disfarçada ("se você quiser, te ajudo"). Nos dois casos, o que define é o impacto sobre a pessoa, e não a intenção de quem faz. A pessoa que recebe e não quer: é assédio. A pessoa que ri para constranger, mas sai destruída por dentro: é assédio.
 
-Muitas atitudes que eram justificadas no passado com a frase "sempre foi assim, é só brincadeira" são, na verdade, violações da dignidade humana. Isso destrói a saúde mental da vítima e cria um ambiente perigoso, pois ninguém trabalha de forma segura se estiver mentalmente abalado.
+O passado justificava com uma frase que hoje não cabe em lugar nenhum: "sempre foi assim, é só brincadeira". Brincadeira é a que diverte os dois lados. A que humilha um lado é violência, e a violência adoece: destrói a saúde mental da vítima, derruba a autoestima, aumenta faltas e afastamentos — e cria um ambiente perigoso, porque ninguém trabalha com segurança quando está emocionalmente abalado. A cabeça ocupada em se defender é cabeça ausente na operação.
 
-A empresa possui canais de denúncia anônima justamente para coibir essas práticas. Não tolere assédio e não participe de brincadeiras que diminuam ou ofendam os outros. O respeito inegociável é a fundação de um grande lugar para se trabalhar.
+A empresa tem canais de denúncia — anônimos, quando preciso — exatamente para coibir essas práticas. Mas o canal só funciona se a cultura do setor não julgar quem denuncia, e se a liderança investigar com seriedade e prazo. E o papel de cada colega é tão grande quanto o da empresa: não participar da brincadeira que diminui alguém, não rir junto, não fazer de conta que não viu. O espectador silencioso é metade do assédio — e o espectador que fala é metade da proteção.
+
+A mulher é a vítima mais frequente, e o Agosto Lilás lembra disso também: no trabalho, na rua e em casa, a mulher tem o direito de ser tratada com o mesmo respeito que qualquer ser humano — sem condescendência, sem comentário, sem medo.
+
+Respeito não é negociável, e não precisa cartaz para existir: precisa atitude. Se hoje você viu, ouviu ou percebeu assédio no seu turno, não deixe para amanhã. Denunciar não é dedurar: é cuidar — da pessoa, da equipe e da segurança de todos.
 
 Fontes e Referências:
-- Lei nº 14.457/22 (Emprega + Mulheres - Medidas contra assédio).
-- Cartilha de Combate ao Assédio no Ambiente de Trabalho.
+- Agosto Lilás: enfrentamento à violência contra a mulher.
+- Convenção 190 da OIT e Recomendação 206: violência e assédio no mundo do trabalho.
+- NR-01: riscos psicossociais — assédio moral e sexual.

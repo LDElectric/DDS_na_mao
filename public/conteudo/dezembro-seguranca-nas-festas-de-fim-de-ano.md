@@ -1,12 +1,17 @@
 # DDS: Celebre, mas com Responsabilidade
 
-Fim de ano é momento de comemorar as metas alcançadas, os desafios superados e a parceria da equipe. As confraternizações da empresa, almoços e encontros estão recheados de festa e, quase sempre, de bebidas alcoólicas.
+Fim de ano tem uma arma que ninguém considera: a pressa de celebrar. A confraternização da empresa, o almoço com a equipe, o amigo que juntou a turma, a bebida que entra na mesa antes da conversa. O ano foi duro, a meta veio, o time aguentou — e dezembro é o mês de brindar. Mas dezembro também é o mês que concentra as decisões mais perigosas do ano inteiro, e o Dezembro Vermelho e o Dezembro Laranja existem para lembrar disso em dois tons.
 
-A regra é básica, mas deve ser repetida exaustivamente: álcool e direção (assim como álcool e máquinas pesadas) são uma mistura fatal. O que seria uma festa de encerramento pode se transformar na última festa da vida de alguém, se o planejamento não for feito.
-Se for beber, não dirija. Combine a "carona amiga" com um colega que não bebe, pegue um aplicativo, um táxi ou um ônibus.
+A regra que não muda e precisa ser repetida: álcool e direção não se misturam — nem no volante, nem na empilhadeira, nem em máquina nenhuma. A festa de encerramento pode ser a última festa de alguém se o caminho de volta não for planejado. Por isso o planejamento vem antes do brinde: definir quem bebe e quem dirige, combinar a carona amiga com quem não bebeu, usar o aplicativo, o táxi ou o ônibus. Três reais de aplicativo custam menos que um boletim — e infinitamente menos que uma vida. E o papel de guardião vale para a mesa inteira: ninguém deixa o amigo alcoolizado pegar a chave do carro. Quem segura a chave segura uma vida.
 
-A alegria da festa deve durar e render boas histórias, e não tristezas. Além disso, a ressaca no dia seguinte é um convite aos acidentes de trabalho por fadiga e desatenção. Cuidem-se, divirtam-se e sejam os guardiões dos colegas: não deixem um amigo alcoolizado pegar o volante!
+Tem um segundo risco que o dia seguinte cobra: a ressaca. O corpo que celebra com exagero na sexta chega na segunda com sono, desidratação, reflexo lento e ressaca — e a ressaca é um convite formal ao acidente de trabalho por fadiga e desatenção. Quem estiver no turno no dia seguinte precisa descansar, hidratar e, se não estiver em condições de operar, falar. Operar de ressaca é operar com um EPI a menos.
+
+E o mês acrescenta os dois tons das campanhas. O vermelho do Dezembro Vermelho: as festas podem terminar em encontro — e encontro com namorada e com a camisinha, sempre. Proteção contra HIV e outras ISTs não tira prazer, tira risco; e a testagem e o tratamento hoje transformam o HIV em condição controlada e indetectável, incapaz de transmissão. O laranja do Dezembro Laranja: o verão chegou, e o sol das confraternizações, do churrasco e da praia é o mesmo sol que acumula dano na pele — protetor solar não é artigo de verão, é EPI do ano inteiro.
+
+Celebrar com responsabilidade não é celebrar menos: é celebrar de um jeito que renda histórias boas para contar — e não ausências para lamentar. Divirtam-se, brindem, dancem. E voltem todos inteiros para o primeiro turno de janeiro — porque a melhor festa do ano é a que termina com todo mundo em casa.
 
 Fontes e Referências:
 - Código de Trânsito Brasileiro e Lei Seca.
-- Campanhas Educativas de Final de Ano.
+- Dezembro Vermelho: prevenção ao HIV/aids e ISTs.
+- Dezembro Laranja: prevenção ao câncer de pele.
+- Campanhas educativas de final de ano.

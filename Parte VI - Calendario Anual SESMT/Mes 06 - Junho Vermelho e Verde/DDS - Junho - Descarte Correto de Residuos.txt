@@ -1,13 +1,18 @@
 # DDS: O Descarte Correto de Resíduos e o Risco Cruzado
 
-O mês de Junho comemora o Dia Mundial do Meio Ambiente (Verde) e também foca na Doação de Sangue (Vermelho). Começando pelo pilar ambiental, precisamos discutir o descarte de resíduos industriais.
+Tem um momento do turno tão rápido que ninguém presta atenção: a hora do lixo. Aquele trapo sujo de óleo, a embalagem de produto químico, o refil usado, a latinha de solvente, o papel da troca. O gesto de jogar parece simples. Mas é aí, na lixeira errada, que dois mundos colidem: o do acidente de trabalho e o do dano ambiental. Junho é o mês perfeito para destravar essa lata.
 
-Misturar lixo comum com lixo contaminado ou produto químico pode causar desde multas ambientais pesadas até acidentes graves. Um trapo sujo de óleo jogado no coletor errado pode gerar um princípio de incêndio. O descarte incorreto de reagentes pode gerar misturas tóxicas, causando asfixia ou queimaduras em quem manipula as lixeiras.
+O descarte errado causa acidente antes de causar multa. O trapo encharcado de óleo jogado no coletor de papel comum é um princípio de incêndio esperando uma faísca. O reagente misturado com outro reagente incompatível vira nuvem tóxica — e quem abre a lixeira depois é o pessoal da limpeza, não quem jogou. A bateria, a pilha e o cartucho que vão para o lixo comum contaminam o solo e a água por anos. Resíduo é a única forma de "matéria-prima que volta": errado, ele volta como risco; certo, ele volta como economia e proteção.
 
-A coleta seletiva na indústria não é apenas sobre "reciclar papel e plástico"; é uma defesa vital contra a contaminação. Quando você obedece ao código de cores das lixeiras, você não está apenas cumprindo uma regra ISO, está garantindo que o resíduo não se transforme em uma armadilha para o pessoal da limpeza e destinação.
+Por isso a coleta seletiva na indústria não é sobre "reciclar papel e plástico". É uma defesa contra a contaminação cruzada: separar o material comum do perigoso, o orgânico do químico, o inflamável do que pode pegar fogo. Quando você respeita o código de cores das lixeiras, quando não "mistura rapidinho" porque ninguém vai ver, você está garantindo que o resíduo não vire armadilha para quem o manipula depois — o colega, o pessoal da coleta, o destino final.
 
-O meio ambiente começa dentro da fábrica. Limpeza, organização e descarte correto são sinônimos de um ambiente seguro.
+E vale fechar o ciclo: o resíduo não some porque foi para a lixeira. Ele segue um caminho — coletor, abrigo, transporte, tratamento, destinação. Cada etapa tem um profissional que depende de você ter feito certo a primeira etapa. A primeira etapa é você.
+
+O meio ambiente começa dentro da fábrica — no seu setor, no seu turno, na lixeira do seu posto. Limpeza, separação e organização não são tarefa do time da manutenção: são comportamento de quem sabe que o que sai pela portaria um dia volta pela vizinhança.
+
+Separar o resíduo certo leva cinco segundos. A conta de um descarte errado dura décadas — em multa, em solo, em saúde.
 
 Fontes e Referências:
 - 05/06: Dia Mundial do Meio Ambiente.
-- Resolução CONAMA sobre descarte de resíduos industriais.
+- Resolução CONAMA nº 223/2018 e normas de gestão de resíduos industriais.
+- ISO 14001: gestão ambiental — segregação e destinação de resíduos.

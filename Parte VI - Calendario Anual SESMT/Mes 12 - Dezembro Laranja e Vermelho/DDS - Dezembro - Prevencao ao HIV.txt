@@ -1,11 +1,18 @@
 # DDS: Dezembro Vermelho e as ISTs
 
-O Dezembro Vermelho é a campanha de conscientização sobre o vírus HIV/Aids e outras Infecções Sexualmente Transmissíveis (ISTs). Falar de ISTs no ambiente de trabalho ainda gera desconforto, mas faz parte da Saúde Integral do Trabalhador.
+No dia 1º de dezembro é celebrado o Dia Mundial de Luta contra a Aids — e o mês inteiro carrega o laço vermelho do Dezembro Vermelho: a campanha de conscientização sobre o HIV e as outras Infecções Sexualmente Transmissíveis (ISTs). Falar disso no ambiente de trabalho ainda causa desconforto, e é exatamente por isso que o DDS precisa falar: ISTs são assunto de saúde — e saúde integral do trabalhador passa, sim, por essa conversa, sem rodeios e sem tabu.
 
-As campanhas na empresa visam educar e quebrar estigmas. Primeiramente, é crucial o uso de preservativos. Em segundo, é necessário combater a discriminação. Uma pessoa vivendo com HIV, e em tratamento correto (carga viral indetectável), tem vida normal e não transmite o vírus pelo convívio social (abraço, aperto de mão, uso do mesmo banheiro, bebedouro). 
+Vamos ao que importa, com informação de verdade. O HIV é prevenível com o uso correto e constante do preservativo — masculino ou feminino — em todas as relações. Para quem tem exposições de risco frequentes, existe a PrEP, o remédio que a pessoa toma para não se infectar. E para situações de emergência — a camisinha estourou, a relação foi sem proteção, houve acidente com material biológico — existe a PEP, o tratamento que deve começar em até 72 horas após a exposição para reduzir drasticamente a chance de infecção. O SUS oferece tudo isso de graça: teste, prevenção e tratamento.
 
-O preconceito, fruto da falta de informação, é o que realmente adoece o ambiente. O respeito ao colega independe de suas condições de saúde. Informar-se é a melhor forma de se proteger e proteger quem está ao seu redor.
+E aqui mora a informação que quebra o preconceito de vez: quem vive com HIV e está em tratamento com carga viral indetectável não transmite o vírus por via sexual — o que a ciência resume em "indetectável = intransmissível". E nada — absolutamente nada — se transmite pelo convívio social: abraço, aperto de mão, copo compartilhado, banheiro comum, bebedouro, cadeira do vestiário, almoço junto. Nenhum gesto do dia a dia de trabalho transmite HIV. Zero.
+
+O vírus que realmente adoece o ambiente de trabalho não é o HIV: é o preconceito. Fruto da falta de informação, ele isola colegas, transforma condição de saúde em motivo de piada, afasta pessoas do teste com medo do resultado e do julgamento. E adoece todo mundo — porque quem tem medo de ser julgado não faz o teste na época certa, não trata na época certa, não se protege, e o estigma vira um vetor pior que o vírus.
+
+O recado do Dezembro Vermelho tem três pontas, e cada uma é simples: prevenir (camisinha sempre, teste regular, PEP e PrEP quando indicado), tratar (quem vive com HIV faz tratamento — e com tratamento tem vida normal, longa e saudável) e respeitar (condição de saúde de ninguém é assunto de vestiário). Informar-se é a melhor forma de se proteger e de proteger quem está ao redor.
+
+Respeito ao colega não depende do resultado de exame nenhum. E a prevenção, essa depende de uma decisão sua — pequena, discreta e que pode salvar uma vida inteira.
 
 Fontes e Referências:
-- Dezembro Vermelho.
-- Ministério da Saúde: Departamento de Doenças de Condições Crônicas e Infecções Sexualmente Transmissíveis.
+- Dezembro Vermelho: campanha de luta contra o HIV/aids.
+- 01/12: Dia Mundial de Luta contra a Aids.
+- Ministério da Saúde: prevenção combinada — camisinha, testagem, PEP, PrEP e tratamento.

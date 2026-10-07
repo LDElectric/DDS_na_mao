@@ -1,13 +1,18 @@
 # DDS: Outubro Rosa - Autocuidado Não Pode Esperar
 
-O Outubro Rosa é mundialmente conhecido pela conscientização sobre o Câncer de Mama. É um momento de celebrar a vida, mas acima de tudo, é um momento de ação. 
+O Outubro Rosa é o mês mais conhecido do mundo pela causa do câncer de mama — e ele tem uma razão prática de existir: o câncer de mama, quando descoberto cedo, tem chance de cura que passa de 90%. A palavra-chave dessa estatística não é câncer, é cedo. E "cedo" não é sorte: é exame feito no tempo certo, é atenção ao próprio corpo, é autocuidado que não espera sobrar tempo.
 
-Para as mulheres da nossa equipe: o autocuidado deve ser a prioridade número um. A rotina dupla (ou tripla) muitas vezes faz com que a mulher coloque o trabalho, os filhos e a casa em primeiro lugar, esquecendo de si mesma. O autoexame mensal e a mamografia anual (conforme a faixa etária) não são exames para "achar doença", são exames para "achar a cura", pois o diagnóstico precoce garante mais de 90% de chances de recuperação.
+Para as mulheres da nossa equipe, o recado é direto: a mulher brasileira carrega, em média, uma jornada dupla ou tripla — o turno, a casa, os filhos, o cuidado dos pais. Nessa conta, o lugar dela própria fica sempre por último: "quando der tempo eu marco". O autoexame mensal, o exame clínico e a mamografia na faixa etária indicada não são exames para "achar doença": são exames para achar a cura na única fase em que ela é quase garantida. Não são exames de doente — são exames de quem quer continuar viva para ver os filhos crescerem.
 
-Para os homens da nossa equipe: a sua participação é vital. Lembrem as mulheres que vocês amam — esposas, mães, irmãs, filhas — sobre a importância dos exames preventivos. Acompanhem, apoiem e sejam promotores da saúde nas suas casas.
+E o corpo avisa antes de qualquer exame, se a gente aprender a ouvi-lo. Mudanças que merecem atenção e relato imediato ao médico: nódulo ou caroço na mama ou na axila, pele da mama com aparência de casca de laranja, vermelhidão, secreção pelo mamilo, retração ou alteração no contorno. Nada disso é diagnóstico — tudo isso é convite para checar. Sustar o susto é sempre melhor do que adiar o exame.
 
-Cuidar de si mesmo é o maior ato de amor próprio e de responsabilidade com a própria vida.
+Para os homens da equipe, o papel é igualmente vital e cheio de sentido: sejam promotores da saúde nas próprias casas. Lembrem as mulheres que vocês amam — esposa, mãe, irmã, filha — dos exames preventivos, acompanhem a consulta marcada, perguntem se estava em dia. Apoio de verdade não é crítica: é companhia. E vale também o olhar para a própria saúde — câncer de mama também existe, raro, em homens, e autocuidado não tem gênero.
+
+E aqui na fábrica, o autocuidado encontra um aliado que poucos notam: a rotina do exame periódico. A empresa paga o horário, o exame e o médico do trabalho. A trabalhadora que usa essa estrutura — pergunta, tira dúvida, pede encaminhamento — está usando a favor dela um direito que o trabalho também é. Guardá-lo na gaveta do "depois eu vejo" é desperdiçar uma proteção que o mês rosa não cansa de oferecer.
+
+Cuidar de si não é egoísmo: é o ato de amor mais responsável que existe — porque quem cuida de si fica de pé para cuidar de tudo e de todos. Este mês, a tarefa é uma frase curta para cumprir ainda esta semana: marcar o exame que falta. O tempo nunca sobra — mas a vida é a única coisa que não aceita remarcação.
 
 Fontes e Referências:
-- Outubro Rosa (Câncer de Mama).
-- INCA - Instituto Nacional de Câncer.
+- Outubro Rosa: conscientização e prevenção ao câncer de mama.
+- INCA: detecção precoce — autoconhecimento das mamas e mamografia.
+- Ministério da Saúde: periodicidade e faixa etária de rastreamento.

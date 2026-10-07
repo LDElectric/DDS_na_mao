@@ -1,21 +1,16 @@
-# DDS: Fevereiro — A Festa que Termina no Volante
+# DDS: Fevereiro Roxo - A Doença que Não Aparece no Espelho
 
-Existe um mês em que a mais importante decisão de segurança do ano é tomada fora do trabalho, em festa, às duas da manhã, com gente ao redor. É fevereiro. A escolha de dirigir depois de beber, de aceitar carona de quem bebeu, de sair mais cedo ou de ficar — essa escolha decide mais vidas do que qualquer procedimento interno.
+Tem um colega que, vista de longe, não tem nada. Entra na fábrica de cabeça erguida, uniforme completo, boa aparência. Mas toda segunda-feira chega atrasado, vai embora com o rosto cansado e, no almoço, fica quieta num canto. Ninguém pergunta o que ela tem. E se perguntassem, ela responderia com alguma coisa que não dá para ver: lúpus, fibromialgia, dor crônica. Doença que não aparece em raio-x. Doença invisível.
 
-O álcool reduz tempo de reação, altera percepção de velocidade e distância, aumenta a confiança e diminui a inibição. A soma desses quatro efeitos é exatamente o perfil do condutor envolvido em acidente grave: alguém que se sente capaz, que subestima a distância e que reage tarde. Ninguém sente esses efeitos chegando — por isso a tolerância zero não é moralismo, é técnica.
+É disso que o Fevereiro Roxo fala. Enquanto o Fevereiro Laranja chama a atenção para a leucemia, o Roxo é dedicado a condições que não mudam a aparência de quem as carrega, mas mudam todos os dias de quem as vive. O lúpus, que ataca o próprio sistema de defesa e provoca dor, cansaço e sensibilidade ao sol. A fibromialgia, que espalha dor pelo corpo inteiro sem que nenhum exame a localize. O Alzheimer, que costuma ser lembrado apenas em idosos, mas também aparece em pessoas em plena fase produtiva — e que rouba, aos poucos, a memória de quem ainda trabalha e dirige.
 
-Vale o tempo de eliminação. Uma dose não "passa" em uma hora. O corpo metaboliza em ritmo próprio e previsível, e café, banho frio ou chuveiro não alteram isso. Quem acredita que acelerou o processo está tomando uma decisão com base num mito — e esse mito tem estatística própria.
+Quem convive com uma dessas condições enfrenta no trabalho uma luta dupla. A primeira é com a própria doença: a dor que não passa, a fadiga que não resolve com café, os lapsos de memória que assustam. A segunda é com o olhar dos outros. Como a pessoa não "parece doente", o entorno interpreta o atraso como falta de compromisso, o cansaço como preguiça, o isolamento como antipatia. E esse julgamento não é só injusto: ele adoece ainda mais. Pessoa com dor não precisa de prova, precisa de acolhimento.
 
-Há também a combinação com fadiga. Festa termina tarde, turno começa cedo, e a sonolência soma ao efeito residual. Dirigir nessa condição é dirigir com dois fatores reduzindo o mesmo sistema: atenção e reação.
+No chão de fábrica, acolher tem forma prática. Antes de julgar o colega que todo mês falta ao início do turno, pergunte como ele está — às vezes a resposta muda tudo. Não use a história de outro como régua: doença crônica não é concorrência de sofrimento. Se a pessoa conta que tem uma condição, acredite e encaminhe ao SESMT, que vai avaliar adaptação de jornada, posto ou tarefa. E se o seu próprio corpo está dando sinais que os exames não explicam, você também tem o direito de ser ouvido.
 
-Outro ponto é quem organiza. Grupos de amigos, eventos de empresa e encontros familiares que incluem transporte têm responsabilidade prática: definir motorista que não bebe, combinar retorno, contratar serviço ou marcar horário de saída. Quando ninguém decide, a decisão fica com quem está mais cansado no momento de ir embora.
-
-A pergunta que decide o fim da noite: amanhã, quem vai dirigir? Se a resposta for "a gente decide lá", a decisão já foi tomada — e ela foi tomada pelo pior momento possível.
-
-Festejar é direito. Voltar é planejamento.
+Doença invisível não é doença menor. É doença que só o dono dela enxerga — e, por isso, o trabalho tem o dever de emprestar o olhar. Acolher antes de julgar não é gentileza. É prevenção.
 
 Fontes e Referências:
-- Lei nº 9.503: Código de Trânsito Brasileiro — direção sob influência de álcool.
-- NIOSH: Alcohol and Workplace Performance.
-- NR-17: Ergonomia — fadiga e jornada.
-- Sociedade Brasileira de Medicina de Emergência — intoxicação e trauma.
+- Fevereiro Roxo: campanha de conscientização sobre Lúpus, Fibromialgia e Alzheimer.
+- Sociedade Brasileira de Reumatologia — lúpus e fibromialgia.
+- NR-01 e NR-17: adaptações razoáveis e organização do trabalho.

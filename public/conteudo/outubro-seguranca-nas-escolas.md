@@ -1,10 +1,18 @@
 # DDS: Dia Nacional de Segurança e Saúde nas Escolas (10/10)
 
-O dia 10 de outubro marca o Dia Nacional de Segurança e Saúde nas Escolas. Por que falar de escolas dentro da indústria? Porque a cultura de segurança que desejamos ter amanhã precisa ser ensinada para as crianças hoje.
+O dia 10 de outubro é o Dia Nacional de Segurança e Saúde nas Escolas — e pode parecer estranho uma fábrica falar disso. Não é. O adulto que trabalha com segurança hoje aprendeu, um dia, a atravessar a rua olhando para os dois lados, a guardar os brinquedos para ninguém tropeçar, a não colocar a mão onde a faca estava. Essa é a percepção de risco sendo ensinada — e ela começa muito antes do cinto de segurança do primeiro emprego. A cultura de segurança que desejamos ter amanhã está, neste momento, sendo ensinada às crianças de hoje.
 
-A educação contínua em segurança é o que transforma o comportamento. Quando você ensina seu filho a olhar para os dois lados antes de atravessar a rua, a guardar os brinquedos para ninguém tropeçar ou a ter cuidado com facas, você está ensinando percepção de risco. 
+Dentro da indústria, a gente chama isso de treinamento: ensinar o comportamento certo antes do risco aparecer. Na infância, é exatamente a mesma lógica, com uma vantagem enorme — a criança aprende por imitação, e o adulto é o exemplo que ela imita. O pai que usa o cinto de segurança, a mãe que não atravessa no sinal vermelho, o avô que guarda a ferramenta no lugar, o adulto que desliga o celular ao volante: cada um desses gestos é um treinamento de segurança dado sem cartilha, todos os dias, diante de quem está formando o próprio comportamento.
 
-A atitude segura que cobramos dos adultos no ambiente fabril deveria ser algo natural se fosse instigado desde a infância. Seja o exemplo para os mais novos na sua família. Use o cinto de segurança, respeite a sinalização. As crianças não escutam muito o que os pais dizem, mas imitam tudo o que os pais fazem.
+E o recado vale para dentro de casa o ano inteiro, não só no dia 10. Além do exemplo, vale a conversa pequena e direta: mostrar por que o capacete existe, por que a chama do fogão respeita, por que a escada não é escorregador, por que o brinquedo guardado evita o tropeço do visitante. As crianças não escutam muito o que os adultos dizem — mas imitam tudo o que os adultos fazem. O exemplo seguro é o currículo mais eficiente da educação em segurança.
+
+Tem ainda um lado que o DDS de hoje não pode esquecer: a escola também é um local de trabalho. Professores, merendeiras, zeladores, porteiros, motoristas de transporte escolar — todos são trabalhadores que merecem o mesmo ambiente seguro que cobramos na fábrica, com as mesmas conversas de prevenção. A criança que cresce vendo os professores protegidos aprende que segurança não é exclusividade de setor nenhum.
+
+E por fim, a ponte com o nosso mês: no Outubro Rosa, ninguém é pequeno demais para conhecer o cuidado. A menina que aprende que o corpo tem dono. O menino que aprende a respeitar. A criança que cresce em casa onde a saúde é conversa de mesa — e não tabu — chega ao posto de trabalho adulta com a percepção de risco já formada.
+
+Ensine segurança em casa como se fosse o treinamento mais importante do ano: porque é. O exemplo de hoje é o comportamento de uma vida inteira — e a vida de alguém pode depender do adulto que essa criança vai se tornar.
 
 Fontes e Referências:
 - 10/10: Dia Nacional de Segurança e Saúde nas Escolas (Lei nº 12.645/2012).
+- Educação para a segurança: percepção de risco desde a infância.
+- Outubro Rosa: cultura de cuidado e prevenção como valor ensinado.

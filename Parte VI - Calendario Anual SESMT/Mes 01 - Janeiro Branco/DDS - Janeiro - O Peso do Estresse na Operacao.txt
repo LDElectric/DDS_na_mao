@@ -1,14 +1,18 @@
 # DDS: O Peso do Estresse na Operação e o Efeito Túnel
 
-O estresse é uma reação natural do corpo a situações de perigo ou pressão. Em pequenas doses, ele nos mantém alertas. Mas, quando se torna crônico, o estresse se transforma em um dos maiores inimigos da segurança no trabalho.
+Estresse não é o vilão da história — é o mensageiro. Em dose pequena, ele mantém a gente alerta: aquele frio na barriga antes de uma manobra difícil, a atenção que aumenta numa tarefa fora da rotina. O problema começa quando o estresse vira o estado permanente. Aí ele deixa de avisar e passa a atrapalhar, e poucas coisas são tão perigosas para a segurança quanto um estresse que nunca vai embora.
 
-Um dos efeitos mais perigosos do estresse na operação é o chamado 'Efeito Túnel'. Quando estamos muito estressados, o nosso cérebro concentra toda a atenção na fonte do estresse (um prazo apertado, um problema pessoal, uma meta) e 'desliga' a visão periférica. Deixamos de enxergar os riscos ao nosso redor. O guindaste se movendo, a poça de óleo no chão, o aviso sonoro do equipamento — tudo isso desaparece.
+Quem opera sabe o nome disso: efeito túnel. Imagine um dia de fechamento, com prazo apertado, problema em casa, aquela cobrança encostada na sua nuca. Sua mente se fecha no problema como um funil — e tudo ao redor some. O guindaste que passa perto, a poça de óleo no piso, o alarme do equipamento, o colega que sinaliza. Nada disso chega até você, porque o cérebro já gastou toda a atenção na fonte de pressão. E é exatamente quando a visão periférica desliga que o acidente costuma aparecer.
 
-Gerenciar o estresse começa com o reconhecimento. Você tem andado mais impaciente? Tem tido dificuldades para se concentrar? Sente a musculatura constantemente tensa?
-Para quebrar o ciclo do estresse, precisamos de válvulas de escape. Isso pode ser exercício físico, conversar com um colega, ou simplesmente praticar respirações profundas antes de iniciar uma tarefa crítica (técnica do 'Pare, Respire, Pense, Aja').
+O difícil é que ninguém percebe o próprio túnel. A gente descobre pelos sintomas: mais impaciente do que o normal, dificuldade de concentrar, musculatura travada, sono ruim, vontade de "resolver logo" até em tarefa que exige calma. Se você se reconheceu em algum desses sinais, o túnel já começou a se formar — e é o melhor momento para agir, antes da manobra crítica.
 
-Se o estresse estiver incontrolável, busque o SESMT ou os canais de apoio da empresa. Segurança não é só sobre evitar acidentes; é sobre criar um ambiente onde todos tenham condições mentais de executar seu trabalho.
+Funciona como um procedimento. Antes de começar a tarefa de risco, pare e respire: feche os olhos e solte o ar devagar três vezes, contando até quatro. É o "pare, respire, pense, aja" — parece simples, e é mesmo, mas quebra o ciclo no ponto certo, quando a mente ainda pode escolher. Depois, use as válvulas de escape fora do turno: atividade física, conversa, pausa de verdade. E se o estresse estiver pesado demais para resolver sozinho, procure o SESMT ou os canais de apoio — é para isso que eles existem.
+
+Tem também o papel de quem está ao lado. Se o colega está travado, sumido, nervoso no momento errado, não ignore. Pergunte, acalme, e se necessário pare a operação. Enxergar o túnel no outro é a proteção que ele não consegue ter.
+
+Porque segurança não é só sobre evitar o acidente físico. É sobre garantir que cada pessoa chegue no posto com a cabeça inteira — porque só quem está inteiro enxerga o risco ao redor.
 
 Fontes e Referências:
-- Janeiro Branco: Campanha de conscientização.
-- Estudos de Fatores Humanos em Segurança Operacional (Efeito Túnel e Carga Cognitiva).
+- Janeiro Branco: campanha de conscientização sobre saúde mental.
+- Estudos de fatores humanos em segurança operacional (efeito túnel e carga cognitiva).
+- NR-01: gerenciamento de riscos ocupacionais.

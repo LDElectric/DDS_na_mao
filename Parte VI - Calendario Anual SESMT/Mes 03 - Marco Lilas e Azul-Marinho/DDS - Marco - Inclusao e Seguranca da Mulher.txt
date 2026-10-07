@@ -1,13 +1,16 @@
 # DDS: Inclusão e Segurança da Mulher na Indústria
 
-No mês em que celebramos o Dia Internacional da Mulher, é fundamental debatermos como a segurança do trabalho se relaciona com a inclusão. Historicamente, os ambientes industriais foram desenhados por homens e para homens. Isso reflete não apenas na cultura, mas nos próprios equipamentos de proteção e infraestrutura.
+Historicamente, a indústria foi desenhada por homens e para homens: o posto de trabalho, a ferramenta, o uniforme, a bota, a luva. E quando o desenho nasce para um corpo só, todo outro corpo fica em desvantagem — não só no conforto, mas na segurança. No mês da mulher, vale olhar para esse detalhe com honestidade, porque ninguém pensa em acidente de luva grande demais; até o acidente acontecer.
 
-Por muito tempo, mulheres tiveram que usar uniformes, botas e luvas desenvolvidos para a anatomia masculina, o que não é apenas desconfortável: é um risco de segurança. Uma luva grande demais compromete a precisão e a pega. Uma bota larga aumenta o risco de tropeços e quedas.
+Mulher usando EPI masculino não está quase acertando: está sendo exposta. A luva que sobra no dedo rouba a precisão da pega e pode escorregar na hora exata em que deveria proteger. A bota larga demais vira risco de tropeço e de pisada em falso — e a qualquer tropeço num piso com óleo já é meio acidente. O capacete que não se assenta direito, o jaleco que folga, o arnês que aperta num lugar e solta noutro: cada milímetro de EPI "do tamanho errado" é um ponto onde a proteção vira armadilha.
 
-Garantir um ambiente seguro significa garantir que os EPIs sejam adequados a todos os corpos, e que as instalações sejam apropriadas. Mas a segurança vai além do físico. Significa também garantir que a mulher tenha voz ativa nos Diálogos de Segurança, que suas percepções de risco sejam ouvidas com respeito e que não haja condescendência.
+O ajuste fino vale para todo mundo. Vale para o rapaz alto demais para a bancada padrão, para o colega abaixo da estatura média, para quem tem mais peso ou menos. Mas na indústria historicamente masculina, a mulher é quem mais sente a falta: o vestiário, a infraestrutura, a reserva de EPI feminino, o posto ajustável. Inclusão em segurança não é tratar todo mundo igual — é dar a cada corpo o que ele precisa para operar protegido.
 
-Inclusão em Saúde e Segurança do Trabalho (SST) é assegurar que todos os trabalhadores, independentemente do gênero, voltem para casa sãos e salvos.
+E inclusão vai além do uniforme. Mulher tem voz ativa no DDS, na APR, na CIPA. Quando ela aponta risco, não é "sensibilidade feminina": é percepção de risco tão válida quanto qualquer outra — e o dicionário da segurança não distingue gênero entre quem enxerga o perigo. Tratar a opinião da colega com condescendência não só humilha: descarta informação que poderia evitar o acidente.
+
+Um ambiente seguro é o que devolve todo mundo para casa sã e salvo — de calça, bota e uniforme do tamanho certo. Segurança que só serve para um tipo de corpo não é segurança: é sorte. E com sorte, a gente não dimensiona procedimento.
 
 Fontes e Referências:
 - 08/03: Dia Internacional da Mulher.
-- Estudos de Ergonomia e Antropometria Ocupacional.
+- Estudos de ergonomia e antropometria ocupacional.
+- NR-6: EPI adequado ao risco — e ao usuário.

@@ -1,11 +1,18 @@
 # DDS: A Relação Inseparável entre Meio Ambiente e Saúde Ocupacional
 
-Saúde do trabalhador e meio ambiente são lados da mesma moeda. Uma empresa que negligencia o tratamento de seus efluentes e emite gases tóxicos descontroladamente está, em primeiro lugar, envenenando a si mesma e, em seguida, envenenando a comunidade.
+Tem uma frase que costuma sair da boca de quem olha para efluente e gases: "isso é problema do meio ambiente, não do SESMT." Errado. Meio ambiente e saúde do trabalhador são lados da mesma moeda — às vezes a moeda vira e ninguém vê, mas é a mesma. A empresa que trata mal os seus resíduos não está só poluindo o rio: está envenenando primeiro a si mesma, com o ar do seu galpão e a água do seu chuveiro; e depois a comunidade em volta, que respira o mesmo vento que a fábrica devolve.
 
-O Junho Verde nos convida a repensar processos. Será que precisamos usar um solvente tão agressivo para limpar essas peças, ou há uma alternativa biodegradável e menos nociva para quem a respira? A substituição de produtos tóxicos por produtos mais seguros protege os rios e também os pulmões da equipe.
+O Junho Verde existe para reaprender isso. E a boa notícia do DDS de hoje é que a solução ambiental costuma ser, ao mesmo tempo, a solução da segurança. Trocar um solvente agressivo por uma alternativa biodegradável e menos volátil: o rio agradece, e o pulmão do operador também — porque o que a gente respira no posto de trabalho é a primeira fronteira do meio ambiente. Reduzir o desperdício de matéria-prima: a natureza economiza, e a bancada fica mais limpa, o chão menos escorregadio, o estoque mais organizado. Tudo que protege o planeta, na prática industrial, protege primeiro quem trabalha.
 
-Sustentabilidade é garantir que o trabalho feito hoje não comprometa o futuro de quem está trabalhando nem do local onde habitam. Ao sugerir melhorias no uso de materiais e ao evitar o desperdício, você também está participando ativamente da segurança ocupacional.
+Vale pegar o exemplo ao contrário, porque ele também funciona. O que prejudica o trabalhador na maioria das vezes prejudica o ambiente: o vazamento de óleo que cai no piso da fábrica é o mesmo que escorre para a rede pluvial. A poeira que irrita o pulmão do operador é a mesma que sai pela chaminé para a vizinhança. O resíduo perigoso mal segregado é o mesmo que contamina o solo. A fábrica não tem muro para o vento nem para a água: o que acontece dentro, espalha para fora — e volta.
+
+Por isso, quando você sugere melhorias de processo — usar menos produto, reutilizar embalagem, separar corretamente, optar pelo material mais seguro —, você não está "sendo ecológico": está participando ativamente da segurança ocupacional e da comunidade.
+
+Sustentabilidade é a visão de longo prazo da segurança: garantir que o trabalho feito hoje não faça mal a quem trabalha amanhã — nem a quem mora no entorno, nem ao planeta que recebe tudo depois.
+
+O turno de hoje e o bairro de amanhã pedem o mesmo cuidado. Quem cuida de um, cuida dos dois.
 
 Fontes e Referências:
-- ODS (Objetivos de Desenvolvimento Sustentável).
-- Mês do Meio Ambiente.
+- 05/06: Dia Mundial do Meio Ambiente.
+- ODS — Objetivos de Desenvolvimento Sustentável (ODS 3 e 8).
+- ISO 14001: sistemas de gestão ambiental.

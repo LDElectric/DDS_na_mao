@@ -1,13 +1,18 @@
 # DDS: Setembro Amarelo - O Combate Silencioso e a Valorização da Vida
 
-O Setembro Amarelo é o mês de prevenção ao suicídio. Este é um tema pesado, mas necessário. Muitas pessoas ao nosso lado podem estar travando batalhas cruéis das quais não fazemos a menor ideia.
+O Setembro Amarelo fala de um assunto pesado que a gente normalmente evita: o suicídio. E é justamente por ser evitado que ele continua acontecendo em silêncio. Ao lado de cada um de nós, neste turno, pode existir alguém travando uma batalha da qual não temos ideia — contra uma dor que parece maior do que a capacidade de suportar. O mês amarelo existe para quebrar exatamente esse silêncio.
 
-No ambiente de trabalho, passamos mais tempo com nossos colegas do que com nossas famílias. Somos, muitas vezes, a primeira linha de observação de mudanças de comportamento. O colega que sempre foi falante e subitamente se cala. O trabalhador que começa a faltar, a se isolar nos intervalos ou que se mostra extremamente desanimado e sem perspectiva.
+No trabalho, passamos mais tempo com os colegas do que com a própria família. Isso nos coloca numa posição única: somos, muitas vezes, a primeira linha de observação das mudanças de comportamento. O colega sempre falante que subitamente se cala. O trabalhador que começa a faltar, a se isolar nos intervalos, a perder o interesse por tudo, a se descuidar da aparência. A pessoa extremamente desanimada, que responde "tanto faz" para o que antes a empolgava. Nenhum desses sinais é diagnóstico — mas todos são convite para uma conversa.
 
-Valorizar a vida é entender que pedir ajuda não é fraqueza. Depressão não é "frescura", não é falta de fé ou preguiça. É uma doença, e tem tratamento. Se você está passando por um momento em que a dor parece maior do que a sua capacidade de suportá-la, por favor, fale. Busque o serviço social da empresa, o médico do trabalho ou ligue para o CVV (Centro de Valorização da Vida) no 188. Eles estão disponíveis 24 horas por dia e a ligação é sigilosa e gratuita.
+E vale dizer o que o mês inteiro repete com razão: pedir ajuda não é fraqueza. Depressão não é frescura, não é falta de fé, não é preguiça. É uma doença — e doença tem tratamento. Ansiedade também. Transtorno mental é como pressão alta: precisa de médico, precisa de remédio, precisa de acompanhamento. Ninguém desiste da vida por opção; desiste porque a dor fica grande demais e a esperança pequena demais. A pessoa não quer morrer: quer que a dor acabe.
 
-Você não está sozinho e a sua vida importa muito.
+Se essa dor é sua neste momento, por favor, fale. Fale com o serviço social da empresa, com o médico do trabalho, com o SESMT, com alguém de confiança. E lembre de um número que existe justamente para isso: o CVV — Centro de Valorização da Vida — atende no telefone 188, 24 horas por dia, todos os dias, de graça e com sigilo absoluto. Ligue. Do outro lado, uma pessoa treinada para ouvir está esperando. E o gesto de ligar já é a prova de que você escolheu continuar.
+
+E se esse colega ao seu lado está passando por isso, não julgue, não aconselhe de cima, não minimize: aproxime-se. Pergunte como ele está. Ouça até o fim. E encaminhe — para o SESMT, para o serviço social, para o CVV. Você não precisa ser psicólogo; precisa ser humano.
+
+Você não está sozinho. A sua vida importa muito. E a prova é este turno inteiro ao seu redor — gente que perceberia, gente que sentiria falta, gente que precisa que você fique.
 
 Fontes e Referências:
-- Setembro Amarelo.
-- CVV (Centro de Valorização da Vida - 188).
+- Setembro Amarelo: campanha de prevenção ao suicídio.
+- CVV — Centro de Valorização da Vida: ligue 188 (24h, gratuito e sigiloso).
+- OMS: saúde mental, prevenção ao suicídio e apoio psicossocial.

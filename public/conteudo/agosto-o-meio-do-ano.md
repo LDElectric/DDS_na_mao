@@ -1,21 +1,18 @@
-# DDS: Agosto — O Meio do Ano: Conferir o Que Foi Prometido
+# DDS: Agosto - A Conferência do Cuidado: o que Prometemos às Mães e Contra o Assédio
 
-Existe um momento do calendário em que o ano já tem história suficiente para ser avaliado, e ainda tempo suficiente para ser corrigido. É o meio do ciclo. Metade das metas está cumprida ou não; parte dos treinamentos venceu ou foi realizado; exames periódicos foram agendados ou acumulados; e as mudanças prometidas em abril já deveriam estar visíveis.
+Existe um momento do ano em que o calendário já tem história suficiente para ser avaliado e ainda tempo sobrado para ser corrigido: é o meio do ciclo. E em agosto, com o Dourado e o Lilás na mesa, a conferência ganha um capítulo que poucas empresas fazem — o balanço do cuidado. Não o balanço de produção, nem o de papelada: o balanço das promessas que fizemos às mães e às pessoas que sofrem assédio em silêncio.
 
-A conferência de meio de ano não é burocracia — é a única forma de descobrir, com folga, o que ficou pendente. Quando a revisão acontece só em dezembro, ela vira justificativa. Quando acontece em agosto, ela vira correção.
+A promessa da maternidade, por exemplo, costuma ser bonita no discurso e fraca na prática. Vale conferir com lápis na mão: a sala de amamentação anunciada no programa existe e funciona, ou é um armário com uma cadeira? O horário de amamentação da funcionária que voltou da licença está sendo respeitado pela escala, ou ela "dá um jeito" por conta própria? Os pais seguram o turno normal quando chegam exaustos das noites em claro, ou já colecionam advertências por atraso? O que foi prometido em fevereiro no aviso de parede, em agosto já deveria ser visível no chão — se não é, agosto é a hora.
 
-Vale a validade documental. Treinamento vencido, exame periódico atrasado, laudo de higiene desatualizado, calibração de instrumento fora de prazo e certificação de equipamento vencida. Nesses cinco casos, a empresa continua operando normalmente e, ao mesmo tempo, está formalmente fora de conformidade — sem nenhum sinal visível de que algo está errado.
+E a promessa contra o assédio tem a mesma régua. O canal de denúncia existe no impresso, mas a denúncia feita em maio foi respondida com investigação ou com silêncio? A pessoa que denunciou está no mesmo cargo, ou "pediu para sair" logo depois? O treinamento de assédio foi ministrado a todos ou só assinado no começo do ano? Nada expõe mais rápido a diferença entre política e prática do que conferir o que acontece depois que alguém denuncia.
 
-Há também os EPC. Cinto com costura gasta, capacete exposto a impacto, luva ressecada, protetor auditivo com vedação rompida e óculos com arranhões. Item fornecido não é item em condição de uso, e a substituição é obrigatória — não por economia de material, mas porque a proteção deixou de existir.
+A conferência do cuidado tem um lado que dói olhar: os dados. Quantas mães voltaram da licença este ano e ficaram além do primeiro mês? Quantas denúncias de assédio foram registradas? Quantas tiveram conclusão em prazo razoável? Quando a revisão só acontece em dezembro, ela vira justificativa; quando acontece em agosto, vira correção. E correção no meio do ano alcança o ano inteiro.
 
-Outro ponto é o plano de ação. Toda avaliação de risco produz medidas; toda medida tem prazo; e quase todo prazo vence no meio do ano. Retomar a lista e conferir o que foi executado é mais eficaz do que produzir uma nova lista — a anterior ainda não foi cumprida.
+A empresa que confere as próprias promessas de cuidado descobre duas coisas: o que falta consertar — e o que já funciona. As duas descobertas valem o mesmo: ação. Consertar o que falta e proteger o que funciona é o que transforma cartaz em cultura.
 
-Vale puxar a lista: quantos itens do plano de ação do primeiro semestre ainda estão abertos? Se ninguém souber responder sem procurar, o plano está arquivado, não em execução.
-
-Meio do ano não é para recomeçar. É para perceber o que ainda não começou.
+Neste Agosto Dourado e Lilás, a pergunta não é "do que a empresa falou". É "o que a empresa fez". O cuidado prometido é fácil; o cuidado conferido é que é de verdade.
 
 Fontes e Referências:
-- NR-01: Disposições Preliminares — gerenciamento de riscos e plano de ação.
-- NR-05: CIPA — plano de trabalho e acompanhamento.
-- NR-06: EPI — fornecimento, uso, conservação e substituição.
-- NR-07: Exame Médico Admissional, Periódico e Demissional.
+- Agosto Dourado e Agosto Lilás: balanço das práticas de apoio e proteção.
+- Normas de proteção à maternidade (CLT) e combate ao assédio (NR-01 e legislação trabalhista).
+- Cartilhas de prevenção ao assédio moral e sexual no trabalho.

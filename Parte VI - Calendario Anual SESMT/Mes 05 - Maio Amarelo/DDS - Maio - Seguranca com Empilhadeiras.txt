@@ -1,19 +1,16 @@
 # DDS: Segurança com Empilhadeiras e Veículos Industriais
 
-As empilhadeiras são fundamentais para a logística e operação, mas o peso e a dinâmica desses veículos os tornam extremamente perigosos. Uma empilhadeira vazia muitas vezes pesa mais que dois carros populares juntos e possui um centro de gravidade muito instável.
+Numa disputa de peso, ninguém ganha de uma empilhadeira. Ela vazia pesa mais que dois carros de passeio e, com a carga erguida, carrega um centro de gravidade que muda a cada curva, cada frenagem, cada inclinação de piso. É uma poderosa aliada da logística — e um dos veículos mais perigosos que existem dentro de um portão. O Maio Amarelo costuma olhar para a rua; o corredor do armazém é a mesma estrada, com a mesma pressa e ainda menos espaço para o erro.
 
-Acidentes com veículos industriais costumam ser graves devido ao ponto cego e ao peso.
-Para quem opera:
-- Nunca dirija com a carga elevada acima do necessário.
-- Use a buzina nos cruzamentos e portas.
-- O uso do cinto de segurança é inegociável. Em caso de tombamento, a principal causa de fatalidade é o operador tentar pular e ser esmagado pela própria máquina.
+O acidente com veículo industrial quase nunca é leve. Ponto cego e peso se combinam: o operador não enxerga o que está baixo, perto e atrás — o pedestre com a caixa, o colega agachado no corredor, o pé que entrou na área de giro. Para quem opera, a regra é uma lista curta e inegociável: carga baixa no deslocamento, jamais elevada; buzina em todo cruzamento e porta; e cinto de segurança sempre. O cinto, aliás, é decisivo no tombamento — a principal causa de fatalidade com empilhadeira é o operador tentar pular e ser alcançado pela própria máquina, que vira sobre ele.
 
-Para os pedestres:
-- O veículo não para instantaneamente. Respeite as faixas e mantenha contato visual com o operador. Se ele não olhou nos seus olhos, ele não te viu.
-- Evite fones de ouvido nas áreas operacionais.
+Para o pedestre, o corredor industrial é via pública e exige o mesmo bom senso da rua: a máquina não para na hora, respeitar a faixa e o caminho do veículo, nunca andar de fone de ouvido na área operacional (o som da buzina e do motor é o seu radar), e nunca apostar no "olho do operador". A regra de ouro entre os dois lados é cruel e justa: se o operador não olhou nos seus olhos, ele não te viu — e não te ver é a mesma coisa que não existir para a máquina.
 
-A convivência segura entre máquinas e pessoas exige atenção redobrada de ambos os lados.
+Contato visual é mais que cortesia: é procedimento de segurança entre pessoa e máquina. E o mesmo vale na rua do trajeto de volta, quando você troca o corredor da fábrica pela avenida: o caminhão ao seu lado tem o mesmo ponto cego, o mesmo peso, o mesmo respeito que a empilhadeira.
+
+Máquina e pessoa têm que dividir o mesmo espaço sem disputar. Quem cede sempre é a pessoa — não porque é mais fraca, mas porque é insubstituível.
 
 Fontes e Referências:
-- NR-11: Transporte, Movimentação, Armazenagem e Manuseio de Materiais.
-- Maio Amarelo.
+- NR-11: transporte, movimentação, armazenagem e manuseio de materiais.
+- Maio Amarelo: segurança no trânsito — dentro e fora da empresa.
+- Guia de segurança com veículos industriais (ISO 3691).

@@ -1,11 +1,16 @@
 # DDS: Agosto Dourado - O Apoio à Maternidade e à Vida
 
-O Agosto Dourado é a campanha voltada à promoção do aleitamento materno. A vida familiar e a saúde infantil importam, e o ambiente de trabalho tem papel crucial no apoio a mães trabalhadoras.
+O Agosto Dourado existe para lembrar uma das decisões de saúde mais importantes da vida de uma família: o aleitamento materno. O leite da mãe é mais do que alimento — é imunidade, é proteção, é vínculo. A Organização Mundial da Saúde recomenda o aleitamento exclusivo até os seis meses e, de preferência, junto com a alimentação, até os dois anos ou mais. E aqui mora a conversa que interessa ao chão de fábrica: desse plano de saúde tão simples, quem vive o dia a dia é exatamente a mulher que trabalha.
 
-A licença-maternidade e os espaços para amamentação/coleta de leite nas empresas não são "mordomias", são investimentos na saúde das próximas gerações. Para os trabalhadores que são pais, o apoio à esposa nesse período também é fundamental. O cansaço das noites em claro afeta a atenção, e a equipe deve ser compreensiva e apoiar o colega nessa fase exaustiva, mas maravilhosa.
+A mãe que volta ao trabalho enfrenta uma entrevista diária consigo mesma: ordenhar antes do turno, armazenar o leite, ter um lugar adequado para isso, correr no intervalo, enfrentar o medo de "secar o leite por causa da rotina". A empresa resolve boa parte desse drama com estrutura: a sala de amamentação ou o local adequado para coleta e guarda do leite não é privilégio nem "mordomia" — é a estação de trabalho da saúde pública mais barata que existe. Licença-maternidade respeitada, horário de amamentação cumprido e acolhimento da equipe são as três peças que fazem a amamentação continuar funcionando depois do retorno.
 
-Empresas com boa cultura de segurança cuidam não apenas da parte mecânica, mas da dimensão humana dos seus trabalhadores. Promover a conscientização sobre a importância da saúde da família fortalece os vínculos e demonstra que todos somos parte de uma comunidade maior.
+E o pai entra nessa conta também. Quem apoia a esposa nesse período — levando ao posto de saúde, segurando as noites, cuidando dos outros filhos — está amamentando junto, do jeito dele. E quem trabalha ao lado desse pai precisa entender o que nenhum manual explica: a chegada de um bebê vira a vida de cabeça para baixo. Noites em claro, atenção dividida, sono atrasado. Aquele colega que "parece distante" pode estar carregando um neném nos braços desde as duas da manhã. O Julho Amarelo falou de fígado; aqui vale o mesmo raciocínio: cansaço é risco, e a equipe que percebe e apoia evita que o cansaço chegue à operação.
+
+Empresa com cultura de segurança de verdade cuida da parte mecânica — e da dimensão humana de quem trabalha. Quando a empresa apoia a mãe que amamenta, está dizendo algo simples e grande: aqui, a sua família importa, o seu retorno importa, a sua saúde importa. E essa mensagem atravessa o turno inteiro — porque quem é cuidado em casa chega mais inteiro no trabalho.
+
+Neste Agosto Dourado, vale a perguntinha honesta: a nossa empresa tem espaço para uma mãe ordenhar leite com dignidade? O gestor sabe o horário de amamentação da funcionária que voltou? O colega acolhe o pai exausto em vez de cobrar? Cada resposta sim é uma dose de leite materno servida com respeito. E leite materno, feito com respeito, é a primeira e melhor medida de segurança de uma vida inteira.
 
 Fontes e Referências:
-- Agosto Dourado (Organização Mundial da Saúde e Ministério da Saúde).
-- Leis de proteção à maternidade na CLT.
+- Agosto Dourado: aleitamento materno (OMS e Ministério da Saúde).
+- CLT: licença-maternidade, intervalo para amamentação e garantias à gestante/lactante.
+- Recomendações da OMS e do UNICEF: aleitamento exclusivo até os 6 meses.

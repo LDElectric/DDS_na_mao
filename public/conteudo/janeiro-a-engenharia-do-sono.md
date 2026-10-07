@@ -1,16 +1,18 @@
 # DDS: A Engenharia do Sono e a Segurança Operacional
 
-Quando falamos de ferramentas essenciais para o trabalho, raramente mencionamos a mais importante de todas: o sono. Na cultura de turnos, o sono muitas vezes é tratado como um luxo ou algo que pode ser negociado. No entanto, a ciência é clara: a privação de sono afeta o cérebro da mesma forma que a intoxicação por álcool.
+De todas as ferramentas que uma pessoa usa no trabalho, a mais importante nunca aparece no armário de EPI: é o sono. Na rotina de turnos, dormir mal virou quase uma medalha — "eu aguento", "vou com café", "no fim de semana eu pago o débito". Mas o corpo não funciona assim, e a ciência é dura: ficar 17 horas acordado afeta o desempenho de forma parecida com uma taxa de álcool no sangue. A gente não deixaria ninguém operar máquina depois de beber. Por que deixa depois de uma noite mal dormida?
 
-Operar uma empilhadeira, fazer uma manobra elétrica ou trabalhar em altura após uma noite mal dormida é assumir um risco que você não controlará. A falta de sono afeta diretamente o córtex pré-frontal, a área do cérebro responsável pelo julgamento, tomada de decisões e avaliação de riscos.
+Quem responde no turno sabe como é. A noite que não veio, o sono que não veio junto, e na manhã seguinte a empilhadeira parece mais difícil de manobrar, o comando elétrico pede mais atenção, o trabalho em altura pesa mais. Não é impressão. A privação de sono atinge justamente a área do cérebro responsável pelo julgamento, pela decisão e pela avaliação de risco — o córtex pré-frontal. Ou seja: a pessoa perde a capacidade de perceber o perigo no exato momento em que mais precisaria dela.
 
-A 'higiene do sono' deve ser tratada como um procedimento de segurança:
-1. Desconexão: Evite telas (celular, TV) pelo menos uma hora antes de dormir. A luz azul inibe a produção de melatonina.
-2. Ambiente: Mantenha o quarto escuro, silencioso e em temperatura agradável. Para quem trabalha em turnos noturnos, cortinas blackout são verdadeiros EPIs.
-3. Rotina: Tente dormir e acordar nos mesmos horários sempre que a escala permitir.
+Por isso a higiene do sono precisa ser tratada como procedimento de segurança — com a mesma seriedade de uma Permissão de Trabalho. E ela tem passos simples:
 
-Descansar não é perder tempo. É a manutenção preventiva da máquina mais complexa da operação: você.
+Primeiro, a desconexão. Luz de tela é estímulo: o celular e a TV na cama atrasam a melatonina, o hormônio que manda o corpo dormir. Uma hora de tela a menos antes de deitar muda a noite. Segundo, o ambiente. O quarto escuro, silencioso e em temperatura agradável é o "cinto de segurança" do descanso. Para quem trabalha à noite, cortina blackout e máscara de dormir não são frescura — são EPI do sono, investimento direto na segurança do dia seguinte. Terceiro, a rotina. Dormir e acordar em horários parecidos sempre que a escala permitir treina o organismo a entrar e sair do descanso.
+
+E tem a estratégia de quem vive de turno: um cochilo curto, de 20 a 30 minutos, antes de virar a noite, reduz muito o risco de sono no meio da madrugada. É por isso que várias empresas criam salas de descanso — não é privilégio, é controle de risco.
+
+Descansar não é perder tempo. É a manutenção preventiva da máquina mais complexa da operação: você. E toda manutenção preventiva, feita no tempo certo, custa muito menos do que a parada não programada.
 
 Fontes e Referências:
-- National Sleep Foundation (Diretrizes sobre higiene do sono).
-- NR-17: Ergonomia (Aspectos psicofisiológicos).
+- National Sleep Foundation — diretrizes de higiene do sono.
+- NR-17: Ergonomia — aspectos psicofisiológicos e jornada de trabalho.
+- NIOSH: efeitos da fadiga e do trabalho em turnos no desempenho.

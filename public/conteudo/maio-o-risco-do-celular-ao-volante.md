@@ -1,13 +1,18 @@
 # DDS: A Cegueira Causada pelo Celular ao Volante
 
-Uma olhadinha de dois segundos na tela do celular, a 60 km/h, significa percorrer 34 metros completamente às cegas. Esse é o espaço suficiente para atropelar um pedestre, bater na traseira de outro carro ou sair da pista.
+Dois segundos. Só isso: o tempo de "dar uma olhadinha" na tela do celular. A 60 km/h, dois segundos são 34 metros percorridos às cegas. 34 metros é a distância para atropelar uma pessoa na faixa, para a traseira do carro da frente, para a mureta que dividia você da pista contrária. E é isso o que acontece milhares de vezes por dia, em todas as estradas do país, inclusive na sua volta do trabalho.
 
-O uso do celular ao volante (para falar ou mandar mensagens) é hoje uma das principais causas de acidentes de trânsito, competindo lado a lado com o álcool. O cérebro humano não é capaz de focar simultaneamente no trânsito e na leitura de uma mensagem. O que ocorre é a alternância rápida de foco, criando "apagões" na percepção da via.
+O uso do celular ao volante passou a competir com o álcool no ranking das principais causas de acidente — e o motivo é uma ilusão perigosa: a pessoa acha que "só tirou os olhos da pista por um instante". Não é sobre olhos. É sobre o cérebro. O cérebro humano não faz duas tarefas complexas ao mesmo tempo: ele alterna rapidamente o foco entre o trânsito e a mensagem, e nessa alternância cria buracos na percepção — momentos em que a via, o pedestre, o semáforo simplesmente não existem para você. Você não "desviou o olhar": você apagou por segundos, com o carro em movimento.
 
-Nenhuma mensagem de WhatsApp, nenhum e-mail do trabalho e nenhuma curtida nas redes sociais vale a sua vida ou a vida de outra pessoa. 
+Não existe mensagem que não possa esperar. O WhatsApp que parece urgente espera dois minutos — e a notícia que chegaria depois de você bater não chegaria para você. O e-mail do trabalho também espera: quem precisa de resposta com o motorista em movimento precisa reavaliar o processo, não pedir que a pessoa dirija com uma mão no volante e outra no futuro. E a curtida nas redes sociais, essa nem deveria aparecer na conta da sua vida.
 
-Se for urgente, estacione em local seguro. Crie o hábito de colocar o celular no silencioso ou no porta-luvas enquanto dirige. A segurança no trânsito, que o Maio Amarelo defende, depende da responsabilidade de quem segura o volante.
+A mudança é de hábito, e hábito se cria com gesto pequeno. Celular em silencioso ou no porta-luvas durante o trajeto. Se for urgente — urgente mesmo, não "urgentinho" — estacione em local seguro para atender. Programe a navegação antes de sair. E se o colega do seu lado tocar no celular com a mão no volante, fale: no trânsito, a palavra do passageiro é o para-brisa do motorista.
+
+O Maio Amarelo lembra que no trânsito a sua responsabilidade salva vidas — a sua e a de quem cruza o seu caminho. Dois segundos de tela. Uma vida inteira de consequência.
+
+Esteja todo o trajeto no volante. A estrada não aceita "modo de espera".
 
 Fontes e Referências:
-- Maio Amarelo: No trânsito, sua responsabilidade salva vidas.
+- Maio Amarelo: no trânsito, sua responsabilidade salva vidas.
 - Estudos de distração cognitiva e condução.
+- Código de Trânsito Brasileiro — infração por uso do celular ao dirigir.

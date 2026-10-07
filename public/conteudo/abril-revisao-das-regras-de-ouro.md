@@ -1,13 +1,18 @@
 # DDS: As Regras de Ouro Não São Negociáveis
 
-Toda empresa possui suas "Regras de Ouro" ou "Regras Pela Vida". Elas tratam dos riscos mais críticos: trabalho em altura, bloqueio e etiquetagem (LOTO), movimentação de cargas, espaço confinado e segurança viária. Em Abril Verde, é momento de revisá-las.
+Toda operação tem as suas Regras de Ouro — algumas empresas chamam de Regras pela Vida. Elas não tratam de qualquer coisa: tratam dos riscos que matam. Trabalho em altura, bloqueio e etiquetagem de energia, espaço confinado, movimentação de cargas, segurança viária. O Abril Verde é o momento certo para revisar cada uma delas, porque o que está em jogo não é burocracia: é estatística de vida inteira.
 
-Por que elas são chamadas de "Regras de Ouro"? Porque a violação delas, na grande maioria das vezes, resulta em morte ou invalidez permanente. Elas não foram criadas para burocratizar o trabalho, mas foram escritas com base no histórico de acidentes severos da indústria mundial. 
+Por que "de ouro"? Porque a violação delas, na grande maioria dos casos, termina em morte ou invalidez permanente. Elas não nasceram num gabinete: nasceram do histórico dos acidentes mais graves da indústria mundial, um por um — o cinto que não estava ancorado, a energia que não foi bloqueada, a entrada no confinamento sem atmosfera testada. Cada regra de ouro é uma lição paga com a pior moeda que existe. Revisitar a regra é revisitar o porquê: para não pagar duas vezes.
 
-Negociar uma Regra de Ouro é jogar roleta russa. Não importa se a tarefa vai levar apenas "cinco minutos". Não importa se você tem "20 anos de experiência". Se vai subir no andaime, o cinto de segurança deve estar ancorado. Se vai intervir no painel, a energia deve estar bloqueada e testada. 
+As desculpas para abrir exceção são sempre as mesmas, e sempre parecem razoáveis na hora. "É só cinco minutos." "Eu já fiz isso mil vezes." "Tenho vinte anos de experiência." Nenhuma delas segura uma carga que se solta, um arco elétrico ou uma atmosfera sem oxigênio. Experiência não neutraliza gravidade, e "cinco minutos" é exatamente o tempo que o acidente grave leva para acontecer. Negociar uma regra de ouro é jogar roleta russa: a função da regra é justamente garantir que você nunca precise dar sorte.
 
-As regras de ouro são absolutas. Quando aplicamos tolerância zero aos desvios das Regras de Ouro, estamos demonstrando que a vida humana é o valor inegociável da nossa operação.
+A tolerância tem endereço certo. Vida humana não tem preço de fechamento, e por isso o desvio de regra de ouro não se resolve com advertência: se resolve com parada, correção e volta segura. Quando um líder cobra um colega que pulou o bloqueio de energia, não está sendo chato — está dizendo, em voz alta, que a vida daquele trabalhador vale mais do que o minuto economizado.
+
+No Abril Verde, cada um faz a própria revisão. Se a sua tarefa exige cinto, confira ancoragem antes do primeiro passo. Se exige bloqueio, bloquear, testar e conferir três vezes. Se o protocolo diz esperar, espere. Não existe tarefa na planta que não possa esperar dez minutos. Existe, sim, uma família que não pode esperar dez minutos por quem não voltou.
+
+As regras de ouro são absolutas. Quando a gente aplica tolerância zero ao desvio, está dizendo que a vida é o único valor da operação que nunca entra na negociação.
 
 Fontes e Referências:
-- Abril Verde: Prevenção de Acidentes Ocupacionais.
-- Procedimentos Críticos de Segurança.
+- Procedimentos críticos de segurança (Regras de Ouro / Regras pela Vida).
+- Abril Verde: prevenção de acidentes de trabalho.
+- NR-35 (altura), NR-33 (espaço confinado), NR-10 (energia), NR-12 (máquinas).

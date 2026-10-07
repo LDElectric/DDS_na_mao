@@ -1,13 +1,18 @@
-# DDS: A Verdade sobre os Exames Periódicos
+# DDS: A Verdade sobre os Exames Periódicos - O Invisível que se Detecta a Tempo
 
-Muitos profissionais veem o Exame Periódico como uma mera obrigação burocrática, algo que serve apenas para 'pegar o ASO' e voltar ao trabalho. No mês de Fevereiro, marcado pelas cores Roxo e Laranja (conscientização sobre doenças crônicas e leucemia), precisamos mudar essa visão.
+O exame periódico é tratado por muita gente como papel para assinar: entra, ouve, faz o teste, recebe o ASO e volta para o posto. O Fevereiro Laranja existe para mostrar o tamanho do equívoco — porque é justamente nesse papel que a saúde que não se vê tem a chance de ser descoberta antes de virar notícia.
 
-O exame periódico é um direito seu. É um monitoramento da sua saúde ao longo do tempo. Trabalhamos em ambientes que possuem ruído, poeira, produtos químicos e exigência física. O periódico é a barreira que detecta alterações antes que elas se tornem irreversíveis. 
+Doenças como a leucemia costumam caminhar em silêncio. Não doem, não se veem, não mudam a aparência de ninguém. Elas só avisam quando já estão conversando entre si no sangue. E o aviso — quando chega cedo — pode estar exatamente no exame de sangue do periódico: uma contagem alterada, um marcador fora do padrão, uma alteração que ainda não gerou sintoma. Foi assim que muita pessoa descobriu a doença a tempo de tratar. Outra, igualmente grande, só descobriu porque não fez a tempo de tratar.
 
-A audiometria não é só para saber se você escuta o apito; é para garantir que a exposição ao ruído não está roubando a sua audição aos poucos. O exame de sangue não é só rotina; pode identificar precocemente alterações graves, desde problemas hepáticos até leucemias.
+O exames periódicos também são a rede de proteção para a nossa exposição diária. Convivo com o ruído da fábrica: a audiometria não está ali para saber se você escuta o apito — está para provar que o ruído não está roubando a sua audição aos poucos, sem dor. Exposição a produtos químicos: o exame acompanha o que o corpo absorve, mesmo quando não sentimos nada. Problemas no fígado, alterações na tireoide, anemia: tudo isso pode ser flagrado num hemograma de rotina que ninguém valoriza.
 
-Não esconda sintomas do médico do trabalho por medo. O SESMT existe para garantir que o trabalho não tire a sua saúde. Use o exame periódico a seu favor.
+A verdade incômoda é que escondemos sintomas no dia do exame por três motivos: pressa, medo e vergonha. "Se eu disser que estou com dor, me tiram do turno." "Se eu falar que em casa está um caos, vão achar que não aguento o tranco." O médico do trabalho não está ali para te punir: está ali porque o trabalho não pode ser o preço da sua saúde — e quem esconde sintoma transforma um problema pequeno, de solução fácil, em um problema grande, de solução cara.
+
+O periódico não é obrigação da empresa com o papel. É um direito seu. Vá preparado, sem disfarce: fale o que sente, pergunte o que não entendeu, e leia o resultado. Doença invisível se combate com exame visível, feito no tempo certo.
+
+O melhor jeito de nunca precisar tratar uma doença é pegá-la antes de ela aparecer.
 
 Fontes e Referências:
-- NR-7: PCMSO (Programa de Controle Médico de Saúde Ocupacional).
-- Fevereiro Laranja: Combate à Leucemia.
+- NR-7: PCMSO — Programa de Controle Médico de Saúde Ocupacional.
+- Fevereiro Laranja: combate à leucemia.
+- INCA — diagnóstico precoce.
