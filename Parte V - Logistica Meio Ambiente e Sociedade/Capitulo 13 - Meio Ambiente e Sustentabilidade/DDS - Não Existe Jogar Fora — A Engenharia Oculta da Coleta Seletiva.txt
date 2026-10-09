@@ -1,0 +1,22 @@
+# DDS: Não Existe "Jogar Fora" — A Engenharia Oculta da Coleta Seletiva
+É muito comum terminarmos uma intervenção, juntarmos as sobras de material, a estopa suja e as embalagens plásticas, e pensarmos: "agora é só limpar a área e jogar isso fora". Mas se pararmos para refletir por um segundo, a realidade nos dá uma resposta bem direta: não existe "fora". Tudo o que descartamos continua existindo no mesmo planeta e dentro da mesma planta. A única diferença é para onde estamos mandando esse material.
+
+Na correria da manutenção, a coleta seletiva muitas vezes é vista apenas como aquela burocracia colorida dos tambores. A tentação de usar a lixeira mais próxima e resolver o problema rápido é gigante. Porém, misturar os resíduos não é limpar a área — é apenas transferir um problema, muitas vezes multiplicado, para a próxima pessoa da cadeia.
+
+A segregação correta do lixo na indústria vai muito além das boas intenções ambientais. É uma questão puramente técnica e de segurança. Quer um exemplo prático da nossa rotina? Uma estopa impregnada de óleo, graxa ou solvente jogada na mesma lixeira que restos de papelão não é um erro de reciclagem. É um princípio de incêndio esperando a temperatura ideal para uma combustão espontânea. Da mesma forma, um resto de reagente ou produto químico descartado junto com lixo orgânico pode gerar gases tóxicos dentro da caçamba.
+
+O nosso maior adversário na hora do descarte é o "piloto automático". Para quebrar esse hábito mecânico, precisamos transformar o ato de jogar algo no lixo em uma decisão consciente, o que leva literalmente dois ou três segundos.
+
+Pontos de atenção para a nossa rotina:
+
+O contaminante destrói o lote inteiro: Um único frasco com resto de óleo lubrificante que cai na lixeira de recicláveis limpos pode inviabilizar o reaproveitamento de toda aquela caçamba. Se o material sujou de graxa ou produto químico, ele deixa de ser reciclável comum e passa a ser resíduo perigoso (classe I).
+
+EPI tem lugar certo: Luvas de vaqueta rasgadas, botinas velhas e máscaras usadas não são lixo comum de escritório. Eles carregam a contaminação da nossa área operacional e possuem coletores específicos para destinação industrial.
+
+A armadilha dos perfurocortantes: Pedaços de cabo de aço, arames rígidos, lâminas de estilete ou vidro quebrado jogados soltos em sacos de lixo comum são acidentes encomendados para o pessoal da limpeza. Esses materiais precisam ser descartados em recipientes rígidos para não rasgar o plástico e ferir quem manuseia.
+
+Na dúvida, não adivinhe: Se você não sabe em qual cor descartar um componente complexo, não "chute" a lixeira mais próxima. Pergunte ao líder ou deixe separado. É melhor gastar um minuto confirmando do que arruinar um processo inteiro de triagem.
+
+Nós somos profissionais acostumados a lidar com normas técnicas rigorosas, painéis complexos e precisão milimétrica. Não faz sentido aplicarmos toda essa inteligência na máquina e sermos negligentes na hora de separar um pedaço de plástico de um pano sujo de graxa.
+
+A organização do nosso espaço reflete diretamente o nosso nível de profissionalismo. Que possamos levar essa atenção aos detalhes para as nossas atividades de hoje. Fiquem atentos e façam um ótimo trabalho.

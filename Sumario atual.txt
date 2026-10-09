@@ -1,24 +1,25 @@
 SUMÁRIO: DIÁLOGOS DIÁRIOS DE SEGURANÇA (EDIÇÃO ANUÁRIO)
-Catálogo atual: 225 DDS publicados (1 por dia útil).
-Pendente de conversão: 5 textos do autor em "novos/" (fora do catálogo) +
-revisão de "Textos faltantes.txt" — aguardando aprovação do SESMT.
+Catálogo atual: 230 DDS publicados (1 por dia útil).
+Pendente: revisão de "Textos faltantes.txt" — aguardando aprovação do SESMT.
+(os 6 textos de "novos/" foram alocados em 09/10/2026 nos capítulos
+correspondentes; 1 deles — "Percepção de Riscos" — já existia no catálogo)
 
 ────────────────────────────────────────────────────────
 PROGRESSO GERAL (ATUAL — catálogo publicado e testado)
 ────────────────────────────────────────────────────────
-PARTE I — A Base da Segurança .................. 37 DDS  [CONCLUÍDA]
-PARTE II — Saúde Integral ....................... 23 DDS  [CONCLUÍDA]
+PARTE I — A Base da Segurança .................. 38 DDS  [CONCLUÍDA]
+PARTE II — Saúde Integral ....................... 24 DDS  [CONCLUÍDA]
 PARTE III — Higiene Ocupacional ................. 15 DDS  [CONCLUÍDA]
-PARTE IV — Riscos Operacionais ................. 55 DDS  [CONCLUÍDA]
-PARTE V — Logística, Meio Ambiente e Sociedade .. 38 DDS  [CONCLUÍDA]
+PARTE IV — Riscos Operacionais ................. 56 DDS  [CONCLUÍDA]
+PARTE V — Logística, Meio Ambiente e Sociedade .. 40 DDS  [CONCLUÍDA]
 PARTE VI — Calendário Anual SESMT .............. 47 DDS  [CONCLUÍDA]
                                                 (apenas DDS ligados ao tema do
                                                  mês/cor; datas comemorativas
                                                  com texto próprio na Parte VII)
 PARTE VII — Datas Comemorativas ................ 10 DDS  [CONCLUÍDA]
 
-TOTAL: 225 DDS (Parte I 37 · Parte II 23 · Parte III 15 ·
-Parte IV 55 · Parte V 38 · Parte VI 47 · Parte VII 10)
+TOTAL: 230 DDS (Parte I 38 · Parte II 24 · Parte III 15 ·
+Parte IV 56 · Parte V 40 · Parte VI 47 · Parte VII 10)
 
 Estado atual: catálogo publicado e verificado (npm test + smoke em navegador
 real com offline). A 1ª sugestão é sempre um DDS da campanha do mês, sorteado
@@ -55,7 +56,7 @@ CAPÍTULO 1: Cultura, Comportamento e Reflexão — 20 DDS
    - O Vício do "Sempre Foi Assim" e a Resistência à Mudança
    - Percepção de Riscos
 
-CAPÍTULO 2: Gestão de Riscos, Organização e Normatização — 17 DDS
+CAPÍTULO 2: Gestão de Riscos, Organização e Normatização — 18 DDS
   Textos do autor:
    - O Aviso Oculto e a Matemática da Prevenção
    - O Perigo da Rotina e a Identificação Rápida de Riscos
@@ -75,12 +76,13 @@ CAPÍTULO 2: Gestão de Riscos, Organização e Normatização — 17 DDS
    - EPI
    - O Direito de Recusa
    - O Gerenciamento de Mudanças
+   - O Risco nas Grandes Intervenções e Tarefas Incomuns
 
 ────────────────────────────────────────────────────────
 PARTE II: Saúde Integral do Trabalhador
 Temas voltados ao bem-estar contínuo e campanhas de saúde.
 
-CAPÍTULO 3: Ergonomia e Prevenção de Doenças Ocupacionais — 12 DDS
+CAPÍTULO 3: Ergonomia e Prevenção de Doenças Ocupacionais — 13 DDS
   Textos do autor:
    - O Inimigo Silencioso e o Preço do Desconforto
   Demais (ordem do catálogo):
@@ -94,6 +96,7 @@ CAPÍTULO 3: Ergonomia e Prevenção de Doenças Ocupacionais — 12 DDS
    - Ergonomia Fora da Planta — Escritório, Home Office e a Cadeira que Decide
    - Ginástica Laboral
    - Hidratação e Performance Cognitiva
+   - O Tabagismo no Ambiente Industrial
    - Posturas Estáticas e a Fadiga Muscular
 
 CAPÍTULO 4: Saúde Mental e Riscos Psicossociais — 11 DDS
@@ -134,7 +137,7 @@ CAPÍTULO 5: Agentes Físicos, Químicos e Biológicos — 15 DDS
 PARTE IV: Riscos Operacionais e Atividades Críticas
 O "chão de fábrica". Temas focados em riscos fatais e regras de ouro.
 
-CAPÍTULO 6: Máquinas, Equipamentos e Ferramentas — 15 DDS
+CAPÍTULO 6: Máquinas, Equipamentos e Ferramentas — 16 DDS
    - A Blindagem que Não Existe — Quando a Proteção de Partes Móveis é Removida
    - A Quarentena de Equipamentos com Defeito
    - Calibragem e Manutenção Preventiva — A Parada que Não Custa Dinheiro
@@ -147,6 +150,7 @@ CAPÍTULO 6: Máquinas, Equipamentos e Ferramentas — 15 DDS
    - NR-12 na Prática — A Avaliação de Risco que Não Vive no Gaveteiro
    - O Botão de Emergência e a Linha de Parada
    - O Improviso de Ferramentas — Quando a Gambiarra Vira Método
+   - O Risco de Esmagamento das Mãos — A Ferramenta Que Não Tem Peça de Reposição
    - Operação Fora da Concepção — A Máquina Fora do Manual
    - Sinais e Placas de Máquina — A Informação que Fica na Parede
    - Zonas de Manutenção — Onde a Máquina Foi Desligada, Não Onde Ela Parou
@@ -227,18 +231,20 @@ CAPÍTULO 12: Emergências e Primeiros Socorros — 8 DDS
    - RCP e DEA — Os Oito Minutos que Definem o Resultado
    - Vias Aéreas Obstruídas — O Engasgo que Não Resolve Sozinho
 
-CAPÍTULO 13: Meio Ambiente e Sustentabilidade — 8 DDS
+CAPÍTULO 13: Meio Ambiente e Sustentabilidade — 9 DDS
    - A Licença e a Comunidade — O Vizinho que Reclama Primeiro
    - Água — O Recurso que a Planta Usa sem Ver
    - Derramamento — A Resposta que Precisa Ser Imediata e Previsível
    - Energia — O Consumo que Ninguém Vê na Produção
    - Logística Reversa — O Caminho de Volta que Precisa Existir
+   - Não Existe "Jogar Fora" — A Engenharia Oculta da Coleta Seletiva
    - Poluição do Ar — O Que Sai da Chaminé e o Que Fica no Corredor
    - Prevenção na Fonte — O Controle que Custa Menos Depois
    - Resíduos Sólidos — A Classificação que Decide o Destino
 
-CAPÍTULO 14: Segurança Fora do Trabalho — 10 DDS
+CAPÍTULO 14: Segurança Fora do Trabalho — 11 DDS
    - Acidentes Domésticos — A Cozinha, o Banheiro e o Chão Molhado
+   - Animais peçonhentos e picadas de insetos
    - Choque Elétrico em Casa — A Instalação que Ninguém Conferiu
    - Crianças e o Ambiente Doméstico — O Projeto que Precisa Ser Feito Antes
    - Descanso Fora do Trabalho — O Recupério que Ninguém Planeja

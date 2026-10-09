@@ -67,7 +67,7 @@ try {
   verificar("etiquetas de tema/origem presentes", etiquetas.length >= 2, `→ ${etiquetas.join(" | ")}`);
 
   const estatisticas = await pagina.$$eval(".painel-estatisticas strong", (els) => els.map((e) => e.textContent));
-  verificar("painel com 225 DDS no catálogo", estatisticas.includes("225"), `→ ${estatisticas.join(",")}`);
+  verificar("painel com 230 DDS no catálogo", estatisticas.includes("230"), `→ ${estatisticas.join(",")}`);
 
   const rotuloVerTexto = await pagina.$eval(".destaque__acoes a.botao--primario", (el) => el.textContent.trim());
   verificar("ação principal da Home é 'Ver texto'", rotuloVerTexto === "Ver texto", `→ "${rotuloVerTexto}"`);
@@ -413,11 +413,11 @@ try {
   );
 
   await pagina.click(".sumario-expandir");
-  await pagina.waitForFunction(() => document.querySelectorAll(".item-dds").length === 225, {
+  await pagina.waitForFunction(() => document.querySelectorAll(".item-dds").length === 230, {
     timeout: 15000,
   });
   const itens = await pagina.$$eval(".item-dds", (els) => els.length);
-  verificar("expandir todas lista todos os 225 DDS", itens === 225, `→ ${itens}`);
+  verificar("expandir todas lista todos os 230 DDS", itens === 230, `→ ${itens}`);
   const lidos = await pagina.$$eval(".item-dds__situacao--lido", (els) => els.length);
   verificar("marcação de lido visível", lidos >= 1, `→ ${lidos}`);
 
@@ -583,7 +583,7 @@ try {
       const catalogo = await resposta.json();
       return catalogo.length;
     });
-    verificar("catálogo servido pelo cache offline", idOffline === 225, `→ ${idOffline}`);
+    verificar("catálogo servido pelo cache offline", idOffline === 230, `→ ${idOffline}`);
   } catch (falha) {
     verificar("app carrega sem conexão", false, `→ ${falha.message}`);
   } finally {

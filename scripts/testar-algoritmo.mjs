@@ -319,7 +319,7 @@ console.log("5) Campanhas do mês e dias celebrados");
 
 console.log("6) Busca e catálogo");
 {
-  verificar("catálogo com 225 itens", catalogo.length === 225, `→ ${catalogo.length}`);
+  verificar("catálogo com 230 itens", catalogo.length === 230, `→ ${catalogo.length}`);
   verificar("ids únicos", new Set(catalogo.map((i) => i.id)).size === catalogo.length);
   verificar("todos têm H1/título", catalogo.every((i) => i.titulo?.length > 0));
   verificar(
