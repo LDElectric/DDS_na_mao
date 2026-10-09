@@ -41,6 +41,18 @@ export default defineConfig({
         // Catálogo e textos: cacheados sob demanda (permitem 100% offline).
         runtimeCaching: [
           {
+            // O catálogo precisa refletir o conteúdo publicado (renomes e
+            // remoções de arquivo): prioridade à rede; o cache só cobre offline.
+            urlPattern: ({ url }) => url.pathname.endsWith("/conteudo/catalogo.json"),
+            handler: "NetworkFirst",
+            options: {
+              cacheName: "dds-catalogo",
+              cacheableResponse: { statuses: [0, 200] },
+              networkTimeoutSeconds: 4,
+            },
+          },
+          {
+            // Textos .md servidos sob demanda; o app poda órfãos do cache.
             urlPattern: ({ url }) => url.pathname.includes("/conteudo/"),
             handler: "CacheFirst",
             options: {

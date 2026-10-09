@@ -102,7 +102,8 @@ npm run smoke        # navegador real: UI + Service Worker + offline (requer pre
 - **react-markdown** — renderização do texto do DDS
 - **vite-plugin-pwa / Workbox** — manifest + Service Worker
   - `precache`: casca do app (HTML, JS, CSS, ícones)
-  - `CacheFirst` para `/conteudo/` (catálogo e textos → leitura offline total)
+  - `NetworkFirst` para `conteudo/catalogo.json` (lista sempre atual: reflete renames/remoções; cache só cobre offline)
+  - `CacheFirst` para os textos `.md` de `/conteudo/` (leitura offline total); o app poda do cache os `.md` que deixaram de pertencer ao catálogo
 - **localStorage** — histórico de leituras e escolhas confirmadas (a sugestão do dia é recalculada a cada abertura do app e vive na memória da sessão)
 
 ---

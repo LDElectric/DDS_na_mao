@@ -6,6 +6,34 @@ export const URL_CATALOGO = `${BASE}conteudo/catalogo.json`;
 
 export const urlConteudo = (item) => `${BASE}${item.arquivo_md}`;
 
+/**
+ * Remove do cache de conteúdo os arquivos que deixaram de fazer parte do
+ * catálogo atual (textos renomeados ou removidos). Sem isso, o Service Worker
+ * continuaria servindo o catálogo antigo e o app exibiria DDS cujo .md não
+ * existe mais — exatamente o sintoma de "exibe mas não abre".
+ */
+export const podarCacheConteudo = async (catalogo) => {
+  if (typeof caches === "undefined" || !catalogo?.length) return;
+  try {
+    const validos = new Set([
+      URL_CATALOGO,
+      ...catalogo.map((item) => urlConteudo(item)),
+    ]);
+    const conteudo = await caches.open("dds-conteudo");
+    const chaves = await conteudo.keys();
+    await Promise.allSettled(
+      chaves
+        .filter((requisicao) => {
+          const caminho = new URL(requisicao.url).pathname;
+          return caminho.includes("/conteudo/") && !validos.has(caminho);
+        })
+        .map((requisicao) => conteudo.delete(requisicao)),
+    );
+  } catch {
+    /* Cache indisponível (ex.: desenvolvimento sem Service Worker) — ignorar. */
+  }
+};
+
 export const TEMAS = {
   cultura: "Cultura e Comportamento",
   "gestao-de-riscos": "Gestão de Riscos",

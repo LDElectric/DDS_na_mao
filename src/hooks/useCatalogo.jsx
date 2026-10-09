@@ -1,5 +1,5 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useState } from "react";
-import { carregarCatalogo } from "../lib/catalogo.js";
+import { carregarCatalogo, podarCacheConteudo } from "../lib/catalogo.js";
 
 const Contexto = createContext(null);
 
@@ -10,7 +10,11 @@ export function CatalogoProvider({ children }) {
   const carregar = useCallback(() => {
     setEstado((atual) => ({ ...atual, carregando: true, erro: null }));
     carregarCatalogo()
-      .then((itens) => setEstado({ carregando: false, erro: null, itens }))
+      .then((itens) => {
+        setEstado({ carregando: false, erro: null, itens });
+        // Mantém o cache de conteúdo alinhado ao catálogo atual (renomes/remoções).
+        podarCacheConteudo(itens);
+      })
       .catch((erro) => setEstado({ carregando: false, erro, itens: [] }));
   }, []);
 
